@@ -1,0 +1,543 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON-200016755:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000139648
+              stepCounter: "200016755"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000139649
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INCARCERATIONANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"INCARCERATIONANALYTIC\""
+          - columnReference:
+              columnCounter: 2000139650
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PRIORSIUANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"PRIORSIUANALYTIC\""
+          - columnReference:
+              columnCounter: 2000139651
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DIFFICULTTOREACHCLAIMANT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"DIFFICULTTOREACHCLAIMANT\""
+          - columnReference:
+              columnCounter: 2000139652
+              stepCounter: "200016755"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139653
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: BACKTOWORKNOTICEREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"BACKTOWORKNOTICEREFERRAL\""
+          - columnReference:
+              columnCounter: 2000139654
+              stepCounter: "200016755"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000139655
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FRAUDSTOPPERSANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"FRAUDSTOPPERSANALYTIC\""
+          - columnReference:
+              columnCounter: 2000139656
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RESISTBACKTOWORKANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"RESISTBACKTOWORKANALYTIC\""
+          - columnReference:
+              columnCounter: 2000139657
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CONTRADICTINJURYREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"CONTRADICTINJURYREFERRAL\""
+          - columnReference:
+              columnCounter: 2000139658
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DELAYEDINJURYREPORTED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"DELAYEDINJURYREPORTED\""
+          - columnReference:
+              columnCounter: 2000139659
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: POLICYHOLDERCONCERNANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"POLICYHOLDERCONCERNANALYTIC\""
+          - columnReference:
+              columnCounter: 2000139660
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: AVOIDTREATMENTANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"AVOIDTREATMENTANALYTIC\""
+          - columnReference:
+              columnCounter: 2000139661
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INCARCERATIONREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"INCARCERATIONREFERRAL\""
+          - columnReference:
+              columnCounter: 2000139662
+              stepCounter: "200016755"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139663
+              stepCounter: "200016755"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000139664
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RESISTBACKTOWORKREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"RESISTBACKTOWORKREFERRAL\""
+          - columnReference:
+              columnCounter: 2000139665
+              stepCounter: "200016755"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"ID\""
+          - columnReference:
+              columnCounter: 2000139666
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: BENEFITDEDUCTIONANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"BENEFITDEDUCTIONANALYTIC\""
+          - columnReference:
+              columnCounter: 2000139667
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: OTHERANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"OTHERANALYTIC\""
+          - columnReference:
+              columnCounter: 2000139668
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: POLICYHOLDERCONCERNREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"POLICYHOLDERCONCERNREFERRAL\""
+          - columnReference:
+              columnCounter: 2000139669
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PRIORCLAIMANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"PRIORCLAIMANALYTIC\""
+          - columnReference:
+              columnCounter: 2000139670
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: AVOIDTREATMENTREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"AVOIDTREATMENTREFERRAL\""
+          - columnReference:
+              columnCounter: 2000139671
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CRIMINALRECORDANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"CRIMINALRECORDANALYTIC\""
+          - columnReference:
+              columnCounter: 2000139672
+              stepCounter: "200016755"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000139673
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FRAUDTIPANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"FRAUDTIPANALYTIC\""
+          - columnReference:
+              columnCounter: 2000139674
+              stepCounter: "200016755"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000139675
+              stepCounter: "200016755"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000139676
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: OTHERREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"OTHERREFERRAL\""
+          - columnReference:
+              columnCounter: 2000139677
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PRIORCLAIMREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"PRIORCLAIMREFERRAL\""
+          - columnReference:
+              columnCounter: 2000139678
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FRAUDTIPREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"FRAUDTIPREFERRAL\""
+          - columnReference:
+              columnCounter: 2000139679
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: BACKTOWORKNOTICEANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"BACKTOWORKNOTICEANALYTIC\""
+          - columnReference:
+              columnCounter: 2000139680
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CONTRADICTINJURYANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"CONTRADICTINJURYANALYTIC\""
+          - columnReference:
+              columnCounter: 2000139681
+              stepCounter: "200016755"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CRIMINALHISTORYANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"CRIMINALHISTORYANALYTIC\""
+          - columnReference:
+              columnCounter: 2000139682
+              stepCounter: "200016755"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000139683
+              stepCounter: "200016755"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139684
+              stepCounter: "200016755"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000139685
+              stepCounter: "200016755"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000139686
+              stepCounter: "200016755"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000139687
+              stepCounter: "200016755"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139688
+              stepCounter: "200016755"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000139689
+              stepCounter: "200016755"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000139690
+              stepCounter: "200016755"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000139691
+              stepCounter: "200016755"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUASSIGNABLEREASON\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000139647
+              stepCounter: "200016755"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_SIUASSIGNABLEREASON'"
+          - columnReference:
+              columnCounter: 2000139646
+              stepCounter: "200016755"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_SIUASSIGNABLEREASON
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_SIUASSIGNABLEREASON') }} "CCX_SIUASSIGNABLEREASON" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_SIUASSIGNABLEREASON') }} "ODS_GW_CC_PROD_CCX_SIUASSIGNABLEREASON")
+            name: LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_SIUASSIGNABLEREASON
+      name: LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016755"

@@ -1,0 +1,510 @@
+steps:
+  LOAD_GW_CC_PROD_CC_NOTE-200016868:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000135930
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000135931
+              stepCounter: "200016868"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: BODY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"BODY\""
+          - columnReference:
+              columnCounter: 2000135932
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000135933
+              stepCounter: "200016868"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000135934
+              stepCounter: "200016868"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: SUBJECT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"SUBJECT\""
+          - columnReference:
+              columnCounter: 2000135935
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TOPIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"TOPIC\""
+          - columnReference:
+              columnCounter: 2000135936
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000135937
+              stepCounter: "200016868"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000135938
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000135939
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000135940
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MATTERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"MATTERID\""
+          - columnReference:
+              columnCounter: 2000135941
+              stepCounter: "200016868"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000135942
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMCONTACTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"CLAIMCONTACTID\""
+          - columnReference:
+              columnCounter: 2000135943
+              stepCounter: "200016868"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: AUTHORINGDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"AUTHORINGDATE\""
+          - columnReference:
+              columnCounter: 2000135944
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSUREID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"EXPOSUREID\""
+          - columnReference:
+              columnCounter: 2000135945
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000135946
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000135947
+              stepCounter: "200016868"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CONFIDENTIAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"CONFIDENTIAL\""
+          - columnReference:
+              columnCounter: 2000135948
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBJECTTYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"SUBJECTTYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000135949
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000135950
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SIUASSIGNABLE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"SIUASSIGNABLE_EXT\""
+          - columnReference:
+              columnCounter: 2000135951
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AUTHORID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"AUTHORID\""
+          - columnReference:
+              columnCounter: 2000135952
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACTIVITYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"ACTIVITYID\""
+          - columnReference:
+              columnCounter: 2000135953
+              stepCounter: "200016868"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SUBROGATIONSUMMARYNOTE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"SUBROGATIONSUMMARYNOTE_EXT\""
+          - columnReference:
+              columnCounter: 2000135954
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBROGATIONASSIGNABLE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"SUBROGATIONASSIGNABLE_EXT\""
+          - columnReference:
+              columnCounter: 2000135955
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LANGUAGE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"LANGUAGE\""
+          - columnReference:
+              columnCounter: 2000135956
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SECURITYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"SECURITYTYPE\""
+          - columnReference:
+              columnCounter: 2000135957
+              stepCounter: "200016868"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SIUSUMMARYNOTE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"SIUSUMMARYNOTE_EXT\""
+          - columnReference:
+              columnCounter: 2000135958
+              stepCounter: "200016868"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: POLICYHOLDERSUMMARYNOTE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"POLICYHOLDERSUMMARYNOTE_EXT\""
+          - columnReference:
+              columnCounter: 2000135959
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SERVICEREQUESTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"SERVICEREQUESTID\""
+          - columnReference:
+              columnCounter: 2000135960
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBROGATION_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"SUBROGATION_EXT\""
+          - columnReference:
+              columnCounter: 2000135961
+              stepCounter: "200016868"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000135962
+              stepCounter: "200016868"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000135963
+              stepCounter: "200016868"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000135964
+              stepCounter: "200016868"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000135965
+              stepCounter: "200016868"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000135966
+              stepCounter: "200016868"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000135967
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000135968
+              stepCounter: "200016868"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000135969
+              stepCounter: "200016868"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000135970
+              stepCounter: "200016868"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_NOTE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000135929
+              stepCounter: "200016868"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_NOTE'"
+          - columnReference:
+              columnCounter: 2000135928
+              stepCounter: "200016868"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_NOTE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_NOTE') }} "CC_NOTE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_NOTE') }} "ODS_GW_CC_PROD_CC_NOTE")
+            name: LOAD_GW_CC_PROD_CC_NOTE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_NOTE
+      name: LOAD_GW_CC_PROD_CC_NOTE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016868"

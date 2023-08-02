@@ -1,0 +1,602 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCX_SIUASSIGNABLEREASON_10_NEW-200018988:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000262657
+              stepCounter: "200018988"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000262658
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INCARCERATIONANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"INCARCERATIONANALYTIC\""
+          - columnReference:
+              columnCounter: 2000262659
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PRIORSIUANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"PRIORSIUANALYTIC\""
+          - columnReference:
+              columnCounter: 2000262660
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DIFFICULTTOREACHCLAIMANT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"DIFFICULTTOREACHCLAIMANT\""
+          - columnReference:
+              columnCounter: 2000262661
+              stepCounter: "200018988"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000262662
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: BACKTOWORKNOTICEREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"BACKTOWORKNOTICEREFERRAL\""
+          - columnReference:
+              columnCounter: 2000262663
+              stepCounter: "200018988"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000262664
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FRAUDSTOPPERSANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"FRAUDSTOPPERSANALYTIC\""
+          - columnReference:
+              columnCounter: 2000262665
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RESISTBACKTOWORKANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"RESISTBACKTOWORKANALYTIC\""
+          - columnReference:
+              columnCounter: 2000262666
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CONTRADICTINJURYREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"CONTRADICTINJURYREFERRAL\""
+          - columnReference:
+              columnCounter: 2000262667
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DELAYEDINJURYREPORTED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"DELAYEDINJURYREPORTED\""
+          - columnReference:
+              columnCounter: 2000262668
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: POLICYHOLDERCONCERNANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"POLICYHOLDERCONCERNANALYTIC\""
+          - columnReference:
+              columnCounter: 2000262669
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: AVOIDTREATMENTANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"AVOIDTREATMENTANALYTIC\""
+          - columnReference:
+              columnCounter: 2000262670
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INCARCERATIONREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"INCARCERATIONREFERRAL\""
+          - columnReference:
+              columnCounter: 2000262671
+              stepCounter: "200018988"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000262672
+              stepCounter: "200018988"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000262673
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RESISTBACKTOWORKREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"RESISTBACKTOWORKREFERRAL\""
+          - columnReference:
+              columnCounter: 2000262674
+              stepCounter: "200018988"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"ID\""
+          - columnReference:
+              columnCounter: 2000262675
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: BENEFITDEDUCTIONANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"BENEFITDEDUCTIONANALYTIC\""
+          - columnReference:
+              columnCounter: 2000262676
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: OTHERANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"OTHERANALYTIC\""
+          - columnReference:
+              columnCounter: 2000262677
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: POLICYHOLDERCONCERNREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"POLICYHOLDERCONCERNREFERRAL\""
+          - columnReference:
+              columnCounter: 2000262678
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PRIORCLAIMANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"PRIORCLAIMANALYTIC\""
+          - columnReference:
+              columnCounter: 2000262679
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: AVOIDTREATMENTREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"AVOIDTREATMENTREFERRAL\""
+          - columnReference:
+              columnCounter: 2000262680
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CRIMINALRECORDANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"CRIMINALRECORDANALYTIC\""
+          - columnReference:
+              columnCounter: 2000262681
+              stepCounter: "200018988"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000262682
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FRAUDTIPANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"FRAUDTIPANALYTIC\""
+          - columnReference:
+              columnCounter: 2000262683
+              stepCounter: "200018988"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000262684
+              stepCounter: "200018988"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000262685
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: OTHERREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"OTHERREFERRAL\""
+          - columnReference:
+              columnCounter: 2000262686
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PRIORCLAIMREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"PRIORCLAIMREFERRAL\""
+          - columnReference:
+              columnCounter: 2000262687
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FRAUDTIPREFERRAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"FRAUDTIPREFERRAL\""
+          - columnReference:
+              columnCounter: 2000262688
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: BACKTOWORKNOTICEANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"BACKTOWORKNOTICEANALYTIC\""
+          - columnReference:
+              columnCounter: 2000262689
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CONTRADICTINJURYANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"CONTRADICTINJURYANALYTIC\""
+          - columnReference:
+              columnCounter: 2000262690
+              stepCounter: "200018988"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CRIMINALHISTORYANALYTIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"CRIMINALHISTORYANALYTIC\""
+          - columnReference:
+              columnCounter: 2000262691
+              stepCounter: "200018988"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000262692
+              stepCounter: "200018988"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000262693
+              stepCounter: "200018988"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000262694
+              stepCounter: "200018988"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000262695
+              stepCounter: "200018988"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_SIUASSIGNABLEREASON_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000262696
+              stepCounter: "200018988"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000262697
+              stepCounter: "200018988"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000262698
+              stepCounter: "200018988"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000262699
+              stepCounter: "200018988"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000262700
+              stepCounter: "200018988"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000262655
+              stepCounter: "200018988"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_SIUASSIGNABLEREASON_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000262656
+              stepCounter: "200018988"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_SIUASSIGNABLEREASON_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000262705
+              stepCounter: "200018988"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000262701
+              stepCounter: "200018988"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000262702
+              stepCounter: "200018988"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000262704
+              stepCounter: "200018988"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000262703
+              stepCounter: "200018988"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCX_SIUASSIGNABLEREASON_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON') }} \"LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCX_SIUASSIGNABLEREASON_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CCX_SIUASSIGNABLEREASON_05_SEQNO\"    ON LOAD_GW_CC_PROD_CCX_SIUASSIGNABLEREASON.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CCX_SIUASSIGNABLEREASON_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CCX_SIUASSIGNABLEREASON_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CCX_SIUASSIGNABLEREASON_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCX_SIUASSIGNABLEREASON_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018988"

@@ -1,0 +1,505 @@
+steps:
+  ODS_GW_CC_PROD_CC_CATASTROPHE-200009788:
+    operation:
+      config: {}
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000010
+      locationName: ODS
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000148470
+              stepCounter: "200009788"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000148471
+              stepCounter: "200009788"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SCHEDULEBATCH
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"SCHEDULEBATCH\""
+          - columnReference:
+              columnCounter: 2000148472
+              stepCounter: "200009788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: POLICYEFFECTIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"POLICYEFFECTIVEDATE\""
+          - columnReference:
+              columnCounter: 2000148473
+              stepCounter: "200009788"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000148474
+              stepCounter: "200009788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000148475
+              stepCounter: "200009788"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: COMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"COMMENTS\""
+          - columnReference:
+              columnCounter: 2000148476
+              stepCounter: "200009788"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000148477
+              stepCounter: "200009788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000148478
+              stepCounter: "200009788"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"TYPE\""
+          - columnReference:
+              columnCounter: 2000148479
+              stepCounter: "200009788"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"ID\""
+          - columnReference:
+              columnCounter: 2000148480
+              stepCounter: "200009788"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000148481
+              stepCounter: "200009788"
+            dataType: NUMBER(7,5)
+            defaultValue: ""
+            description: ""
+            name: BOTTOMRIGHTLATITUDE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"BOTTOMRIGHTLATITUDE\""
+          - columnReference:
+              columnCounter: 2000148482
+              stepCounter: "200009788"
+            dataType: NUMBER(8,5)
+            defaultValue: ""
+            description: ""
+            name: BOTTOMRIGHTLONGITUDE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"BOTTOMRIGHTLONGITUDE\""
+          - columnReference:
+              columnCounter: 2000148483
+              stepCounter: "200009788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CATASTROPHEVALIDFROM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"CATASTROPHEVALIDFROM\""
+          - columnReference:
+              columnCounter: 2000148484
+              stepCounter: "200009788"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000148485
+              stepCounter: "200009788"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ACTIVE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"ACTIVE\""
+          - columnReference:
+              columnCounter: 2000148486
+              stepCounter: "200009788"
+            dataType: NUMBER(7,5)
+            defaultValue: ""
+            description: ""
+            name: TOPLEFTLATITUDE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"TOPLEFTLATITUDE\""
+          - columnReference:
+              columnCounter: 2000148487
+              stepCounter: "200009788"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000148488
+              stepCounter: "200009788"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000148489
+              stepCounter: "200009788"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000148490
+              stepCounter: "200009788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: POLICYRETRIEVALCOMPLETIONTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"POLICYRETRIEVALCOMPLETIONTIME\""
+          - columnReference:
+              columnCounter: 2000148491
+              stepCounter: "200009788"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: PCSCATASTROPHENUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"PCSCATASTROPHENUMBER\""
+          - columnReference:
+              columnCounter: 2000148492
+              stepCounter: "200009788"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: CATASTROPHENUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"CATASTROPHENUMBER\""
+          - columnReference:
+              columnCounter: 2000148493
+              stepCounter: "200009788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: POLICYRETRIEVALSETTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"POLICYRETRIEVALSETTIME\""
+          - columnReference:
+              columnCounter: 2000148494
+              stepCounter: "200009788"
+            dataType: NUMBER(8,5)
+            defaultValue: ""
+            description: ""
+            name: TOPLEFTLONGITUDE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"TOPLEFTLONGITUDE\""
+          - columnReference:
+              columnCounter: 2000148495
+              stepCounter: "200009788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CATASTROPHEVALIDTO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"CATASTROPHEVALIDTO\""
+          - columnReference:
+              columnCounter: 2000148496
+              stepCounter: "200009788"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000148497
+              stepCounter: "200009788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000148498
+              stepCounter: "200009788"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000148499
+              stepCounter: "200009788"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000148500
+              stepCounter: "200009788"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000148501
+              stepCounter: "200009788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000148502
+              stepCounter: "200009788"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000148503
+              stepCounter: "200009788"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000148504
+              stepCounter: "200009788"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000148505
+              stepCounter: "200009788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000148506
+              stepCounter: "200009788"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000148507
+              stepCounter: "200009788"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000148508
+              stepCounter: "200009788"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000148509
+              stepCounter: "200009788"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000148510
+              stepCounter: "200009788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000148512
+              stepCounter: "200009788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000148511
+              stepCounter: "200009788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW') }} "STG_ODS_GW_CC_PROD_CC_CATASTROPHE_10_NEW"
+            name: ODS_GW_CC_PROD_CC_CATASTROPHE
+            noLinkRefs: []
+      name: ODS_GW_CC_PROD_CC_CATASTROPHE
+      overrideSQL: false
+      sqlType: "10"
+      type: sql
+    stepCounter: "200009788"

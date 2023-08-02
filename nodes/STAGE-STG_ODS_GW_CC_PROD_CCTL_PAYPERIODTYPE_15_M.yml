@@ -1,0 +1,255 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_15_M-200015344:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000089715
+              stepCounter: "200015344"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000089716
+              stepCounter: "200015344"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000089717
+              stepCounter: "200015344"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000089718
+              stepCounter: "200015344"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000089719
+              stepCounter: "200015344"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000089720
+              stepCounter: "200015344"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000089721
+              stepCounter: "200015344"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000089722
+              stepCounter: "200015344"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000089723
+              stepCounter: "200015344"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000089724
+              stepCounter: "200015344"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000089725
+              stepCounter: "200015344"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000089726
+              stepCounter: "200015344"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000089727
+              stepCounter: "200015344"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000089728
+              stepCounter: "200015344"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000089729
+              stepCounter: "200015344"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000089730
+              stepCounter: "200015344"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "FALSE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"DELETE_FLAG\""
+          - columnReference:
+              columnCounter: 2000089731
+              stepCounter: "200015344"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000089732
+              stepCounter: "200015344"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000089734
+              stepCounter: "200015344"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"DSS_CREATE_TIME\""
+          - columnReference:
+              columnCounter: 2000089733
+              stepCounter: "200015344"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE\".\"DSS_UPDATE_TIME\""
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE') }} "STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_10_DELETE"
+            name: STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_15_M
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCTL_PAYPERIODTYPE_15_M
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200015344"

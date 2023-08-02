@@ -1,0 +1,503 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_EXPOSURERPT_10_NEW-200018120:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000256449
+              stepCounter: "200018120"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AVAILABLERESERVES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"AVAILABLERESERVES\""
+          - columnReference:
+              columnCounter: 2000256450
+              stepCounter: "200018120"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: REMAININGRESRVRPRTNG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"REMAININGRESRVRPRTNG\""
+          - columnReference:
+              columnCounter: 2000256451
+              stepCounter: "200018120"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: OPENRESERVES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"OPENRESERVES\""
+          - columnReference:
+              columnCounter: 2000256452
+              stepCounter: "200018120"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000256453
+              stepCounter: "200018120"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000256454
+              stepCounter: "200018120"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AVAILABLERESRVRPRTNG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"AVAILABLERESRVRPRTNG\""
+          - columnReference:
+              columnCounter: 2000256455
+              stepCounter: "200018120"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000256456
+              stepCounter: "200018120"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000256457
+              stepCounter: "200018120"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: OPENRECOVERYRESRPRTNG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"OPENRECOVERYRESRPRTNG\""
+          - columnReference:
+              columnCounter: 2000256458
+              stepCounter: "200018120"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000256459
+              stepCounter: "200018120"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000256460
+              stepCounter: "200018120"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: FUTUREPAYMENTSRPRTNG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"FUTUREPAYMENTSRPRTNG\""
+          - columnReference:
+              columnCounter: 2000256461
+              stepCounter: "200018120"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000256462
+              stepCounter: "200018120"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSUREID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"EXPOSUREID\""
+          - columnReference:
+              columnCounter: 2000256463
+              stepCounter: "200018120"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000256464
+              stepCounter: "200018120"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000256465
+              stepCounter: "200018120"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000256466
+              stepCounter: "200018120"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: REMAININGRESERVES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"REMAININGRESERVES\""
+          - columnReference:
+              columnCounter: 2000256467
+              stepCounter: "200018120"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: OPENRESERVESRPRTNG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"OPENRESERVESRPRTNG\""
+          - columnReference:
+              columnCounter: 2000256468
+              stepCounter: "200018120"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: FUTUREPAYMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"FUTUREPAYMENTS\""
+          - columnReference:
+              columnCounter: 2000256469
+              stepCounter: "200018120"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALPAYMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"TOTALPAYMENTS\""
+          - columnReference:
+              columnCounter: 2000256470
+              stepCounter: "200018120"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: OPENRECOVERYRESERVES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"OPENRECOVERYRESERVES\""
+          - columnReference:
+              columnCounter: 2000256471
+              stepCounter: "200018120"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALRECOVERIESRPRTNG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"TOTALRECOVERIESRPRTNG\""
+          - columnReference:
+              columnCounter: 2000256472
+              stepCounter: "200018120"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALRECOVERIES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"TOTALRECOVERIES\""
+          - columnReference:
+              columnCounter: 2000256473
+              stepCounter: "200018120"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALPAYMENTSRPRTNG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"TOTALPAYMENTSRPRTNG\""
+          - columnReference:
+              columnCounter: 2000256474
+              stepCounter: "200018120"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000256475
+              stepCounter: "200018120"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000256476
+              stepCounter: "200018120"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000256477
+              stepCounter: "200018120"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000256478
+              stepCounter: "200018120"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_EXPOSURERPT_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000256479
+              stepCounter: "200018120"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000256480
+              stepCounter: "200018120"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000256481
+              stepCounter: "200018120"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000256482
+              stepCounter: "200018120"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000256483
+              stepCounter: "200018120"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000256488
+              stepCounter: "200018120"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_EXPOSURERPT_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000256489
+              stepCounter: "200018120"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_EXPOSURERPT_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000256490
+              stepCounter: "200018120"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000256484
+              stepCounter: "200018120"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000256485
+              stepCounter: "200018120"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_EXPOSURERPT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000256487
+              stepCounter: "200018120"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000256486
+              stepCounter: "200018120"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_EXPOSURERPT
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_EXPOSURERPT_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_EXPOSURERPT') }} \"LOAD_GW_CC_PROD_CC_EXPOSURERPT\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_EXPOSURERPT_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CC_EXPOSURERPT_05_SEQNO\"    ON LOAD_GW_CC_PROD_CC_EXPOSURERPT.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CC_EXPOSURERPT_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CC_EXPOSURERPT_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CC_EXPOSURERPT_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_EXPOSURERPT_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018120"

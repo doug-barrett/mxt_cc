@@ -1,0 +1,389 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_SROIPAYLOADPMTADJ-200016761:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000139902
+              stepCounter: "200016761"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTADJUSTMENTCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"PAYMENTADJUSTMENTCODE\""
+          - columnReference:
+              columnCounter: 2000139903
+              stepCounter: "200016761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000139904
+              stepCounter: "200016761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSPAID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"DAYSPAID\""
+          - columnReference:
+              columnCounter: 2000139905
+              stepCounter: "200016761"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000139906
+              stepCounter: "200016761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139907
+              stepCounter: "200016761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000139908
+              stepCounter: "200016761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000139909
+              stepCounter: "200016761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000139910
+              stepCounter: "200016761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000139911
+              stepCounter: "200016761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ENDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"ENDDATE\""
+          - columnReference:
+              columnCounter: 2000139912
+              stepCounter: "200016761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WEEKSPAID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"WEEKSPAID\""
+          - columnReference:
+              columnCounter: 2000139913
+              stepCounter: "200016761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EDISROIPAYLOADID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"EDISROIPAYLOADID\""
+          - columnReference:
+              columnCounter: 2000139914
+              stepCounter: "200016761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTADJUSTMENTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"PAYMENTADJUSTMENTTYPE\""
+          - columnReference:
+              columnCounter: 2000139915
+              stepCounter: "200016761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"STARTDATE\""
+          - columnReference:
+              columnCounter: 2000139916
+              stepCounter: "200016761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139917
+              stepCounter: "200016761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000139918
+              stepCounter: "200016761"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PTDAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"PTDAMOUNT\""
+          - columnReference:
+              columnCounter: 2000139919
+              stepCounter: "200016761"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: WEEKLYAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"WEEKLYAMOUNT\""
+          - columnReference:
+              columnCounter: 2000139920
+              stepCounter: "200016761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000139921
+              stepCounter: "200016761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"ID\""
+          - columnReference:
+              columnCounter: 2000139922
+              stepCounter: "200016761"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000139923
+              stepCounter: "200016761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139924
+              stepCounter: "200016761"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000139925
+              stepCounter: "200016761"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000139926
+              stepCounter: "200016761"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000139927
+              stepCounter: "200016761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139928
+              stepCounter: "200016761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000139929
+              stepCounter: "200016761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000139930
+              stepCounter: "200016761"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000139931
+              stepCounter: "200016761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SROIPAYLOADPMTADJ\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000139901
+              stepCounter: "200016761"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_SROIPAYLOADPMTADJ'"
+          - columnReference:
+              columnCounter: 2000139900
+              stepCounter: "200016761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_SROIPAYLOADPMTADJ
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_SROIPAYLOADPMTADJ') }} "CCX_SROIPAYLOADPMTADJ" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_SROIPAYLOADPMTADJ') }} "ODS_GW_CC_PROD_CCX_SROIPAYLOADPMTADJ")
+            name: LOAD_GW_CC_PROD_CCX_SROIPAYLOADPMTADJ
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_SROIPAYLOADPMTADJ
+      name: LOAD_GW_CC_PROD_CCX_SROIPAYLOADPMTADJ
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016761"

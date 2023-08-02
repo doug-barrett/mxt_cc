@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_RECOVERYCATEGORY-200010643:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000131564
+              stepCounter: "200010643"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000131565
+              stepCounter: "200010643"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000131566
+              stepCounter: "200010643"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000131567
+              stepCounter: "200010643"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000131568
+              stepCounter: "200010643"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000131569
+              stepCounter: "200010643"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"ID\""
+          - columnReference:
+              columnCounter: 2000131570
+              stepCounter: "200010643"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000131571
+              stepCounter: "200010643"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000131572
+              stepCounter: "200010643"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000131573
+              stepCounter: "200010643"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000131574
+              stepCounter: "200010643"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131575
+              stepCounter: "200010643"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131576
+              stepCounter: "200010643"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000131577
+              stepCounter: "200010643"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000131578
+              stepCounter: "200010643"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000131579
+              stepCounter: "200010643"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000131580
+              stepCounter: "200010643"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000131581
+              stepCounter: "200010643"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000131582
+              stepCounter: "200010643"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000131583
+              stepCounter: "200010643"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_RECOVERYCATEGORY\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000131563
+              stepCounter: "200010643"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_RECOVERYCATEGORY'"
+          - columnReference:
+              columnCounter: 2000131562
+              stepCounter: "200010643"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_RECOVERYCATEGORY
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_RECOVERYCATEGORY') }} "CCTL_RECOVERYCATEGORY" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_RECOVERYCATEGORY') }} "ODS_GW_CC_PROD_CCTL_RECOVERYCATEGORY")
+            name: LOAD_GW_CC_PROD_CCTL_RECOVERYCATEGORY
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_RECOVERYCATEGORY
+      name: LOAD_GW_CC_PROD_CCTL_RECOVERYCATEGORY
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200010643"

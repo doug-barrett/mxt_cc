@@ -1,0 +1,433 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_MASSASSIGNMENT-200016740:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000139255
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REQUESTSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"REQUESTSTATUS\""
+          - columnReference:
+              columnCounter: 2000139256
+              stepCounter: "200016740"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000139257
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SOURCEGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"SOURCEGROUPID\""
+          - columnReference:
+              columnCounter: 2000139258
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SOURCEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"SOURCEUSERID\""
+          - columnReference:
+              columnCounter: 2000139259
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNABLECOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"ASSIGNABLECOUNT\""
+          - columnReference:
+              columnCounter: 2000139260
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBMISSIONTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"SUBMISSIONTYPE\""
+          - columnReference:
+              columnCounter: 2000139261
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139262
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"ASSIGNMENTTYPE\""
+          - columnReference:
+              columnCounter: 2000139263
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000139264
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000139265
+              stepCounter: "200016740"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000139266
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNABLEMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"ASSIGNABLEMETHOD\""
+          - columnReference:
+              columnCounter: 2000139267
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TARGETGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"TARGETGROUPID\""
+          - columnReference:
+              columnCounter: 2000139268
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139269
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SRCUSERCLOSEDOBJECTCOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"SRCUSERCLOSEDOBJECTCOUNT\""
+          - columnReference:
+              columnCounter: 2000139270
+              stepCounter: "200016740"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000139271
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDCLOSEDOBJECTCOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"ASSIGNEDCLOSEDOBJECTCOUNT\""
+          - columnReference:
+              columnCounter: 2000139272
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SRCUSEROPENOBJECTCOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"SRCUSEROPENOBJECTCOUNT\""
+          - columnReference:
+              columnCounter: 2000139273
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDOPENOBJECTCOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"ASSIGNEDOPENOBJECTCOUNT\""
+          - columnReference:
+              columnCounter: 2000139274
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000139275
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNABLESTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"ASSIGNABLESTATUS\""
+          - columnReference:
+              columnCounter: 2000139276
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TARGETUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"TARGETUSERID\""
+          - columnReference:
+              columnCounter: 2000139277
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDALLOBJECTCOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"ASSIGNEDALLOBJECTCOUNT\""
+          - columnReference:
+              columnCounter: 2000139278
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SRCUSERALLOBJECTCOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"SRCUSERALLOBJECTCOUNT\""
+          - columnReference:
+              columnCounter: 2000139279
+              stepCounter: "200016740"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000139280
+              stepCounter: "200016740"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139281
+              stepCounter: "200016740"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000139282
+              stepCounter: "200016740"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000139283
+              stepCounter: "200016740"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000139284
+              stepCounter: "200016740"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139285
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000139286
+              stepCounter: "200016740"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000139287
+              stepCounter: "200016740"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000139288
+              stepCounter: "200016740"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSASSIGNMENT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000139254
+              stepCounter: "200016740"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_MASSASSIGNMENT'"
+          - columnReference:
+              columnCounter: 2000139253
+              stepCounter: "200016740"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_MASSASSIGNMENT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_MASSASSIGNMENT') }} "CCX_MASSASSIGNMENT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_MASSASSIGNMENT') }} "ODS_GW_CC_PROD_CCX_MASSASSIGNMENT")
+            name: LOAD_GW_CC_PROD_CCX_MASSASSIGNMENT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_MASSASSIGNMENT
+      name: LOAD_GW_CC_PROD_CCX_MASSASSIGNMENT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016740"

@@ -1,0 +1,107 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_CLAIMINFO_05_SEQNO-200015071:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000254896
+              stepCounter: "200015071"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CLAIMINFO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000254899
+              stepCounter: "200015071"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRREFRESH_HISTORY\".\"HVR_REFRESH_SEQNO_HIST\""
+          - columnReference:
+              columnCounter: 2000254900
+              stepCounter: "200015071"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'CC_PROD'"
+          - columnReference:
+              columnCounter: 2000254901
+              stepCounter: "200015071"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ_ODS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CC_CLAIMINFO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000254898
+              stepCounter: "200015071"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000254897
+              stepCounter: "200015071"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_CLAIMINFO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRREFRESH_HISTORY
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_CLAIMINFO') }} \"LOAD_GW_CC_PROD_CC_CLAIMINFO\" JOIN {{ ref('ODS','ODS_CTRL_HVRREFRESH_HISTORY') }} \"ODS_CTRL_HVRREFRESH_HISTORY\"    ON LOAD_GW_CC_PROD_CC_CLAIMINFO.DSS_RECORD_SOURCE = ODS_CTRL_HVRREFRESH_HISTORY.HVR_RECORD_SOURCE   AND LOAD_GW_CC_PROD_CC_CLAIMINFO.HVRCAPTSTAMP BETWEEN ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE AND ODS_CTRL_HVRREFRESH_HISTORY.THRU_DATE  LEFT JOIN {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_CLAIMINFO') }} \"ODS_GW_CC_PROD_CC_CLAIMINFO\"   ON LOAD_GW_CC_PROD_CC_CLAIMINFO.HVRINTEGSEQ = ODS_GW_CC_PROD_CC_CLAIMINFO.HVRINTEGSEQ   AND ODS_CTRL_HVRREFRESH_HISTORY.HVR_REFRESH_SEQNO_HIST = ODS_GW_CC_PROD_CC_CLAIMINFO.HVR_REFRESH_SEQNO WHERE ODS_GW_CC_PROD_CC_CLAIMINFO.HVRINTEGSEQ IS NULL "
+            name: STG_ODS_GW_CC_PROD_CC_CLAIMINFO_05_SEQNO
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_CLAIMINFO
+      name: STG_ODS_GW_CC_PROD_CC_CLAIMINFO_05_SEQNO
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200015071"

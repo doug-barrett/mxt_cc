@@ -1,0 +1,2617 @@
+steps:
+  ODS_GW_CC_PROD_CC_CLAIM-200009792:
+    operation:
+      config: {}
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000010
+      locationName: ODS
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000148791
+              stepCounter: "200009792"
+            dataType: NUMBER(4,1)
+            defaultValue: ""
+            description: ""
+            name: FAULT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"FAULT\""
+          - columnReference:
+              columnCounter: 2000148792
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: FRAUDNOTICEREADDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"FRAUDNOTICEREADDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000148793
+              stepCounter: "200009792"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: POLICYOVERRIDECOMMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"POLICYOVERRIDECOMMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000148794
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SIULIFECYCLESTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SIULIFECYCLESTATE\""
+          - columnReference:
+              columnCounter: 2000148795
+              stepCounter: "200009792"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: SIFCOMMENTS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SIFCOMMENTS_EXT\""
+          - columnReference:
+              columnCounter: 2000148796
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCIDENTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ACCIDENTTYPE\""
+          - columnReference:
+              columnCounter: 2000148797
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000148798
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOSSLOCATIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LOSSLOCATIONID\""
+          - columnReference:
+              columnCounter: 2000148799
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMTIER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CLAIMTIER\""
+          - columnReference:
+              columnCounter: 2000148800
+              stepCounter: "200009792"
+            dataType: VARCHAR(9)
+            defaultValue: ""
+            description: ""
+            name: AGENCYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"AGENCYID\""
+          - columnReference:
+              columnCounter: 2000148801
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEFORMGIVENTOEMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DATEFORMGIVENTOEMP\""
+          - columnReference:
+              columnCounter: 2000148802
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DEATHDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DEATHDATE\""
+          - columnReference:
+              columnCounter: 2000148803
+              stepCounter: "200009792"
+            dataType: VARCHAR(5)
+            defaultValue: ""
+            description: ""
+            name: LOSSLOCATIONCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LOSSLOCATIONCODE\""
+          - columnReference:
+              columnCounter: 2000148804
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLOSEDOUTCOME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CLOSEDOUTCOME\""
+          - columnReference:
+              columnCounter: 2000148805
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: BENEFITSSTATUSDCSN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"BENEFITSSTATUSDCSN\""
+          - columnReference:
+              columnCounter: 2000148806
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISENTITLEDTOLIBS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ISENTITLEDTOLIBS_EXT\""
+          - columnReference:
+              columnCounter: 2000148807
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000148808
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: POLICYOVERRIDEVISIBILITY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"POLICYOVERRIDEVISIBILITY_EXT\""
+          - columnReference:
+              columnCounter: 2000148809
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INJURYDURINGTRAVEL_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"INJURYDURINGTRAVEL_EXT\""
+          - columnReference:
+              columnCounter: 2000148810
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STORAGETYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"STORAGETYPE\""
+          - columnReference:
+              columnCounter: 2000148811
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OTHERRECOVSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"OTHERRECOVSTATUS\""
+          - columnReference:
+              columnCounter: 2000148812
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FLAGGED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"FLAGGED\""
+          - columnReference:
+              columnCounter: 2000148813
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SPECIALHANDLINGTYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SPECIALHANDLINGTYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000148814
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSQUEUEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"PREVIOUSQUEUEID\""
+          - columnReference:
+              columnCounter: 2000148815
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LARGELOSSNOTIFICATIONSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LARGELOSSNOTIFICATIONSTATUS\""
+          - columnReference:
+              columnCounter: 2000148816
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ASSIGNMENTDATE\""
+          - columnReference:
+              columnCounter: 2000148817
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FAULTRATING
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"FAULTRATING\""
+          - columnReference:
+              columnCounter: 2000148818
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISENTITLEDTOSIBS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ISENTITLEDTOSIBS_EXT\""
+          - columnReference:
+              columnCounter: 2000148819
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REINSURANCEFLAGGEDSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"REINSURANCEFLAGGEDSTATUS\""
+          - columnReference:
+              columnCounter: 2000148820
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INJURYTHIRDPERSON_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"INJURYTHIRDPERSON_EXT\""
+          - columnReference:
+              columnCounter: 2000148821
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEDISABILITYBEGAN_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DATEDISABILITYBEGAN_EXT\""
+          - columnReference:
+              columnCounter: 2000148822
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PROGRESS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"PROGRESS\""
+          - columnReference:
+              columnCounter: 2000148823
+              stepCounter: "200009792"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: COMPENSABLEINJURY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"COMPENSABLEINJURY_EXT\""
+          - columnReference:
+              columnCounter: 2000148824
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DIAGNOSTICCNSISTNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DIAGNOSTICCNSISTNT\""
+          - columnReference:
+              columnCounter: 2000148825
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDBYUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ASSIGNEDBYUSERID\""
+          - columnReference:
+              columnCounter: 2000148826
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LITIGATIONSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LITIGATIONSTATUS\""
+          - columnReference:
+              columnCounter: 2000148827
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: COVERAGEINQUESTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"COVERAGEINQUESTION\""
+          - columnReference:
+              columnCounter: 2000148828
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000148829
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COMPENSABILITYREASON_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"COMPENSABILITYREASON_EXT\""
+          - columnReference:
+              columnCounter: 2000148830
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SALVAGESTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SALVAGESTATUS\""
+          - columnReference:
+              columnCounter: 2000148831
+              stepCounter: "200009792"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: CUSTOMERID_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CUSTOMERID_EXT\""
+          - columnReference:
+              columnCounter: 2000148832
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COVERAGESTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"COVERAGESTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000148833
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: TREATEDPATIENTBFR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"TREATEDPATIENTBFR\""
+          - columnReference:
+              columnCounter: 2000148834
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000148835
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VALIDATIONLEVEL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"VALIDATIONLEVEL\""
+          - columnReference:
+              columnCounter: 2000148836
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATECOMPDCSNMADE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DATECOMPDCSNMADE\""
+          - columnReference:
+              columnCounter: 2000148837
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"STATE\""
+          - columnReference:
+              columnCounter: 2000148838
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STORAGECATEGORY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"STORAGECATEGORY\""
+          - columnReference:
+              columnCounter: 2000148839
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PTPINMPN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"PTPINMPN\""
+          - columnReference:
+              columnCounter: 2000148840
+              stepCounter: "200009792"
+            dataType: VARCHAR(25)
+            defaultValue: ""
+            description: ""
+            name: AGENCYCLAIMNUMBER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"AGENCYCLAIMNUMBER_EXT\""
+          - columnReference:
+              columnCounter: 2000148841
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CATASTROPHEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CATASTROPHEID\""
+          - columnReference:
+              columnCounter: 2000148842
+              stepCounter: "200009792"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: CLAIMNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CLAIMNUMBER\""
+          - columnReference:
+              columnCounter: 2000148843
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PREEXDISBLTY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"PREEXDISBLTY\""
+          - columnReference:
+              columnCounter: 2000148844
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REOPENDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"REOPENDATE\""
+          - columnReference:
+              columnCounter: 2000148845
+              stepCounter: "200009792"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYERVALIDITYREASON_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"EMPLOYERVALIDITYREASON_EXT\""
+          - columnReference:
+              columnCounter: 2000148846
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEFORMRETBYEMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DATEFORMRETBYEMP\""
+          - columnReference:
+              columnCounter: 2000148847
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INJUREDREGULARJOB
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"INJUREDREGULARJOB\""
+          - columnReference:
+              columnCounter: 2000148848
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EMPLOYMENTINJURY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"EMPLOYMENTINJURY\""
+          - columnReference:
+              columnCounter: 2000148849
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEOFINSURED_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"EMPLOYEEOFINSURED_EXT\""
+          - columnReference:
+              columnCounter: 2000148850
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COMPENSEDECISION_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"COMPENSEDECISION_EXT\""
+          - columnReference:
+              columnCounter: 2000148851
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STORAGEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"STORAGEDATE\""
+          - columnReference:
+              columnCounter: 2000148852
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISFRAUDNOTICEREAD_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ISFRAUDNOTICEREAD_EXT\""
+          - columnReference:
+              columnCounter: 2000148853
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FRAUDNOTICEREADBY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"FRAUDNOTICEREADBY_EXT\""
+          - columnReference:
+              columnCounter: 2000148854
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PERMISSIONREQUIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"PERMISSIONREQUIRED\""
+          - columnReference:
+              columnCounter: 2000148855
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LIBSENTITLEMENTDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LIBSENTITLEMENTDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000148856
+              stepCounter: "200009792"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: SALARYCONTINUECOMMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SALARYCONTINUECOMMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000148857
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FIRSTNOTICESUIT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"FIRSTNOTICESUIT\""
+          - columnReference:
+              columnCounter: 2000148858
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CATASTROPHICINDICATOR_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CATASTROPHICINDICATOR_EXT\""
+          - columnReference:
+              columnCounter: 2000148859
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ISOSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ISOSTATUS\""
+          - columnReference:
+              columnCounter: 2000148860
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: MOLD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"MOLD\""
+          - columnReference:
+              columnCounter: 2000148861
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISENTITLEDTOSIFS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ISENTITLEDTOSIFS_EXT\""
+          - columnReference:
+              columnCounter: 2000148862
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INCIDENTREPORT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"INCIDENTREPORT\""
+          - columnReference:
+              columnCounter: 2000148863
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXPOSUREBEGAN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"EXPOSUREBEGAN\""
+          - columnReference:
+              columnCounter: 2000148864
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: MODIFIEDDUTYAVAIL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"MODIFIEDDUTYAVAIL\""
+          - columnReference:
+              columnCounter: 2000148865
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: MANIFESTATIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"MANIFESTATIONDATE\""
+          - columnReference:
+              columnCounter: 2000148866
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FURTHERTREATMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"FURTHERTREATMENT\""
+          - columnReference:
+              columnCounter: 2000148867
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PURGEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"PURGEDATE\""
+          - columnReference:
+              columnCounter: 2000148868
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ASSIGNEDUSERID\""
+          - columnReference:
+              columnCounter: 2000148869
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ISOSENDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ISOSENDDATE\""
+          - columnReference:
+              columnCounter: 2000148870
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: MEDICAREDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"MEDICAREDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000148871
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOSSCAUSE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LOSSCAUSE\""
+          - columnReference:
+              columnCounter: 2000148872
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SAFETYEQUIPPROV
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SAFETYEQUIPPROV\""
+          - columnReference:
+              columnCounter: 2000148873
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000148874
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOCKINGCOLUMN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LOCKINGCOLUMN\""
+          - columnReference:
+              columnCounter: 2000148875
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RETRIGGERFROI_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"RETRIGGERFROI_EXT\""
+          - columnReference:
+              columnCounter: 2000148876
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CAPTURED_BY_FFR_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CAPTURED_BY_FFR_EXT\""
+          - columnReference:
+              columnCounter: 2000148877
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CURRENTCONDITIONS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CURRENTCONDITIONS\""
+          - columnReference:
+              columnCounter: 2000148878
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LS202WHEREINJOCCURRED_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LS202WHEREINJOCCURRED_EXT\""
+          - columnReference:
+              columnCounter: 2000148879
+              stepCounter: "200009792"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: INJUREDREGULARJOBCOMMENTS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"INJUREDREGULARJOBCOMMENTS_EXT\""
+          - columnReference:
+              columnCounter: 2000148880
+              stepCounter: "200009792"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: COVERAGECOMMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"COVERAGECOMMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000148881
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: WAGESTATEMENTSENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"WAGESTATEMENTSENT_EXT\""
+          - columnReference:
+              columnCounter: 2000148882
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REPORTEDBYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"REPORTEDBYTYPE\""
+          - columnReference:
+              columnCounter: 2000148883
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000148884
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: FLAGGEDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"FLAGGEDDATE\""
+          - columnReference:
+              columnCounter: 2000148885
+              stepCounter: "200009792"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: FIREDEPTINFO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"FIREDEPTINFO\""
+          - columnReference:
+              columnCounter: 2000148886
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SEGMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SEGMENT\""
+          - columnReference:
+              columnCounter: 2000148887
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SIESCALATESIU
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SIESCALATESIU\""
+          - columnReference:
+              columnCounter: 2000148888
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: POLICYOVERRIDEASOFDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"POLICYOVERRIDEASOFDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000148889
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DRUGSINVOLVED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DRUGSINVOLVED\""
+          - columnReference:
+              columnCounter: 2000148890
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ID\""
+          - columnReference:
+              columnCounter: 2000148891
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISOENABLED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ISOENABLED\""
+          - columnReference:
+              columnCounter: 2000148892
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOSSTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LOSSTYPE\""
+          - columnReference:
+              columnCounter: 2000148893
+              stepCounter: "200009792"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: FLAGGEDREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"FLAGGEDREASON\""
+          - columnReference:
+              columnCounter: 2000148894
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXAMINATIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"EXAMINATIONDATE\""
+          - columnReference:
+              columnCounter: 2000148895
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HOWREPORTED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HOWREPORTED\""
+          - columnReference:
+              columnCounter: 2000148896
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INSUREDDENORMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"INSUREDDENORMID\""
+          - columnReference:
+              columnCounter: 2000148897
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CLAIMANTRPRTDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CLAIMANTRPRTDDATE\""
+          - columnReference:
+              columnCounter: 2000148898
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ATTORNEYINVOLVED_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ATTORNEYINVOLVED_EXT\""
+          - columnReference:
+              columnCounter: 2000148899
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HOSPITALDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HOSPITALDATE\""
+          - columnReference:
+              columnCounter: 2000148900
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COVERAGEVERIFIEDBY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"COVERAGEVERIFIEDBY_EXT\""
+          - columnReference:
+              columnCounter: 2000148901
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYOVERRIDENBY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"POLICYOVERRIDENBY_EXT\""
+          - columnReference:
+              columnCounter: 2000148902
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SHOWMEDICALFIRSTINFO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SHOWMEDICALFIRSTINFO\""
+          - columnReference:
+              columnCounter: 2000148903
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: POLICYREFRESHREQUIRED_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"POLICYREFRESHREQUIRED_EXT\""
+          - columnReference:
+              columnCounter: 2000148904
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: INJWKRINMPN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"INJWKRINMPN\""
+          - columnReference:
+              columnCounter: 2000148905
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ASSIGNEDGROUPID\""
+          - columnReference:
+              columnCounter: 2000148906
+              stepCounter: "200009792"
+            dataType: NUMBER(6,5)
+            defaultValue: ""
+            description: ""
+            name: SEGMENTATIONSCORE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SEGMENTATIONSCORE_EXT\""
+          - columnReference:
+              columnCounter: 2000148907
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATERPTDTOINSURED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DATERPTDTOINSURED\""
+          - columnReference:
+              columnCounter: 2000148908
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: INSURERSENTMPNNOTICE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"INSURERSENTMPNNOTICE\""
+          - columnReference:
+              columnCounter: 2000148909
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: HORSEPLAY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HORSEPLAY_EXT\""
+          - columnReference:
+              columnCounter: 2000148910
+              stepCounter: "200009792"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: STATEFILENUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"STATEFILENUMBER\""
+          - columnReference:
+              columnCounter: 2000148911
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SAFETYEQUIPUSED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SAFETYEQUIPUSED\""
+          - columnReference:
+              columnCounter: 2000148912
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ASSIGNMENTSTATUS\""
+          - columnReference:
+              columnCounter: 2000148913
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000148914
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REPORTEDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"REPORTEDDATE\""
+          - columnReference:
+              columnCounter: 2000148915
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STORAGELOCATIONSTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"STORAGELOCATIONSTATE\""
+          - columnReference:
+              columnCounter: 2000148916
+              stepCounter: "200009792"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CLAIMSPECIALHANDLING_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CLAIMSPECIALHANDLING_EXT\""
+          - columnReference:
+              columnCounter: 2000148917
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: SIESCALATESIUDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SIESCALATESIUDATE\""
+          - columnReference:
+              columnCounter: 2000148918
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: WAGESTATEMENTRECEIVED_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"WAGESTATEMENTRECEIVED_EXT\""
+          - columnReference:
+              columnCounter: 2000148919
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"POLICYID\""
+          - columnReference:
+              columnCounter: 2000148920
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000148921
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMSOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CLAIMSOURCE\""
+          - columnReference:
+              columnCounter: 2000148922
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EMPQUSVALIDITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"EMPQUSVALIDITY\""
+          - columnReference:
+              columnCounter: 2000148923
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FFRVALIDATIONLEVEL_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"FFRVALIDATIONLEVEL_EXT\""
+          - columnReference:
+              columnCounter: 2000148924
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEELIGIBLEFORARCHIVE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DATEELIGIBLEFORARCHIVE\""
+          - columnReference:
+              columnCounter: 2000148925
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOCATIONCODEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LOCATIONCODEID\""
+          - columnReference:
+              columnCounter: 2000148926
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EMPSENTMPNNOTICE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"EMPSENTMPNNOTICE\""
+          - columnReference:
+              columnCounter: 2000148927
+              stepCounter: "200009792"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000148928
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FORRECORDONLY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"FORRECORDONLY_EXT\""
+          - columnReference:
+              columnCounter: 2000148929
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTWAITINGPERIODDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LASTWAITINGPERIODDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000148930
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000148931
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYHOLDERSUMMARY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"POLICYHOLDERSUMMARY_EXT\""
+          - columnReference:
+              columnCounter: 2000148932
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INSUREDPREMISES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"INSUREDPREMISES\""
+          - columnReference:
+              columnCounter: 2000148933
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DISABILITYRTWDATES_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DISABILITYRTWDATES_EXT\""
+          - columnReference:
+              columnCounter: 2000148934
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: JURISDICTIONSTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"JURISDICTIONSTATE\""
+          - columnReference:
+              columnCounter: 2000148935
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CONCURRENTEMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CONCURRENTEMP\""
+          - columnReference:
+              columnCounter: 2000148936
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ATTORNEYINVOLVEDDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ATTORNEYINVOLVEDDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000148937
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: SIBSENTITLEMENTDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SIBSENTITLEMENTDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000148938
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: COVERAGEVISIBILITY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"COVERAGEVISIBILITY_EXT\""
+          - columnReference:
+              columnCounter: 2000148939
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STATUTEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"STATUTEDATE\""
+          - columnReference:
+              columnCounter: 2000148940
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYOVERRIDE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"POLICYOVERRIDE_EXT\""
+          - columnReference:
+              columnCounter: 2000148941
+              stepCounter: "200009792"
+            dataType: VARCHAR(10)
+            defaultValue: ""
+            description: ""
+            name: STORAGEBARCODENUM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"STORAGEBARCODENUM\""
+          - columnReference:
+              columnCounter: 2000148942
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"PREVIOUSUSERID\""
+          - columnReference:
+              columnCounter: 2000148943
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MEDICAREELIGIBLE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"MEDICAREELIGIBLE_EXT\""
+          - columnReference:
+              columnCounter: 2000148944
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ISORECEIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ISORECEIVEDATE\""
+          - columnReference:
+              columnCounter: 2000148945
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATERPTDTOAGENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DATERPTDTOAGENT\""
+          - columnReference:
+              columnCounter: 2000148946
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INTENTIONALINJURY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"INTENTIONALINJURY_EXT\""
+          - columnReference:
+              columnCounter: 2000148947
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SIUSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SIUSTATUS\""
+          - columnReference:
+              columnCounter: 2000148948
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LOSSDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LOSSDATE\""
+          - columnReference:
+              columnCounter: 2000148949
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATERPTDTOEMPLOYER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DATERPTDTOEMPLOYER\""
+          - columnReference:
+              columnCounter: 2000148950
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STRATEGY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"STRATEGY\""
+          - columnReference:
+              columnCounter: 2000148951
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ACTOFGOD_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ACTOFGOD_EXT\""
+          - columnReference:
+              columnCounter: 2000148952
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: COMPUTERSECURITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"COMPUTERSECURITY\""
+          - columnReference:
+              columnCounter: 2000148953
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LS202INJURYUNDERACT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LS202INJURYUNDERACT_EXT\""
+          - columnReference:
+              columnCounter: 2000148954
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INJUREDONPREMISES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"INJUREDONPREMISES\""
+          - columnReference:
+              columnCounter: 2000148955
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CLOSEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CLOSEDATE\""
+          - columnReference:
+              columnCounter: 2000148956
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"PREVIOUSGROUPID\""
+          - columnReference:
+              columnCounter: 2000148957
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOBCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LOBCODE\""
+          - columnReference:
+              columnCounter: 2000148958
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATECLAIMSET_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DATECLAIMSET_EXT\""
+          - columnReference:
+              columnCounter: 2000148959
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WEATHERRELATED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"WEATHERRELATED\""
+          - columnReference:
+              columnCounter: 2000148960
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATECOMPDCSNDUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DATECOMPDCSNDUE\""
+          - columnReference:
+              columnCounter: 2000148961
+              stepCounter: "200009792"
+            dataType: VARCHAR(10)
+            defaultValue: ""
+            description: ""
+            name: STORAGEVOLUMES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"STORAGEVOLUMES\""
+          - columnReference:
+              columnCounter: 2000148962
+              stepCounter: "200009792"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: STATEACKNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"STATEACKNUMBER\""
+          - columnReference:
+              columnCounter: 2000148963
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDQUEUEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ASSIGNEDQUEUEID\""
+          - columnReference:
+              columnCounter: 2000148964
+              stepCounter: "200009792"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYERVALIDITYREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"EMPLOYERVALIDITYREASON\""
+          - columnReference:
+              columnCounter: 2000148965
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HOSPITALDAYS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HOSPITALDAYS\""
+          - columnReference:
+              columnCounter: 2000148966
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOCATIONOFTHEFT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LOCATIONOFTHEFT\""
+          - columnReference:
+              columnCounter: 2000148967
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXPOSUREENDED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"EXPOSUREENDED\""
+          - columnReference:
+              columnCounter: 2000148968
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WEATHER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"WEATHER\""
+          - columnReference:
+              columnCounter: 2000148969
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SEGMENTATIONOVERRIDEREASON_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SEGMENTATIONOVERRIDEREASON_EXT\""
+          - columnReference:
+              columnCounter: 2000148970
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: REINSURANCEREPORTABLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"REINSURANCEREPORTABLE\""
+          - columnReference:
+              columnCounter: 2000148971
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: MMIDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"MMIDATE\""
+          - columnReference:
+              columnCounter: 2000148972
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SISCORE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SISCORE\""
+          - columnReference:
+              columnCounter: 2000148973
+              stepCounter: "200009792"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000148974
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISOKNOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ISOKNOWN\""
+          - columnReference:
+              columnCounter: 2000148975
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REOPENEDREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"REOPENEDREASON\""
+          - columnReference:
+              columnCounter: 2000148976
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MAINCONTACTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"MAINCONTACTTYPE\""
+          - columnReference:
+              columnCounter: 2000148977
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INJUREDONPREMISES_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"INJUREDONPREMISES_EXT\""
+          - columnReference:
+              columnCounter: 2000148978
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMANTDENORMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CLAIMANTDENORMID\""
+          - columnReference:
+              columnCounter: 2000148979
+              stepCounter: "200009792"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: POLICEDEPTINFO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"POLICEDEPTINFO\""
+          - columnReference:
+              columnCounter: 2000148980
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: COVERAGESTATUSASOFDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"COVERAGESTATUSASOFDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000148981
+              stepCounter: "200009792"
+            dataType: VARCHAR(10)
+            defaultValue: ""
+            description: ""
+            name: STORAGEBOXNUM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"STORAGEBOXNUM\""
+          - columnReference:
+              columnCounter: 2000148982
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMWORKCOMPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CLAIMWORKCOMPID\""
+          - columnReference:
+              columnCounter: 2000148983
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: HAZARDOUSWASTE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HAZARDOUSWASTE\""
+          - columnReference:
+              columnCounter: 2000148984
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTSEGMENTUPDATEDUSER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LASTSEGMENTUPDATEDUSER_EXT\""
+          - columnReference:
+              columnCounter: 2000148985
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTSEGMENTUPDATEDTIME_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LASTSEGMENTUPDATEDTIME_EXT\""
+          - columnReference:
+              columnCounter: 2000148986
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTASSIGNMENTMETHOD_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LASTASSIGNMENTMETHOD_EXT\""
+          - columnReference:
+              columnCounter: 2000148987
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: USEDASSIGNMENTEXCEPTIONS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"USEDASSIGNMENTEXCEPTIONS_EXT\""
+          - columnReference:
+              columnCounter: 2000148988
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTASSIGNMENTTIME_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LASTASSIGNMENTTIME_EXT\""
+          - columnReference:
+              columnCounter: 2000148989
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENTSEGMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"CURRENTSEGMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000148990
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EDIOVERRIDE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"EDIOVERRIDE_EXT\""
+          - columnReference:
+              columnCounter: 2000148991
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MOBILEENROLLSTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"MOBILEENROLLSTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000148992
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUPPLEMENTALWORKLOADWEIGHT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"SUPPLEMENTALWORKLOADWEIGHT\""
+          - columnReference:
+              columnCounter: 2000148993
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYHOLDERSUMMARY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"POLICYHOLDERSUMMARY\""
+          - columnReference:
+              columnCounter: 2000148994
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DONOTDESTROY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DONOTDESTROY\""
+          - columnReference:
+              columnCounter: 2000148995
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WORKLOADWEIGHT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"WORKLOADWEIGHT\""
+          - columnReference:
+              columnCounter: 2000148996
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: WORKLOADUPDATED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"WORKLOADUPDATED\""
+          - columnReference:
+              columnCounter: 2000148997
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: AWWDWC1SENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"AWWDWC1SENT_EXT\""
+          - columnReference:
+              columnCounter: 2000148998
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: REINSURANCEBILLABLE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"REINSURANCEBILLABLE_EXT\""
+          - columnReference:
+              columnCounter: 2000148999
+              stepCounter: "200009792"
+            dataType: VARCHAR(25)
+            defaultValue: ""
+            description: ""
+            name: NCCICLAIMNUMBER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"NCCICLAIMNUMBER_EXT\""
+          - columnReference:
+              columnCounter: 2000149000
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ASSUMEDCOVERAGE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ASSUMEDCOVERAGE_EXT\""
+          - columnReference:
+              columnCounter: 2000149001
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ASSUMEDCOMPENSEDECISION_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"ASSUMEDCOMPENSEDECISION_EXT\""
+          - columnReference:
+              columnCounter: 2000149002
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: NOTICEOFFMTFSENTTODWC_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"NOTICEOFFMTFSENTTODWC_EXT\""
+          - columnReference:
+              columnCounter: 2000149020
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LTREMOVALDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LTREMOVALDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000149021
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LTREMOVALREASON_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"LTREMOVALREASON_EXT\""
+          - columnReference:
+              columnCounter: 2000149022
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRESUMPTIONRATIONALE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"PRESUMPTIONRATIONALE_EXT\""
+          - columnReference:
+              columnCounter: 2000149023
+              stepCounter: "200009792"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PRESUMPTIONRULEAPPLICABLE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"PRESUMPTIONRULEAPPLICABLE_EXT\""
+          - columnReference:
+              columnCounter: 2000149024
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TESTINGPERFORMED_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"TESTINGPERFORMED_EXT\""
+          - columnReference:
+              columnCounter: 2000149025
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TESTINGRESULTS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"TESTINGRESULTS_EXT\""
+          - columnReference:
+              columnCounter: 2000149003
+              stepCounter: "200009792"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000149004
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000149005
+              stepCounter: "200009792"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000149006
+              stepCounter: "200009792"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000149007
+              stepCounter: "200009792"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000149008
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000149009
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000149010
+              stepCounter: "200009792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000149011
+              stepCounter: "200009792"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000149012
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000149013
+              stepCounter: "200009792"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000149014
+              stepCounter: "200009792"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000149015
+              stepCounter: "200009792"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000149016
+              stepCounter: "200009792"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000149017
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000149019
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000149018
+              stepCounter: "200009792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW') }} "STG_ODS_GW_CC_PROD_CC_CLAIM_10_NEW"
+            name: ODS_GW_CC_PROD_CC_CLAIM
+            noLinkRefs: []
+      name: ODS_GW_CC_PROD_CC_CLAIM
+      overrideSQL: false
+      sqlType: "10"
+      type: sql
+    stepCounter: "200009792"

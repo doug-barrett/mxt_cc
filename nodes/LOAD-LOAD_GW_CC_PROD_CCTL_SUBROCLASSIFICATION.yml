@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_SUBROCLASSIFICATION-200013744:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000131804
+              stepCounter: "200013744"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000131805
+              stepCounter: "200013744"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000131806
+              stepCounter: "200013744"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000131807
+              stepCounter: "200013744"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000131808
+              stepCounter: "200013744"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000131809
+              stepCounter: "200013744"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"ID\""
+          - columnReference:
+              columnCounter: 2000131810
+              stepCounter: "200013744"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000131811
+              stepCounter: "200013744"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000131812
+              stepCounter: "200013744"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000131813
+              stepCounter: "200013744"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000131814
+              stepCounter: "200013744"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131815
+              stepCounter: "200013744"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131816
+              stepCounter: "200013744"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000131819
+              stepCounter: "200013744"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000131820
+              stepCounter: "200013744"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000131821
+              stepCounter: "200013744"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000131822
+              stepCounter: "200013744"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000131823
+              stepCounter: "200013744"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000131824
+              stepCounter: "200013744"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000131825
+              stepCounter: "200013744"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLASSIFICATION\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000131817
+              stepCounter: "200013744"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_SUBROCLASSIFICATION'"
+          - columnReference:
+              columnCounter: 2000131818
+              stepCounter: "200013744"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_SUBROCLASSIFICATION
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_SUBROCLASSIFICATION') }} "CCTL_SUBROCLASSIFICATION" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_SUBROCLASSIFICATION') }} "ODS_GW_CC_PROD_CCTL_SUBROCLASSIFICATION")
+            name: LOAD_GW_CC_PROD_CCTL_SUBROCLASSIFICATION
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_SUBROCLASSIFICATION
+      name: LOAD_GW_CC_PROD_CCTL_SUBROCLASSIFICATION
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200013744"

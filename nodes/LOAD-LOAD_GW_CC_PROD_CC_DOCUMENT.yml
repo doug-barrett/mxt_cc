@@ -1,0 +1,609 @@
+steps:
+  LOAD_GW_CC_PROD_CC_DOCUMENT-200016845:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000134739
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000134740
+              stepCounter: "200016845"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: DOCUMENTIDENTIFIER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"DOCUMENTIDENTIFIER\""
+          - columnReference:
+              columnCounter: 2000134741
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SECTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"SECTION\""
+          - columnReference:
+              columnCounter: 2000134742
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000134743
+              stepCounter: "200016845"
+            dataType: VARCHAR(80)
+            defaultValue: ""
+            description: ""
+            name: NAMEDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"NAMEDENORM\""
+          - columnReference:
+              columnCounter: 2000134744
+              stepCounter: "200016845"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: AUTHORDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"AUTHORDENORM\""
+          - columnReference:
+              columnCounter: 2000134745
+              stepCounter: "200016845"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000134746
+              stepCounter: "200016845"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PENDINGDOCUID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"PENDINGDOCUID\""
+          - columnReference:
+              columnCounter: 2000134747
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000134748
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000134749
+              stepCounter: "200016845"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000134750
+              stepCounter: "200016845"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DOCUID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"DOCUID\""
+          - columnReference:
+              columnCounter: 2000134751
+              stepCounter: "200016845"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INBOUND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"INBOUND\""
+          - columnReference:
+              columnCounter: 2000134752
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"TYPE\""
+          - columnReference:
+              columnCounter: 2000134753
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000134754
+              stepCounter: "200016845"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000134755
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000134756
+              stepCounter: "200016845"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: DOCUMENTIDENTIFIERDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"DOCUMENTIDENTIFIERDENORM\""
+          - columnReference:
+              columnCounter: 2000134757
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MATTERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"MATTERID\""
+          - columnReference:
+              columnCounter: 2000134758
+              stepCounter: "200016845"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000134759
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMCONTACTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"CLAIMCONTACTID\""
+          - columnReference:
+              columnCounter: 2000134760
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSUREID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"EXPOSUREID\""
+          - columnReference:
+              columnCounter: 2000134761
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000134762
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000134763
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000134764
+              stepCounter: "200016845"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DMS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"DMS\""
+          - columnReference:
+              columnCounter: 2000134765
+              stepCounter: "200016845"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: AUTHOR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"AUTHOR\""
+          - columnReference:
+              columnCounter: 2000134766
+              stepCounter: "200016845"
+            dataType: VARCHAR(80)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000134767
+              stepCounter: "200016845"
+            dataType: VARCHAR(80)
+            defaultValue: ""
+            description: ""
+            name: MIMETYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"MIMETYPE\""
+          - columnReference:
+              columnCounter: 2000134768
+              stepCounter: "200016845"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEMODIFIED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"DATEMODIFIED\""
+          - columnReference:
+              columnCounter: 2000134769
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LANGUAGE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"LANGUAGE\""
+          - columnReference:
+              columnCounter: 2000134770
+              stepCounter: "200016845"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: OBSOLETE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"OBSOLETE\""
+          - columnReference:
+              columnCounter: 2000134771
+              stepCounter: "200016845"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: RECIPIENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"RECIPIENT\""
+          - columnReference:
+              columnCounter: 2000134772
+              stepCounter: "200016845"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATECREATED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"DATECREATED\""
+          - columnReference:
+              columnCounter: 2000134773
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SECURITYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"SECURITYTYPE\""
+          - columnReference:
+              columnCounter: 2000134774
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DOCUMENTBATCHID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"DOCUMENTBATCHID\""
+          - columnReference:
+              columnCounter: 2000134775
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: THUNDERHEADDOCTYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"THUNDERHEADDOCTYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000134776
+              stepCounter: "200016845"
+            dataType: VARCHAR(300)
+            defaultValue: ""
+            description: ""
+            name: FAILUREREASON_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"FAILUREREASON_EXT\""
+          - columnReference:
+              columnCounter: 2000134777
+              stepCounter: "200016845"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISBATCH_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"ISBATCH_EXT\""
+          - columnReference:
+              columnCounter: 2000134778
+              stepCounter: "200016845"
+            dataType: VARCHAR(90)
+            defaultValue: ""
+            description: ""
+            name: SUBDOCUMENTTYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"SUBDOCUMENTTYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000134779
+              stepCounter: "200016845"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000134780
+              stepCounter: "200016845"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000134781
+              stepCounter: "200016845"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000134782
+              stepCounter: "200016845"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000134783
+              stepCounter: "200016845"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000134784
+              stepCounter: "200016845"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000134785
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000134786
+              stepCounter: "200016845"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000134787
+              stepCounter: "200016845"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000134788
+              stepCounter: "200016845"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DOCUMENT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000134738
+              stepCounter: "200016845"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_DOCUMENT'"
+          - columnReference:
+              columnCounter: 2000134737
+              stepCounter: "200016845"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_DOCUMENT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_DOCUMENT') }} "CC_DOCUMENT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_DOCUMENT') }} "ODS_GW_CC_PROD_CC_DOCUMENT")
+            name: LOAD_GW_CC_PROD_CC_DOCUMENT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_DOCUMENT
+      name: LOAD_GW_CC_PROD_CC_DOCUMENT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016845"

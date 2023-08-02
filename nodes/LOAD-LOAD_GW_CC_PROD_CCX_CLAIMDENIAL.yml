@@ -1,0 +1,488 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_CLAIMDENIAL-200010255:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000138556
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REVERSALNOTEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"REVERSALNOTEID\""
+          - columnReference:
+              columnCounter: 2000138557
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000138558
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138559
+              stepCounter: "200010255"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000138560
+              stepCounter: "200010255"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: REVERSALPOSTED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"REVERSALPOSTED\""
+          - columnReference:
+              columnCounter: 2000138561
+              stepCounter: "200010255"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: POSTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"POSTDATE\""
+          - columnReference:
+              columnCounter: 2000138562
+              stepCounter: "200010255"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REVERSEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"REVERSEDATE\""
+          - columnReference:
+              columnCounter: 2000138563
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REVERSALREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"REVERSALREASON\""
+          - columnReference:
+              columnCounter: 2000138564
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138565
+              stepCounter: "200010255"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EFFECTIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"EFFECTIVEDATE\""
+          - columnReference:
+              columnCounter: 2000138566
+              stepCounter: "200010255"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000138567
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DENIALSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"DENIALSTATUS\""
+          - columnReference:
+              columnCounter: 2000138568
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DENIALNOTEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"DENIALNOTEID\""
+          - columnReference:
+              columnCounter: 2000138569
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000138570
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"ID\""
+          - columnReference:
+              columnCounter: 2000138571
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REVERSEDENIALSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"REVERSEDENIALSTATUS\""
+          - columnReference:
+              columnCounter: 2000138572
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000138573
+              stepCounter: "200010255"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EFFECTIVEFROMDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"EFFECTIVEFROMDATE\""
+          - columnReference:
+              columnCounter: 2000138574
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DENIALTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"DENIALTYPE\""
+          - columnReference:
+              columnCounter: 2000138575
+              stepCounter: "200010255"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000138576
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DENIALCATEGORY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"DENIALCATEGORY\""
+          - columnReference:
+              columnCounter: 2000138577
+              stepCounter: "200010255"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DENIALPOSTED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"DENIALPOSTED\""
+          - columnReference:
+              columnCounter: 2000138578
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000138579
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000138580
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000138581
+              stepCounter: "200010255"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DENIALREVERSEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"DENIALREVERSEDATE\""
+          - columnReference:
+              columnCounter: 2000138582
+              stepCounter: "200010255"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: REVERSALRATIONALE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"REVERSALRATIONALE\""
+          - columnReference:
+              columnCounter: 2000138583
+              stepCounter: "200010255"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EFFECTIVETODATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"EFFECTIVETODATE\""
+          - columnReference:
+              columnCounter: 2000138584
+              stepCounter: "200010255"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: DENIALRATIONALE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"DENIALRATIONALE\""
+          - columnReference:
+              columnCounter: 2000138585
+              stepCounter: "200010255"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000138586
+              stepCounter: "200010255"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138587
+              stepCounter: "200010255"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000138588
+              stepCounter: "200010255"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000138589
+              stepCounter: "200010255"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000138590
+              stepCounter: "200010255"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138591
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000138592
+              stepCounter: "200010255"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000138593
+              stepCounter: "200010255"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000138594
+              stepCounter: "200010255"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMDENIAL\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000138555
+              stepCounter: "200010255"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_CLAIMDENIAL'"
+          - columnReference:
+              columnCounter: 2000138554
+              stepCounter: "200010255"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_CLAIMDENIAL
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_CLAIMDENIAL') }} "CCX_CLAIMDENIAL" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_CLAIMDENIAL') }} "ODS_GW_CC_PROD_CCX_CLAIMDENIAL")
+            name: LOAD_GW_CC_PROD_CCX_CLAIMDENIAL
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_CLAIMDENIAL
+      name: LOAD_GW_CC_PROD_CCX_CLAIMDENIAL
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200010255"

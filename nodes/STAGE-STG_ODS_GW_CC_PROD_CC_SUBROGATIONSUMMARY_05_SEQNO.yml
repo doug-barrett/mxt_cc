@@ -1,0 +1,107 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_05_SEQNO-200008731:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000259290
+              stepCounter: "200008731"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SUBROGATIONSUMMARY\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000259295
+              stepCounter: "200008731"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ_ODS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000259294
+              stepCounter: "200008731"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'CC_PROD'"
+          - columnReference:
+              columnCounter: 2000259293
+              stepCounter: "200008731"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRREFRESH_HISTORY\".\"HVR_REFRESH_SEQNO_HIST\""
+          - columnReference:
+              columnCounter: 2000259292
+              stepCounter: "200008731"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000259291
+              stepCounter: "200008731"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_SUBROGATIONSUMMARY
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRREFRESH_HISTORY
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_SUBROGATIONSUMMARY') }} \"LOAD_GW_CC_PROD_CC_SUBROGATIONSUMMARY\" JOIN {{ ref('ODS','ODS_CTRL_HVRREFRESH_HISTORY') }} \"ODS_CTRL_HVRREFRESH_HISTORY\"    ON LOAD_GW_CC_PROD_CC_SUBROGATIONSUMMARY.DSS_RECORD_SOURCE = ODS_CTRL_HVRREFRESH_HISTORY.HVR_RECORD_SOURCE   AND LOAD_GW_CC_PROD_CC_SUBROGATIONSUMMARY.HVRCAPTSTAMP BETWEEN ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE AND ODS_CTRL_HVRREFRESH_HISTORY.THRU_DATE  LEFT JOIN {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY') }} \"ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY\"   ON LOAD_GW_CC_PROD_CC_SUBROGATIONSUMMARY.HVRINTEGSEQ = ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY.HVRINTEGSEQ   AND ODS_CTRL_HVRREFRESH_HISTORY.HVR_REFRESH_SEQNO_HIST = ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY.HVR_REFRESH_SEQNO WHERE ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY.HVRINTEGSEQ IS NULL "
+            name: STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_05_SEQNO
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY
+      name: STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_05_SEQNO
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200008731"

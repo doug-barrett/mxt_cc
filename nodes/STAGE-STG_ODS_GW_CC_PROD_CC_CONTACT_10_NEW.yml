@@ -1,0 +1,1383 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_CONTACT_10_NEW-200010890:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000255321
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000255322
+              stepCounter: "200010890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000255323
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AUTOSYNC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"AUTOSYNC\""
+          - columnReference:
+              columnCounter: 2000255324
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MEDICALORGSPECIALTY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"MEDICALORGSPECIALTY\""
+          - columnReference:
+              columnCounter: 2000255325
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: CELLPHONE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"CELLPHONE\""
+          - columnReference:
+              columnCounter: 2000255326
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: MEDICALLICENSE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"MEDICALLICENSE\""
+          - columnReference:
+              columnCounter: 2000255327
+              stepCounter: "200010890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: W9RECEIVEDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"W9RECEIVEDDATE\""
+          - columnReference:
+              columnCounter: 2000255328
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREFERREDCURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"PREFERREDCURRENCY\""
+          - columnReference:
+              columnCounter: 2000255329
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: ADJUDICATORLICENSE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"ADJUDICATORLICENSE\""
+          - columnReference:
+              columnCounter: 2000255330
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000255331
+              stepCounter: "200010890"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: POLICYSYSTEMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"POLICYSYSTEMID\""
+          - columnReference:
+              columnCounter: 2000255332
+              stepCounter: "200010890"
+            dataType: NUMBER(4,1)
+            defaultValue: ""
+            description: ""
+            name: WITHHOLDINGRATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"WITHHOLDINGRATE\""
+          - columnReference:
+              columnCounter: 2000255333
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ATTORNEYSPECIALTY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"ATTORNEYSPECIALTY\""
+          - columnReference:
+              columnCounter: 2000255334
+              stepCounter: "200010890"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: NOTES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"NOTES\""
+          - columnReference:
+              columnCounter: 2000255335
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMDEPENDENTSU18
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"NUMDEPENDENTSU18\""
+          - columnReference:
+              columnCounter: 2000255336
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TAXIDTYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"TAXIDTYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000255337
+              stepCounter: "200010890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: W9VALIDFROM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"W9VALIDFROM\""
+          - columnReference:
+              columnCounter: 2000255338
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VENUETYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"VENUETYPE\""
+          - columnReference:
+              columnCounter: 2000255339
+              stepCounter: "200010890"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: ASSOCIATEDFACILITY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"ASSOCIATEDFACILITY_EXT\""
+          - columnReference:
+              columnCounter: 2000255340
+              stepCounter: "200010890"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000255341
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYPHONE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"PRIMARYPHONE\""
+          - columnReference:
+              columnCounter: 2000255342
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ORGANIZATIONTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"ORGANIZATIONTYPE\""
+          - columnReference:
+              columnCounter: 2000255343
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: HOMEPHONE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"HOMEPHONE\""
+          - columnReference:
+              columnCounter: 2000255344
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREFIX
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"PREFIX\""
+          - columnReference:
+              columnCounter: 2000255345
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYADDRESSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"PRIMARYADDRESSID\""
+          - columnReference:
+              columnCounter: 2000255346
+              stepCounter: "200010890"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSBOOKUID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"ADDRESSBOOKUID\""
+          - columnReference:
+              columnCounter: 2000255347
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LANGUAGEPREFERENCE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"LANGUAGEPREFERENCE_EXT\""
+          - columnReference:
+              columnCounter: 2000255348
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TAXFILINGSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"TAXFILINGSTATUS\""
+          - columnReference:
+              columnCounter: 2000255349
+              stepCounter: "200010890"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEENUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"EMPLOYEENUMBER\""
+          - columnReference:
+              columnCounter: 2000255350
+              stepCounter: "200010890"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LOADRELATEDCONTACTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"LOADRELATEDCONTACTS\""
+          - columnReference:
+              columnCounter: 2000255351
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SPECIALTYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"SPECIALTYTYPE\""
+          - columnReference:
+              columnCounter: 2000255352
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: FIRSTNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"FIRSTNAME\""
+          - columnReference:
+              columnCounter: 2000255353
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: FORMERNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"FORMERNAME\""
+          - columnReference:
+              columnCounter: 2000255354
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VENDORSTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"VENDORSTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000255355
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: WORKPHONE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"WORKPHONE\""
+          - columnReference:
+              columnCounter: 2000255356
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMDEPENDENTSU25
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"NUMDEPENDENTSU25\""
+          - columnReference:
+              columnCounter: 2000255357
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000255358
+              stepCounter: "200010890"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ATTORNEY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"ATTORNEY_EXT\""
+          - columnReference:
+              columnCounter: 2000255359
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VENDORTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"VENDORTYPE\""
+          - columnReference:
+              columnCounter: 2000255360
+              stepCounter: "200010890"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: W9RECEIVED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"W9RECEIVED\""
+          - columnReference:
+              columnCounter: 2000255361
+              stepCounter: "200010890"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: DBA_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"DBA_EXT\""
+          - columnReference:
+              columnCounter: 2000255362
+              stepCounter: "200010890"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: NAMEDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"NAMEDENORM\""
+          - columnReference:
+              columnCounter: 2000255363
+              stepCounter: "200010890"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: LICENSENUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"LICENSENUMBER\""
+          - columnReference:
+              columnCounter: 2000255364
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: AUTOTOWINGLICENSE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"AUTOTOWINGLICENSE\""
+          - columnReference:
+              columnCounter: 2000255365
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYSECONDARYCONTACT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"PRIMARYSECONDARYCONTACT_EXT\""
+          - columnReference:
+              columnCounter: 2000255366
+              stepCounter: "200010890"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: VENDORNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"VENDORNUMBER\""
+          - columnReference:
+              columnCounter: 2000255367
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000255368
+              stepCounter: "200010890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000255369
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: FIRSTNAMEDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"FIRSTNAMEDENORM\""
+          - columnReference:
+              columnCounter: 2000255370
+              stepCounter: "200010890"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: EMAILADDRESS1
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"EMAILADDRESS1\""
+          - columnReference:
+              columnCounter: 2000255371
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMDEPENDENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"NUMDEPENDENTS\""
+          - columnReference:
+              columnCounter: 2000255372
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000255373
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYLANGUAGE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"PRIMARYLANGUAGE\""
+          - columnReference:
+              columnCounter: 2000255374
+              stepCounter: "200010890"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: EMAILADDRESS2
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"EMAILADDRESS2\""
+          - columnReference:
+              columnCounter: 2000255375
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TAXSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"TAXSTATUS\""
+          - columnReference:
+              columnCounter: 2000255376
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: MIDDLENAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"MIDDLENAME\""
+          - columnReference:
+              columnCounter: 2000255377
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GENDER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"GENDER\""
+          - columnReference:
+              columnCounter: 2000255378
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: LASTNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"LASTNAME\""
+          - columnReference:
+              columnCounter: 2000255379
+              stepCounter: "200010890"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PREFERRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"PREFERRED\""
+          - columnReference:
+              columnCounter: 2000255380
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: ATTORNEYLICENSE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"ATTORNEYLICENSE\""
+          - columnReference:
+              columnCounter: 2000255381
+              stepCounter: "200010890"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: NOTES_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"NOTES_EXT\""
+          - columnReference:
+              columnCounter: 2000255382
+              stepCounter: "200010890"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000255383
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: AUTOREPAIRLICENSE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"AUTOREPAIRLICENSE\""
+          - columnReference:
+              columnCounter: 2000255384
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MARITALSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"MARITALSTATUS\""
+          - columnReference:
+              columnCounter: 2000255385
+              stepCounter: "200010890"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: TAXID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"TAXID\""
+          - columnReference:
+              columnCounter: 2000255386
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000255387
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000255388
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000255389
+              stepCounter: "200010890"
+            dataType: VARCHAR(80)
+            defaultValue: ""
+            description: ""
+            name: OCCUPATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"OCCUPATION\""
+          - columnReference:
+              columnCounter: 2000255390
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VALIDATIONLEVEL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"VALIDATIONLEVEL\""
+          - columnReference:
+              columnCounter: 2000255391
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LICENSESTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"LICENSESTATE\""
+          - columnReference:
+              columnCounter: 2000255392
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUFFIX
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"SUFFIX\""
+          - columnReference:
+              columnCounter: 2000255393
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: FAXPHONE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"FAXPHONE\""
+          - columnReference:
+              columnCounter: 2000255394
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SCORE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"SCORE\""
+          - columnReference:
+              columnCounter: 2000255395
+              stepCounter: "200010890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: W9VALIDTO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"W9VALIDTO\""
+          - columnReference:
+              columnCounter: 2000255396
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ADJUDICATIVEDOMAIN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"ADJUDICATIVEDOMAIN\""
+          - columnReference:
+              columnCounter: 2000255397
+              stepCounter: "200010890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEOFBIRTH
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"DATEOFBIRTH\""
+          - columnReference:
+              columnCounter: 2000255398
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LAWFIRMSPECIALTY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"LAWFIRMSPECIALTY\""
+          - columnReference:
+              columnCounter: 2000255399
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: LASTNAMEDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"LASTNAMEDENORM\""
+          - columnReference:
+              columnCounter: 2000255400
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DOCTORSPECIALTY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"DOCTORSPECIALTY\""
+          - columnReference:
+              columnCounter: 2000255401
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FAXPHONECOUNTRY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"FAXPHONECOUNTRY\""
+          - columnReference:
+              columnCounter: 2000255402
+              stepCounter: "200010890"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: HOMEPHONEEXTENSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"HOMEPHONEEXTENSION\""
+          - columnReference:
+              columnCounter: 2000255403
+              stepCounter: "200010890"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: NAMEKANJI
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"NAMEKANJI\""
+          - columnReference:
+              columnCounter: 2000255404
+              stepCounter: "200010890"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: CELLPHONEEXTENSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"CELLPHONEEXTENSION\""
+          - columnReference:
+              columnCounter: 2000255405
+              stepCounter: "200010890"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: OBFUSCATEDINTERNAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"OBFUSCATEDINTERNAL\""
+          - columnReference:
+              columnCounter: 2000255406
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: PARTICLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"PARTICLE\""
+          - columnReference:
+              columnCounter: 2000255407
+              stepCounter: "200010890"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEESECURITYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"EMPLOYEESECURITYID\""
+          - columnReference:
+              columnCounter: 2000255408
+              stepCounter: "200010890"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DONOTDESTROY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"DONOTDESTROY\""
+          - columnReference:
+              columnCounter: 2000255409
+              stepCounter: "200010890"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SSNRELEASEAUTHORIZED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"SSNRELEASEAUTHORIZED\""
+          - columnReference:
+              columnCounter: 2000255410
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: LASTNAMEKANJI
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"LASTNAMEKANJI\""
+          - columnReference:
+              columnCounter: 2000255411
+              stepCounter: "200010890"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: ""
+            name: GREENCARDNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"GREENCARDNUMBER\""
+          - columnReference:
+              columnCounter: 2000255412
+              stepCounter: "200010890"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: ""
+            name: JURISDICTIONASSIGNEDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"JURISDICTIONASSIGNEDID\""
+          - columnReference:
+              columnCounter: 2000255413
+              stepCounter: "200010890"
+            dataType: NUMBER(2)
+            defaultValue: ""
+            description: ""
+            name: TAXEXEMPTIONSENTITLED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"TAXEXEMPTIONSENTITLED\""
+          - columnReference:
+              columnCounter: 2000255414
+              stepCounter: "200010890"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: FIRSTNAMEKANJI
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"FIRSTNAMEKANJI\""
+          - columnReference:
+              columnCounter: 2000255415
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMANTIDTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"CLAIMANTIDTYPE\""
+          - columnReference:
+              columnCounter: 2000255416
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HOMEPHONECOUNTRY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"HOMEPHONECOUNTRY\""
+          - columnReference:
+              columnCounter: 2000255417
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CELLPHONECOUNTRY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"CELLPHONECOUNTRY\""
+          - columnReference:
+              columnCounter: 2000255418
+              stepCounter: "200010890"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: ""
+            name: VISANUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"VISANUMBER\""
+          - columnReference:
+              columnCounter: 2000255419
+              stepCounter: "200010890"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PENDINGLINKMESSAGE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"PENDINGLINKMESSAGE\""
+          - columnReference:
+              columnCounter: 2000255420
+              stepCounter: "200010890"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: ""
+            name: PASSPORTNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"PASSPORTNUMBER\""
+          - columnReference:
+              columnCounter: 2000255421
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYLOCALE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"PRIMARYLOCALE\""
+          - columnReference:
+              columnCounter: 2000255422
+              stepCounter: "200010890"
+            dataType: VARCHAR(2)
+            defaultValue: ""
+            description: ""
+            name: EDUCATIONLEVEL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"EDUCATIONLEVEL\""
+          - columnReference:
+              columnCounter: 2000255423
+              stepCounter: "200010890"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: WORKPHONEEXTENSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"WORKPHONEEXTENSION\""
+          - columnReference:
+              columnCounter: 2000255424
+              stepCounter: "200010890"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: FAXPHONEEXTENSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"FAXPHONEEXTENSION\""
+          - columnReference:
+              columnCounter: 2000255425
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WORKPHONECOUNTRY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"WORKPHONECOUNTRY\""
+          - columnReference:
+              columnCounter: 2000255426
+              stepCounter: "200010890"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000255427
+              stepCounter: "200010890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000255428
+              stepCounter: "200010890"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000255429
+              stepCounter: "200010890"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000255430
+              stepCounter: "200010890"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACT_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000255431
+              stepCounter: "200010890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000255432
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000255433
+              stepCounter: "200010890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000255434
+              stepCounter: "200010890"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000255435
+              stepCounter: "200010890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000255440
+              stepCounter: "200010890"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACT_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000255441
+              stepCounter: "200010890"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACT_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000255442
+              stepCounter: "200010890"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000255436
+              stepCounter: "200010890"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000255437
+              stepCounter: "200010890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_CONTACT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000255439
+              stepCounter: "200010890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000255438
+              stepCounter: "200010890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_CONTACT
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_CONTACT_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_CONTACT') }} \"LOAD_GW_CC_PROD_CC_CONTACT\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_CONTACT_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CC_CONTACT_05_SEQNO\"    ON LOAD_GW_CC_PROD_CC_CONTACT.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CC_CONTACT_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CC_CONTACT_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_CC_PROD_CC_CONTACT_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_CONTACT_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200010890"

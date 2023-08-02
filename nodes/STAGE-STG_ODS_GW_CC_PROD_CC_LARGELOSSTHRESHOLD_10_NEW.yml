@@ -1,0 +1,360 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_LARGELOSSTHRESHOLD_10_NEW-200017652:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000257184
+              stepCounter: "200017652"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000257185
+              stepCounter: "200017652"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000257186
+              stepCounter: "200017652"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000257187
+              stepCounter: "200017652"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NOTIFICATIONTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"NOTIFICATIONTYPE\""
+          - columnReference:
+              columnCounter: 2000257188
+              stepCounter: "200017652"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000257189
+              stepCounter: "200017652"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: THRESHOLDVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"THRESHOLDVALUE\""
+          - columnReference:
+              columnCounter: 2000257190
+              stepCounter: "200017652"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000257191
+              stepCounter: "200017652"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000257192
+              stepCounter: "200017652"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000257193
+              stepCounter: "200017652"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000257194
+              stepCounter: "200017652"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"ID\""
+          - columnReference:
+              columnCounter: 2000257195
+              stepCounter: "200017652"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"POLICYTYPE\""
+          - columnReference:
+              columnCounter: 2000257196
+              stepCounter: "200017652"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000257197
+              stepCounter: "200017652"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000257198
+              stepCounter: "200017652"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000257199
+              stepCounter: "200017652"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000257200
+              stepCounter: "200017652"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000257201
+              stepCounter: "200017652"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000257202
+              stepCounter: "200017652"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000257203
+              stepCounter: "200017652"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000257204
+              stepCounter: "200017652"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000257205
+              stepCounter: "200017652"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000257212
+              stepCounter: "200017652"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_LARGELOSSTHRESHOLD_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000257211
+              stepCounter: "200017652"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_LARGELOSSTHRESHOLD_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000257210
+              stepCounter: "200017652"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000257206
+              stepCounter: "200017652"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000257207
+              stepCounter: "200017652"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000257209
+              stepCounter: "200017652"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000257208
+              stepCounter: "200017652"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_LARGELOSSTHRESHOLD_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD') }} \"LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_LARGELOSSTHRESHOLD_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CC_LARGELOSSTHRESHOLD_05_SEQNO\"    ON LOAD_GW_CC_PROD_CC_LARGELOSSTHRESHOLD.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CC_LARGELOSSTHRESHOLD_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CC_LARGELOSSTHRESHOLD_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_CC_PROD_CC_LARGELOSSTHRESHOLD_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_LARGELOSSTHRESHOLD_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200017652"

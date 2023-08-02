@@ -1,0 +1,448 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_TACCOUNT_10_NEW-200017546:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000259389
+              stepCounter: "200017546"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000259390
+              stepCounter: "200017546"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CREDITBALANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"CREDITBALANCE\""
+          - columnReference:
+              columnCounter: 2000259391
+              stepCounter: "200017546"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000259392
+              stepCounter: "200017546"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000259393
+              stepCounter: "200017546"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000259394
+              stepCounter: "200017546"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000259395
+              stepCounter: "200017546"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000259396
+              stepCounter: "200017546"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000259397
+              stepCounter: "200017546"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RESERVELINEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"RESERVELINEID\""
+          - columnReference:
+              columnCounter: 2000259398
+              stepCounter: "200017546"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DEBITBALANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"DEBITBALANCE\""
+          - columnReference:
+              columnCounter: 2000259399
+              stepCounter: "200017546"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DEBITRPTBALANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"DEBITRPTBALANCE\""
+          - columnReference:
+              columnCounter: 2000259400
+              stepCounter: "200017546"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TACCOUNTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"TACCOUNTTYPE\""
+          - columnReference:
+              columnCounter: 2000259401
+              stepCounter: "200017546"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000259402
+              stepCounter: "200017546"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NORMALBALANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"NORMALBALANCE\""
+          - columnReference:
+              columnCounter: 2000259403
+              stepCounter: "200017546"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000259404
+              stepCounter: "200017546"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMCONTRIBUTINGTXNS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"NUMCONTRIBUTINGTXNS\""
+          - columnReference:
+              columnCounter: 2000259405
+              stepCounter: "200017546"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000259406
+              stepCounter: "200017546"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CREDITRPTBALANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"CREDITRPTBALANCE\""
+          - columnReference:
+              columnCounter: 2000259407
+              stepCounter: "200017546"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CREDITRESERVINGBALANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"CREDITRESERVINGBALANCE\""
+          - columnReference:
+              columnCounter: 2000259408
+              stepCounter: "200017546"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DEBITRESERVINGBALANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"DEBITRESERVINGBALANCE\""
+          - columnReference:
+              columnCounter: 2000259409
+              stepCounter: "200017546"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000259410
+              stepCounter: "200017546"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000259411
+              stepCounter: "200017546"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000259412
+              stepCounter: "200017546"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000259413
+              stepCounter: "200017546"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000259414
+              stepCounter: "200017546"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000259415
+              stepCounter: "200017546"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000259416
+              stepCounter: "200017546"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000259417
+              stepCounter: "200017546"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000259418
+              stepCounter: "200017546"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000259424
+              stepCounter: "200017546"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_TACCOUNT_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000259423
+              stepCounter: "200017546"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_TACCOUNT_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000259425
+              stepCounter: "200017546"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000259419
+              stepCounter: "200017546"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000259420
+              stepCounter: "200017546"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_TACCOUNT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000259422
+              stepCounter: "200017546"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000259421
+              stepCounter: "200017546"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_TACCOUNT
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_TACCOUNT_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_TACCOUNT') }} \"LOAD_GW_CC_PROD_CC_TACCOUNT\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_TACCOUNT_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CC_TACCOUNT_05_SEQNO\"    ON LOAD_GW_CC_PROD_CC_TACCOUNT.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CC_TACCOUNT_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CC_TACCOUNT_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_CC_PROD_CC_TACCOUNT_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_TACCOUNT_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200017546"

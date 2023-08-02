@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_SUBROGATIONSTATUS-200015030:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000131894
+              stepCounter: "200015030"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000131895
+              stepCounter: "200015030"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000131896
+              stepCounter: "200015030"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000131897
+              stepCounter: "200015030"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000131898
+              stepCounter: "200015030"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000131899
+              stepCounter: "200015030"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"ID\""
+          - columnReference:
+              columnCounter: 2000131900
+              stepCounter: "200015030"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000131901
+              stepCounter: "200015030"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000131902
+              stepCounter: "200015030"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000131903
+              stepCounter: "200015030"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000131907
+              stepCounter: "200015030"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000131904
+              stepCounter: "200015030"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131906
+              stepCounter: "200015030"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(CCTL_SUBROGATIONSTATUS.HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000131908
+              stepCounter: "200015030"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000131909
+              stepCounter: "200015030"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000131910
+              stepCounter: "200015030"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000131905
+              stepCounter: "200015030"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131911
+              stepCounter: "200015030"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000131912
+              stepCounter: "200015030"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000131913
+              stepCounter: "200015030"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROGATIONSTATUS\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000131893
+              stepCounter: "200015030"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_SUBROGATIONSTATUS'"
+          - columnReference:
+              columnCounter: 2000131892
+              stepCounter: "200015030"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_SUBROGATIONSTATUS
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_SUBROGATIONSTATUS') }} "CCTL_SUBROGATIONSTATUS" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_SUBROGATIONSTATUS') }} "ODS_GW_CC_PROD_CCTL_SUBROGATIONSTATUS")
+            name: LOAD_GW_CC_PROD_CCTL_SUBROGATIONSTATUS
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_SUBROGATIONSTATUS
+      name: LOAD_GW_CC_PROD_CCTL_SUBROGATIONSTATUS
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200015030"

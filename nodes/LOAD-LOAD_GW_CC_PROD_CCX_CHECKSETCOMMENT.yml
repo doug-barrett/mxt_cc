@@ -1,0 +1,290 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_CHECKSETCOMMENT-200016672:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000138441
+              stepCounter: "200016672"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000138442
+              stepCounter: "200016672"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000138443
+              stepCounter: "200016672"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138444
+              stepCounter: "200016672"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: CHECKSETID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"CHECKSETID\""
+          - columnReference:
+              columnCounter: 2000138445
+              stepCounter: "200016672"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: CHECKSETCOMMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"CHECKSETCOMMENT\""
+          - columnReference:
+              columnCounter: 2000138446
+              stepCounter: "200016672"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000138447
+              stepCounter: "200016672"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138448
+              stepCounter: "200016672"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000138449
+              stepCounter: "200016672"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000138450
+              stepCounter: "200016672"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000138451
+              stepCounter: "200016672"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000138452
+              stepCounter: "200016672"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000138453
+              stepCounter: "200016672"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138454
+              stepCounter: "200016672"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000138455
+              stepCounter: "200016672"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000138456
+              stepCounter: "200016672"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000138457
+              stepCounter: "200016672"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138458
+              stepCounter: "200016672"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000138459
+              stepCounter: "200016672"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000138460
+              stepCounter: "200016672"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000138461
+              stepCounter: "200016672"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKSETCOMMENT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000138440
+              stepCounter: "200016672"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_CHECKSETCOMMENT'"
+          - columnReference:
+              columnCounter: 2000138439
+              stepCounter: "200016672"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_CHECKSETCOMMENT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_CHECKSETCOMMENT') }} "CCX_CHECKSETCOMMENT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_CHECKSETCOMMENT') }} "ODS_GW_CC_PROD_CCX_CHECKSETCOMMENT")
+            name: LOAD_GW_CC_PROD_CCX_CHECKSETCOMMENT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_CHECKSETCOMMENT
+      name: LOAD_GW_CC_PROD_CCX_CHECKSETCOMMENT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016672"

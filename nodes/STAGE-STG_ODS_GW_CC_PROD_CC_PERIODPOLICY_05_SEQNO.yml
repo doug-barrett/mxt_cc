@@ -1,0 +1,107 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_PERIODPOLICY_05_SEQNO-200018101:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000257745
+              stepCounter: "200018101"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_PERIODPOLICY\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000257748
+              stepCounter: "200018101"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRREFRESH_HISTORY\".\"HVR_REFRESH_SEQNO_HIST\""
+          - columnReference:
+              columnCounter: 2000257750
+              stepCounter: "200018101"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ_ODS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CC_PERIODPOLICY\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000257747
+              stepCounter: "200018101"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000257746
+              stepCounter: "200018101"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000257749
+              stepCounter: "200018101"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'CC_PROD'"
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_PERIODPOLICY
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRREFRESH_HISTORY
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_PERIODPOLICY') }} \"LOAD_GW_CC_PROD_CC_PERIODPOLICY\" JOIN {{ ref('ODS','ODS_CTRL_HVRREFRESH_HISTORY') }} \"ODS_CTRL_HVRREFRESH_HISTORY\"    ON LOAD_GW_CC_PROD_CC_PERIODPOLICY.DSS_RECORD_SOURCE = ODS_CTRL_HVRREFRESH_HISTORY.HVR_RECORD_SOURCE   AND LOAD_GW_CC_PROD_CC_PERIODPOLICY.HVRCAPTSTAMP BETWEEN ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE AND ODS_CTRL_HVRREFRESH_HISTORY.THRU_DATE  LEFT JOIN {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_PERIODPOLICY') }} \"ODS_GW_CC_PROD_CC_PERIODPOLICY\"   ON LOAD_GW_CC_PROD_CC_PERIODPOLICY.HVRINTEGSEQ = ODS_GW_CC_PROD_CC_PERIODPOLICY.HVRINTEGSEQ   AND ODS_CTRL_HVRREFRESH_HISTORY.HVR_REFRESH_SEQNO_HIST = ODS_GW_CC_PROD_CC_PERIODPOLICY.HVR_REFRESH_SEQNO WHERE ODS_GW_CC_PROD_CC_PERIODPOLICY.HVRINTEGSEQ IS NULL "
+            name: STG_ODS_GW_CC_PROD_CC_PERIODPOLICY_05_SEQNO
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_PERIODPOLICY
+      name: STG_ODS_GW_CC_PROD_CC_PERIODPOLICY_05_SEQNO
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018101"

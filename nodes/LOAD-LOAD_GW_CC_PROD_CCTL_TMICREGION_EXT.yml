@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_TMICREGION_EXT-200010532:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000132092
+              stepCounter: "200010532"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000132093
+              stepCounter: "200010532"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000132094
+              stepCounter: "200010532"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000132095
+              stepCounter: "200010532"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000132096
+              stepCounter: "200010532"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000132097
+              stepCounter: "200010532"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000132098
+              stepCounter: "200010532"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000132099
+              stepCounter: "200010532"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000132100
+              stepCounter: "200010532"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000132101
+              stepCounter: "200010532"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000132105
+              stepCounter: "200010532"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000132102
+              stepCounter: "200010532"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000132104
+              stepCounter: "200010532"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(CCTL_TMICREGION_EXT.HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000132106
+              stepCounter: "200010532"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000132107
+              stepCounter: "200010532"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000132108
+              stepCounter: "200010532"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000132103
+              stepCounter: "200010532"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000132109
+              stepCounter: "200010532"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000132110
+              stepCounter: "200010532"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000132111
+              stepCounter: "200010532"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TMICREGION_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000132091
+              stepCounter: "200010532"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_TMICREGION_EXT'"
+          - columnReference:
+              columnCounter: 2000132090
+              stepCounter: "200010532"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_TMICREGION_EXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_TMICREGION_EXT') }} "CCTL_TMICREGION_EXT" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_TMICREGION_EXT') }} "ODS_GW_CC_PROD_CCTL_TMICREGION_EXT")
+            name: LOAD_GW_CC_PROD_CCTL_TMICREGION_EXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_TMICREGION_EXT
+      name: LOAD_GW_CC_PROD_CCTL_TMICREGION_EXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200010532"

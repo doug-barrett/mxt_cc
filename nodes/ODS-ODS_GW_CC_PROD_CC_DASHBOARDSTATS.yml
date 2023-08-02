@@ -1,0 +1,571 @@
+steps:
+  ODS_GW_CC_PROD_CC_DASHBOARDSTATS-200019067:
+    operation:
+      config: {}
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000010
+      locationName: ODS
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000149953
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEWLITIGATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"NEWLITIGATION\""
+          - columnReference:
+              columnCounter: 2000149954
+              stepCounter: "200019067"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: OPENRESERVES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"OPENRESERVES\""
+          - columnReference:
+              columnCounter: 2000149955
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OPENCLAIMS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"OPENCLAIMS\""
+          - columnReference:
+              columnCounter: 2000149956
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OPENEXPOSURES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"OPENEXPOSURES\""
+          - columnReference:
+              columnCounter: 2000149957
+              stepCounter: "200019067"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALINCURREDNET
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"TOTALINCURREDNET\""
+          - columnReference:
+              columnCounter: 2000149958
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NOTICEONLY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"NOTICEONLY\""
+          - columnReference:
+              columnCounter: 2000149959
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEWNOTICEONLY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"NEWNOTICEONLY\""
+          - columnReference:
+              columnCounter: 2000149960
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLOSETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"CLOSETIME\""
+          - columnReference:
+              columnCounter: 2000149961
+              stepCounter: "200019067"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: EXPENSESONCLOSED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"EXPENSESONCLOSED\""
+          - columnReference:
+              columnCounter: 2000149962
+              stepCounter: "200019067"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: RECOVEREDINPERIOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"RECOVEREDINPERIOD\""
+          - columnReference:
+              columnCounter: 2000149963
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HANDLERS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"HANDLERS\""
+          - columnReference:
+              columnCounter: 2000149964
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"STATTYPE\""
+          - columnReference:
+              columnCounter: 2000149965
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OVERINCURREDLIMIT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"OVERINCURREDLIMIT\""
+          - columnReference:
+              columnCounter: 2000149966
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REOPENEDCLAIMS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"REOPENEDCLAIMS\""
+          - columnReference:
+              columnCounter: 2000149967
+              stepCounter: "200019067"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CLAIMCOSTSONCLOSED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"CLAIMCOSTSONCLOSED\""
+          - columnReference:
+              columnCounter: 2000149968
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEWCLAIMS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"NEWCLAIMS\""
+          - columnReference:
+              columnCounter: 2000149969
+              stepCounter: "200019067"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TTLINCNETMINUSOPENRECRESERVES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"TTLINCNETMINUSOPENRECRESERVES\""
+          - columnReference:
+              columnCounter: 2000149970
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"ID\""
+          - columnReference:
+              columnCounter: 2000149971
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOSSTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"LOSSTYPE\""
+          - columnReference:
+              columnCounter: 2000149972
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"GROUPID\""
+          - columnReference:
+              columnCounter: 2000149973
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLOSEDEXPOSURES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"CLOSEDEXPOSURES\""
+          - columnReference:
+              columnCounter: 2000149974
+              stepCounter: "200019067"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: EXPENSESINPERIOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"EXPENSESINPERIOD\""
+          - columnReference:
+              columnCounter: 2000149975
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COVERAGETYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"COVERAGETYPE\""
+          - columnReference:
+              columnCounter: 2000149976
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLOSEDCLAIMS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"CLOSEDCLAIMS\""
+          - columnReference:
+              columnCounter: 2000149977
+              stepCounter: "200019067"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000149978
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LITIGATED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"LITIGATED\""
+          - columnReference:
+              columnCounter: 2000149979
+              stepCounter: "200019067"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: EXPENSESPAID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"EXPENSESPAID\""
+          - columnReference:
+              columnCounter: 2000149980
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOBCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"LOBCODE\""
+          - columnReference:
+              columnCounter: 2000149981
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEWEXPOSURES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"NEWEXPOSURES\""
+          - columnReference:
+              columnCounter: 2000149982
+              stepCounter: "200019067"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CLAIMCOSTSINPERIOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"CLAIMCOSTSINPERIOD\""
+          - columnReference:
+              columnCounter: 2000149983
+              stepCounter: "200019067"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CLAIMCOSTSPAID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"CLAIMCOSTSPAID\""
+          - columnReference:
+              columnCounter: 2000149984
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FLAGGED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"FLAGGED\""
+          - columnReference:
+              columnCounter: 2000149985
+              stepCounter: "200019067"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000149986
+              stepCounter: "200019067"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000149987
+              stepCounter: "200019067"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000149988
+              stepCounter: "200019067"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000149989
+              stepCounter: "200019067"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000149990
+              stepCounter: "200019067"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000149991
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000149992
+              stepCounter: "200019067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000149993
+              stepCounter: "200019067"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000149994
+              stepCounter: "200019067"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000149995
+              stepCounter: "200019067"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000149996
+              stepCounter: "200019067"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000149997
+              stepCounter: "200019067"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000149998
+              stepCounter: "200019067"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000149999
+              stepCounter: "200019067"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000150001
+              stepCounter: "200019067"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000150000
+              stepCounter: "200019067"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW') }} "STG_ODS_GW_CC_PROD_CC_DASHBOARDSTATS_10_NEW"
+            name: ODS_GW_CC_PROD_CC_DASHBOARDSTATS
+            noLinkRefs: []
+      name: ODS_GW_CC_PROD_CC_DASHBOARDSTATS
+      overrideSQL: false
+      sqlType: "10"
+      type: sql
+    stepCounter: "200019067"

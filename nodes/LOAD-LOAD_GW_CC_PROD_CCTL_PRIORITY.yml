@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_PRIORITY-200012856:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000131540
+              stepCounter: "200012856"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000131541
+              stepCounter: "200012856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000131542
+              stepCounter: "200012856"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000131543
+              stepCounter: "200012856"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000131544
+              stepCounter: "200012856"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000131545
+              stepCounter: "200012856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"ID\""
+          - columnReference:
+              columnCounter: 2000131546
+              stepCounter: "200012856"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000131547
+              stepCounter: "200012856"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000131548
+              stepCounter: "200012856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000131549
+              stepCounter: "200012856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000131550
+              stepCounter: "200012856"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131551
+              stepCounter: "200012856"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131552
+              stepCounter: "200012856"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000131555
+              stepCounter: "200012856"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000131556
+              stepCounter: "200012856"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000131557
+              stepCounter: "200012856"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000131558
+              stepCounter: "200012856"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000131559
+              stepCounter: "200012856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000131560
+              stepCounter: "200012856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000131561
+              stepCounter: "200012856"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIORITY\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000131554
+              stepCounter: "200012856"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000131553
+              stepCounter: "200012856"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_PRIORITY'"
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_PRIORITY
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_PRIORITY') }} "CCTL_PRIORITY" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_PRIORITY') }} "ODS_GW_CC_PROD_CCTL_PRIORITY")
+            name: LOAD_GW_CC_PROD_CCTL_PRIORITY
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_PRIORITY
+      name: LOAD_GW_CC_PROD_CCTL_PRIORITY
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200012856"

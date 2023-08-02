@@ -1,0 +1,1665 @@
+steps:
+  LOAD_GW_CC_PROD_CC_EXPOSURE-200010839:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000134888
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSURETYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"EXPOSURETYPE\""
+          - columnReference:
+              columnCounter: 2000134889
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SECURITYLEVEL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"SECURITYLEVEL\""
+          - columnReference:
+              columnCounter: 2000134890
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000134891
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COVERAGEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"COVERAGEID\""
+          - columnReference:
+              columnCounter: 2000134892
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000134893
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COMPBENEFITSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"COMPBENEFITSID\""
+          - columnReference:
+              columnCounter: 2000134894
+              stepCounter: "200010839"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: OTHERCOMORBIDITYREASON_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"OTHERCOMORBIDITYREASON_EXT\""
+          - columnReference:
+              columnCounter: 2000134895
+              stepCounter: "200010839"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AVERAGEWEEKLYWAGES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"AVERAGEWEEKLYWAGES\""
+          - columnReference:
+              columnCounter: 2000134896
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSINWEEK
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"DAYSINWEEK\""
+          - columnReference:
+              columnCounter: 2000134897
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOSTPROPERTYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"LOSTPROPERTYTYPE\""
+          - columnReference:
+              columnCounter: 2000134898
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SEGMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"SEGMENT\""
+          - columnReference:
+              columnCounter: 2000134899
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTDAYWORKED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"LASTDAYWORKED\""
+          - columnReference:
+              columnCounter: 2000134900
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SSBENEFIT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"SSBENEFIT\""
+          - columnReference:
+              columnCounter: 2000134901
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PIPDEATHBENEFITSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"PIPDEATHBENEFITSID\""
+          - columnReference:
+              columnCounter: 2000134902
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000134903
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000134904
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RSBENEFITSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"RSBENEFITSID\""
+          - columnReference:
+              columnCounter: 2000134905
+              stepCounter: "200010839"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYERLIABILITYNUMBER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"EMPLOYERLIABILITYNUMBER_EXT\""
+          - columnReference:
+              columnCounter: 2000134906
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXAMINATIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"EXAMINATIONDATE\""
+          - columnReference:
+              columnCounter: 2000134907
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PPDBENEFITSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"PPDBENEFITSID\""
+          - columnReference:
+              columnCounter: 2000134908
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TPDBENEFITSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"TPDBENEFITSID\""
+          - columnReference:
+              columnCounter: 2000134909
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: WAGESTMTRECD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"WAGESTMTRECD\""
+          - columnReference:
+              columnCounter: 2000134910
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMANTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"CLAIMANTTYPE\""
+          - columnReference:
+              columnCounter: 2000134911
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLOSEDOUTCOME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"CLOSEDOUTCOME\""
+          - columnReference:
+              columnCounter: 2000134912
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HOSPITALDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"HOSPITALDATE\""
+          - columnReference:
+              columnCounter: 2000134913
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INCIDENTLIMITREACHED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"INCIDENTLIMITREACHED\""
+          - columnReference:
+              columnCounter: 2000134914
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LOCKED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"LOCKED\""
+          - columnReference:
+              columnCounter: 2000134915
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WCBENEFIT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"WCBENEFIT\""
+          - columnReference:
+              columnCounter: 2000134916
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SETTLEMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"SETTLEMETHOD\""
+          - columnReference:
+              columnCounter: 2000134917
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OTHERCOVGCHOICE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"OTHERCOVGCHOICE\""
+          - columnReference:
+              columnCounter: 2000134918
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WAGEBENEFIT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"WAGEBENEFIT\""
+          - columnReference:
+              columnCounter: 2000134919
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DEATHBENEFITSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"DEATHBENEFITSID\""
+          - columnReference:
+              columnCounter: 2000134920
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ASSIGNEDGROUPID\""
+          - columnReference:
+              columnCounter: 2000134921
+              stepCounter: "200010839"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DEPRECIATEDVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"DEPRECIATEDVALUE\""
+          - columnReference:
+              columnCounter: 2000134922
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSQUEUEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"PREVIOUSQUEUEID\""
+          - columnReference:
+              columnCounter: 2000134923
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ASSIGNMENTDATE\""
+          - columnReference:
+              columnCounter: 2000134924
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ASSIGNMENTSTATUS\""
+          - columnReference:
+              columnCounter: 2000134925
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000134926
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HASHYPERTENSION_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"HASHYPERTENSION_EXT\""
+          - columnReference:
+              columnCounter: 2000134927
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: METRICLIMITGENERATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"METRICLIMITGENERATION\""
+          - columnReference:
+              columnCounter: 2000134928
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ELCOVERAGESTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ELCOVERAGESTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000134929
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DISBENEFITSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"DISBENEFITSID\""
+          - columnReference:
+              columnCounter: 2000134930
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PROGRESS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"PROGRESS\""
+          - columnReference:
+              columnCounter: 2000134931
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DIAGNOSTICCNSISTNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"DIAGNOSTICCNSISTNT\""
+          - columnReference:
+              columnCounter: 2000134932
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDBYUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ASSIGNEDBYUSERID\""
+          - columnReference:
+              columnCounter: 2000134933
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHIROTREATMENTEXPECTED_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"CHIROTREATMENTEXPECTED_EXT\""
+          - columnReference:
+              columnCounter: 2000134934
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WCPREEXDISBLTY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"WCPREEXDISBLTY\""
+          - columnReference:
+              columnCounter: 2000134935
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000134936
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000134937
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SURGERYOCCURRED_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"SURGERYOCCURRED_EXT\""
+          - columnReference:
+              columnCounter: 2000134938
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOSSCATEGORY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"LOSSCATEGORY\""
+          - columnReference:
+              columnCounter: 2000134939
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: TREATEDPATIENTBFR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"TREATEDPATIENTBFR\""
+          - columnReference:
+              columnCounter: 2000134940
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOSSPARTY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"LOSSPARTY\""
+          - columnReference:
+              columnCounter: 2000134941
+              stepCounter: "200010839"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000134942
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: BREAKIN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"BREAKIN\""
+          - columnReference:
+              columnCounter: 2000134943
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ELDEFENSEREFERRALDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ELDEFENSEREFERRALDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000134944
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000134945
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000134946
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VALIDATIONLEVEL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"VALIDATIONLEVEL\""
+          - columnReference:
+              columnCounter: 2000134947
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PIPPERSONAGGLIMITREACHED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"PIPPERSONAGGLIMITREACHED\""
+          - columnReference:
+              columnCounter: 2000134948
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LIFEPENSIONBENEFITSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"LIFEPENSIONBENEFITSID\""
+          - columnReference:
+              columnCounter: 2000134949
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: JURISDICTIONSTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"JURISDICTIONSTATE\""
+          - columnReference:
+              columnCounter: 2000134950
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"STATE\""
+          - columnReference:
+              columnCounter: 2000134951
+              stepCounter: "200010839"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: SURGERYTYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"SURGERYTYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000134952
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COVERAGESUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"COVERAGESUBTYPE\""
+          - columnReference:
+              columnCounter: 2000134953
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ELOTHERREFERRALDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ELOTHERREFERRALDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000134954
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ELCOVERAGEREFERRALDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ELCOVERAGEREFERRALDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000134955
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"PREVIOUSUSERID\""
+          - columnReference:
+              columnCounter: 2000134956
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VOCBENEFITSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"VOCBENEFITSID\""
+          - columnReference:
+              columnCounter: 2000134957
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATLINEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"STATLINEID\""
+          - columnReference:
+              columnCounter: 2000134958
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIOREMPDATAID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"PRIOREMPDATAID\""
+          - columnReference:
+              columnCounter: 2000134959
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REOPENDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"REOPENDATE\""
+          - columnReference:
+              columnCounter: 2000134960
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OTHERISSUE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"OTHERISSUE_EXT\""
+          - columnReference:
+              columnCounter: 2000134961
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ISORECEIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ISORECEIVEDATE\""
+          - columnReference:
+              columnCounter: 2000134962
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ISSMOKER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ISSMOKER_EXT\""
+          - columnReference:
+              columnCounter: 2000134963
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMORDER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"CLAIMORDER\""
+          - columnReference:
+              columnCounter: 2000134964
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STRATEGY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"STRATEGY\""
+          - columnReference:
+              columnCounter: 2000134965
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBSTANCEABUSE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"SUBSTANCEABUSE_EXT\""
+          - columnReference:
+              columnCounter: 2000134966
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ISDIABETIC_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ISDIABETIC_EXT\""
+          - columnReference:
+              columnCounter: 2000134967
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PTDBENEFITSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"PTDBENEFITSID\""
+          - columnReference:
+              columnCounter: 2000134968
+              stepCounter: "200010839"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: REPLACEMENTVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"REPLACEMENTVALUE\""
+          - columnReference:
+              columnCounter: 2000134969
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TTDBENEFITSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"TTDBENEFITSID\""
+          - columnReference:
+              columnCounter: 2000134970
+              stepCounter: "200010839"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: WCPREEXDISBLTYINFO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"WCPREEXDISBLTYINFO\""
+          - columnReference:
+              columnCounter: 2000134971
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ELPLAINTIFFREFERRALDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ELPLAINTIFFREFERRALDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000134972
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CLOSEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"CLOSEDATE\""
+          - columnReference:
+              columnCounter: 2000134973
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"PREVIOUSGROUPID\""
+          - columnReference:
+              columnCounter: 2000134974
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WCBENEFITSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"WCBENEFITSID\""
+          - columnReference:
+              columnCounter: 2000134975
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSURETIER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"EXPOSURETIER\""
+          - columnReference:
+              columnCounter: 2000134976
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RIAGREEMENTGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"RIAGREEMENTGROUPID\""
+          - columnReference:
+              columnCounter: 2000134977
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FUTURESURGERYEXPECTED_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"FUTURESURGERYEXPECTED_EXT\""
+          - columnReference:
+              columnCounter: 2000134978
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PIPVOCBENEFITSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"PIPVOCBENEFITSID\""
+          - columnReference:
+              columnCounter: 2000134979
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ISOSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ISOSTATUS\""
+          - columnReference:
+              columnCounter: 2000134980
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: SETTLEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"SETTLEDATE\""
+          - columnReference:
+              columnCounter: 2000134981
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SSDIBENEFITSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"SSDIBENEFITSID\""
+          - columnReference:
+              columnCounter: 2000134982
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PIPNONMEDAGGLIMITREACHED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"PIPNONMEDAGGLIMITREACHED\""
+          - columnReference:
+              columnCounter: 2000134983
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDQUEUEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ASSIGNEDQUEUEID\""
+          - columnReference:
+              columnCounter: 2000134984
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PIPESSLIMITREACHED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"PIPESSLIMITREACHED\""
+          - columnReference:
+              columnCounter: 2000134985
+              stepCounter: "200010839"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: OTHERCOVERAGEINFO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"OTHERCOVERAGEINFO\""
+          - columnReference:
+              columnCounter: 2000134986
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TEMPLOCATIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"TEMPLOCATIONID\""
+          - columnReference:
+              columnCounter: 2000134987
+              stepCounter: "200010839"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ELSETTLEMENTCOMMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ELSETTLEMENTCOMMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000134988
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HOSPITALDAYS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"HOSPITALDAYS\""
+          - columnReference:
+              columnCounter: 2000134989
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FURTHERTREATMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"FURTHERTREATMENT\""
+          - columnReference:
+              columnCounter: 2000134990
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMBEROFSURGERIES_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"NUMBEROFSURGERIES_EXT\""
+          - columnReference:
+              columnCounter: 2000134991
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ASSIGNEDUSERID\""
+          - columnReference:
+              columnCounter: 2000134992
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ELCOVERAGESTATUSASOFDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ELCOVERAGESTATUSASOFDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000134993
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ISOSENDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ISOSENDDATE\""
+          - columnReference:
+              columnCounter: 2000134994
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SSDIELIGIBLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"SSDIELIGIBLE\""
+          - columnReference:
+              columnCounter: 2000134995
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ISOBESE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ISOBESE_EXT\""
+          - columnReference:
+              columnCounter: 2000134996
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISOKNOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ISOKNOWN\""
+          - columnReference:
+              columnCounter: 2000134997
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EXPOSURELIMITREACHED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"EXPOSURELIMITREACHED\""
+          - columnReference:
+              columnCounter: 2000134998
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REOPENEDREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"REOPENEDREASON\""
+          - columnReference:
+              columnCounter: 2000134999
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000135000
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: WAGESTMTSENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"WAGESTMTSENT\""
+          - columnReference:
+              columnCounter: 2000135001
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMANTDENORMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"CLAIMANTDENORMID\""
+          - columnReference:
+              columnCounter: 2000135002
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYCOVERAGE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"PRIMARYCOVERAGE\""
+          - columnReference:
+              columnCounter: 2000135003
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHIROTREATMENTDAYS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"CHIROTREATMENTDAYS_EXT\""
+          - columnReference:
+              columnCounter: 2000135004
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CURRENTCONDITIONS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"CURRENTCONDITIONS\""
+          - columnReference:
+              columnCounter: 2000135005
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LRJURISDICTIONSELECTEDDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"LRJURISDICTIONSELECTEDDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000135006
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INCIDENTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"INCIDENTID\""
+          - columnReference:
+              columnCounter: 2000135007
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEWEMPDATAID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"NEWEMPDATAID\""
+          - columnReference:
+              columnCounter: 2000135008
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RIGROUPSETEXTERNALLY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"RIGROUPSETEXTERNALLY\""
+          - columnReference:
+              columnCounter: 2000135009
+              stepCounter: "200010839"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: ELCOVERAGECOMMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ELCOVERAGECOMMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000135010
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ELSETTLEMENTMETHOD_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"ELSETTLEMENTMETHOD_EXT\""
+          - columnReference:
+              columnCounter: 2000135011
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PIPCLAIMAGGLIMITREACHED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"PIPCLAIMAGGLIMITREACHED\""
+          - columnReference:
+              columnCounter: 2000135012
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: OTHERCOVERAGE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"OTHERCOVERAGE\""
+          - columnReference:
+              columnCounter: 2000135013
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CONTACTPERMITTED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"CONTACTPERMITTED\""
+          - columnReference:
+              columnCounter: 2000135014
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTSEGMENTUPDATEDUSER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"LASTSEGMENTUPDATEDUSER_EXT\""
+          - columnReference:
+              columnCounter: 2000135015
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTSEGMENTUPDATEDTIME_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"LASTSEGMENTUPDATEDTIME_EXT\""
+          - columnReference:
+              columnCounter: 2000135016
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTASSIGNMENTMETHOD_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"LASTASSIGNMENTMETHOD_EXT\""
+          - columnReference:
+              columnCounter: 2000135017
+              stepCounter: "200010839"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: USEDASSIGNMENTEXCEPTIONS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"USEDASSIGNMENTEXCEPTIONS_EXT\""
+          - columnReference:
+              columnCounter: 2000135018
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTASSIGNMENTTIME_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"LASTASSIGNMENTTIME_EXT\""
+          - columnReference:
+              columnCounter: 2000135019
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENTSEGMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"CURRENTSEGMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000135020
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: IMAGEFOLDERSERIALNO_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"IMAGEFOLDERSERIALNO_EXT\""
+          - columnReference:
+              columnCounter: 2000135021
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUPPLEMENTALWORKLOADWEIGHT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"SUPPLEMENTALWORKLOADWEIGHT\""
+          - columnReference:
+              columnCounter: 2000135022
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: WORKLOADUPDATED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"WORKLOADUPDATED\""
+          - columnReference:
+              columnCounter: 2000135023
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WORKLOADWEIGHT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"WORKLOADWEIGHT\""
+          - columnReference:
+              columnCounter: 2000135024
+              stepCounter: "200010839"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000135025
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000135026
+              stepCounter: "200010839"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000135027
+              stepCounter: "200010839"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000135028
+              stepCounter: "200010839"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000135029
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000135030
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000135031
+              stepCounter: "200010839"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000135032
+              stepCounter: "200010839"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000135033
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000134887
+              stepCounter: "200010839"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_EXPOSURE'"
+          - columnReference:
+              columnCounter: 2000134886
+              stepCounter: "200010839"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_EXPOSURE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_EXPOSURE') }} "CC_EXPOSURE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_EXPOSURE') }} "ODS_GW_CC_PROD_CC_EXPOSURE")
+            name: LOAD_GW_CC_PROD_CC_EXPOSURE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_EXPOSURE
+      name: LOAD_GW_CC_PROD_CC_EXPOSURE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200010839"

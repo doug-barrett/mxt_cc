@@ -1,0 +1,312 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION-200016748:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000139478
+              stepCounter: "200016748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYEXCEPTIONGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"POLICYEXCEPTIONGROUPID\""
+          - columnReference:
+              columnCounter: 2000139479
+              stepCounter: "200016748"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000139480
+              stepCounter: "200016748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139481
+              stepCounter: "200016748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYEXCEPTIONUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"POLICYEXCEPTIONUSERID\""
+          - columnReference:
+              columnCounter: 2000139482
+              stepCounter: "200016748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000139483
+              stepCounter: "200016748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000139484
+              stepCounter: "200016748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000139485
+              stepCounter: "200016748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"ACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000139486
+              stepCounter: "200016748"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: POLICYEXCEPTIONGROUPNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"POLICYEXCEPTIONGROUPNAME\""
+          - columnReference:
+              columnCounter: 2000139487
+              stepCounter: "200016748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SEGMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"SEGMENT\""
+          - columnReference:
+              columnCounter: 2000139488
+              stepCounter: "200016748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139489
+              stepCounter: "200016748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000139490
+              stepCounter: "200016748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"ID\""
+          - columnReference:
+              columnCounter: 2000139491
+              stepCounter: "200016748"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000139492
+              stepCounter: "200016748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139493
+              stepCounter: "200016748"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000139494
+              stepCounter: "200016748"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000139495
+              stepCounter: "200016748"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000139496
+              stepCounter: "200016748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139497
+              stepCounter: "200016748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000139498
+              stepCounter: "200016748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000139499
+              stepCounter: "200016748"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000139500
+              stepCounter: "200016748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_POLICYHOLDEREXCEPTION\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000139477
+              stepCounter: "200016748"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_POLICYHOLDEREXCEPTION'"
+          - columnReference:
+              columnCounter: 2000139476
+              stepCounter: "200016748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_POLICYHOLDEREXCEPTION
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_POLICYHOLDEREXCEPTION') }} "CCX_POLICYHOLDEREXCEPTION" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION') }} "ODS_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION")
+            name: LOAD_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION
+      name: LOAD_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016748"

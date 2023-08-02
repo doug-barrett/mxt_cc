@@ -1,0 +1,260 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE-200010949:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000058216
+              stepCounter: "200010949"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000058217
+              stepCounter: "200010949"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000058218
+              stepCounter: "200010949"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000058219
+              stepCounter: "200010949"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000058220
+              stepCounter: "200010949"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000058221
+              stepCounter: "200010949"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000058222
+              stepCounter: "200010949"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000058223
+              stepCounter: "200010949"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000058224
+              stepCounter: "200010949"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000058225
+              stepCounter: "200010949"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000058226
+              stepCounter: "200010949"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: DATEADD(MILLISECOND, -1, ODS_CTRL_HVRCAPTSTAMP.HVRCAPTSTAMP)
+          - columnReference:
+              columnCounter: 2000058227
+              stepCounter: "200010949"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000058228
+              stepCounter: "200010949"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000058229
+              stepCounter: "200010949"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000058230
+              stepCounter: "200010949"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000058231
+              stepCounter: "200010949"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Y'"
+          - columnReference:
+              columnCounter: 2000058232
+              stepCounter: "200010949"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000058233
+              stepCounter: "200010949"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000058235
+              stepCounter: "200010949"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000058234
+              stepCounter: "200010949"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_05_LOAD
+            join:
+              joinCondition: "FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_PAYMENTTYPE') }} \"ODS_GW_CC_PROD_CCTL_PAYMENTTYPE\" JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON ODS_GW_CC_PROD_CCTL_PAYMENTTYPE.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  LEFT JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_05_LOAD') }} \"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_05_LOAD\"    ON ODS_GW_CC_PROD_CCTL_PAYMENTTYPE.ID = STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_05_LOAD.ID WHERE STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_05_LOAD.ID IS NULL "
+            name: STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_PAYMENTTYPE
+      name: STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200010949"

@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_EMPLOYEELOCATIONTYPE_EXT-200015330:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000130970
+              stepCounter: "200015330"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000130971
+              stepCounter: "200015330"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000130972
+              stepCounter: "200015330"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000130973
+              stepCounter: "200015330"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000130974
+              stepCounter: "200015330"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000130975
+              stepCounter: "200015330"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000130976
+              stepCounter: "200015330"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000130977
+              stepCounter: "200015330"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000130978
+              stepCounter: "200015330"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000130979
+              stepCounter: "200015330"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000130983
+              stepCounter: "200015330"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000130980
+              stepCounter: "200015330"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000130982
+              stepCounter: "200015330"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(CCTL_EMPLOYEELOCATIONTYPE_EXT.HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000130984
+              stepCounter: "200015330"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000130985
+              stepCounter: "200015330"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000130986
+              stepCounter: "200015330"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000130981
+              stepCounter: "200015330"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000130987
+              stepCounter: "200015330"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000130988
+              stepCounter: "200015330"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000130989
+              stepCounter: "200015330"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_EMPLOYEELOCATIONTYPE_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000130969
+              stepCounter: "200015330"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_EMPLOYEELOCATIONTYPE_EXT'"
+          - columnReference:
+              columnCounter: 2000130968
+              stepCounter: "200015330"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_EMPLOYEELOCATIONTYPE_EXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_EMPLOYEELOCATIONTYPE_EXT') }} "CCTL_EMPLOYEELOCATIONTYPE_EXT" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_EMPLOYEELOCATIONTYPE_EXT') }} "ODS_GW_CC_PROD_CCTL_EMPLOYEELOCATIONTYPE_EXT")
+            name: LOAD_GW_CC_PROD_CCTL_EMPLOYEELOCATIONTYPE_EXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_EMPLOYEELOCATIONTYPE_EXT
+      name: LOAD_GW_CC_PROD_CCTL_EMPLOYEELOCATIONTYPE_EXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200015330"

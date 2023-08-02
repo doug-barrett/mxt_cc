@@ -1,0 +1,224 @@
+steps:
+  LOAD_GW_CC_PROD_CC_PARENTGROUP-200016873:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000136028
+              stepCounter: "200016873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OWNERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_PARENTGROUP\".\"OWNERID\""
+          - columnReference:
+              columnCounter: 2000136029
+              stepCounter: "200016873"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_PARENTGROUP\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000136030
+              stepCounter: "200016873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FOREIGNENTITYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_PARENTGROUP\".\"FOREIGNENTITYID\""
+          - columnReference:
+              columnCounter: 2000136031
+              stepCounter: "200016873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_PARENTGROUP\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000136032
+              stepCounter: "200016873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_PARENTGROUP\".\"ID\""
+          - columnReference:
+              columnCounter: 2000136033
+              stepCounter: "200016873"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_PARENTGROUP\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000136034
+              stepCounter: "200016873"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_PARENTGROUP\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136035
+              stepCounter: "200016873"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_PARENTGROUP\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000136036
+              stepCounter: "200016873"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_PARENTGROUP\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000136037
+              stepCounter: "200016873"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_PARENTGROUP\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000136038
+              stepCounter: "200016873"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_PARENTGROUP\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136039
+              stepCounter: "200016873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_PARENTGROUP\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000136040
+              stepCounter: "200016873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_PARENTGROUP\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000136041
+              stepCounter: "200016873"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_PARENTGROUP\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000136042
+              stepCounter: "200016873"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_PARENTGROUP\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000136027
+              stepCounter: "200016873"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_PARENTGROUP'"
+          - columnReference:
+              columnCounter: 2000136026
+              stepCounter: "200016873"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_PARENTGROUP
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_PARENTGROUP') }} "CC_PARENTGROUP" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_PARENTGROUP') }} "ODS_GW_CC_PROD_CC_PARENTGROUP")
+            name: LOAD_GW_CC_PROD_CC_PARENTGROUP
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_PARENTGROUP
+      name: LOAD_GW_CC_PROD_CC_PARENTGROUP
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016873"

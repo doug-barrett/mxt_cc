@@ -1,0 +1,312 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION-200016756:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000139694
+              stepCounter: "200016756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000139695
+              stepCounter: "200016756"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000139696
+              stepCounter: "200016756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SIUSUMMARYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"SIUSUMMARYID\""
+          - columnReference:
+              columnCounter: 2000139697
+              stepCounter: "200016756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139698
+              stepCounter: "200016756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000139699
+              stepCounter: "200016756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000139700
+              stepCounter: "200016756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000139701
+              stepCounter: "200016756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000139702
+              stepCounter: "200016756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139703
+              stepCounter: "200016756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000139704
+              stepCounter: "200016756"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: SIUINVESTIGATIONCOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"SIUINVESTIGATIONCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000139705
+              stepCounter: "200016756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"ID\""
+          - columnReference:
+              columnCounter: 2000139706
+              stepCounter: "200016756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SIUINVESTIGATIONTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"SIUINVESTIGATIONTYPE\""
+          - columnReference:
+              columnCounter: 2000139707
+              stepCounter: "200016756"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000139708
+              stepCounter: "200016756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139709
+              stepCounter: "200016756"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000139710
+              stepCounter: "200016756"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000139711
+              stepCounter: "200016756"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000139712
+              stepCounter: "200016756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139713
+              stepCounter: "200016756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000139714
+              stepCounter: "200016756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000139715
+              stepCounter: "200016756"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000139716
+              stepCounter: "200016756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SIUINVESTIGATION\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000139693
+              stepCounter: "200016756"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_SIUINVESTIGATION'"
+          - columnReference:
+              columnCounter: 2000139692
+              stepCounter: "200016756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_SIUINVESTIGATION
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_SIUINVESTIGATION') }} "CCX_SIUINVESTIGATION" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_SIUINVESTIGATION') }} "ODS_GW_CC_PROD_CCX_SIUINVESTIGATION")
+            name: LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_SIUINVESTIGATION
+      name: LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016756"

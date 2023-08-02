@@ -1,0 +1,499 @@
+steps:
+  LOAD_GW_CC_PROD_CC_WORKCOMP-200009096:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000137847
+              stepCounter: "200009096"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000137848
+              stepCounter: "200009096"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LIMITEDREIMBURSEMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"LIMITEDREIMBURSEMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000137849
+              stepCounter: "200009096"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000137850
+              stepCounter: "200009096"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: TIMELOSSREPORT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"TIMELOSSREPORT\""
+          - columnReference:
+              columnCounter: 2000137851
+              stepCounter: "200009096"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: MEDICALREPORT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"MEDICALREPORT\""
+          - columnReference:
+              columnCounter: 2000137852
+              stepCounter: "200009096"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000137853
+              stepCounter: "200009096"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000137854
+              stepCounter: "200009096"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DEATHREPORT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"DEATHREPORT\""
+          - columnReference:
+              columnCounter: 2000137855
+              stepCounter: "200009096"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000137856
+              stepCounter: "200009096"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000137857
+              stepCounter: "200009096"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000137858
+              stepCounter: "200009096"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: EQUIPMENTUSED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"EQUIPMENTUSED\""
+          - columnReference:
+              columnCounter: 2000137859
+              stepCounter: "200009096"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ILLNESSRELATEDTOEXPOSURE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"ILLNESSRELATEDTOEXPOSURE\""
+          - columnReference:
+              columnCounter: 2000137860
+              stepCounter: "200009096"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WAITINGPERIODAPPLIED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"WAITINGPERIODAPPLIED\""
+          - columnReference:
+              columnCounter: 2000137861
+              stepCounter: "200009096"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: ACTIVITYPERFORMED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"ACTIVITYPERFORMED\""
+          - columnReference:
+              columnCounter: 2000137862
+              stepCounter: "200009096"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EMPLOYERLIABILITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"EMPLOYERLIABILITY\""
+          - columnReference:
+              columnCounter: 2000137863
+              stepCounter: "200009096"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000137864
+              stepCounter: "200009096"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COMPENSABLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"COMPENSABLE\""
+          - columnReference:
+              columnCounter: 2000137865
+              stepCounter: "200009096"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000137866
+              stepCounter: "200009096"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"ID\""
+          - columnReference:
+              columnCounter: 2000137867
+              stepCounter: "200009096"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEOFEMPLOYEEREPRESENTATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"DATEOFEMPLOYEEREPRESENTATION\""
+          - columnReference:
+              columnCounter: 2000137868
+              stepCounter: "200009096"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCIDENTPREMISES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"ACCIDENTPREMISES\""
+          - columnReference:
+              columnCounter: 2000137869
+              stepCounter: "200009096"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DISCONTINUEDFRINGEBENEFITS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"DISCONTINUEDFRINGEBENEFITS\""
+          - columnReference:
+              columnCounter: 2000137870
+              stepCounter: "200009096"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: FULLDENIALEFFECTIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"FULLDENIALEFFECTIVEDATE\""
+          - columnReference:
+              columnCounter: 2000137871
+              stepCounter: "200009096"
+            dataType: VARCHAR(25)
+            defaultValue: ""
+            description: ""
+            name: JURISDICTIONCLAIMNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"JURISDICTIONCLAIMNUMBER\""
+          - columnReference:
+              columnCounter: 2000137872
+              stepCounter: "200009096"
+            dataType: VARCHAR(25)
+            defaultValue: ""
+            description: ""
+            name: INSUREDREPORTNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"INSUREDREPORTNUMBER\""
+          - columnReference:
+              columnCounter: 2000137873
+              stepCounter: "200009096"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: MEDRECRELEASEAUTH
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"MEDRECRELEASEAUTH\""
+          - columnReference:
+              columnCounter: 2000137874
+              stepCounter: "200009096"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PARTIALDENIALREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"PARTIALDENIALREASON\""
+          - columnReference:
+              columnCounter: 2000137875
+              stepCounter: "200009096"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CLASSCODEBYLOCATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"CLASSCODEBYLOCATION\""
+          - columnReference:
+              columnCounter: 2000137876
+              stepCounter: "200009096"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INITIALTREATMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"INITIALTREATMENT\""
+          - columnReference:
+              columnCounter: 2000137877
+              stepCounter: "200009096"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000137878
+              stepCounter: "200009096"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000137879
+              stepCounter: "200009096"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000137880
+              stepCounter: "200009096"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000137881
+              stepCounter: "200009096"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000137882
+              stepCounter: "200009096"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000137883
+              stepCounter: "200009096"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000137884
+              stepCounter: "200009096"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000137885
+              stepCounter: "200009096"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000137886
+              stepCounter: "200009096"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_WORKCOMP\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000137846
+              stepCounter: "200009096"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_WORKCOMP'"
+          - columnReference:
+              columnCounter: 2000137845
+              stepCounter: "200009096"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_WORKCOMP
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_WORKCOMP') }} "CC_WORKCOMP" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_WORKCOMP') }} "ODS_GW_CC_PROD_CC_WORKCOMP")
+            name: LOAD_GW_CC_PROD_CC_WORKCOMP
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_WORKCOMP
+      name: LOAD_GW_CC_PROD_CC_WORKCOMP
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200009096"

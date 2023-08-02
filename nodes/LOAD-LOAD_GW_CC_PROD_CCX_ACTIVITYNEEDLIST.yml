@@ -1,0 +1,323 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_ACTIVITYNEEDLIST-200016661:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000138122
+              stepCounter: "200016661"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000138123
+              stepCounter: "200016661"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000138124
+              stepCounter: "200016661"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138125
+              stepCounter: "200016661"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000138126
+              stepCounter: "200016661"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000138127
+              stepCounter: "200016661"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000138128
+              stepCounter: "200016661"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ADDITIONALNEEDCOMPLETED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"ADDITIONALNEEDCOMPLETED\""
+          - columnReference:
+              columnCounter: 2000138129
+              stepCounter: "200016661"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACTIVITYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"ACTIVITYID\""
+          - columnReference:
+              columnCounter: 2000138130
+              stepCounter: "200016661"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: ADDITIONALNEEDCOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"ADDITIONALNEEDCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000138131
+              stepCounter: "200016661"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138132
+              stepCounter: "200016661"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000138133
+              stepCounter: "200016661"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: ACTIVITYNEEDDESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"ACTIVITYNEEDDESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000138134
+              stepCounter: "200016661"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"ID\""
+          - columnReference:
+              columnCounter: 2000138135
+              stepCounter: "200016661"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ADDITIONALNEEDREQUIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"ADDITIONALNEEDREQUIRED\""
+          - columnReference:
+              columnCounter: 2000138136
+              stepCounter: "200016661"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000138137
+              stepCounter: "200016661"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138138
+              stepCounter: "200016661"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000138139
+              stepCounter: "200016661"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000138140
+              stepCounter: "200016661"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000138141
+              stepCounter: "200016661"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138142
+              stepCounter: "200016661"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000138143
+              stepCounter: "200016661"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000138144
+              stepCounter: "200016661"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000138145
+              stepCounter: "200016661"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ACTIVITYNEEDLIST\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000138121
+              stepCounter: "200016661"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_ACTIVITYNEEDLIST'"
+          - columnReference:
+              columnCounter: 2000138120
+              stepCounter: "200016661"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_ACTIVITYNEEDLIST
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_ACTIVITYNEEDLIST') }} "CCX_ACTIVITYNEEDLIST" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_ACTIVITYNEEDLIST') }} "ODS_GW_CC_PROD_CCX_ACTIVITYNEEDLIST")
+            name: LOAD_GW_CC_PROD_CCX_ACTIVITYNEEDLIST
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_ACTIVITYNEEDLIST
+      name: LOAD_GW_CC_PROD_CCX_ACTIVITYNEEDLIST
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016661"

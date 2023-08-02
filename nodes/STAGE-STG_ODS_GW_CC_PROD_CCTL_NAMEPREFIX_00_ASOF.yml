@@ -1,0 +1,347 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCTL_NAMEPREFIX_00_ASOF-200033911:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000304502
+              stepCounter: "200033911"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000304503
+              stepCounter: "200033911"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000304504
+              stepCounter: "200033911"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000304505
+              stepCounter: "200033911"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000304506
+              stepCounter: "200033911"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000304507
+              stepCounter: "200033911"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"ID\""
+          - columnReference:
+              columnCounter: 2000304508
+              stepCounter: "200033911"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000304509
+              stepCounter: "200033911"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000304510
+              stepCounter: "200033911"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000304511
+              stepCounter: "200033911"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000304522
+              stepCounter: "200033911"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000304512
+              stepCounter: "200033911"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000304513
+              stepCounter: "200033911"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000304523
+              stepCounter: "200033911"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000304524
+              stepCounter: "200033911"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000304525
+              stepCounter: "200033911"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000304514
+              stepCounter: "200033911"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000304526
+              stepCounter: "200033911"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000304527
+              stepCounter: "200033911"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000304528
+              stepCounter: "200033911"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000304519
+              stepCounter: "200033911"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ODS_CTRL_HVRCAPTSTAMP."HVRCAPTUREKEY"
+          - columnReference:
+              columnCounter: 2000304520
+              stepCounter: "200033911"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ODS_CTRL_HVRCAPTSTAMP."BATCH_NUMBER"
+          - columnReference:
+              columnCounter: 2000304521
+              stepCounter: "200033911"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CASE   WHEN LOAD_GW_CC_PROD_CCTL_NAMEPREFIX.HVROP = 0 THEN 'Y'   WHEN LOAD_GW_CC_PROD_CCTL_NAMEPREFIX.HVRCAPTSTAMP < ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE THEN 'Y'   ELSE 'N'   END
+          - columnReference:
+              columnCounter: 2000304529
+              stepCounter: "200033911"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ROW_NUM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ROW_NUMBER() OVER(    PARTITION BY      LOAD_GW_CC_PROD_CCTL_NAMEPREFIX.ID    ORDER BY      LOAD_GW_CC_PROD_CCTL_NAMEPREFIX.HVRCAPTSTAMP DESC     ,LOAD_GW_CC_PROD_CCTL_NAMEPREFIX.HVRINTEGSEQ DESC  )
+          - columnReference:
+              columnCounter: 2000304515
+              stepCounter: "200033911"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000304516
+              stepCounter: "200033911"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000304518
+              stepCounter: "200033911"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000304517
+              stepCounter: "200033911"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCTL_NAMEPREFIX
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRREFRESH_HISTORY
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCTL_NAMEPREFIX') }} \"LOAD_GW_CC_PROD_CCTL_NAMEPREFIX\" JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY = 'CC_PROD'   AND LOAD_GW_CC_PROD_CCTL_NAMEPREFIX.HVRCAPTSTAMP < ODS_CTRL_HVRCAPTSTAMP.HVRCAPTSTAMP  JOIN {{ ref('ODS','ODS_CTRL_HVRREFRESH_HISTORY') }} \"ODS_CTRL_HVRREFRESH_HISTORY\"    ON LOAD_GW_CC_PROD_CCTL_NAMEPREFIX.DSS_RECORD_SOURCE = ODS_CTRL_HVRREFRESH_HISTORY.HVR_RECORD_SOURCE   AND LOAD_GW_CC_PROD_CCTL_NAMEPREFIX.HVRCAPTSTAMP BETWEEN ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE AND ODS_CTRL_HVRREFRESH_HISTORY.THRU_DATE  "
+            name: STG_ODS_GW_CC_PROD_CCTL_NAMEPREFIX_00_ASOF
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCTL_NAMEPREFIX_00_ASOF
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200033911"

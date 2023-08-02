@@ -1,0 +1,393 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCX_EDIOVERRIDE_10_NEW-200018949:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000261725
+              stepCounter: "200018949"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REMINDERDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"REMINDERDATE\""
+          - columnReference:
+              columnCounter: 2000261726
+              stepCounter: "200018949"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000261727
+              stepCounter: "200018949"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000261728
+              stepCounter: "200018949"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000261729
+              stepCounter: "200018949"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000261730
+              stepCounter: "200018949"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000261731
+              stepCounter: "200018949"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EDISUPPRESSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"EDISUPPRESSION\""
+          - columnReference:
+              columnCounter: 2000261732
+              stepCounter: "200018949"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000261733
+              stepCounter: "200018949"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FROIOVERRIDEMTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"FROIOVERRIDEMTC\""
+          - columnReference:
+              columnCounter: 2000261734
+              stepCounter: "200018949"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: FROIOVERRIDEREQUESTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"FROIOVERRIDEREQUESTDATE\""
+          - columnReference:
+              columnCounter: 2000261735
+              stepCounter: "200018949"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EDISUPPRESSIONREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"EDISUPPRESSIONREASON\""
+          - columnReference:
+              columnCounter: 2000261736
+              stepCounter: "200018949"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000261737
+              stepCounter: "200018949"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000261738
+              stepCounter: "200018949"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000261739
+              stepCounter: "200018949"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000261740
+              stepCounter: "200018949"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000261741
+              stepCounter: "200018949"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000261742
+              stepCounter: "200018949"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000261743
+              stepCounter: "200018949"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000261744
+              stepCounter: "200018949"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000261745
+              stepCounter: "200018949"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000261746
+              stepCounter: "200018949"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000261747
+              stepCounter: "200018949"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000261748
+              stepCounter: "200018949"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000261749
+              stepCounter: "200018949"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000261755
+              stepCounter: "200018949"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_EDIOVERRIDE_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000261756
+              stepCounter: "200018949"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_EDIOVERRIDE_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000261754
+              stepCounter: "200018949"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000261750
+              stepCounter: "200018949"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000261751
+              stepCounter: "200018949"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000261753
+              stepCounter: "200018949"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000261752
+              stepCounter: "200018949"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCX_EDIOVERRIDE
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCX_EDIOVERRIDE_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCX_EDIOVERRIDE') }} \"LOAD_GW_CC_PROD_CCX_EDIOVERRIDE\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCX_EDIOVERRIDE_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CCX_EDIOVERRIDE_05_SEQNO\"    ON LOAD_GW_CC_PROD_CCX_EDIOVERRIDE.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CCX_EDIOVERRIDE_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CCX_EDIOVERRIDE_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CCX_EDIOVERRIDE_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCX_EDIOVERRIDE_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018949"

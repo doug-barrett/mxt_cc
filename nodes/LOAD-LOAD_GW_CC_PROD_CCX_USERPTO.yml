@@ -1,0 +1,334 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_USERPTO-200016774:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000140382
+              stepCounter: "200016774"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000140383
+              stepCounter: "200016774"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BATCHPROCESSDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"BATCHPROCESSDATE\""
+          - columnReference:
+              columnCounter: 2000140384
+              stepCounter: "200016774"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000140385
+              stepCounter: "200016774"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PTOTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"PTOTYPE\""
+          - columnReference:
+              columnCounter: 2000140386
+              stepCounter: "200016774"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: USERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"USERID\""
+          - columnReference:
+              columnCounter: 2000140387
+              stepCounter: "200016774"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ACTIVE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"ACTIVE\""
+          - columnReference:
+              columnCounter: 2000140388
+              stepCounter: "200016774"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000140389
+              stepCounter: "200016774"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000140390
+              stepCounter: "200016774"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000140391
+              stepCounter: "200016774"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ENDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"ENDDATE\""
+          - columnReference:
+              columnCounter: 2000140392
+              stepCounter: "200016774"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000140393
+              stepCounter: "200016774"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000140394
+              stepCounter: "200016774"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000140395
+              stepCounter: "200016774"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BEGINDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"BEGINDATE\""
+          - columnReference:
+              columnCounter: 2000140396
+              stepCounter: "200016774"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"ID\""
+          - columnReference:
+              columnCounter: 2000140397
+              stepCounter: "200016774"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000140398
+              stepCounter: "200016774"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000140399
+              stepCounter: "200016774"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000140400
+              stepCounter: "200016774"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000140401
+              stepCounter: "200016774"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000140402
+              stepCounter: "200016774"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000140403
+              stepCounter: "200016774"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000140404
+              stepCounter: "200016774"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000140405
+              stepCounter: "200016774"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000140406
+              stepCounter: "200016774"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_USERPTO\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000140381
+              stepCounter: "200016774"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_USERPTO'"
+          - columnReference:
+              columnCounter: 2000140380
+              stepCounter: "200016774"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_USERPTO
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_USERPTO') }} "CCX_USERPTO" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_USERPTO') }} "ODS_GW_CC_PROD_CCX_USERPTO")
+            name: LOAD_GW_CC_PROD_CCX_USERPTO
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_USERPTO
+      name: LOAD_GW_CC_PROD_CCX_USERPTO
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016774"

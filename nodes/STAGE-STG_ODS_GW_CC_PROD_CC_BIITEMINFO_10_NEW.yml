@@ -1,0 +1,382 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_BIITEMINFO_10_NEW-200017856:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000253135
+              stepCounter: "200017856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RESERVELINEWRAPPERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"RESERVELINEWRAPPERID\""
+          - columnReference:
+              columnCounter: 2000253136
+              stepCounter: "200017856"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000253137
+              stepCounter: "200017856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSUREID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"EXPOSUREID\""
+          - columnReference:
+              columnCounter: 2000253138
+              stepCounter: "200017856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000253139
+              stepCounter: "200017856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000253140
+              stepCounter: "200017856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000253141
+              stepCounter: "200017856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000253142
+              stepCounter: "200017856"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000253143
+              stepCounter: "200017856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BULKINVOICEITEMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"BULKINVOICEITEMID\""
+          - columnReference:
+              columnCounter: 2000253144
+              stepCounter: "200017856"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: BULKINVOICEITEMPUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"BULKINVOICEITEMPUBLICID\""
+          - columnReference:
+              columnCounter: 2000253145
+              stepCounter: "200017856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000253146
+              stepCounter: "200017856"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000253147
+              stepCounter: "200017856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"ID\""
+          - columnReference:
+              columnCounter: 2000253148
+              stepCounter: "200017856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000253149
+              stepCounter: "200017856"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000253150
+              stepCounter: "200017856"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000253151
+              stepCounter: "200017856"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000253152
+              stepCounter: "200017856"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000253153
+              stepCounter: "200017856"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_BIITEMINFO_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000253154
+              stepCounter: "200017856"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000253155
+              stepCounter: "200017856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000253156
+              stepCounter: "200017856"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000253157
+              stepCounter: "200017856"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000253158
+              stepCounter: "200017856"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000253163
+              stepCounter: "200017856"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_BIITEMINFO_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000253164
+              stepCounter: "200017856"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_BIITEMINFO_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000253165
+              stepCounter: "200017856"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000253159
+              stepCounter: "200017856"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000253160
+              stepCounter: "200017856"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIITEMINFO\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000253162
+              stepCounter: "200017856"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000253161
+              stepCounter: "200017856"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_BIITEMINFO
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_BIITEMINFO_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_BIITEMINFO') }} \"LOAD_GW_CC_PROD_CC_BIITEMINFO\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_BIITEMINFO_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CC_BIITEMINFO_05_SEQNO\"    ON LOAD_GW_CC_PROD_CC_BIITEMINFO.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CC_BIITEMINFO_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CC_BIITEMINFO_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CC_BIITEMINFO_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_BIITEMINFO_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200017856"

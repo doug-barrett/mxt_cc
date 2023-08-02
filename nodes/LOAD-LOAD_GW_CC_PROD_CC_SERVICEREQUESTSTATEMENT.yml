@@ -1,0 +1,411 @@
+steps:
+  LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT-200016902:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000136839
+              stepCounter: "200016902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136840
+              stepCounter: "200016902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHECKID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"CHECKID\""
+          - columnReference:
+              columnCounter: 2000136841
+              stepCounter: "200016902"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000136842
+              stepCounter: "200016902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000136843
+              stepCounter: "200016902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000136844
+              stepCounter: "200016902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: APPROVEDBYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"APPROVEDBYID\""
+          - columnReference:
+              columnCounter: 2000136845
+              stepCounter: "200016902"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000136846
+              stepCounter: "200016902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136847
+              stepCounter: "200016902"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: APPROVALDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"APPROVALDATE\""
+          - columnReference:
+              columnCounter: 2000136848
+              stepCounter: "200016902"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: DECLINEDREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"DECLINEDREASON\""
+          - columnReference:
+              columnCounter: 2000136849
+              stepCounter: "200016902"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PAYMENTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"PAYMENTDATE\""
+          - columnReference:
+              columnCounter: 2000136850
+              stepCounter: "200016902"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: REFERENCENUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"REFERENCENUMBER\""
+          - columnReference:
+              columnCounter: 2000136851
+              stepCounter: "200016902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SERVICEREQUESTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"SERVICEREQUESTID\""
+          - columnReference:
+              columnCounter: 2000136852
+              stepCounter: "200016902"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000136853
+              stepCounter: "200016902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000136854
+              stepCounter: "200016902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000136855
+              stepCounter: "200016902"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STATEMENTCREATIONTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"STATEMENTCREATIONTIME\""
+          - columnReference:
+              columnCounter: 2000136856
+              stepCounter: "200016902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"SOURCE\""
+          - columnReference:
+              columnCounter: 2000136857
+              stepCounter: "200016902"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000136858
+              stepCounter: "200016902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAIDBYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"PAIDBYID\""
+          - columnReference:
+              columnCounter: 2000136859
+              stepCounter: "200016902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPECTEDDAYSTOPERFORMSERVICE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"EXPECTEDDAYSTOPERFORMSERVICE\""
+          - columnReference:
+              columnCounter: 2000136860
+              stepCounter: "200016902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICESTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"INVOICESTATUS\""
+          - columnReference:
+              columnCounter: 2000136861
+              stepCounter: "200016902"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000136862
+              stepCounter: "200016902"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136863
+              stepCounter: "200016902"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000136864
+              stepCounter: "200016902"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000136865
+              stepCounter: "200016902"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000136866
+              stepCounter: "200016902"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136867
+              stepCounter: "200016902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000136868
+              stepCounter: "200016902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000136869
+              stepCounter: "200016902"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000136870
+              stepCounter: "200016902"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVICEREQUESTSTATEMENT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000136838
+              stepCounter: "200016902"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_SERVICEREQUESTSTATEMENT'"
+          - columnReference:
+              columnCounter: 2000136837
+              stepCounter: "200016902"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_SERVICEREQUESTSTATEMENT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_SERVICEREQUESTSTATEMENT') }} "CC_SERVICEREQUESTSTATEMENT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT') }} "ODS_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT")
+            name: LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT
+      name: LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016902"

@@ -1,0 +1,642 @@
+steps:
+  LOAD_GW_CC_PROD_CC_EMPLOYMENTDATA-200009097:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000134791
+              stepCounter: "200009097"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: WAGEAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"WAGEAMOUNT\""
+          - columnReference:
+              columnCounter: 2000134792
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000134793
+              stepCounter: "200009097"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: OVERTIMERATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"OVERTIMERATE\""
+          - columnReference:
+              columnCounter: 2000134794
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000134795
+              stepCounter: "200009097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000134796
+              stepCounter: "200009097"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: SEPARATIONREASON_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"SEPARATIONREASON_EXT\""
+          - columnReference:
+              columnCounter: 2000134797
+              stepCounter: "200009097"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: SSBENEFITSAMNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"SSBENEFITSAMNT\""
+          - columnReference:
+              columnCounter: 2000134798
+              stepCounter: "200009097"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: HOURLYRATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"HOURLYRATE_EXT\""
+          - columnReference:
+              columnCounter: 2000134799
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000134800
+              stepCounter: "200009097"
+            dataType: VARCHAR(4)
+            defaultValue: ""
+            description: ""
+            name: REPORTEDCLASSCODE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"REPORTEDCLASSCODE_EXT\""
+          - columnReference:
+              columnCounter: 2000134801
+              stepCounter: "200009097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTWORKEDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"LASTWORKEDDATE\""
+          - columnReference:
+              columnCounter: 2000134802
+              stepCounter: "200009097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000134803
+              stepCounter: "200009097"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SCNDINJRYFND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"SCNDINJRYFND\""
+          - columnReference:
+              columnCounter: 2000134804
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WAGEDETERMINATIONTYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"WAGEDETERMINATIONTYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000134805
+              stepCounter: "200009097"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: WAGEAMOUNTPOSTINJURY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"WAGEAMOUNTPOSTINJURY\""
+          - columnReference:
+              columnCounter: 2000134806
+              stepCounter: "200009097"
+            dataType: NUMBER(3,1)
+            defaultValue: ""
+            description: ""
+            name: NUMHOURSWORKED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"NUMHOURSWORKED\""
+          - columnReference:
+              columnCounter: 2000134807
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"ID\""
+          - columnReference:
+              columnCounter: 2000134808
+              stepCounter: "200009097"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PAIDFULL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"PAIDFULL\""
+          - columnReference:
+              columnCounter: 2000134809
+              stepCounter: "200009097"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DAYSWORKEDWEEK
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"DAYSWORKEDWEEK\""
+          - columnReference:
+              columnCounter: 2000134810
+              stepCounter: "200009097"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: LASTYEARINCOME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"LASTYEARINCOME\""
+          - columnReference:
+              columnCounter: 2000134811
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HIRESTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"HIRESTATE\""
+          - columnReference:
+              columnCounter: 2000134812
+              stepCounter: "200009097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LATESTPOSTEDAWW_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"LATESTPOSTEDAWW_EXT\""
+          - columnReference:
+              columnCounter: 2000134813
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYMENTSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"EMPLOYMENTSTATUS\""
+          - columnReference:
+              columnCounter: 2000134814
+              stepCounter: "200009097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HIREDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"HIREDATE\""
+          - columnReference:
+              columnCounter: 2000134815
+              stepCounter: "200009097"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AGREEDDAILYRATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"AGREEDDAILYRATE_EXT\""
+          - columnReference:
+              columnCounter: 2000134816
+              stepCounter: "200009097"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000134817
+              stepCounter: "200009097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: SCNDINJRYFNDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"SCNDINJRYFNDDATE\""
+          - columnReference:
+              columnCounter: 2000134818
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLASSCODEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"CLASSCODEID\""
+          - columnReference:
+              columnCounter: 2000134819
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000134820
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000134821
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000134822
+              stepCounter: "200009097"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: SCNDINJRYFNDAMNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"SCNDINJRYFNDAMNT\""
+          - columnReference:
+              columnCounter: 2000134823
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYPERIOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"PAYPERIOD\""
+          - columnReference:
+              columnCounter: 2000134824
+              stepCounter: "200009097"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: OCCUPATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"OCCUPATION\""
+          - columnReference:
+              columnCounter: 2000134825
+              stepCounter: "200009097"
+            dataType: NUMBER(2,1)
+            defaultValue: ""
+            description: ""
+            name: NUMDAYSWORKED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"NUMDAYSWORKED\""
+          - columnReference:
+              columnCounter: 2000134826
+              stepCounter: "200009097"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WAGEPAYMENTCONT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"WAGEPAYMENTCONT\""
+          - columnReference:
+              columnCounter: 2000134827
+              stepCounter: "200009097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: SEPARATIONDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"SEPARATIONDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000134828
+              stepCounter: "200009097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: INJURYSTARTTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"INJURYSTARTTIME\""
+          - columnReference:
+              columnCounter: 2000134829
+              stepCounter: "200009097"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SSBENEFITS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"SSBENEFITS\""
+          - columnReference:
+              columnCounter: 2000134830
+              stepCounter: "200009097"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: DEPARTMENTCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"DEPARTMENTCODE\""
+          - columnReference:
+              columnCounter: 2000134831
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEELOCATIONTYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"EMPLOYEELOCATIONTYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000134832
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000134833
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WAGEFREQUENCY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"WAGEFREQUENCY_EXT\""
+          - columnReference:
+              columnCounter: 2000134834
+              stepCounter: "200009097"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000134835
+              stepCounter: "200009097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000134836
+              stepCounter: "200009097"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000134837
+              stepCounter: "200009097"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000134838
+              stepCounter: "200009097"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000134839
+              stepCounter: "200009097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000134840
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000134841
+              stepCounter: "200009097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000134842
+              stepCounter: "200009097"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000134843
+              stepCounter: "200009097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EMPLOYMENTDATA\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000134790
+              stepCounter: "200009097"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_EMPLOYMENTDATA'"
+          - columnReference:
+              columnCounter: 2000134789
+              stepCounter: "200009097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_EMPLOYMENTDATA
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_EMPLOYMENTDATA') }} "CC_EMPLOYMENTDATA" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_EMPLOYMENTDATA') }} "ODS_GW_CC_PROD_CC_EMPLOYMENTDATA")
+            name: LOAD_GW_CC_PROD_CC_EMPLOYMENTDATA
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_EMPLOYMENTDATA
+      name: LOAD_GW_CC_PROD_CC_EMPLOYMENTDATA
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200009097"

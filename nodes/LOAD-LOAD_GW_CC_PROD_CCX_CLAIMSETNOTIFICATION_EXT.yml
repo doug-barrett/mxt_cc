@@ -1,0 +1,312 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_CLAIMSETNOTIFICATION_EXT-200016678:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000138663
+              stepCounter: "200016678"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000138664
+              stepCounter: "200016678"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000138665
+              stepCounter: "200016678"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INITIALSEGMENTATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"INITIALSEGMENTATION\""
+          - columnReference:
+              columnCounter: 2000138666
+              stepCounter: "200016678"
+            dataType: VARCHAR(90)
+            defaultValue: ""
+            description: ""
+            name: FORMSSUBDOCUMENTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"FORMSSUBDOCUMENTTYPE\""
+          - columnReference:
+              columnCounter: 2000138667
+              stepCounter: "200016678"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138668
+              stepCounter: "200016678"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000138669
+              stepCounter: "200016678"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000138670
+              stepCounter: "200016678"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000138671
+              stepCounter: "200016678"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138672
+              stepCounter: "200016678"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: DELIVERYMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"DELIVERYMETHOD\""
+          - columnReference:
+              columnCounter: 2000138673
+              stepCounter: "200016678"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000138674
+              stepCounter: "200016678"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000138675
+              stepCounter: "200016678"
+            dataType: VARCHAR(90)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000138676
+              stepCounter: "200016678"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000138677
+              stepCounter: "200016678"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138678
+              stepCounter: "200016678"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000138679
+              stepCounter: "200016678"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000138680
+              stepCounter: "200016678"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000138681
+              stepCounter: "200016678"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138682
+              stepCounter: "200016678"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000138683
+              stepCounter: "200016678"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000138684
+              stepCounter: "200016678"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000138685
+              stepCounter: "200016678"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMSETNOTIFICATION_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000138662
+              stepCounter: "200016678"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_CLAIMSETNOTIFICATION_EXT'"
+          - columnReference:
+              columnCounter: 2000138661
+              stepCounter: "200016678"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_CLAIMSETNOTIFICATION_EXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_CLAIMSETNOTIFICATION_EXT') }} "CCX_CLAIMSETNOTIFICATION_EXT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_CLAIMSETNOTIFICATION_EXT') }} "ODS_GW_CC_PROD_CCX_CLAIMSETNOTIFICATION_EXT")
+            name: LOAD_GW_CC_PROD_CCX_CLAIMSETNOTIFICATION_EXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_CLAIMSETNOTIFICATION_EXT
+      name: LOAD_GW_CC_PROD_CCX_CLAIMSETNOTIFICATION_EXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016678"

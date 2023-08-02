@@ -1,0 +1,290 @@
+steps:
+  LOAD_GW_CC_PROD_CC_SPECIALHANDLING-200016907:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000136974
+              stepCounter: "200016907"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000136975
+              stepCounter: "200016907"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136976
+              stepCounter: "200016907"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000136977
+              stepCounter: "200016907"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136978
+              stepCounter: "200016907"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000136979
+              stepCounter: "200016907"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000136980
+              stepCounter: "200016907"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000136981
+              stepCounter: "200016907"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000136982
+              stepCounter: "200016907"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"ID\""
+          - columnReference:
+              columnCounter: 2000136983
+              stepCounter: "200016907"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"ACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000136984
+              stepCounter: "200016907"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CUSTOMERSERVICETIER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"CUSTOMERSERVICETIER\""
+          - columnReference:
+              columnCounter: 2000136985
+              stepCounter: "200016907"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000136986
+              stepCounter: "200016907"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136987
+              stepCounter: "200016907"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000136988
+              stepCounter: "200016907"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000136989
+              stepCounter: "200016907"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000136990
+              stepCounter: "200016907"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136991
+              stepCounter: "200016907"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000136992
+              stepCounter: "200016907"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000136993
+              stepCounter: "200016907"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000136994
+              stepCounter: "200016907"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECIALHANDLING\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000136973
+              stepCounter: "200016907"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_SPECIALHANDLING'"
+          - columnReference:
+              columnCounter: 2000136972
+              stepCounter: "200016907"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_SPECIALHANDLING
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_SPECIALHANDLING') }} "CC_SPECIALHANDLING" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_SPECIALHANDLING') }} "ODS_GW_CC_PROD_CC_SPECIALHANDLING")
+            name: LOAD_GW_CC_PROD_CC_SPECIALHANDLING
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_SPECIALHANDLING
+      name: LOAD_GW_CC_PROD_CC_SPECIALHANDLING
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016907"

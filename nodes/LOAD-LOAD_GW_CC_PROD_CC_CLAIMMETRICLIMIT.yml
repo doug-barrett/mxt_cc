@@ -1,0 +1,510 @@
+steps:
+  LOAD_GW_CC_PROD_CC_CLAIMMETRICLIMIT-200016820:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000133975
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEDGENERATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"CREATEDGENERATION\""
+          - columnReference:
+              columnCounter: 2000133976
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIREDGENERATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"RETIREDGENERATION\""
+          - columnReference:
+              columnCounter: 2000133977
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMMETRICTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"CLAIMMETRICTYPE\""
+          - columnReference:
+              columnCounter: 2000133978
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000133979
+              stepCounter: "200016820"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000133980
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMMETRICCATEGORY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"CLAIMMETRICCATEGORY\""
+          - columnReference:
+              columnCounter: 2000133981
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000133982
+              stepCounter: "200016820"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000133983
+              stepCounter: "200016820"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RETIREDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"RETIREDDATE\""
+          - columnReference:
+              columnCounter: 2000133984
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000133985
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000133986
+              stepCounter: "200016820"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: MONEYYELLOWVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"MONEYYELLOWVALUE\""
+          - columnReference:
+              columnCounter: 2000133987
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INTEGERREDVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"INTEGERREDVALUE\""
+          - columnReference:
+              columnCounter: 2000133988
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMTIER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"CLAIMTIER\""
+          - columnReference:
+              columnCounter: 2000133989
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INTEGERYELLOWVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"INTEGERYELLOWVALUE\""
+          - columnReference:
+              columnCounter: 2000133990
+              stepCounter: "200016820"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: MONEYTARGETVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"MONEYTARGETVALUE\""
+          - columnReference:
+              columnCounter: 2000133991
+              stepCounter: "200016820"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: MONEYREDVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"MONEYREDVALUE\""
+          - columnReference:
+              columnCounter: 2000133992
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INTEGERTARGETVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"INTEGERTARGETVALUE\""
+          - columnReference:
+              columnCounter: 2000133993
+              stepCounter: "200016820"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000133994
+              stepCounter: "200016820"
+            dataType: NUMBER(8)
+            defaultValue: ""
+            description: ""
+            name: PERCENTREDVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"PERCENTREDVALUE\""
+          - columnReference:
+              columnCounter: 2000133995
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000133996
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000133997
+              stepCounter: "200016820"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ASCENDINGLIMITORDER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"ASCENDINGLIMITORDER\""
+          - columnReference:
+              columnCounter: 2000133998
+              stepCounter: "200016820"
+            dataType: NUMBER(20,4)
+            defaultValue: ""
+            description: ""
+            name: DECIMALYELLOWVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"DECIMALYELLOWVALUE\""
+          - columnReference:
+              columnCounter: 2000133999
+              stepCounter: "200016820"
+            dataType: NUMBER(20,4)
+            defaultValue: ""
+            description: ""
+            name: DECIMALTARGETVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"DECIMALTARGETVALUE\""
+          - columnReference:
+              columnCounter: 2000134000
+              stepCounter: "200016820"
+            dataType: NUMBER(20,4)
+            defaultValue: ""
+            description: ""
+            name: DECIMALREDVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"DECIMALREDVALUE\""
+          - columnReference:
+              columnCounter: 2000134001
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000134002
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: METRICUNIT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"METRICUNIT\""
+          - columnReference:
+              columnCounter: 2000134003
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYTYPEMETRICLIMITSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"POLICYTYPEMETRICLIMITSID\""
+          - columnReference:
+              columnCounter: 2000134004
+              stepCounter: "200016820"
+            dataType: NUMBER(8)
+            defaultValue: ""
+            description: ""
+            name: PERCENTYELLOWVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"PERCENTYELLOWVALUE\""
+          - columnReference:
+              columnCounter: 2000134005
+              stepCounter: "200016820"
+            dataType: NUMBER(8)
+            defaultValue: ""
+            description: ""
+            name: PERCENTTARGETVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"PERCENTTARGETVALUE\""
+          - columnReference:
+              columnCounter: 2000134006
+              stepCounter: "200016820"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000134007
+              stepCounter: "200016820"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000134008
+              stepCounter: "200016820"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000134009
+              stepCounter: "200016820"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000134010
+              stepCounter: "200016820"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000134011
+              stepCounter: "200016820"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000134012
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000134013
+              stepCounter: "200016820"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000134014
+              stepCounter: "200016820"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000134015
+              stepCounter: "200016820"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMMETRICLIMIT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000133974
+              stepCounter: "200016820"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_CLAIMMETRICLIMIT'"
+          - columnReference:
+              columnCounter: 2000133973
+              stepCounter: "200016820"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_CLAIMMETRICLIMIT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_CLAIMMETRICLIMIT') }} "CC_CLAIMMETRICLIMIT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_CLAIMMETRICLIMIT') }} "ODS_GW_CC_PROD_CC_CLAIMMETRICLIMIT")
+            name: LOAD_GW_CC_PROD_CC_CLAIMMETRICLIMIT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_CLAIMMETRICLIMIT
+      name: LOAD_GW_CC_PROD_CC_CLAIMMETRICLIMIT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016820"

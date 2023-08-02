@@ -1,0 +1,107 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY_05_SEQNO-200019205:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000263238
+              stepCounter: "200019205"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000263242
+              stepCounter: "200019205"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRREFRESH_HISTORY\".\"HVR_REFRESH_SEQNO_HIST\""
+          - columnReference:
+              columnCounter: 2000263243
+              stepCounter: "200019205"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ_ODS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000263240
+              stepCounter: "200019205"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000263239
+              stepCounter: "200019205"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000263241
+              stepCounter: "200019205"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'CC_PROD'"
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRREFRESH_HISTORY
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY') }} \"LOAD_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY\" JOIN {{ ref('ODS','ODS_CTRL_HVRREFRESH_HISTORY') }} \"ODS_CTRL_HVRREFRESH_HISTORY\"    ON LOAD_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY.DSS_RECORD_SOURCE = ODS_CTRL_HVRREFRESH_HISTORY.HVR_RECORD_SOURCE   AND LOAD_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY.HVRCAPTSTAMP BETWEEN ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE AND ODS_CTRL_HVRREFRESH_HISTORY.THRU_DATE  LEFT JOIN {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY') }} \"ODS_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY\"   ON LOAD_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY.HVRINTEGSEQ = ODS_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY.HVRINTEGSEQ   AND ODS_CTRL_HVRREFRESH_HISTORY.HVR_REFRESH_SEQNO_HIST = ODS_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY.HVR_REFRESH_SEQNO   WHERE ODS_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY.HVRINTEGSEQ IS NULL "
+            name: STG_ODS_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY_05_SEQNO
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY
+      name: STG_ODS_GW_CC_PROD_CCX_TMISPECIALOBJSUMMARY_05_SEQNO
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200019205"

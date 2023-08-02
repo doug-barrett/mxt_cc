@@ -1,0 +1,356 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_TPNOTETOPIC-200016770:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000140255
+              stepCounter: "200016770"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NOTERELATEDTOT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"NOTERELATEDTOT\""
+          - columnReference:
+              columnCounter: 2000140256
+              stepCounter: "200016770"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000140257
+              stepCounter: "200016770"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000140258
+              stepCounter: "200016770"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRADINGPARTNERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"TRADINGPARTNERID\""
+          - columnReference:
+              columnCounter: 2000140259
+              stepCounter: "200016770"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000140260
+              stepCounter: "200016770"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000140261
+              stepCounter: "200016770"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000140262
+              stepCounter: "200016770"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000140263
+              stepCounter: "200016770"
+            dataType: VARCHAR(25)
+            defaultValue: ""
+            description: ""
+            name: TRADINGPARTNERNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"TRADINGPARTNERNAME\""
+          - columnReference:
+              columnCounter: 2000140264
+              stepCounter: "200016770"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000140265
+              stepCounter: "200016770"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NOTERELATEDTO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"NOTERELATEDTO\""
+          - columnReference:
+              columnCounter: 2000140266
+              stepCounter: "200016770"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EFFECTIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"EFFECTIVEDATE\""
+          - columnReference:
+              columnCounter: 2000140267
+              stepCounter: "200016770"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000140268
+              stepCounter: "200016770"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NOTESUBJECT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"NOTESUBJECT\""
+          - columnReference:
+              columnCounter: 2000140269
+              stepCounter: "200016770"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"ID\""
+          - columnReference:
+              columnCounter: 2000140270
+              stepCounter: "200016770"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NOTETOPIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"NOTETOPIC\""
+          - columnReference:
+              columnCounter: 2000140271
+              stepCounter: "200016770"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXPIRATIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"EXPIRATIONDATE\""
+          - columnReference:
+              columnCounter: 2000140272
+              stepCounter: "200016770"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000140273
+              stepCounter: "200016770"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000140274
+              stepCounter: "200016770"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000140275
+              stepCounter: "200016770"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000140276
+              stepCounter: "200016770"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000140277
+              stepCounter: "200016770"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000140278
+              stepCounter: "200016770"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000140279
+              stepCounter: "200016770"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000140280
+              stepCounter: "200016770"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000140281
+              stepCounter: "200016770"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPNOTETOPIC\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000140254
+              stepCounter: "200016770"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_TPNOTETOPIC'"
+          - columnReference:
+              columnCounter: 2000140253
+              stepCounter: "200016770"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_TPNOTETOPIC
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_TPNOTETOPIC') }} "CCX_TPNOTETOPIC" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_TPNOTETOPIC') }} "ODS_GW_CC_PROD_CCX_TPNOTETOPIC")
+            name: LOAD_GW_CC_PROD_CCX_TPNOTETOPIC
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_TPNOTETOPIC
+      name: LOAD_GW_CC_PROD_CCX_TPNOTETOPIC
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016770"

@@ -1,0 +1,312 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_NOIBODYPARTADJUST-200016746:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000139429
+              stepCounter: "200016746"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000139430
+              stepCounter: "200016746"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000139431
+              stepCounter: "200016746"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139432
+              stepCounter: "200016746"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: NOI
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"NOI\""
+          - columnReference:
+              columnCounter: 2000139433
+              stepCounter: "200016746"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000139434
+              stepCounter: "200016746"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000139435
+              stepCounter: "200016746"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000139436
+              stepCounter: "200016746"
+            dataType: NUMBER(6,5)
+            defaultValue: ""
+            description: ""
+            name: ADJUST
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"ADJUST\""
+          - columnReference:
+              columnCounter: 2000139437
+              stepCounter: "200016746"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139438
+              stepCounter: "200016746"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: BODYPART
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"BODYPART\""
+          - columnReference:
+              columnCounter: 2000139439
+              stepCounter: "200016746"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000139440
+              stepCounter: "200016746"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000139441
+              stepCounter: "200016746"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"ID\""
+          - columnReference:
+              columnCounter: 2000139442
+              stepCounter: "200016746"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000139443
+              stepCounter: "200016746"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139444
+              stepCounter: "200016746"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000139445
+              stepCounter: "200016746"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000139446
+              stepCounter: "200016746"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000139447
+              stepCounter: "200016746"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139448
+              stepCounter: "200016746"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000139449
+              stepCounter: "200016746"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000139450
+              stepCounter: "200016746"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000139451
+              stepCounter: "200016746"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NOIBODYPARTADJUST\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000139428
+              stepCounter: "200016746"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_NOIBODYPARTADJUST'"
+          - columnReference:
+              columnCounter: 2000139427
+              stepCounter: "200016746"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_NOIBODYPARTADJUST
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_NOIBODYPARTADJUST') }} "CCX_NOIBODYPARTADJUST" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_NOIBODYPARTADJUST') }} "ODS_GW_CC_PROD_CCX_NOIBODYPARTADJUST")
+            name: LOAD_GW_CC_PROD_CCX_NOIBODYPARTADJUST
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_NOIBODYPARTADJUST
+      name: LOAD_GW_CC_PROD_CCX_NOIBODYPARTADJUST
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016746"

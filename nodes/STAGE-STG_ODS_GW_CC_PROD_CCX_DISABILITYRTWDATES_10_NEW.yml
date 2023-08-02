@@ -1,0 +1,657 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCX_DISABILITYRTWDATES_10_NEW-200010413:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000261540
+              stepCounter: "200010413"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000261541
+              stepCounter: "200010413"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: RESTRICTIONCOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"RESTRICTIONCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000261542
+              stepCounter: "200010413"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000261543
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000261544
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ANTICIPATEDRTWDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"ANTICIPATEDRTWDATE\""
+          - columnReference:
+              columnCounter: 2000261545
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXPIREDIIBDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"EXPIREDIIBDATE\""
+          - columnReference:
+              columnCounter: 2000261546
+              stepCounter: "200010413"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ANTICIPATEDRTWCOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"ANTICIPATEDRTWCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000261547
+              stepCounter: "200010413"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ANTICIPATEDMMICOMMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"ANTICIPATEDMMICOMMENT\""
+          - columnReference:
+              columnCounter: 2000261548
+              stepCounter: "200010413"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000261549
+              stepCounter: "200010413"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: NONSCHEDULEDCOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"NONSCHEDULEDCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000261550
+              stepCounter: "200010413"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CERTIFYINGDOCTORNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"CERTIFYINGDOCTORNAME\""
+          - columnReference:
+              columnCounter: 2000261551
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000261552
+              stepCounter: "200010413"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DOCTORAPPROVED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"DOCTORAPPROVED\""
+          - columnReference:
+              columnCounter: 2000261553
+              stepCounter: "200010413"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CERTIFYINGDOCTORLICENSE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"CERTIFYINGDOCTORLICENSE\""
+          - columnReference:
+              columnCounter: 2000261554
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CALCULATEDMMIDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"CALCULATEDMMIDATE\""
+          - columnReference:
+              columnCounter: 2000261555
+              stepCounter: "200010413"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000261556
+              stepCounter: "200010413"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"ID\""
+          - columnReference:
+              columnCounter: 2000261557
+              stepCounter: "200010413"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: NONSCHEDULEDAMOUNTDUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"NONSCHEDULEDAMOUNTDUE\""
+          - columnReference:
+              columnCounter: 2000261558
+              stepCounter: "200010413"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RTWRESTRICTIONS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"RTWRESTRICTIONS\""
+          - columnReference:
+              columnCounter: 2000261559
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ANTICIPATEDMMIDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"ANTICIPATEDMMIDATE\""
+          - columnReference:
+              columnCounter: 2000261560
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: JURISDICTIONDATETWO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"JURISDICTIONDATETWO\""
+          - columnReference:
+              columnCounter: 2000261561
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: MMICERTIFICATIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"MMICERTIFICATIONDATE\""
+          - columnReference:
+              columnCounter: 2000261562
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: MMIVERIFIEDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"MMIVERIFIEDDATE\""
+          - columnReference:
+              columnCounter: 2000261563
+              stepCounter: "200010413"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000261564
+              stepCounter: "200010413"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000261565
+              stepCounter: "200010413"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000261566
+              stepCounter: "200010413"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RTWTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"RTWTYPE\""
+          - columnReference:
+              columnCounter: 2000261567
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: JURISDICTIONDATETHREE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"JURISDICTIONDATETHREE\""
+          - columnReference:
+              columnCounter: 2000261568
+              stepCounter: "200010413"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EXTENDMMI
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"EXTENDMMI\""
+          - columnReference:
+              columnCounter: 2000261569
+              stepCounter: "200010413"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MMIVERIFIEDBYUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"MMIVERIFIEDBYUSERID\""
+          - columnReference:
+              columnCounter: 2000261570
+              stepCounter: "200010413"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: MODIFIEDDUTYCOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"MODIFIEDDUTYCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000261571
+              stepCounter: "200010413"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: WAGEEARNINGCAPACITYAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"WAGEEARNINGCAPACITYAMOUNT\""
+          - columnReference:
+              columnCounter: 2000261572
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BENEFITSACCRUEDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"BENEFITSACCRUEDDATE\""
+          - columnReference:
+              columnCounter: 2000261573
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: JURISDICTIONDATEFOUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"JURISDICTIONDATEFOUR\""
+          - columnReference:
+              columnCounter: 2000261574
+              stepCounter: "200010413"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DOCTORSJURISDICTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"DOCTORSJURISDICTION\""
+          - columnReference:
+              columnCounter: 2000261575
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: JURISDICTIONDATEONE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"JURISDICTIONDATEONE\""
+          - columnReference:
+              columnCounter: 2000261576
+              stepCounter: "200010413"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: IMPAIRMENTEXISTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"IMPAIRMENTEXISTS\""
+          - columnReference:
+              columnCounter: 2000261577
+              stepCounter: "200010413"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: EXTENSIONEXPLANATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"EXTENSIONEXPLANATION\""
+          - columnReference:
+              columnCounter: 2000261578
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXTENDEDMMIDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"EXTENDEDMMIDATE\""
+          - columnReference:
+              columnCounter: 2000261579
+              stepCounter: "200010413"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000261580
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000261581
+              stepCounter: "200010413"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000261582
+              stepCounter: "200010413"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000261583
+              stepCounter: "200010413"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_DISABILITYRTWDATES_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000261584
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000261585
+              stepCounter: "200010413"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000261586
+              stepCounter: "200010413"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000261587
+              stepCounter: "200010413"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000261588
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000261593
+              stepCounter: "200010413"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_DISABILITYRTWDATES_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000261594
+              stepCounter: "200010413"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_DISABILITYRTWDATES_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000261595
+              stepCounter: "200010413"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000261589
+              stepCounter: "200010413"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000261590
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000261592
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000261591
+              stepCounter: "200010413"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCX_DISABILITYRTWDATES_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES') }} \"LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCX_DISABILITYRTWDATES_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CCX_DISABILITYRTWDATES_05_SEQNO\"    ON LOAD_GW_CC_PROD_CCX_DISABILITYRTWDATES.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CCX_DISABILITYRTWDATES_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CCX_DISABILITYRTWDATES_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_CC_PROD_CCX_DISABILITYRTWDATES_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCX_DISABILITYRTWDATES_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200010413"

@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_COUNTYNETWORKSTATUS_EXT-200010262:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000130772
+              stepCounter: "200010262"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000130773
+              stepCounter: "200010262"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000130774
+              stepCounter: "200010262"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000130775
+              stepCounter: "200010262"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000130776
+              stepCounter: "200010262"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000130777
+              stepCounter: "200010262"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000130778
+              stepCounter: "200010262"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000130779
+              stepCounter: "200010262"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000130780
+              stepCounter: "200010262"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000130781
+              stepCounter: "200010262"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000130785
+              stepCounter: "200010262"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000130782
+              stepCounter: "200010262"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000130784
+              stepCounter: "200010262"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(CCTL_COUNTYNETWORKSTATUS_EXT.HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000130786
+              stepCounter: "200010262"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000130787
+              stepCounter: "200010262"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000130788
+              stepCounter: "200010262"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000130783
+              stepCounter: "200010262"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000130789
+              stepCounter: "200010262"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000130790
+              stepCounter: "200010262"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000130791
+              stepCounter: "200010262"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_COUNTYNETWORKSTATUS_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000130771
+              stepCounter: "200010262"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_COUNTYNETWORKSTATUS_EXT'"
+          - columnReference:
+              columnCounter: 2000130770
+              stepCounter: "200010262"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_COUNTYNETWORKSTATUS_EXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_COUNTYNETWORKSTATUS_EXT') }} "CCTL_COUNTYNETWORKSTATUS_EXT" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_COUNTYNETWORKSTATUS_EXT') }} "ODS_GW_CC_PROD_CCTL_COUNTYNETWORKSTATUS_EXT")
+            name: LOAD_GW_CC_PROD_CCTL_COUNTYNETWORKSTATUS_EXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_COUNTYNETWORKSTATUS_EXT
+      name: LOAD_GW_CC_PROD_CCTL_COUNTYNETWORKSTATUS_EXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200010262"

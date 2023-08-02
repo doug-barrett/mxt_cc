@@ -1,0 +1,235 @@
+steps:
+  LOAD_GW_CC_PROD_CC_USERROLE-200016925:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000137665
+              stepCounter: "200016925"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000137666
+              stepCounter: "200016925"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000137667
+              stepCounter: "200016925"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ROLEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLE\".\"ROLEID\""
+          - columnReference:
+              columnCounter: 2000137668
+              stepCounter: "200016925"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000137669
+              stepCounter: "200016925"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000137670
+              stepCounter: "200016925"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: USERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLE\".\"USERID\""
+          - columnReference:
+              columnCounter: 2000137671
+              stepCounter: "200016925"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000137672
+              stepCounter: "200016925"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000137673
+              stepCounter: "200016925"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000137674
+              stepCounter: "200016925"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000137675
+              stepCounter: "200016925"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000137676
+              stepCounter: "200016925"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000137677
+              stepCounter: "200016925"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000137678
+              stepCounter: "200016925"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000137679
+              stepCounter: "200016925"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000137680
+              stepCounter: "200016925"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000137664
+              stepCounter: "200016925"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_USERROLE'"
+          - columnReference:
+              columnCounter: 2000137663
+              stepCounter: "200016925"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_USERROLE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_USERROLE') }} "CC_USERROLE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_USERROLE') }} "ODS_GW_CC_PROD_CC_USERROLE")
+            name: LOAD_GW_CC_PROD_CC_USERROLE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_USERROLE
+      name: LOAD_GW_CC_PROD_CC_USERROLE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016925"

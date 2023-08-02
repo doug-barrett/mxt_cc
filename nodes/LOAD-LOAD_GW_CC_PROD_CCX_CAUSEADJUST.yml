@@ -1,0 +1,301 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_CAUSEADJUST-200016669:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000138398
+              stepCounter: "200016669"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000138399
+              stepCounter: "200016669"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000138400
+              stepCounter: "200016669"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138401
+              stepCounter: "200016669"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000138402
+              stepCounter: "200016669"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138403
+              stepCounter: "200016669"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000138404
+              stepCounter: "200016669"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000138405
+              stepCounter: "200016669"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000138406
+              stepCounter: "200016669"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: ACCIDENTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"ACCIDENTTYPE\""
+          - columnReference:
+              columnCounter: 2000138407
+              stepCounter: "200016669"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000138408
+              stepCounter: "200016669"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"ID\""
+          - columnReference:
+              columnCounter: 2000138409
+              stepCounter: "200016669"
+            dataType: NUMBER(6,5)
+            defaultValue: ""
+            description: ""
+            name: ADJUST
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"ADJUST\""
+          - columnReference:
+              columnCounter: 2000138410
+              stepCounter: "200016669"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000138411
+              stepCounter: "200016669"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138412
+              stepCounter: "200016669"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000138413
+              stepCounter: "200016669"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000138414
+              stepCounter: "200016669"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000138415
+              stepCounter: "200016669"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138416
+              stepCounter: "200016669"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000138417
+              stepCounter: "200016669"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000138418
+              stepCounter: "200016669"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000138419
+              stepCounter: "200016669"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CAUSEADJUST\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000138397
+              stepCounter: "200016669"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_CAUSEADJUST'"
+          - columnReference:
+              columnCounter: 2000138396
+              stepCounter: "200016669"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_CAUSEADJUST
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_CAUSEADJUST') }} "CCX_CAUSEADJUST" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_CAUSEADJUST') }} "ODS_GW_CC_PROD_CCX_CAUSEADJUST")
+            name: LOAD_GW_CC_PROD_CCX_CAUSEADJUST
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_CAUSEADJUST
+      name: LOAD_GW_CC_PROD_CCX_CAUSEADJUST
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016669"

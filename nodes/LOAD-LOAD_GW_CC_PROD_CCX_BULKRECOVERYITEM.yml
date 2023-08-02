@@ -1,0 +1,411 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_BULKRECOVERYITEM-200016668:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000138364
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000138365
+              stepCounter: "200016668"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000138366
+              stepCounter: "200016668"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: CLAIMNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"CLAIMNUMBER\""
+          - columnReference:
+              columnCounter: 2000138367
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138368
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSUREID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"EXPOSUREID\""
+          - columnReference:
+              columnCounter: 2000138369
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BULKRECOVERYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"BULKRECOVERYID\""
+          - columnReference:
+              columnCounter: 2000138370
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COSTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"COSTTYPE\""
+          - columnReference:
+              columnCounter: 2000138371
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000138372
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000138373
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000138374
+              stepCounter: "200016668"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000138375
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COSTCATEGORY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"COSTCATEGORY\""
+          - columnReference:
+              columnCounter: 2000138376
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RESERVELINEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"RESERVELINEID\""
+          - columnReference:
+              columnCounter: 2000138377
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000138378
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LINECATEGORY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"LINECATEGORY\""
+          - columnReference:
+              columnCounter: 2000138379
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RECOVERYCATEGORY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"RECOVERYCATEGORY\""
+          - columnReference:
+              columnCounter: 2000138380
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138381
+              stepCounter: "200016668"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000138382
+              stepCounter: "200016668"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"AMOUNT\""
+          - columnReference:
+              columnCounter: 2000138383
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"ID\""
+          - columnReference:
+              columnCounter: 2000138384
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000138385
+              stepCounter: "200016668"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000138386
+              stepCounter: "200016668"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000138387
+              stepCounter: "200016668"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138388
+              stepCounter: "200016668"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000138389
+              stepCounter: "200016668"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000138390
+              stepCounter: "200016668"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000138391
+              stepCounter: "200016668"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138392
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000138393
+              stepCounter: "200016668"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000138394
+              stepCounter: "200016668"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000138395
+              stepCounter: "200016668"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_BULKRECOVERYITEM\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000138363
+              stepCounter: "200016668"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_BULKRECOVERYITEM'"
+          - columnReference:
+              columnCounter: 2000138362
+              stepCounter: "200016668"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_BULKRECOVERYITEM
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_BULKRECOVERYITEM') }} "CCX_BULKRECOVERYITEM" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_BULKRECOVERYITEM') }} "ODS_GW_CC_PROD_CCX_BULKRECOVERYITEM")
+            name: LOAD_GW_CC_PROD_CCX_BULKRECOVERYITEM
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_BULKRECOVERYITEM
+      name: LOAD_GW_CC_PROD_CCX_BULKRECOVERYITEM
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016668"

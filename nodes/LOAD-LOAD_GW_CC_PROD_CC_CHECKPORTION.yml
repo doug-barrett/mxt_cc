@@ -1,0 +1,345 @@
+steps:
+  LOAD_GW_CC_PROD_CC_CHECKPORTION-200016811:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000133364
+              stepCounter: "200016811"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: FIXEDCLAIMAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"FIXEDCLAIMAMOUNT\""
+          - columnReference:
+              columnCounter: 2000133365
+              stepCounter: "200016811"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000133366
+              stepCounter: "200016811"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: FIXEDTRANSACTIONAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"FIXEDTRANSACTIONAMOUNT\""
+          - columnReference:
+              columnCounter: 2000133367
+              stepCounter: "200016811"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000133368
+              stepCounter: "200016811"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000133369
+              stepCounter: "200016811"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000133370
+              stepCounter: "200016811"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000133371
+              stepCounter: "200016811"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000133372
+              stepCounter: "200016811"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000133373
+              stepCounter: "200016811"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: FIXEDREPORTINGAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"FIXEDREPORTINGAMOUNT\""
+          - columnReference:
+              columnCounter: 2000133374
+              stepCounter: "200016811"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000133375
+              stepCounter: "200016811"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000133376
+              stepCounter: "200016811"
+            dataType: NUMBER(4,1)
+            defaultValue: ""
+            description: ""
+            name: PERCENTAGE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"PERCENTAGE\""
+          - columnReference:
+              columnCounter: 2000133377
+              stepCounter: "200016811"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"ID\""
+          - columnReference:
+              columnCounter: 2000133378
+              stepCounter: "200016811"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: REISSUED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"REISSUED\""
+          - columnReference:
+              columnCounter: 2000133379
+              stepCounter: "200016811"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: FIXEDRESERVINGAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"FIXEDRESERVINGAMOUNT\""
+          - columnReference:
+              columnCounter: 2000133380
+              stepCounter: "200016811"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000133381
+              stepCounter: "200016811"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000133382
+              stepCounter: "200016811"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000133383
+              stepCounter: "200016811"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000133384
+              stepCounter: "200016811"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000133385
+              stepCounter: "200016811"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000133386
+              stepCounter: "200016811"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000133387
+              stepCounter: "200016811"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000133388
+              stepCounter: "200016811"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000133362
+              stepCounter: "200016811"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000133389
+              stepCounter: "200016811"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKPORTION\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000133363
+              stepCounter: "200016811"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_CHECKPORTION'"
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_CHECKPORTION
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_CHECKPORTION') }} "CC_CHECKPORTION" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_CHECKPORTION') }} "ODS_GW_CC_PROD_CC_CHECKPORTION")
+            name: LOAD_GW_CC_PROD_CC_CHECKPORTION
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_CHECKPORTION
+      name: LOAD_GW_CC_PROD_CC_CHECKPORTION
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016811"

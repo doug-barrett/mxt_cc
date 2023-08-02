@@ -1,0 +1,367 @@
+steps:
+  LOAD_GW_CC_PROD_CC_CLASSCODE-200010842:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000134124
+              stepCounter: "200010842"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000134125
+              stepCounter: "200010842"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYCLASSPAYROLL_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"POLICYCLASSPAYROLL_EXT\""
+          - columnReference:
+              columnCounter: 2000134126
+              stepCounter: "200010842"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000134127
+              stepCounter: "200010842"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CLASSCODEEXPIRATIONDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"CLASSCODEEXPIRATIONDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000134128
+              stepCounter: "200010842"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000134129
+              stepCounter: "200010842"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000134130
+              stepCounter: "200010842"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000134131
+              stepCounter: "200010842"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000134132
+              stepCounter: "200010842"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: POLICYCOVERAGECODE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"POLICYCOVERAGECODE_EXT\""
+          - columnReference:
+              columnCounter: 2000134133
+              stepCounter: "200010842"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000134134
+              stepCounter: "200010842"
+            dataType: VARCHAR(10)
+            defaultValue: ""
+            description: ""
+            name: CODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"CODE\""
+          - columnReference:
+              columnCounter: 2000134135
+              stepCounter: "200010842"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"POLICYID\""
+          - columnReference:
+              columnCounter: 2000134136
+              stepCounter: "200010842"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CLASSCODEEFFECTIVEDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"CLASSCODEEFFECTIVEDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000134137
+              stepCounter: "200010842"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000134138
+              stepCounter: "200010842"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: COMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"COMMENTS\""
+          - columnReference:
+              columnCounter: 2000134139
+              stepCounter: "200010842"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000134140
+              stepCounter: "200010842"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000134141
+              stepCounter: "200010842"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000134142
+              stepCounter: "200010842"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000134143
+              stepCounter: "200010842"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000134144
+              stepCounter: "200010842"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000134145
+              stepCounter: "200010842"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000134146
+              stepCounter: "200010842"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000134147
+              stepCounter: "200010842"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000134148
+              stepCounter: "200010842"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000134149
+              stepCounter: "200010842"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000134150
+              stepCounter: "200010842"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000134151
+              stepCounter: "200010842"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLASSCODE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000134123
+              stepCounter: "200010842"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_CLASSCODE'"
+          - columnReference:
+              columnCounter: 2000134122
+              stepCounter: "200010842"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_CLASSCODE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_CLASSCODE') }} "CC_CLASSCODE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_CLASSCODE') }} "ODS_GW_CC_PROD_CC_CLASSCODE")
+            name: LOAD_GW_CC_PROD_CC_CLASSCODE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_CLASSCODE
+      name: LOAD_GW_CC_PROD_CC_CLASSCODE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200010842"

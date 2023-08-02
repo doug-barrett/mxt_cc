@@ -1,0 +1,246 @@
+steps:
+  LOAD_GW_CC_PROD_CC_CLAIMEMPDATA-200016817:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000133831
+              stepCounter: "200016817"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000133832
+              stepCounter: "200016817"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FOREIGNENTITYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"FOREIGNENTITYID\""
+          - columnReference:
+              columnCounter: 2000133833
+              stepCounter: "200016817"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000133834
+              stepCounter: "200016817"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000133835
+              stepCounter: "200016817"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000133836
+              stepCounter: "200016817"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"ID\""
+          - columnReference:
+              columnCounter: 2000133837
+              stepCounter: "200016817"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OWNERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"OWNERID\""
+          - columnReference:
+              columnCounter: 2000133838
+              stepCounter: "200016817"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000133839
+              stepCounter: "200016817"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000133840
+              stepCounter: "200016817"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000133841
+              stepCounter: "200016817"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000133842
+              stepCounter: "200016817"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000133843
+              stepCounter: "200016817"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000133844
+              stepCounter: "200016817"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000133845
+              stepCounter: "200016817"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000133846
+              stepCounter: "200016817"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000133847
+              stepCounter: "200016817"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMEMPDATA\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000133830
+              stepCounter: "200016817"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_CLAIMEMPDATA'"
+          - columnReference:
+              columnCounter: 2000133829
+              stepCounter: "200016817"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_CLAIMEMPDATA
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_CLAIMEMPDATA') }} "CC_CLAIMEMPDATA" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_CLAIMEMPDATA') }} "ODS_GW_CC_PROD_CC_CLAIMEMPDATA")
+            name: LOAD_GW_CC_PROD_CC_CLAIMEMPDATA
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_CLAIMEMPDATA
+      name: LOAD_GW_CC_PROD_CC_CLAIMEMPDATA
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016817"

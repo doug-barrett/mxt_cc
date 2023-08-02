@@ -1,0 +1,334 @@
+steps:
+  LOAD_GW_CC_PROD_CC_CHECKRPT-200016813:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000133425
+              stepCounter: "200016813"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000133426
+              stepCounter: "200016813"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000133427
+              stepCounter: "200016813"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHECKID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"CHECKID\""
+          - columnReference:
+              columnCounter: 2000133428
+              stepCounter: "200016813"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000133429
+              stepCounter: "200016813"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000133430
+              stepCounter: "200016813"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000133431
+              stepCounter: "200016813"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000133432
+              stepCounter: "200016813"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: GROSSCLAIMAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"GROSSCLAIMAMOUNT\""
+          - columnReference:
+              columnCounter: 2000133433
+              stepCounter: "200016813"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000133434
+              stepCounter: "200016813"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000133435
+              stepCounter: "200016813"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000133436
+              stepCounter: "200016813"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000133437
+              stepCounter: "200016813"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: GROSSAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"GROSSAMOUNT\""
+          - columnReference:
+              columnCounter: 2000133438
+              stepCounter: "200016813"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RESERVINGCURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"RESERVINGCURRENCY\""
+          - columnReference:
+              columnCounter: 2000133439
+              stepCounter: "200016813"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: GROSSRESERVINGAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"GROSSRESERVINGAMOUNT\""
+          - columnReference:
+              columnCounter: 2000133440
+              stepCounter: "200016813"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000133441
+              stepCounter: "200016813"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000133442
+              stepCounter: "200016813"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000133443
+              stepCounter: "200016813"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000133444
+              stepCounter: "200016813"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000133445
+              stepCounter: "200016813"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000133446
+              stepCounter: "200016813"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000133447
+              stepCounter: "200016813"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000133448
+              stepCounter: "200016813"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000133449
+              stepCounter: "200016813"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRPT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000133424
+              stepCounter: "200016813"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_CHECKRPT'"
+          - columnReference:
+              columnCounter: 2000133423
+              stepCounter: "200016813"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_CHECKRPT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_CHECKRPT') }} "CC_CHECKRPT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_CHECKRPT') }} "ODS_GW_CC_PROD_CC_CHECKRPT")
+            name: LOAD_GW_CC_PROD_CC_CHECKRPT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_CHECKRPT
+      name: LOAD_GW_CC_PROD_CC_CHECKRPT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016813"

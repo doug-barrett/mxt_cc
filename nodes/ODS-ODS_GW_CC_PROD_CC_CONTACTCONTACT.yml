@@ -1,0 +1,329 @@
+steps:
+  ODS_GW_CC_PROD_CC_CONTACTCONTACT-200017983:
+    operation:
+      config: {}
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000010
+      locationName: ODS
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000149763
+              stepCounter: "200017983"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000149764
+              stepCounter: "200017983"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSBOOKUID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"ADDRESSBOOKUID\""
+          - columnReference:
+              columnCounter: 2000149765
+              stepCounter: "200017983"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000149766
+              stepCounter: "200017983"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SOURCECONTACTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"SOURCECONTACTID\""
+          - columnReference:
+              columnCounter: 2000149767
+              stepCounter: "200017983"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RELATEDCONTACTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"RELATEDCONTACTID\""
+          - columnReference:
+              columnCounter: 2000149768
+              stepCounter: "200017983"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000149769
+              stepCounter: "200017983"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000149770
+              stepCounter: "200017983"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RELATIONSHIP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"RELATIONSHIP\""
+          - columnReference:
+              columnCounter: 2000149771
+              stepCounter: "200017983"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"ID\""
+          - columnReference:
+              columnCounter: 2000149772
+              stepCounter: "200017983"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: EXTERNALLINKID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"EXTERNALLINKID\""
+          - columnReference:
+              columnCounter: 2000149773
+              stepCounter: "200017983"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000149774
+              stepCounter: "200017983"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000149775
+              stepCounter: "200017983"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000149776
+              stepCounter: "200017983"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000149777
+              stepCounter: "200017983"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000149778
+              stepCounter: "200017983"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000149779
+              stepCounter: "200017983"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000149780
+              stepCounter: "200017983"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000149781
+              stepCounter: "200017983"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000149782
+              stepCounter: "200017983"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000149783
+              stepCounter: "200017983"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000149784
+              stepCounter: "200017983"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000149785
+              stepCounter: "200017983"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000149786
+              stepCounter: "200017983"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000149787
+              stepCounter: "200017983"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000149789
+              stepCounter: "200017983"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000149788
+              stepCounter: "200017983"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW') }} "STG_ODS_GW_CC_PROD_CC_CONTACTCONTACT_10_NEW"
+            name: ODS_GW_CC_PROD_CC_CONTACTCONTACT
+            noLinkRefs: []
+      name: ODS_GW_CC_PROD_CC_CONTACTCONTACT
+      overrideSQL: false
+      sqlType: "10"
+      type: sql
+    stepCounter: "200017983"

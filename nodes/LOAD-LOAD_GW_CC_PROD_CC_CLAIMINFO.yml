@@ -1,0 +1,499 @@
+steps:
+  LOAD_GW_CC_PROD_CC_CLAIMINFO-200015026:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000133896
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000133897
+              stepCounter: "200015026"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: CLAIMNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"CLAIMNUMBER\""
+          - columnReference:
+              columnCounter: 2000133898
+              stepCounter: "200015026"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: NOTICEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"NOTICEDATE\""
+          - columnReference:
+              columnCounter: 2000133899
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000133900
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEFAILUREID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"ARCHIVEFAILUREID\""
+          - columnReference:
+              columnCounter: 2000133901
+              stepCounter: "200015026"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000133902
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVESTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"ARCHIVESTATE\""
+          - columnReference:
+              columnCounter: 2000133903
+              stepCounter: "200015026"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LOSSDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"LOSSDATE\""
+          - columnReference:
+              columnCounter: 2000133904
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000133905
+              stepCounter: "200015026"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000133906
+              stepCounter: "200015026"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PURGEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"PURGEDATE\""
+          - columnReference:
+              columnCounter: 2000133907
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEFAILUREDETAILSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"ARCHIVEFAILUREDETAILSID\""
+          - columnReference:
+              columnCounter: 2000133908
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"ID\""
+          - columnReference:
+              columnCounter: 2000133909
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ADJUSTERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"ADJUSTERID\""
+          - columnReference:
+              columnCounter: 2000133910
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000133911
+              stepCounter: "200015026"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: EXCLUDEREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"EXCLUDEREASON\""
+          - columnReference:
+              columnCounter: 2000133912
+              stepCounter: "200015026"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000133913
+              stepCounter: "200015026"
+            dataType: VARCHAR(5)
+            defaultValue: ""
+            description: ""
+            name: LOSSLOCATIONCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"LOSSLOCATIONCODE\""
+          - columnReference:
+              columnCounter: 2000133914
+              stepCounter: "200015026"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: ROOTPUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"ROOTPUBLICID\""
+          - columnReference:
+              columnCounter: 2000133915
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000133916
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000133917
+              stepCounter: "200015026"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EXCLUDEDFROMARCHIVE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"EXCLUDEDFROMARCHIVE\""
+          - columnReference:
+              columnCounter: 2000133918
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: JURISDICTIONSTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"JURISDICTIONSTATE\""
+          - columnReference:
+              columnCounter: 2000133919
+              stepCounter: "200015026"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"ARCHIVEDATE\""
+          - columnReference:
+              columnCounter: 2000133920
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"ASSIGNEDGROUPID\""
+          - columnReference:
+              columnCounter: 2000133921
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVESCHEMAINFO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"ARCHIVESCHEMAINFO\""
+          - columnReference:
+              columnCounter: 2000133922
+              stepCounter: "200015026"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: POLICYNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"POLICYNUMBER\""
+          - columnReference:
+              columnCounter: 2000133923
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000133924
+              stepCounter: "200015026"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DONOTDESTROY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"DONOTDESTROY\""
+          - columnReference:
+              columnCounter: 2000133925
+              stepCounter: "200015026"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: COVERAGELINEMATCHDATAINFOVALID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"COVERAGELINEMATCHDATAINFOVALID\""
+          - columnReference:
+              columnCounter: 2000133926
+              stepCounter: "200015026"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000133927
+              stepCounter: "200015026"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000133928
+              stepCounter: "200015026"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000133929
+              stepCounter: "200015026"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000133930
+              stepCounter: "200015026"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000133931
+              stepCounter: "200015026"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000133932
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000133933
+              stepCounter: "200015026"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000133934
+              stepCounter: "200015026"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000133935
+              stepCounter: "200015026"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMINFO\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000133895
+              stepCounter: "200015026"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_CLAIMINFO'"
+          - columnReference:
+              columnCounter: 2000133894
+              stepCounter: "200015026"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_CLAIMINFO
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_CLAIMINFO') }} "CC_CLAIMINFO" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_CLAIMINFO') }} "ODS_GW_CC_PROD_CC_CLAIMINFO")
+            name: LOAD_GW_CC_PROD_CC_CLAIMINFO
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_CLAIMINFO
+      name: LOAD_GW_CC_PROD_CC_CLAIMINFO
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200015026"

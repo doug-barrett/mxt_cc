@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_SUBROCLOSEDOUTCOME-200025239:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000131828
+              stepCounter: "200025239"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000131829
+              stepCounter: "200025239"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000131830
+              stepCounter: "200025239"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000131831
+              stepCounter: "200025239"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000131832
+              stepCounter: "200025239"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000131833
+              stepCounter: "200025239"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"ID\""
+          - columnReference:
+              columnCounter: 2000131834
+              stepCounter: "200025239"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000131835
+              stepCounter: "200025239"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000131836
+              stepCounter: "200025239"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000131837
+              stepCounter: "200025239"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000131838
+              stepCounter: "200025239"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131839
+              stepCounter: "200025239"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131840
+              stepCounter: "200025239"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000131841
+              stepCounter: "200025239"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000131842
+              stepCounter: "200025239"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000131843
+              stepCounter: "200025239"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000131844
+              stepCounter: "200025239"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000131845
+              stepCounter: "200025239"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000131846
+              stepCounter: "200025239"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000131847
+              stepCounter: "200025239"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROCLOSEDOUTCOME\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000131827
+              stepCounter: "200025239"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_SUBROCLOSEDOUTCOME'"
+          - columnReference:
+              columnCounter: 2000131826
+              stepCounter: "200025239"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_SUBROCLOSEDOUTCOME
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_SUBROCLOSEDOUTCOME') }} "CCTL_SUBROCLOSEDOUTCOME" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_SUBROCLOSEDOUTCOME') }} "ODS_GW_CC_PROD_CCTL_SUBROCLOSEDOUTCOME")
+            name: LOAD_GW_CC_PROD_CCTL_SUBROCLOSEDOUTCOME
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_SUBROCLOSEDOUTCOME
+      name: LOAD_GW_CC_PROD_CCTL_SUBROCLOSEDOUTCOME
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200025239"

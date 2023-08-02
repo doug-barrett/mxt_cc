@@ -1,0 +1,371 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCX_SIUINVESTIGATION_10_NEW-200018989:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000262714
+              stepCounter: "200018989"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000262715
+              stepCounter: "200018989"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000262716
+              stepCounter: "200018989"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SIUSUMMARYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"SIUSUMMARYID\""
+          - columnReference:
+              columnCounter: 2000262717
+              stepCounter: "200018989"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000262718
+              stepCounter: "200018989"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000262719
+              stepCounter: "200018989"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000262720
+              stepCounter: "200018989"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000262721
+              stepCounter: "200018989"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000262722
+              stepCounter: "200018989"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000262723
+              stepCounter: "200018989"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000262724
+              stepCounter: "200018989"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: SIUINVESTIGATIONCOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"SIUINVESTIGATIONCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000262725
+              stepCounter: "200018989"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"ID\""
+          - columnReference:
+              columnCounter: 2000262726
+              stepCounter: "200018989"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SIUINVESTIGATIONTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"SIUINVESTIGATIONTYPE\""
+          - columnReference:
+              columnCounter: 2000262727
+              stepCounter: "200018989"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000262728
+              stepCounter: "200018989"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000262729
+              stepCounter: "200018989"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000262730
+              stepCounter: "200018989"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000262731
+              stepCounter: "200018989"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_SIUINVESTIGATION_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000262732
+              stepCounter: "200018989"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000262733
+              stepCounter: "200018989"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000262734
+              stepCounter: "200018989"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000262735
+              stepCounter: "200018989"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000262736
+              stepCounter: "200018989"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000262712
+              stepCounter: "200018989"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_SIUINVESTIGATION_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000262713
+              stepCounter: "200018989"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_SIUINVESTIGATION_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000262741
+              stepCounter: "200018989"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000262737
+              stepCounter: "200018989"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000262738
+              stepCounter: "200018989"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000262740
+              stepCounter: "200018989"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000262739
+              stepCounter: "200018989"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCX_SIUINVESTIGATION_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION') }} \"LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCX_SIUINVESTIGATION_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CCX_SIUINVESTIGATION_05_SEQNO\"    ON LOAD_GW_CC_PROD_CCX_SIUINVESTIGATION.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CCX_SIUINVESTIGATION_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CCX_SIUINVESTIGATION_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CCX_SIUINVESTIGATION_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCX_SIUINVESTIGATION_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018989"

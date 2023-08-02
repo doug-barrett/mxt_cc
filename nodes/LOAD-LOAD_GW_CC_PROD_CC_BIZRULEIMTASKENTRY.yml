@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CC_BIZRULEIMTASKENTRY-200016798:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000132924
+              stepCounter: "200016798"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000132925
+              stepCounter: "200016798"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000132926
+              stepCounter: "200016798"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: IMPORTEDVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"IMPORTEDVERSION\""
+          - columnReference:
+              columnCounter: 2000132927
+              stepCounter: "200016798"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TASK
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"TASK\""
+          - columnReference:
+              columnCounter: 2000132928
+              stepCounter: "200016798"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: RULENAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"RULENAME\""
+          - columnReference:
+              columnCounter: 2000132929
+              stepCounter: "200016798"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000132930
+              stepCounter: "200016798"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEWHEADVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"NEWHEADVERSION\""
+          - columnReference:
+              columnCounter: 2000132931
+              stepCounter: "200016798"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHOSENSIDE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"CHOSENSIDE\""
+          - columnReference:
+              columnCounter: 2000132932
+              stepCounter: "200016798"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"ID\""
+          - columnReference:
+              columnCounter: 2000132933
+              stepCounter: "200016798"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXISTINGVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"EXISTINGVERSION\""
+          - columnReference:
+              columnCounter: 2000132934
+              stepCounter: "200016798"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000132935
+              stepCounter: "200016798"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000132936
+              stepCounter: "200016798"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000132937
+              stepCounter: "200016798"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000132938
+              stepCounter: "200016798"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000132939
+              stepCounter: "200016798"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000132940
+              stepCounter: "200016798"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000132941
+              stepCounter: "200016798"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000132942
+              stepCounter: "200016798"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000132943
+              stepCounter: "200016798"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULEIMTASKENTRY\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000132923
+              stepCounter: "200016798"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_BIZRULEIMTASKENTRY'"
+          - columnReference:
+              columnCounter: 2000132922
+              stepCounter: "200016798"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_BIZRULEIMTASKENTRY
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_BIZRULEIMTASKENTRY') }} "CC_BIZRULEIMTASKENTRY" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_BIZRULEIMTASKENTRY') }} "ODS_GW_CC_PROD_CC_BIZRULEIMTASKENTRY")
+            name: LOAD_GW_CC_PROD_CC_BIZRULEIMTASKENTRY
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_BIZRULEIMTASKENTRY
+      name: LOAD_GW_CC_PROD_CC_BIZRULEIMTASKENTRY
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016798"

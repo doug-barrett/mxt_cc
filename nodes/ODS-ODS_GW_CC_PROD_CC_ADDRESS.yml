@@ -1,0 +1,648 @@
+steps:
+  ODS_GW_CC_PROD_CC_ADDRESS-200009784:
+    operation:
+      config: {}
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000010
+      locationName: ODS
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000147481
+              stepCounter: "200009784"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000147482
+              stepCounter: "200009784"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: BATCHGEOCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"BATCHGEOCODE\""
+          - columnReference:
+              columnCounter: 2000147483
+              stepCounter: "200009784"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000147484
+              stepCounter: "200009784"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: NETWORKADDRESS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"NETWORKADDRESS_EXT\""
+          - columnReference:
+              columnCounter: 2000147485
+              stepCounter: "200009784"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSLINE1
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"ADDRESSLINE1\""
+          - columnReference:
+              columnCounter: 2000147486
+              stepCounter: "200009784"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000147487
+              stepCounter: "200009784"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSLINE2
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"ADDRESSLINE2\""
+          - columnReference:
+              columnCounter: 2000147488
+              stepCounter: "200009784"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSLINE3
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"ADDRESSLINE3\""
+          - columnReference:
+              columnCounter: 2000147489
+              stepCounter: "200009784"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: CITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"CITY\""
+          - columnReference:
+              columnCounter: 2000147490
+              stepCounter: "200009784"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ADDRESSOVERRIDEDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"ADDRESSOVERRIDEDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000147491
+              stepCounter: "200009784"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000147492
+              stepCounter: "200009784"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: POSTALCODEDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"POSTALCODEDENORM\""
+          - columnReference:
+              columnCounter: 2000147493
+              stepCounter: "200009784"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000147494
+              stepCounter: "200009784"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"ID\""
+          - columnReference:
+              columnCounter: 2000147495
+              stepCounter: "200009784"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000147496
+              stepCounter: "200009784"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: VALIDUNTIL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"VALIDUNTIL\""
+          - columnReference:
+              columnCounter: 2000147497
+              stepCounter: "200009784"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000147498
+              stepCounter: "200009784"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000147499
+              stepCounter: "200009784"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000147500
+              stepCounter: "200009784"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: CITYDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"CITYDENORM\""
+          - columnReference:
+              columnCounter: 2000147501
+              stepCounter: "200009784"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000147502
+              stepCounter: "200009784"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: COUNTY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"COUNTY\""
+          - columnReference:
+              columnCounter: 2000147503
+              stepCounter: "200009784"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"ADDRESSTYPE\""
+          - columnReference:
+              columnCounter: 2000147504
+              stepCounter: "200009784"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GEOCODESTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"GEOCODESTATUS\""
+          - columnReference:
+              columnCounter: 2000147505
+              stepCounter: "200009784"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"STATE\""
+          - columnReference:
+              columnCounter: 2000147506
+              stepCounter: "200009784"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSBOOKUID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"ADDRESSBOOKUID\""
+          - columnReference:
+              columnCounter: 2000147507
+              stepCounter: "200009784"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: MAILROUTE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"MAILROUTE_EXT\""
+          - columnReference:
+              columnCounter: 2000147508
+              stepCounter: "200009784"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COUNTRY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"COUNTRY\""
+          - columnReference:
+              columnCounter: 2000147509
+              stepCounter: "200009784"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: POSTALCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"POSTALCODE\""
+          - columnReference:
+              columnCounter: 2000147510
+              stepCounter: "200009784"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: SETTLEMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"SETTLEMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000147511
+              stepCounter: "200009784"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: MUNICIPALITY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"MUNICIPALITY_EXT\""
+          - columnReference:
+              columnCounter: 2000147512
+              stepCounter: "200009784"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000147513
+              stepCounter: "200009784"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: OBFUSCATEDINTERNAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"OBFUSCATEDINTERNAL\""
+          - columnReference:
+              columnCounter: 2000147514
+              stepCounter: "200009784"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: CITYKANJI
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"CITYKANJI\""
+          - columnReference:
+              columnCounter: 2000147515
+              stepCounter: "200009784"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSLINE2KANJI
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"ADDRESSLINE2KANJI\""
+          - columnReference:
+              columnCounter: 2000147516
+              stepCounter: "200009784"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: EXTERNALLINKID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"EXTERNALLINKID\""
+          - columnReference:
+              columnCounter: 2000147517
+              stepCounter: "200009784"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSLINE1KANJI
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"ADDRESSLINE1KANJI\""
+          - columnReference:
+              columnCounter: 2000147518
+              stepCounter: "200009784"
+            dataType: VARCHAR(2)
+            defaultValue: ""
+            description: ""
+            name: CEDEXBUREAU
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"CEDEXBUREAU\""
+          - columnReference:
+              columnCounter: 2000147519
+              stepCounter: "200009784"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CEDEX
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"CEDEX\""
+          - columnReference:
+              columnCounter: 2000147520
+              stepCounter: "200009784"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000147521
+              stepCounter: "200009784"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000147522
+              stepCounter: "200009784"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000147523
+              stepCounter: "200009784"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000147524
+              stepCounter: "200009784"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000147525
+              stepCounter: "200009784"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000147526
+              stepCounter: "200009784"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000147527
+              stepCounter: "200009784"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000147528
+              stepCounter: "200009784"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000147529
+              stepCounter: "200009784"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000147530
+              stepCounter: "200009784"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000147531
+              stepCounter: "200009784"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000147532
+              stepCounter: "200009784"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000147533
+              stepCounter: "200009784"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000147534
+              stepCounter: "200009784"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000147536
+              stepCounter: "200009784"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000147535
+              stepCounter: "200009784"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW') }} "STG_ODS_GW_CC_PROD_CC_ADDRESS_10_NEW"
+            name: ODS_GW_CC_PROD_CC_ADDRESS
+            noLinkRefs: []
+      name: ODS_GW_CC_PROD_CC_ADDRESS
+      overrideSQL: false
+      sqlType: "10"
+      type: sql
+    stepCounter: "200009784"

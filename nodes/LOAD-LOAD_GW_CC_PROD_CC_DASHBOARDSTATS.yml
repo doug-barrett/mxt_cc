@@ -1,0 +1,521 @@
+steps:
+  LOAD_GW_CC_PROD_CC_DASHBOARDSTATS-200016835:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000134498
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEWLITIGATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"NEWLITIGATION\""
+          - columnReference:
+              columnCounter: 2000134499
+              stepCounter: "200016835"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: OPENRESERVES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"OPENRESERVES\""
+          - columnReference:
+              columnCounter: 2000134500
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OPENCLAIMS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"OPENCLAIMS\""
+          - columnReference:
+              columnCounter: 2000134501
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OPENEXPOSURES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"OPENEXPOSURES\""
+          - columnReference:
+              columnCounter: 2000134502
+              stepCounter: "200016835"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALINCURREDNET
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"TOTALINCURREDNET\""
+          - columnReference:
+              columnCounter: 2000134503
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NOTICEONLY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"NOTICEONLY\""
+          - columnReference:
+              columnCounter: 2000134504
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEWNOTICEONLY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"NEWNOTICEONLY\""
+          - columnReference:
+              columnCounter: 2000134505
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLOSETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"CLOSETIME\""
+          - columnReference:
+              columnCounter: 2000134506
+              stepCounter: "200016835"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: EXPENSESONCLOSED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"EXPENSESONCLOSED\""
+          - columnReference:
+              columnCounter: 2000134507
+              stepCounter: "200016835"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: RECOVEREDINPERIOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"RECOVEREDINPERIOD\""
+          - columnReference:
+              columnCounter: 2000134508
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HANDLERS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"HANDLERS\""
+          - columnReference:
+              columnCounter: 2000134509
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"STATTYPE\""
+          - columnReference:
+              columnCounter: 2000134510
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OVERINCURREDLIMIT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"OVERINCURREDLIMIT\""
+          - columnReference:
+              columnCounter: 2000134511
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REOPENEDCLAIMS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"REOPENEDCLAIMS\""
+          - columnReference:
+              columnCounter: 2000134512
+              stepCounter: "200016835"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CLAIMCOSTSONCLOSED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"CLAIMCOSTSONCLOSED\""
+          - columnReference:
+              columnCounter: 2000134513
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEWCLAIMS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"NEWCLAIMS\""
+          - columnReference:
+              columnCounter: 2000134514
+              stepCounter: "200016835"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TTLINCNETMINUSOPENRECRESERVES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"TTLINCNETMINUSOPENRECRESERVES\""
+          - columnReference:
+              columnCounter: 2000134515
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"ID\""
+          - columnReference:
+              columnCounter: 2000134516
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOSSTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"LOSSTYPE\""
+          - columnReference:
+              columnCounter: 2000134517
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"GROUPID\""
+          - columnReference:
+              columnCounter: 2000134518
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLOSEDEXPOSURES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"CLOSEDEXPOSURES\""
+          - columnReference:
+              columnCounter: 2000134519
+              stepCounter: "200016835"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: EXPENSESINPERIOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"EXPENSESINPERIOD\""
+          - columnReference:
+              columnCounter: 2000134520
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COVERAGETYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"COVERAGETYPE\""
+          - columnReference:
+              columnCounter: 2000134521
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLOSEDCLAIMS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"CLOSEDCLAIMS\""
+          - columnReference:
+              columnCounter: 2000134522
+              stepCounter: "200016835"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000134523
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LITIGATED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"LITIGATED\""
+          - columnReference:
+              columnCounter: 2000134524
+              stepCounter: "200016835"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: EXPENSESPAID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"EXPENSESPAID\""
+          - columnReference:
+              columnCounter: 2000134525
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOBCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"LOBCODE\""
+          - columnReference:
+              columnCounter: 2000134526
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEWEXPOSURES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"NEWEXPOSURES\""
+          - columnReference:
+              columnCounter: 2000134527
+              stepCounter: "200016835"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CLAIMCOSTSINPERIOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"CLAIMCOSTSINPERIOD\""
+          - columnReference:
+              columnCounter: 2000134528
+              stepCounter: "200016835"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CLAIMCOSTSPAID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"CLAIMCOSTSPAID\""
+          - columnReference:
+              columnCounter: 2000134529
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FLAGGED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"FLAGGED\""
+          - columnReference:
+              columnCounter: 2000134530
+              stepCounter: "200016835"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000134531
+              stepCounter: "200016835"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000134532
+              stepCounter: "200016835"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000134533
+              stepCounter: "200016835"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000134534
+              stepCounter: "200016835"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000134535
+              stepCounter: "200016835"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000134536
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000134537
+              stepCounter: "200016835"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000134538
+              stepCounter: "200016835"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000134539
+              stepCounter: "200016835"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DASHBOARDSTATS\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000134497
+              stepCounter: "200016835"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_DASHBOARDSTATS'"
+          - columnReference:
+              columnCounter: 2000134496
+              stepCounter: "200016835"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_DASHBOARDSTATS
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_DASHBOARDSTATS') }} "CC_DASHBOARDSTATS" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_DASHBOARDSTATS') }} "ODS_GW_CC_PROD_CC_DASHBOARDSTATS")
+            name: LOAD_GW_CC_PROD_CC_DASHBOARDSTATS
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_DASHBOARDSTATS
+      name: LOAD_GW_CC_PROD_CC_DASHBOARDSTATS
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016835"

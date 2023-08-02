@@ -1,0 +1,378 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_CHILDSUPPORTORDER-200016674:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000138464
+              stepCounter: "200016674"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CONTACTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"CONTACTID\""
+          - columnReference:
+              columnCounter: 2000138465
+              stepCounter: "200016674"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000138466
+              stepCounter: "200016674"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: JURISDICTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"JURISDICTION\""
+          - columnReference:
+              columnCounter: 2000138467
+              stepCounter: "200016674"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AMOUNTPERPAYCYCLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"AMOUNTPERPAYCYCLE\""
+          - columnReference:
+              columnCounter: 2000138468
+              stepCounter: "200016674"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000138469
+              stepCounter: "200016674"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138470
+              stepCounter: "200016674"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000138471
+              stepCounter: "200016674"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000138472
+              stepCounter: "200016674"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000138473
+              stepCounter: "200016674"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEOFORDER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"DATEOFORDER\""
+          - columnReference:
+              columnCounter: 2000138474
+              stepCounter: "200016674"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000138475
+              stepCounter: "200016674"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ORDEREXPIRATIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"ORDEREXPIRATIONDATE\""
+          - columnReference:
+              columnCounter: 2000138476
+              stepCounter: "200016674"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138477
+              stepCounter: "200016674"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: COMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"COMMENTS\""
+          - columnReference:
+              columnCounter: 2000138478
+              stepCounter: "200016674"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000138479
+              stepCounter: "200016674"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000138480
+              stepCounter: "200016674"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"ID\""
+          - columnReference:
+              columnCounter: 2000138481
+              stepCounter: "200016674"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000138482
+              stepCounter: "200016674"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYCYCLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"PAYCYCLE\""
+          - columnReference:
+              columnCounter: 2000138483
+              stepCounter: "200016674"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000138484
+              stepCounter: "200016674"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138485
+              stepCounter: "200016674"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000138486
+              stepCounter: "200016674"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000138487
+              stepCounter: "200016674"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000138488
+              stepCounter: "200016674"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138489
+              stepCounter: "200016674"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000138490
+              stepCounter: "200016674"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000138491
+              stepCounter: "200016674"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000138492
+              stepCounter: "200016674"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHILDSUPPORTORDER\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000138463
+              stepCounter: "200016674"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_CHILDSUPPORTORDER'"
+          - columnReference:
+              columnCounter: 2000138462
+              stepCounter: "200016674"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_CHILDSUPPORTORDER
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_CHILDSUPPORTORDER') }} "CCX_CHILDSUPPORTORDER" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_CHILDSUPPORTORDER') }} "ODS_GW_CC_PROD_CCX_CHILDSUPPORTORDER")
+            name: LOAD_GW_CC_PROD_CCX_CHILDSUPPORTORDER
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_CHILDSUPPORTORDER
+      name: LOAD_GW_CC_PROD_CCX_CHILDSUPPORTORDER
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016674"

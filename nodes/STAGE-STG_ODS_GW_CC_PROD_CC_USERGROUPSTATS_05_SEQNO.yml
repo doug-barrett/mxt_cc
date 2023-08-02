@@ -1,0 +1,107 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_USERGROUPSTATS_05_SEQNO-200018463:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000259884
+              stepCounter: "200018463"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_USERGROUPSTATS\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000259887
+              stepCounter: "200018463"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRREFRESH_HISTORY\".\"HVR_REFRESH_SEQNO_HIST\""
+          - columnReference:
+              columnCounter: 2000259888
+              stepCounter: "200018463"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ_ODS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CC_USERGROUPSTATS\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000259886
+              stepCounter: "200018463"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000259885
+              stepCounter: "200018463"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000259889
+              stepCounter: "200018463"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'CC_PROD'"
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_USERGROUPSTATS
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRREFRESH_HISTORY
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_USERGROUPSTATS') }} \"LOAD_GW_CC_PROD_CC_USERGROUPSTATS\" JOIN {{ ref('ODS','ODS_CTRL_HVRREFRESH_HISTORY') }} \"ODS_CTRL_HVRREFRESH_HISTORY\"    ON LOAD_GW_CC_PROD_CC_USERGROUPSTATS.DSS_RECORD_SOURCE = ODS_CTRL_HVRREFRESH_HISTORY.HVR_RECORD_SOURCE   AND LOAD_GW_CC_PROD_CC_USERGROUPSTATS.HVRCAPTSTAMP BETWEEN ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE AND ODS_CTRL_HVRREFRESH_HISTORY.THRU_DATE  LEFT JOIN {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_USERGROUPSTATS') }} \"ODS_GW_CC_PROD_CC_USERGROUPSTATS\"   ON LOAD_GW_CC_PROD_CC_USERGROUPSTATS.HVRINTEGSEQ = ODS_GW_CC_PROD_CC_USERGROUPSTATS.HVRINTEGSEQ   AND ODS_CTRL_HVRREFRESH_HISTORY.HVR_REFRESH_SEQNO_HIST = ODS_GW_CC_PROD_CC_USERGROUPSTATS.HVR_REFRESH_SEQNO WHERE ODS_GW_CC_PROD_CC_USERGROUPSTATS.HVRINTEGSEQ IS NULL "
+            name: STG_ODS_GW_CC_PROD_CC_USERGROUPSTATS_05_SEQNO
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_USERGROUPSTATS
+      name: STG_ODS_GW_CC_PROD_CC_USERGROUPSTATS_05_SEQNO
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018463"

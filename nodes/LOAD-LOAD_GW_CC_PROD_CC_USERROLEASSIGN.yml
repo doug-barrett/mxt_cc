@@ -1,0 +1,444 @@
+steps:
+  LOAD_GW_CC_PROD_CC_USERROLEASSIGN-200016926:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000137683
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000137684
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"PREVIOUSUSERID\""
+          - columnReference:
+              columnCounter: 2000137685
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDQUEUEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"ASSIGNEDQUEUEID\""
+          - columnReference:
+              columnCounter: 2000137686
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000137687
+              stepCounter: "200016926"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000137688
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDBYUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"ASSIGNEDBYUSERID\""
+          - columnReference:
+              columnCounter: 2000137689
+              stepCounter: "200016926"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: COMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"COMMENTS\""
+          - columnReference:
+              columnCounter: 2000137690
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000137691
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ROLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"ROLE\""
+          - columnReference:
+              columnCounter: 2000137692
+              stepCounter: "200016926"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000137693
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"ASSIGNEDUSERID\""
+          - columnReference:
+              columnCounter: 2000137694
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"ID\""
+          - columnReference:
+              columnCounter: 2000137695
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000137696
+              stepCounter: "200016926"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000137697
+              stepCounter: "200016926"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CLOSEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"CLOSEDATE\""
+          - columnReference:
+              columnCounter: 2000137698
+              stepCounter: "200016926"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ACTIVE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"ACTIVE\""
+          - columnReference:
+              columnCounter: 2000137699
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSUREID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"EXPOSUREID\""
+          - columnReference:
+              columnCounter: 2000137700
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"PREVIOUSGROUPID\""
+          - columnReference:
+              columnCounter: 2000137701
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000137702
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000137703
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000137704
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"ASSIGNEDGROUPID\""
+          - columnReference:
+              columnCounter: 2000137705
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSQUEUEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"PREVIOUSQUEUEID\""
+          - columnReference:
+              columnCounter: 2000137706
+              stepCounter: "200016926"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"ASSIGNMENTDATE\""
+          - columnReference:
+              columnCounter: 2000137707
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"ASSIGNMENTSTATUS\""
+          - columnReference:
+              columnCounter: 2000137708
+              stepCounter: "200016926"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000137709
+              stepCounter: "200016926"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000137710
+              stepCounter: "200016926"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000137711
+              stepCounter: "200016926"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000137712
+              stepCounter: "200016926"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000137713
+              stepCounter: "200016926"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000137714
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000137715
+              stepCounter: "200016926"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000137716
+              stepCounter: "200016926"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000137717
+              stepCounter: "200016926"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERROLEASSIGN\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000137682
+              stepCounter: "200016926"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_USERROLEASSIGN'"
+          - columnReference:
+              columnCounter: 2000137681
+              stepCounter: "200016926"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_USERROLEASSIGN
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_USERROLEASSIGN') }} "CC_USERROLEASSIGN" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_USERROLEASSIGN') }} "ODS_GW_CC_PROD_CC_USERROLEASSIGN")
+            name: LOAD_GW_CC_PROD_CC_USERROLEASSIGN
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_USERROLEASSIGN
+      name: LOAD_GW_CC_PROD_CC_USERROLEASSIGN
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016926"

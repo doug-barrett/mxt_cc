@@ -1,0 +1,107 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS_05_SEQNO-200019201:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000257939
+              stepCounter: "200019201"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000257943
+              stepCounter: "200019201"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRREFRESH_HISTORY\".\"HVR_REFRESH_SEQNO_HIST\""
+          - columnReference:
+              columnCounter: 2000257944
+              stepCounter: "200019201"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ_ODS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000257941
+              stepCounter: "200019201"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000257940
+              stepCounter: "200019201"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000257942
+              stepCounter: "200019201"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'CC_PROD'"
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRREFRESH_HISTORY
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS') }} \"LOAD_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS\" JOIN {{ ref('ODS','ODS_CTRL_HVRREFRESH_HISTORY') }} \"ODS_CTRL_HVRREFRESH_HISTORY\"    ON LOAD_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS.DSS_RECORD_SOURCE = ODS_CTRL_HVRREFRESH_HISTORY.HVR_RECORD_SOURCE   AND LOAD_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS.HVRCAPTSTAMP BETWEEN ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE AND ODS_CTRL_HVRREFRESH_HISTORY.THRU_DATE  LEFT JOIN {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS') }} \"ODS_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS\"   ON LOAD_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS.HVRINTEGSEQ = ODS_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS.HVRINTEGSEQ   AND ODS_CTRL_HVRREFRESH_HISTORY.HVR_REFRESH_SEQNO_HIST = ODS_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS.HVR_REFRESH_SEQNO   WHERE ODS_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS.HVRINTEGSEQ IS NULL "
+            name: STG_ODS_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS_05_SEQNO
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS
+      name: STG_ODS_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS_05_SEQNO
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200019201"

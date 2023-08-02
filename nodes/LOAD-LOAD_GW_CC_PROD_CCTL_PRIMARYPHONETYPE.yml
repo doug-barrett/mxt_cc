@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_PRIMARYPHONETYPE-200019322:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000131520
+              stepCounter: "200019322"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000131521
+              stepCounter: "200019322"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000131522
+              stepCounter: "200019322"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000131523
+              stepCounter: "200019322"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000131524
+              stepCounter: "200019322"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000131525
+              stepCounter: "200019322"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000131526
+              stepCounter: "200019322"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000131527
+              stepCounter: "200019322"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000131528
+              stepCounter: "200019322"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000131529
+              stepCounter: "200019322"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000131530
+              stepCounter: "200019322"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131531
+              stepCounter: "200019322"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131532
+              stepCounter: "200019322"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000131533
+              stepCounter: "200019322"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000131534
+              stepCounter: "200019322"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000131535
+              stepCounter: "200019322"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000131536
+              stepCounter: "200019322"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000131537
+              stepCounter: "200019322"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000131538
+              stepCounter: "200019322"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000131539
+              stepCounter: "200019322"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PRIMARYPHONETYPE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000131519
+              stepCounter: "200019322"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_PRIMARYPHONETYPE'"
+          - columnReference:
+              columnCounter: 2000131518
+              stepCounter: "200019322"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_PRIMARYPHONETYPE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_PRIMARYPHONETYPE') }} "CCTL_PRIMARYPHONETYPE" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_PRIMARYPHONETYPE') }} "ODS_GW_CC_PROD_CCTL_PRIMARYPHONETYPE")
+            name: LOAD_GW_CC_PROD_CCTL_PRIMARYPHONETYPE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_PRIMARYPHONETYPE
+      name: LOAD_GW_CC_PROD_CCTL_PRIMARYPHONETYPE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200019322"

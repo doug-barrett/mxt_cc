@@ -1,0 +1,345 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_NETWORKCOUNTY-200016745:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000141191
+              stepCounter: "200016745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000141192
+              stepCounter: "200016745"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000141193
+              stepCounter: "200016745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000141194
+              stepCounter: "200016745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000141195
+              stepCounter: "200016745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000141196
+              stepCounter: "200016745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ENDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"ENDDATE\""
+          - columnReference:
+              columnCounter: 2000141197
+              stepCounter: "200016745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000141198
+              stepCounter: "200016745"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: COUNTY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"COUNTY\""
+          - columnReference:
+              columnCounter: 2000141199
+              stepCounter: "200016745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: JURISDICTIONSTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"JURISDICTIONSTATE\""
+          - columnReference:
+              columnCounter: 2000141200
+              stepCounter: "200016745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"STARTDATE\""
+          - columnReference:
+              columnCounter: 2000141201
+              stepCounter: "200016745"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: COMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"COMMENTS\""
+          - columnReference:
+              columnCounter: 2000141202
+              stepCounter: "200016745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000141203
+              stepCounter: "200016745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000141204
+              stepCounter: "200016745"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISCOUNTYACTIVE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"ISCOUNTYACTIVE\""
+          - columnReference:
+              columnCounter: 2000141205
+              stepCounter: "200016745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000141206
+              stepCounter: "200016745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"ID\""
+          - columnReference:
+              columnCounter: 2000141207
+              stepCounter: "200016745"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000141208
+              stepCounter: "200016745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000141209
+              stepCounter: "200016745"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000141210
+              stepCounter: "200016745"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000141211
+              stepCounter: "200016745"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000141212
+              stepCounter: "200016745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000141213
+              stepCounter: "200016745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000141214
+              stepCounter: "200016745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000141215
+              stepCounter: "200016745"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000141216
+              stepCounter: "200016745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_NETWORKCOUNTY\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000141190
+              stepCounter: "200016745"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_NETWORKCOUNTY'"
+          - columnReference:
+              columnCounter: 2000141189
+              stepCounter: "200016745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_NETWORKCOUNTY
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_NETWORKCOUNTY') }} "CCX_NETWORKCOUNTY" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_NETWORKCOUNTY') }} "ODS_GW_CC_PROD_CCX_NETWORKCOUNTY")
+            name: LOAD_GW_CC_PROD_CCX_NETWORKCOUNTY
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_NETWORKCOUNTY
+      name: LOAD_GW_CC_PROD_CCX_NETWORKCOUNTY
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016745"

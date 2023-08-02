@@ -1,0 +1,251 @@
+steps:
+  ODS_GW_CC_PROD_CCTL_EXPOSURESTATE-200010475:
+    operation:
+      config: {}
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000010
+      locationName: ODS
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000031489
+              stepCounter: "200010475"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000031490
+              stepCounter: "200010475"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000031491
+              stepCounter: "200010475"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000031492
+              stepCounter: "200010475"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000031493
+              stepCounter: "200010475"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000031494
+              stepCounter: "200010475"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"ID\""
+          - columnReference:
+              columnCounter: 2000031495
+              stepCounter: "200010475"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000031496
+              stepCounter: "200010475"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000031497
+              stepCounter: "200010475"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000031498
+              stepCounter: "200010475"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000031499
+              stepCounter: "200010475"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000031500
+              stepCounter: "200010475"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000031501
+              stepCounter: "200010475"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000031502
+              stepCounter: "200010475"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000031503
+              stepCounter: "200010475"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000031504
+              stepCounter: "200010475"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"DELETE_FLAG\""
+          - columnReference:
+              columnCounter: 2000031505
+              stepCounter: "200010475"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000031506
+              stepCounter: "200010475"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000031508
+              stepCounter: "200010475"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000031507
+              stepCounter: "200010475"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M') }} "STG_ODS_GW_CC_PROD_CCTL_EXPOSURESTATE_15_M"
+            name: ODS_GW_CC_PROD_CCTL_EXPOSURESTATE
+            noLinkRefs: []
+      name: ODS_GW_CC_PROD_CCTL_EXPOSURESTATE
+      overrideSQL: false
+      sqlType: "23"
+      type: sql
+    stepCounter: "200010475"

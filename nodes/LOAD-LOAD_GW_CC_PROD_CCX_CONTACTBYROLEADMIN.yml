@@ -1,0 +1,378 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_CONTACTBYROLEADMIN-200016681:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000138744
+              stepCounter: "200016681"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CONTACT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"CONTACT\""
+          - columnReference:
+              columnCounter: 2000138745
+              stepCounter: "200016681"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000138746
+              stepCounter: "200016681"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PAYABLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"PAYABLE\""
+          - columnReference:
+              columnCounter: 2000138747
+              stepCounter: "200016681"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000138748
+              stepCounter: "200016681"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CONTACTLEVEL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"CONTACTLEVEL\""
+          - columnReference:
+              columnCounter: 2000138749
+              stepCounter: "200016681"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FORMERCONTACTROLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"FORMERCONTACTROLE\""
+          - columnReference:
+              columnCounter: 2000138750
+              stepCounter: "200016681"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138751
+              stepCounter: "200016681"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LOSTWAGES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"LOSTWAGES\""
+          - columnReference:
+              columnCounter: 2000138752
+              stepCounter: "200016681"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000138753
+              stepCounter: "200016681"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000138754
+              stepCounter: "200016681"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: AVAILABLEFORSELECTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"AVAILABLEFORSELECTION\""
+          - columnReference:
+              columnCounter: 2000138755
+              stepCounter: "200016681"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EMPLOYERLIABILITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"EMPLOYERLIABILITY\""
+          - columnReference:
+              columnCounter: 2000138756
+              stepCounter: "200016681"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138757
+              stepCounter: "200016681"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CONTACTROLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"CONTACTROLE\""
+          - columnReference:
+              columnCounter: 2000138758
+              stepCounter: "200016681"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000138759
+              stepCounter: "200016681"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: MEDICALEXPOSURE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"MEDICALEXPOSURE\""
+          - columnReference:
+              columnCounter: 2000138760
+              stepCounter: "200016681"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"ID\""
+          - columnReference:
+              columnCounter: 2000138761
+              stepCounter: "200016681"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LIMITEDREIMBURSEMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"LIMITEDREIMBURSEMENT\""
+          - columnReference:
+              columnCounter: 2000138762
+              stepCounter: "200016681"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: MOBILEAUTHORIZED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"MOBILEAUTHORIZED\""
+          - columnReference:
+              columnCounter: 2000138763
+              stepCounter: "200016681"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000138764
+              stepCounter: "200016681"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138765
+              stepCounter: "200016681"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000138766
+              stepCounter: "200016681"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000138767
+              stepCounter: "200016681"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000138768
+              stepCounter: "200016681"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138769
+              stepCounter: "200016681"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000138770
+              stepCounter: "200016681"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000138771
+              stepCounter: "200016681"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000138772
+              stepCounter: "200016681"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CONTACTBYROLEADMIN\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000138743
+              stepCounter: "200016681"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_CONTACTBYROLEADMIN'"
+          - columnReference:
+              columnCounter: 2000138742
+              stepCounter: "200016681"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_CONTACTBYROLEADMIN
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_CONTACTBYROLEADMIN') }} "CCX_CONTACTBYROLEADMIN" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_CONTACTBYROLEADMIN') }} "ODS_GW_CC_PROD_CCX_CONTACTBYROLEADMIN")
+            name: LOAD_GW_CC_PROD_CCX_CONTACTBYROLEADMIN
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_CONTACTBYROLEADMIN
+      name: LOAD_GW_CC_PROD_CCX_CONTACTBYROLEADMIN
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016681"

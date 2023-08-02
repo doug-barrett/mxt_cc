@@ -1,0 +1,334 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_ELSTATUTE-200016734:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000139085
+              stepCounter: "200016734"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STATUTEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"STATUTEDATE\""
+          - columnReference:
+              columnCounter: 2000139086
+              stepCounter: "200016734"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000139087
+              stepCounter: "200016734"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000139088
+              stepCounter: "200016734"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ELSTATUTETYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"ELSTATUTETYPE\""
+          - columnReference:
+              columnCounter: 2000139089
+              stepCounter: "200016734"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000139090
+              stepCounter: "200016734"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139091
+              stepCounter: "200016734"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000139092
+              stepCounter: "200016734"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000139093
+              stepCounter: "200016734"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000139094
+              stepCounter: "200016734"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000139095
+              stepCounter: "200016734"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: JURISDICTIONSTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"JURISDICTIONSTATE\""
+          - columnReference:
+              columnCounter: 2000139096
+              stepCounter: "200016734"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139097
+              stepCounter: "200016734"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000139098
+              stepCounter: "200016734"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000139099
+              stepCounter: "200016734"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000139100
+              stepCounter: "200016734"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000139101
+              stepCounter: "200016734"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139102
+              stepCounter: "200016734"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000139103
+              stepCounter: "200016734"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000139104
+              stepCounter: "200016734"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000139105
+              stepCounter: "200016734"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139106
+              stepCounter: "200016734"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000139107
+              stepCounter: "200016734"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000139108
+              stepCounter: "200016734"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000139109
+              stepCounter: "200016734"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ELSTATUTE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000139084
+              stepCounter: "200016734"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_ELSTATUTE'"
+          - columnReference:
+              columnCounter: 2000139083
+              stepCounter: "200016734"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_ELSTATUTE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_ELSTATUTE') }} "CCX_ELSTATUTE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_ELSTATUTE') }} "ODS_GW_CC_PROD_CCX_ELSTATUTE")
+            name: LOAD_GW_CC_PROD_CCX_ELSTATUTE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_ELSTATUTE
+      name: LOAD_GW_CC_PROD_CCX_ELSTATUTE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016734"

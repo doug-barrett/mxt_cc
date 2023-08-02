@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_DELIVERYMETHOD-200023748:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000130836
+              stepCounter: "200023748"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000130837
+              stepCounter: "200023748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000130838
+              stepCounter: "200023748"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000130839
+              stepCounter: "200023748"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000130840
+              stepCounter: "200023748"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000130841
+              stepCounter: "200023748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"ID\""
+          - columnReference:
+              columnCounter: 2000130842
+              stepCounter: "200023748"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000130843
+              stepCounter: "200023748"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000130844
+              stepCounter: "200023748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000130845
+              stepCounter: "200023748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000130851
+              stepCounter: "200023748"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000130846
+              stepCounter: "200023748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000130848
+              stepCounter: "200023748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(CCTL_DELIVERYMETHOD.HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000130852
+              stepCounter: "200023748"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000130853
+              stepCounter: "200023748"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000130854
+              stepCounter: "200023748"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000130847
+              stepCounter: "200023748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000130855
+              stepCounter: "200023748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000130856
+              stepCounter: "200023748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000130857
+              stepCounter: "200023748"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DELIVERYMETHOD\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000130849
+              stepCounter: "200023748"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: DSS_RECORD_SOURCE
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_DELIVERYMETHOD'  "
+          - columnReference:
+              columnCounter: 2000130850
+              stepCounter: "200023748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DSS_LOAD_DATE
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_DELIVERYMETHOD
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_DELIVERYMETHOD') }} "CCTL_DELIVERYMETHOD" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_DELIVERYMETHOD') }} "ODS_GW_CC_PROD_CCTL_DELIVERYMETHOD")
+            name: LOAD_GW_CC_PROD_CCTL_DELIVERYMETHOD
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_DELIVERYMETHOD
+      name: LOAD_GW_CC_PROD_CCTL_DELIVERYMETHOD
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200023748"

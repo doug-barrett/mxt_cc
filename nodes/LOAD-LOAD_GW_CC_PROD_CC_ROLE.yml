@@ -1,0 +1,301 @@
+steps:
+  LOAD_GW_CC_PROD_CC_ROLE-200016891:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000141430
+              stepCounter: "200016891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ROLETYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"ROLETYPE\""
+          - columnReference:
+              columnCounter: 2000141431
+              stepCounter: "200016891"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000141432
+              stepCounter: "200016891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000141433
+              stepCounter: "200016891"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000141434
+              stepCounter: "200016891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000141435
+              stepCounter: "200016891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000141436
+              stepCounter: "200016891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000141437
+              stepCounter: "200016891"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000141438
+              stepCounter: "200016891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000141439
+              stepCounter: "200016891"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000141440
+              stepCounter: "200016891"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CARRIERINTERNALROLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"CARRIERINTERNALROLE\""
+          - columnReference:
+              columnCounter: 2000141441
+              stepCounter: "200016891"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000141442
+              stepCounter: "200016891"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000141443
+              stepCounter: "200016891"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000141444
+              stepCounter: "200016891"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000141445
+              stepCounter: "200016891"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000141446
+              stepCounter: "200016891"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000141447
+              stepCounter: "200016891"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000141448
+              stepCounter: "200016891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000141449
+              stepCounter: "200016891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000141450
+              stepCounter: "200016891"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000141451
+              stepCounter: "200016891"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_ROLE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000141429
+              stepCounter: "200016891"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_ROLE'"
+          - columnReference:
+              columnCounter: 2000141428
+              stepCounter: "200016891"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_ROLE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_ROLE') }} "CC_ROLE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_ROLE') }} "ODS_GW_CC_PROD_CC_ROLE")
+            name: LOAD_GW_CC_PROD_CC_ROLE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_ROLE
+      name: LOAD_GW_CC_PROD_CC_ROLE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016891"

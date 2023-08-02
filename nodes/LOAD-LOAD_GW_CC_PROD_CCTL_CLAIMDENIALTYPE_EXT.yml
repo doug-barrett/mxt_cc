@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_CLAIMDENIALTYPE_EXT-200008603:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000130508
+              stepCounter: "200008603"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000130509
+              stepCounter: "200008603"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000130510
+              stepCounter: "200008603"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000130511
+              stepCounter: "200008603"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000130512
+              stepCounter: "200008603"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000130513
+              stepCounter: "200008603"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000130514
+              stepCounter: "200008603"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000130515
+              stepCounter: "200008603"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000130516
+              stepCounter: "200008603"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000130517
+              stepCounter: "200008603"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000130518
+              stepCounter: "200008603"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000130519
+              stepCounter: "200008603"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000130520
+              stepCounter: "200008603"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000130521
+              stepCounter: "200008603"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000130522
+              stepCounter: "200008603"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000130523
+              stepCounter: "200008603"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000130524
+              stepCounter: "200008603"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000130525
+              stepCounter: "200008603"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000130526
+              stepCounter: "200008603"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000130527
+              stepCounter: "200008603"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMDENIALTYPE_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000130507
+              stepCounter: "200008603"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_CLAIMDENIALTYPE_EXT'"
+          - columnReference:
+              columnCounter: 2000130506
+              stepCounter: "200008603"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_CLAIMDENIALTYPE_EXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_CLAIMDENIALTYPE_EXT') }} "CCTL_CLAIMDENIALTYPE_EXT" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_CLAIMDENIALTYPE_EXT') }} "ODS_GW_CC_PROD_CCTL_CLAIMDENIALTYPE_EXT")
+            name: LOAD_GW_CC_PROD_CCTL_CLAIMDENIALTYPE_EXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_CLAIMDENIALTYPE_EXT
+      name: LOAD_GW_CC_PROD_CCTL_CLAIMDENIALTYPE_EXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200008603"

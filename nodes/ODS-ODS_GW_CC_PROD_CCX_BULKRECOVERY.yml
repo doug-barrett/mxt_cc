@@ -1,0 +1,472 @@
+steps:
+  ODS_GW_CC_PROD_CCX_BULKRECOVERY-200018358:
+    operation:
+      config: {}
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000010
+      locationName: ODS
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000154383
+              stepCounter: "200018358"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000154384
+              stepCounter: "200018358"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALREPORTINGAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"TOTALREPORTINGAMOUNT\""
+          - columnReference:
+              columnCounter: 2000154385
+              stepCounter: "200018358"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000154386
+              stepCounter: "200018358"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000154387
+              stepCounter: "200018358"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SPLITEQUALLY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"SPLITEQUALLY\""
+          - columnReference:
+              columnCounter: 2000154388
+              stepCounter: "200018358"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000154389
+              stepCounter: "200018358"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000154390
+              stepCounter: "200018358"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DEFAULTCOSTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"DEFAULTCOSTTYPE\""
+          - columnReference:
+              columnCounter: 2000154391
+              stepCounter: "200018358"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000154392
+              stepCounter: "200018358"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REVIEWEDBY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"REVIEWEDBY\""
+          - columnReference:
+              columnCounter: 2000154393
+              stepCounter: "200018358"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRANSTOREPORTINGEXCHANGERATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"TRANSTOREPORTINGEXCHANGERATE\""
+          - columnReference:
+              columnCounter: 2000154394
+              stepCounter: "200018358"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RECEIVEDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"RECEIVEDDATE\""
+          - columnReference:
+              columnCounter: 2000154395
+              stepCounter: "200018358"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CHECKNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"CHECKNUMBER\""
+          - columnReference:
+              columnCounter: 2000154396
+              stepCounter: "200018358"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000154397
+              stepCounter: "200018358"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALTRANSACTIONAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"TOTALTRANSACTIONAMOUNT\""
+          - columnReference:
+              columnCounter: 2000154398
+              stepCounter: "200018358"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000154399
+              stepCounter: "200018358"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: COMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"COMMENTS\""
+          - columnReference:
+              columnCounter: 2000154400
+              stepCounter: "200018358"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DEFAULTRECOVERYCATEGORY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"DEFAULTRECOVERYCATEGORY\""
+          - columnReference:
+              columnCounter: 2000154401
+              stepCounter: "200018358"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"PAYERID\""
+          - columnReference:
+              columnCounter: 2000154402
+              stepCounter: "200018358"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000154403
+              stepCounter: "200018358"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BULKRECOVERYSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"BULKRECOVERYSTATUS\""
+          - columnReference:
+              columnCounter: 2000154404
+              stepCounter: "200018358"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"ID\""
+          - columnReference:
+              columnCounter: 2000154405
+              stepCounter: "200018358"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: BULKRECOVERYTOTAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"BULKRECOVERYTOTAL\""
+          - columnReference:
+              columnCounter: 2000154406
+              stepCounter: "200018358"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000154407
+              stepCounter: "200018358"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000154408
+              stepCounter: "200018358"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000154409
+              stepCounter: "200018358"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000154410
+              stepCounter: "200018358"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000154411
+              stepCounter: "200018358"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000154412
+              stepCounter: "200018358"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000154413
+              stepCounter: "200018358"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000154414
+              stepCounter: "200018358"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000154415
+              stepCounter: "200018358"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000154416
+              stepCounter: "200018358"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000154417
+              stepCounter: "200018358"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000154418
+              stepCounter: "200018358"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000154419
+              stepCounter: "200018358"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000154420
+              stepCounter: "200018358"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000154422
+              stepCounter: "200018358"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000154421
+              stepCounter: "200018358"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW') }} "STG_ODS_GW_CC_PROD_CCX_BULKRECOVERY_10_NEW"
+            name: ODS_GW_CC_PROD_CCX_BULKRECOVERY
+            noLinkRefs: []
+      name: ODS_GW_CC_PROD_CCX_BULKRECOVERY
+      overrideSQL: false
+      sqlType: "10"
+      type: sql
+    stepCounter: "200018358"

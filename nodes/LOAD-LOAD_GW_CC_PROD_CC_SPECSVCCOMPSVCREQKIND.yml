@@ -1,0 +1,224 @@
+steps:
+  LOAD_GW_CC_PROD_CC_SPECSVCCOMPSVCREQKIND-200016910:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000137038
+              stepCounter: "200016910"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECSVCCOMPSVCREQKIND\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000137039
+              stepCounter: "200016910"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: KIND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECSVCCOMPSVCREQKIND\".\"KIND\""
+          - columnReference:
+              columnCounter: 2000137040
+              stepCounter: "200016910"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECSVCCOMPSVCREQKIND\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000137041
+              stepCounter: "200016910"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECSVCCOMPSVCREQKIND\".\"ID\""
+          - columnReference:
+              columnCounter: 2000137042
+              stepCounter: "200016910"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SPECIALISTSERVICEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECSVCCOMPSVCREQKIND\".\"SPECIALISTSERVICEID\""
+          - columnReference:
+              columnCounter: 2000137043
+              stepCounter: "200016910"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECSVCCOMPSVCREQKIND\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000137044
+              stepCounter: "200016910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECSVCCOMPSVCREQKIND\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000137045
+              stepCounter: "200016910"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECSVCCOMPSVCREQKIND\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000137046
+              stepCounter: "200016910"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECSVCCOMPSVCREQKIND\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000137047
+              stepCounter: "200016910"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECSVCCOMPSVCREQKIND\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000137048
+              stepCounter: "200016910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECSVCCOMPSVCREQKIND\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000137049
+              stepCounter: "200016910"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECSVCCOMPSVCREQKIND\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000137050
+              stepCounter: "200016910"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECSVCCOMPSVCREQKIND\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000137051
+              stepCounter: "200016910"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECSVCCOMPSVCREQKIND\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000137052
+              stepCounter: "200016910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SPECSVCCOMPSVCREQKIND\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000137037
+              stepCounter: "200016910"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_SPECSVCCOMPSVCREQKIND'"
+          - columnReference:
+              columnCounter: 2000137036
+              stepCounter: "200016910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_SPECSVCCOMPSVCREQKIND
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_SPECSVCCOMPSVCREQKIND') }} "CC_SPECSVCCOMPSVCREQKIND" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_SPECSVCCOMPSVCREQKIND') }} "ODS_GW_CC_PROD_CC_SPECSVCCOMPSVCREQKIND")
+            name: LOAD_GW_CC_PROD_CC_SPECSVCCOMPSVCREQKIND
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_SPECSVCCOMPSVCREQKIND
+      name: LOAD_GW_CC_PROD_CC_SPECSVCCOMPSVCREQKIND
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016910"

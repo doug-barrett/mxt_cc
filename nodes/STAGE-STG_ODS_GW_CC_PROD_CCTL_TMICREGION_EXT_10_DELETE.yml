@@ -1,0 +1,260 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCTL_TMICREGION_EXT_10_DELETE-200010665:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000056024
+              stepCounter: "200010665"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000056025
+              stepCounter: "200010665"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000056026
+              stepCounter: "200010665"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000056027
+              stepCounter: "200010665"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000056028
+              stepCounter: "200010665"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000056029
+              stepCounter: "200010665"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000056030
+              stepCounter: "200010665"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000056031
+              stepCounter: "200010665"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000056032
+              stepCounter: "200010665"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000056033
+              stepCounter: "200010665"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000056034
+              stepCounter: "200010665"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: DATEADD(MILLISECOND, -1, ODS_CTRL_HVRCAPTSTAMP.HVRCAPTSTAMP)
+          - columnReference:
+              columnCounter: 2000056035
+              stepCounter: "200010665"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000056036
+              stepCounter: "200010665"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000056037
+              stepCounter: "200010665"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000056038
+              stepCounter: "200010665"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000056039
+              stepCounter: "200010665"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Y'"
+          - columnReference:
+              columnCounter: 2000056040
+              stepCounter: "200010665"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000056041
+              stepCounter: "200010665"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000056043
+              stepCounter: "200010665"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000056042
+              stepCounter: "200010665"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCTL_TMICREGION_EXT_05_LOAD
+            join:
+              joinCondition: "FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_TMICREGION_EXT') }} \"ODS_GW_CC_PROD_CCTL_TMICREGION_EXT\" JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON ODS_GW_CC_PROD_CCTL_TMICREGION_EXT.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  LEFT JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCTL_TMICREGION_EXT_05_LOAD') }} \"STG_ODS_GW_CC_PROD_CCTL_TMICREGION_EXT_05_LOAD\"    ON ODS_GW_CC_PROD_CCTL_TMICREGION_EXT.ID = STG_ODS_GW_CC_PROD_CCTL_TMICREGION_EXT_05_LOAD.ID WHERE STG_ODS_GW_CC_PROD_CCTL_TMICREGION_EXT_05_LOAD.ID IS NULL "
+            name: STG_ODS_GW_CC_PROD_CCTL_TMICREGION_EXT_10_DELETE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_TMICREGION_EXT
+      name: STG_ODS_GW_CC_PROD_CCTL_TMICREGION_EXT_10_DELETE
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200010665"

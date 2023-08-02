@@ -1,0 +1,378 @@
+steps:
+  LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNT-200016880:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000136271
+              stepCounter: "200016880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000136272
+              stepCounter: "200016880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136273
+              stepCounter: "200016880"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CREDITBALANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"CREDITBALANCE\""
+          - columnReference:
+              columnCounter: 2000136274
+              stepCounter: "200016880"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000136275
+              stepCounter: "200016880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000136276
+              stepCounter: "200016880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000136277
+              stepCounter: "200016880"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000136278
+              stepCounter: "200016880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136279
+              stepCounter: "200016880"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DEBITRESERVINGBALANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"DEBITRESERVINGBALANCE\""
+          - columnReference:
+              columnCounter: 2000136280
+              stepCounter: "200016880"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DEBITBALANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"DEBITBALANCE\""
+          - columnReference:
+              columnCounter: 2000136281
+              stepCounter: "200016880"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DEBITRPTBALANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"DEBITRPTBALANCE\""
+          - columnReference:
+              columnCounter: 2000136282
+              stepCounter: "200016880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TACCOUNTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"TACCOUNTTYPE\""
+          - columnReference:
+              columnCounter: 2000136283
+              stepCounter: "200016880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NORMALBALANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"NORMALBALANCE\""
+          - columnReference:
+              columnCounter: 2000136284
+              stepCounter: "200016880"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000136285
+              stepCounter: "200016880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMCONTRIBUTINGTXNS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"NUMCONTRIBUTINGTXNS\""
+          - columnReference:
+              columnCounter: 2000136286
+              stepCounter: "200016880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RECOVERYCODINGID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"RECOVERYCODINGID\""
+          - columnReference:
+              columnCounter: 2000136287
+              stepCounter: "200016880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000136288
+              stepCounter: "200016880"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CREDITRESERVINGBALANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"CREDITRESERVINGBALANCE\""
+          - columnReference:
+              columnCounter: 2000136289
+              stepCounter: "200016880"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CREDITRPTBALANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"CREDITRPTBALANCE\""
+          - columnReference:
+              columnCounter: 2000136290
+              stepCounter: "200016880"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000136291
+              stepCounter: "200016880"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136292
+              stepCounter: "200016880"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000136293
+              stepCounter: "200016880"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000136294
+              stepCounter: "200016880"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000136295
+              stepCounter: "200016880"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136296
+              stepCounter: "200016880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000136297
+              stepCounter: "200016880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000136298
+              stepCounter: "200016880"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000136299
+              stepCounter: "200016880"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYTACCOUNT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000136270
+              stepCounter: "200016880"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_RECOVERYTACCOUNT'"
+          - columnReference:
+              columnCounter: 2000136269
+              stepCounter: "200016880"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_RECOVERYTACCOUNT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_RECOVERYTACCOUNT') }} "CC_RECOVERYTACCOUNT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_RECOVERYTACCOUNT') }} "ODS_GW_CC_PROD_CC_RECOVERYTACCOUNT")
+            name: LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_RECOVERYTACCOUNT
+      name: LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016880"

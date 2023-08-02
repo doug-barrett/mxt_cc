@@ -1,0 +1,345 @@
+steps:
+  LOAD_GW_CC_PROD_CC_POLICYPERIOD-200016876:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000136186
+              stepCounter: "200016876"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000136187
+              stepCounter: "200016876"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: POLICYSUFFIX
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"POLICYSUFFIX\""
+          - columnReference:
+              columnCounter: 2000136188
+              stepCounter: "200016876"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000136189
+              stepCounter: "200016876"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136190
+              stepCounter: "200016876"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000136191
+              stepCounter: "200016876"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000136192
+              stepCounter: "200016876"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000136193
+              stepCounter: "200016876"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"POLICYTYPE\""
+          - columnReference:
+              columnCounter: 2000136194
+              stepCounter: "200016876"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIODTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"POLICYPERIODTYPE\""
+          - columnReference:
+              columnCounter: 2000136195
+              stepCounter: "200016876"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136196
+              stepCounter: "200016876"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EFFECTIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"EFFECTIVEDATE\""
+          - columnReference:
+              columnCounter: 2000136197
+              stepCounter: "200016876"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"ACCOUNTNUMBER\""
+          - columnReference:
+              columnCounter: 2000136198
+              stepCounter: "200016876"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000136199
+              stepCounter: "200016876"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"ID\""
+          - columnReference:
+              columnCounter: 2000136200
+              stepCounter: "200016876"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: POLICYNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"POLICYNUMBER\""
+          - columnReference:
+              columnCounter: 2000136201
+              stepCounter: "200016876"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXPIRATIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"EXPIRATIONDATE\""
+          - columnReference:
+              columnCounter: 2000136202
+              stepCounter: "200016876"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000136203
+              stepCounter: "200016876"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136204
+              stepCounter: "200016876"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000136205
+              stepCounter: "200016876"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000136206
+              stepCounter: "200016876"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000136207
+              stepCounter: "200016876"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136208
+              stepCounter: "200016876"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000136209
+              stepCounter: "200016876"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000136210
+              stepCounter: "200016876"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000136211
+              stepCounter: "200016876"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYPERIOD\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000136185
+              stepCounter: "200016876"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_POLICYPERIOD'"
+          - columnReference:
+              columnCounter: 2000136184
+              stepCounter: "200016876"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_POLICYPERIOD
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_POLICYPERIOD') }} "CC_POLICYPERIOD" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_POLICYPERIOD') }} "ODS_GW_CC_PROD_CC_POLICYPERIOD")
+            name: LOAD_GW_CC_PROD_CC_POLICYPERIOD
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_POLICYPERIOD
+      name: LOAD_GW_CC_PROD_CC_POLICYPERIOD
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016876"

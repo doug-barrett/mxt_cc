@@ -1,0 +1,580 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCX_TMICHECK_10_NEW-200018993:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000263191
+              stepCounter: "200018993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000263192
+              stepCounter: "200018993"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: TMIBANKACCOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"TMIBANKACCOUNT\""
+          - columnReference:
+              columnCounter: 2000263193
+              stepCounter: "200018993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHECKSOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"CHECKSOURCE\""
+          - columnReference:
+              columnCounter: 2000263194
+              stepCounter: "200018993"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ISSUEDAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"ISSUEDAMOUNT\""
+          - columnReference:
+              columnCounter: 2000263195
+              stepCounter: "200018993"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000263196
+              stepCounter: "200018993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000263197
+              stepCounter: "200018993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000263198
+              stepCounter: "200018993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000263199
+              stepCounter: "200018993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000263200
+              stepCounter: "200018993"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CHECKNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"CHECKNUMBER\""
+          - columnReference:
+              columnCounter: 2000263201
+              stepCounter: "200018993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000263202
+              stepCounter: "200018993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000263203
+              stepCounter: "200018993"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: COMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"COMMENTS\""
+          - columnReference:
+              columnCounter: 2000263204
+              stepCounter: "200018993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHECKSPECIALHANDLING
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"CHECKSPECIALHANDLING\""
+          - columnReference:
+              columnCounter: 2000263205
+              stepCounter: "200018993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CHECKDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"CHECKDATE\""
+          - columnReference:
+              columnCounter: 2000263206
+              stepCounter: "200018993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000263207
+              stepCounter: "200018993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"ID\""
+          - columnReference:
+              columnCounter: 2000263208
+              stepCounter: "200018993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BULKINVOICEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"BULKINVOICEID\""
+          - columnReference:
+              columnCounter: 2000263209
+              stepCounter: "200018993"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PAYTODENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"PAYTODENORM\""
+          - columnReference:
+              columnCounter: 2000263210
+              stepCounter: "200018993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTUPDATEDSTATUSDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"LASTUPDATEDSTATUSDATE\""
+          - columnReference:
+              columnCounter: 2000263211
+              stepCounter: "200018993"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: BANKACCOUNTNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"BANKACCOUNTNUMBER\""
+          - columnReference:
+              columnCounter: 2000263212
+              stepCounter: "200018993"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: BANKACCOUNTNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"BANKACCOUNTNAME\""
+          - columnReference:
+              columnCounter: 2000263213
+              stepCounter: "200018993"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: MAILTOADDRESS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"MAILTOADDRESS\""
+          - columnReference:
+              columnCounter: 2000263214
+              stepCounter: "200018993"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PAYTO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"PAYTO\""
+          - columnReference:
+              columnCounter: 2000263215
+              stepCounter: "200018993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"PAYMENTMETHOD\""
+          - columnReference:
+              columnCounter: 2000263216
+              stepCounter: "200018993"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: BANKROUTINGNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"BANKROUTINGNUMBER\""
+          - columnReference:
+              columnCounter: 2000263217
+              stepCounter: "200018993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COUNTRY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"COUNTRY\""
+          - columnReference:
+              columnCounter: 2000263218
+              stepCounter: "200018993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: VOIDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"VOIDDATE\""
+          - columnReference:
+              columnCounter: 2000263219
+              stepCounter: "200018993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ESCHEATDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"ESCHEATDATE\""
+          - columnReference:
+              columnCounter: 2000263220
+              stepCounter: "200018993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ESCHEATSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"ESCHEATSTATUS\""
+          - columnReference:
+              columnCounter: 2000263221
+              stepCounter: "200018993"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: VENDORNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"VENDORNUMBER\""
+          - columnReference:
+              columnCounter: 2000263222
+              stepCounter: "200018993"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: TAXID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"TAXID\""
+          - columnReference:
+              columnCounter: 2000263223
+              stepCounter: "200018993"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000263224
+              stepCounter: "200018993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000263225
+              stepCounter: "200018993"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000263226
+              stepCounter: "200018993"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000263227
+              stepCounter: "200018993"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_TMICHECK_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000263228
+              stepCounter: "200018993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000263229
+              stepCounter: "200018993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000263230
+              stepCounter: "200018993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000263231
+              stepCounter: "200018993"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000263232
+              stepCounter: "200018993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000263189
+              stepCounter: "200018993"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_TMICHECK_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000263190
+              stepCounter: "200018993"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_TMICHECK_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000263237
+              stepCounter: "200018993"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000263233
+              stepCounter: "200018993"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000263234
+              stepCounter: "200018993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TMICHECK\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000263236
+              stepCounter: "200018993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000263235
+              stepCounter: "200018993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCX_TMICHECK
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCX_TMICHECK_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCX_TMICHECK') }} \"LOAD_GW_CC_PROD_CCX_TMICHECK\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCX_TMICHECK_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CCX_TMICHECK_05_SEQNO\"    ON LOAD_GW_CC_PROD_CCX_TMICHECK.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CCX_TMICHECK_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CCX_TMICHECK_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CCX_TMICHECK_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCX_TMICHECK_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018993"

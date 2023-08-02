@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_REINSURANCEFLAGGEDSTATUS-200024001:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000131608
+              stepCounter: "200024001"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000131609
+              stepCounter: "200024001"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000131610
+              stepCounter: "200024001"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000131611
+              stepCounter: "200024001"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000131612
+              stepCounter: "200024001"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000131613
+              stepCounter: "200024001"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"ID\""
+          - columnReference:
+              columnCounter: 2000131614
+              stepCounter: "200024001"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000131615
+              stepCounter: "200024001"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000131616
+              stepCounter: "200024001"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000131617
+              stepCounter: "200024001"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000131618
+              stepCounter: "200024001"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131619
+              stepCounter: "200024001"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131620
+              stepCounter: "200024001"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000131621
+              stepCounter: "200024001"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000131622
+              stepCounter: "200024001"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000131623
+              stepCounter: "200024001"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000131624
+              stepCounter: "200024001"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000131625
+              stepCounter: "200024001"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000131626
+              stepCounter: "200024001"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000131627
+              stepCounter: "200024001"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_REINSURANCEFLAGGEDSTATUS\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000131607
+              stepCounter: "200024001"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_REINSURANCEFLAGGEDSTATUS'"
+          - columnReference:
+              columnCounter: 2000131606
+              stepCounter: "200024001"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_REINSURANCEFLAGGEDSTATUS
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_REINSURANCEFLAGGEDSTATUS') }} "CCTL_REINSURANCEFLAGGEDSTATUS" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_REINSURANCEFLAGGEDSTATUS') }} "ODS_GW_CC_PROD_CCTL_REINSURANCEFLAGGEDSTATUS")
+            name: LOAD_GW_CC_PROD_CCTL_REINSURANCEFLAGGEDSTATUS
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_REINSURANCEFLAGGEDSTATUS
+      name: LOAD_GW_CC_PROD_CCTL_REINSURANCEFLAGGEDSTATUS
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200024001"

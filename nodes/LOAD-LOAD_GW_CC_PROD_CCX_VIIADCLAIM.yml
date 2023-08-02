@@ -1,0 +1,290 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_VIIADCLAIM-200016775:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000140409
+              stepCounter: "200016775"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000140410
+              stepCounter: "200016775"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000140411
+              stepCounter: "200016775"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000140412
+              stepCounter: "200016775"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: CLAIMNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"CLAIMNUMBER\""
+          - columnReference:
+              columnCounter: 2000140413
+              stepCounter: "200016775"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000140414
+              stepCounter: "200016775"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000140415
+              stepCounter: "200016775"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000140416
+              stepCounter: "200016775"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000140417
+              stepCounter: "200016775"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000140418
+              stepCounter: "200016775"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000140419
+              stepCounter: "200016775"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"ID\""
+          - columnReference:
+              columnCounter: 2000140420
+              stepCounter: "200016775"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000140421
+              stepCounter: "200016775"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000140422
+              stepCounter: "200016775"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000140423
+              stepCounter: "200016775"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000140424
+              stepCounter: "200016775"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000140425
+              stepCounter: "200016775"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000140426
+              stepCounter: "200016775"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000140427
+              stepCounter: "200016775"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000140428
+              stepCounter: "200016775"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000140429
+              stepCounter: "200016775"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_VIIADCLAIM\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000140408
+              stepCounter: "200016775"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_VIIADCLAIM'"
+          - columnReference:
+              columnCounter: 2000140407
+              stepCounter: "200016775"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_VIIADCLAIM
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_VIIADCLAIM') }} "CCX_VIIADCLAIM" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_VIIADCLAIM') }} "ODS_GW_CC_PROD_CCX_VIIADCLAIM")
+            name: LOAD_GW_CC_PROD_CCX_VIIADCLAIM
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_VIIADCLAIM
+      name: LOAD_GW_CC_PROD_CCX_VIIADCLAIM
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016775"

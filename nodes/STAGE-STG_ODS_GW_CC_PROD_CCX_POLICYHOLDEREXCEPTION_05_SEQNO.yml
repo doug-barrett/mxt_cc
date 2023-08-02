@@ -1,0 +1,107 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION_05_SEQNO-200018913:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000262413
+              stepCounter: "200018913"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000262418
+              stepCounter: "200018913"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ_ODS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000262417
+              stepCounter: "200018913"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'CC_PROD'"
+          - columnReference:
+              columnCounter: 2000262416
+              stepCounter: "200018913"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRREFRESH_HISTORY\".\"HVR_REFRESH_SEQNO_HIST\""
+          - columnReference:
+              columnCounter: 2000262415
+              stepCounter: "200018913"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000262414
+              stepCounter: "200018913"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRREFRESH_HISTORY
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION') }} \"LOAD_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION\" JOIN {{ ref('ODS','ODS_CTRL_HVRREFRESH_HISTORY') }} \"ODS_CTRL_HVRREFRESH_HISTORY\"    ON LOAD_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION.DSS_RECORD_SOURCE = ODS_CTRL_HVRREFRESH_HISTORY.HVR_RECORD_SOURCE   AND LOAD_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION.HVRCAPTSTAMP BETWEEN ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE AND ODS_CTRL_HVRREFRESH_HISTORY.THRU_DATE  LEFT JOIN {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION') }} \"ODS_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION\"   ON LOAD_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION.HVRINTEGSEQ = ODS_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION.HVRINTEGSEQ   AND ODS_CTRL_HVRREFRESH_HISTORY.HVR_REFRESH_SEQNO_HIST = ODS_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION.HVR_REFRESH_SEQNO WHERE ODS_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION.HVRINTEGSEQ IS NULL "
+            name: STG_ODS_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION_05_SEQNO
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION
+      name: STG_ODS_GW_CC_PROD_CCX_POLICYHOLDEREXCEPTION_05_SEQNO
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018913"

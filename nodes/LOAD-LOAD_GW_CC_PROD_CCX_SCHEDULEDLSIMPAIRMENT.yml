@@ -1,0 +1,334 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_SCHEDULEDLSIMPAIRMENT-200016753:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000139591
+              stepCounter: "200016753"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SCHEDULEDITEM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"SCHEDULEDITEM\""
+          - columnReference:
+              columnCounter: 2000139592
+              stepCounter: "200016753"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000139593
+              stepCounter: "200016753"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000139594
+              stepCounter: "200016753"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139595
+              stepCounter: "200016753"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000139596
+              stepCounter: "200016753"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000139597
+              stepCounter: "200016753"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000139598
+              stepCounter: "200016753"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DISABILITYRTWDATESID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"DISABILITYRTWDATESID\""
+          - columnReference:
+              columnCounter: 2000139599
+              stepCounter: "200016753"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: SCHEDULEDAMOUNTDUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"SCHEDULEDAMOUNTDUE\""
+          - columnReference:
+              columnCounter: 2000139600
+              stepCounter: "200016753"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SCHEDULEDNUMBEROFWEEKS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"SCHEDULEDNUMBEROFWEEKS\""
+          - columnReference:
+              columnCounter: 2000139601
+              stepCounter: "200016753"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139602
+              stepCounter: "200016753"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000139603
+              stepCounter: "200016753"
+            dataType: NUMBER(4,1)
+            defaultValue: ""
+            description: ""
+            name: IMPAIRMENTRATING
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"IMPAIRMENTRATING\""
+          - columnReference:
+              columnCounter: 2000139604
+              stepCounter: "200016753"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000139605
+              stepCounter: "200016753"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000139606
+              stepCounter: "200016753"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000139607
+              stepCounter: "200016753"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139608
+              stepCounter: "200016753"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000139609
+              stepCounter: "200016753"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000139610
+              stepCounter: "200016753"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000139611
+              stepCounter: "200016753"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139612
+              stepCounter: "200016753"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000139613
+              stepCounter: "200016753"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000139614
+              stepCounter: "200016753"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000139615
+              stepCounter: "200016753"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SCHEDULEDLSIMPAIRMENT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000139590
+              stepCounter: "200016753"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_SCHEDULEDLSIMPAIRMENT'"
+          - columnReference:
+              columnCounter: 2000139589
+              stepCounter: "200016753"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_SCHEDULEDLSIMPAIRMENT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_SCHEDULEDLSIMPAIRMENT') }} "CCX_SCHEDULEDLSIMPAIRMENT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_SCHEDULEDLSIMPAIRMENT') }} "ODS_GW_CC_PROD_CCX_SCHEDULEDLSIMPAIRMENT")
+            name: LOAD_GW_CC_PROD_CCX_SCHEDULEDLSIMPAIRMENT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_SCHEDULEDLSIMPAIRMENT
+      name: LOAD_GW_CC_PROD_CCX_SCHEDULEDLSIMPAIRMENT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016753"

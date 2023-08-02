@@ -1,0 +1,334 @@
+steps:
+  LOAD_GW_CC_PROD_CC_BIZEXPRFRAGMENT-200016788:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000132717
+              stepCounter: "200016788"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PROPERTYNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"PROPERTYNAME\""
+          - columnReference:
+              columnCounter: 2000132718
+              stepCounter: "200016788"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: FULLPROPERTYDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"FULLPROPERTYDENORM\""
+          - columnReference:
+              columnCounter: 2000132719
+              stepCounter: "200016788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"DATEVALUE\""
+          - columnReference:
+              columnCounter: 2000132720
+              stepCounter: "200016788"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000132721
+              stepCounter: "200016788"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: GENERATEARRAY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"GENERATEARRAY\""
+          - columnReference:
+              columnCounter: 2000132722
+              stepCounter: "200016788"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000132723
+              stepCounter: "200016788"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: LISTNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"LISTNAME\""
+          - columnReference:
+              columnCounter: 2000132724
+              stepCounter: "200016788"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ADDITIONALSYMBOLNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"ADDITIONALSYMBOLNAME\""
+          - columnReference:
+              columnCounter: 2000132725
+              stepCounter: "200016788"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: GENERATEORIGINALVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"GENERATEORIGINALVALUE\""
+          - columnReference:
+              columnCounter: 2000132726
+              stepCounter: "200016788"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"CODE\""
+          - columnReference:
+              columnCounter: 2000132727
+              stepCounter: "200016788"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ROOTOBJECTEXPRESSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"ROOTOBJECTEXPRESSION\""
+          - columnReference:
+              columnCounter: 2000132728
+              stepCounter: "200016788"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000132729
+              stepCounter: "200016788"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: CODETEXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"CODETEXT\""
+          - columnReference:
+              columnCounter: 2000132730
+              stepCounter: "200016788"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000132731
+              stepCounter: "200016788"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RULECONDITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"RULECONDITION\""
+          - columnReference:
+              columnCounter: 2000132732
+              stepCounter: "200016788"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000132733
+              stepCounter: "200016788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000132734
+              stepCounter: "200016788"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000132735
+              stepCounter: "200016788"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000132736
+              stepCounter: "200016788"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000132737
+              stepCounter: "200016788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000132738
+              stepCounter: "200016788"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000132739
+              stepCounter: "200016788"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000132740
+              stepCounter: "200016788"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000132741
+              stepCounter: "200016788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZEXPRFRAGMENT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000132716
+              stepCounter: "200016788"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_BIZEXPRFRAGMENT'"
+          - columnReference:
+              columnCounter: 2000132715
+              stepCounter: "200016788"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_BIZEXPRFRAGMENT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_BIZEXPRFRAGMENT') }} "CC_BIZEXPRFRAGMENT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_BIZEXPRFRAGMENT') }} "ODS_GW_CC_PROD_CC_BIZEXPRFRAGMENT")
+            name: LOAD_GW_CC_PROD_CC_BIZEXPRFRAGMENT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_BIZEXPRFRAGMENT
+      name: LOAD_GW_CC_PROD_CC_BIZEXPRFRAGMENT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016788"

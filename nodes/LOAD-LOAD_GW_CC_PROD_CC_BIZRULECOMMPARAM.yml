@@ -1,0 +1,235 @@
+steps:
+  LOAD_GW_CC_PROD_CC_BIZRULECOMMPARAM-200016792:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000132807
+              stepCounter: "200016792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RULECOMMANDDEFINITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULECOMMPARAM\".\"RULECOMMANDDEFINITION\""
+          - columnReference:
+              columnCounter: 2000132808
+              stepCounter: "200016792"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULECOMMPARAM\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000132809
+              stepCounter: "200016792"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PARAMETERNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULECOMMPARAM\".\"PARAMETERNAME\""
+          - columnReference:
+              columnCounter: 2000132810
+              stepCounter: "200016792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULECOMMPARAM\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000132811
+              stepCounter: "200016792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPRESSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULECOMMPARAM\".\"EXPRESSION\""
+          - columnReference:
+              columnCounter: 2000132812
+              stepCounter: "200016792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULECOMMPARAM\".\"ID\""
+          - columnReference:
+              columnCounter: 2000132813
+              stepCounter: "200016792"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULECOMMPARAM\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000132814
+              stepCounter: "200016792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULECOMMPARAM\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000132815
+              stepCounter: "200016792"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULECOMMPARAM\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000132816
+              stepCounter: "200016792"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULECOMMPARAM\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000132817
+              stepCounter: "200016792"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULECOMMPARAM\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000132818
+              stepCounter: "200016792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULECOMMPARAM\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000132819
+              stepCounter: "200016792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULECOMMPARAM\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000132820
+              stepCounter: "200016792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULECOMMPARAM\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000132821
+              stepCounter: "200016792"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULECOMMPARAM\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000132822
+              stepCounter: "200016792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BIZRULECOMMPARAM\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000132806
+              stepCounter: "200016792"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_BIZRULECOMMPARAM'"
+          - columnReference:
+              columnCounter: 2000132805
+              stepCounter: "200016792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_BIZRULECOMMPARAM
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_BIZRULECOMMPARAM') }} "CC_BIZRULECOMMPARAM" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_BIZRULECOMMPARAM') }} "ODS_GW_CC_PROD_CC_BIZRULECOMMPARAM")
+            name: LOAD_GW_CC_PROD_CC_BIZRULECOMMPARAM
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_BIZRULECOMMPARAM
+      name: LOAD_GW_CC_PROD_CC_BIZRULECOMMPARAM
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016792"

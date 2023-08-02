@@ -1,0 +1,400 @@
+steps:
+  LOAD_GW_CC_PROD_CC_EXPOSUREMETRIC-200016850:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000135036
+              stepCounter: "200016850"
+            dataType: NUMBER(20,4)
+            defaultValue: ""
+            description: ""
+            name: DECIMALVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"DECIMALVALUE\""
+          - columnReference:
+              columnCounter: 2000135037
+              stepCounter: "200016850"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ACTIVITYSKIPPED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"ACTIVITYSKIPPED\""
+          - columnReference:
+              columnCounter: 2000135038
+              stepCounter: "200016850"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000135039
+              stepCounter: "200016850"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSUREID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"EXPOSUREID\""
+          - columnReference:
+              columnCounter: 2000135040
+              stepCounter: "200016850"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000135041
+              stepCounter: "200016850"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: METRICLIMITDENORMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"METRICLIMITDENORMID\""
+          - columnReference:
+              columnCounter: 2000135042
+              stepCounter: "200016850"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000135043
+              stepCounter: "200016850"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000135044
+              stepCounter: "200016850"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000135045
+              stepCounter: "200016850"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REACHREDTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"REACHREDTIME\""
+          - columnReference:
+              columnCounter: 2000135046
+              stepCounter: "200016850"
+            dataType: NUMBER(8)
+            defaultValue: ""
+            description: ""
+            name: PERCENTVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"PERCENTVALUE\""
+          - columnReference:
+              columnCounter: 2000135047
+              stepCounter: "200016850"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"STARTTIME\""
+          - columnReference:
+              columnCounter: 2000135048
+              stepCounter: "200016850"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SKIPPED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"SKIPPED\""
+          - columnReference:
+              columnCounter: 2000135049
+              stepCounter: "200016850"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: MONEYVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"MONEYVALUE\""
+          - columnReference:
+              columnCounter: 2000135050
+              stepCounter: "200016850"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INTEGERVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"INTEGERVALUE\""
+          - columnReference:
+              columnCounter: 2000135051
+              stepCounter: "200016850"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISOPEN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"ISOPEN\""
+          - columnReference:
+              columnCounter: 2000135052
+              stepCounter: "200016850"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REACHYELLOWTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"REACHYELLOWTIME\""
+          - columnReference:
+              columnCounter: 2000135053
+              stepCounter: "200016850"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000135054
+              stepCounter: "200016850"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000135055
+              stepCounter: "200016850"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000135056
+              stepCounter: "200016850"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"ID\""
+          - columnReference:
+              columnCounter: 2000135057
+              stepCounter: "200016850"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000135058
+              stepCounter: "200016850"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000135059
+              stepCounter: "200016850"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000135060
+              stepCounter: "200016850"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000135061
+              stepCounter: "200016850"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000135062
+              stepCounter: "200016850"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000135063
+              stepCounter: "200016850"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000135064
+              stepCounter: "200016850"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000135065
+              stepCounter: "200016850"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000135066
+              stepCounter: "200016850"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSUREMETRIC\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000135035
+              stepCounter: "200016850"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_EXPOSUREMETRIC'"
+          - columnReference:
+              columnCounter: 2000135034
+              stepCounter: "200016850"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_EXPOSUREMETRIC
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_EXPOSUREMETRIC') }} "CC_EXPOSUREMETRIC" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_EXPOSUREMETRIC') }} "ODS_GW_CC_PROD_CC_EXPOSUREMETRIC")
+            name: LOAD_GW_CC_PROD_CC_EXPOSUREMETRIC
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_EXPOSUREMETRIC
+      name: LOAD_GW_CC_PROD_CC_EXPOSUREMETRIC
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016850"

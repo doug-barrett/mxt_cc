@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_TMICDYNAMICPARAMETER-200016763:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000140028
+              stepCounter: "200016763"
+            dataType: VARCHAR(300)
+            defaultValue: ""
+            description: ""
+            name: VALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"VALUE\""
+          - columnReference:
+              columnCounter: 2000140029
+              stepCounter: "200016763"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000140030
+              stepCounter: "200016763"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000140031
+              stepCounter: "200016763"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000140032
+              stepCounter: "200016763"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000140033
+              stepCounter: "200016763"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000140034
+              stepCounter: "200016763"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000140035
+              stepCounter: "200016763"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000140036
+              stepCounter: "200016763"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"ID\""
+          - columnReference:
+              columnCounter: 2000140037
+              stepCounter: "200016763"
+            dataType: VARCHAR(120)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000140038
+              stepCounter: "200016763"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000140039
+              stepCounter: "200016763"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000140040
+              stepCounter: "200016763"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000140041
+              stepCounter: "200016763"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000140042
+              stepCounter: "200016763"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000140043
+              stepCounter: "200016763"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000140044
+              stepCounter: "200016763"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000140045
+              stepCounter: "200016763"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000140046
+              stepCounter: "200016763"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000140047
+              stepCounter: "200016763"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMICDYNAMICPARAMETER\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000140027
+              stepCounter: "200016763"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_TMICDYNAMICPARAMETER'"
+          - columnReference:
+              columnCounter: 2000140026
+              stepCounter: "200016763"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_TMICDYNAMICPARAMETER
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_TMICDYNAMICPARAMETER') }} "CCX_TMICDYNAMICPARAMETER" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_TMICDYNAMICPARAMETER') }} "ODS_GW_CC_PROD_CCX_TMICDYNAMICPARAMETER")
+            name: LOAD_GW_CC_PROD_CCX_TMICDYNAMICPARAMETER
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_TMICDYNAMICPARAMETER
+      name: LOAD_GW_CC_PROD_CCX_TMICDYNAMICPARAMETER
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016763"

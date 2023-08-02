@@ -1,0 +1,235 @@
+steps:
+  LOAD_GW_CC_PROD_CC_INSTRUMENTEDMESSAGE-200016861:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000135621
+              stepCounter: "200016861"
+            dataType: BINARY(8388608)
+            defaultValue: ""
+            description: ""
+            name: PROFILERDATA
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INSTRUMENTEDMESSAGE\".\"PROFILERDATA\""
+          - columnReference:
+              columnCounter: 2000135622
+              stepCounter: "200016861"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INSTRUMENTEDMESSAGE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000135623
+              stepCounter: "200016861"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ENDTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INSTRUMENTEDMESSAGE\".\"ENDTIME\""
+          - columnReference:
+              columnCounter: 2000135624
+              stepCounter: "200016861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DESTINATIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INSTRUMENTEDMESSAGE\".\"DESTINATIONID\""
+          - columnReference:
+              columnCounter: 2000135625
+              stepCounter: "200016861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INSTRUMENTEDMESSAGE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000135626
+              stepCounter: "200016861"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INSTRUMENTEDMESSAGE\".\"STARTTIME\""
+          - columnReference:
+              columnCounter: 2000135627
+              stepCounter: "200016861"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INSTRUMENTEDMESSAGE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000135628
+              stepCounter: "200016861"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INSTRUMENTEDMESSAGE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000135629
+              stepCounter: "200016861"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INSTRUMENTEDMESSAGE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000135630
+              stepCounter: "200016861"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INSTRUMENTEDMESSAGE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000135631
+              stepCounter: "200016861"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INSTRUMENTEDMESSAGE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000135632
+              stepCounter: "200016861"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INSTRUMENTEDMESSAGE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000135633
+              stepCounter: "200016861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INSTRUMENTEDMESSAGE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000135634
+              stepCounter: "200016861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INSTRUMENTEDMESSAGE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000135635
+              stepCounter: "200016861"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INSTRUMENTEDMESSAGE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000135636
+              stepCounter: "200016861"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INSTRUMENTEDMESSAGE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000135620
+              stepCounter: "200016861"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_INSTRUMENTEDMESSAGE'"
+          - columnReference:
+              columnCounter: 2000135619
+              stepCounter: "200016861"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_INSTRUMENTEDMESSAGE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_INSTRUMENTEDMESSAGE') }} "CC_INSTRUMENTEDMESSAGE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_INSTRUMENTEDMESSAGE') }} "ODS_GW_CC_PROD_CC_INSTRUMENTEDMESSAGE")
+            name: LOAD_GW_CC_PROD_CC_INSTRUMENTEDMESSAGE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_INSTRUMENTEDMESSAGE
+      name: LOAD_GW_CC_PROD_CC_INSTRUMENTEDMESSAGE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016861"

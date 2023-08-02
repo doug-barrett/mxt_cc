@@ -1,0 +1,323 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_MASSRECODETARGET_EXT-200016743:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000139344
+              stepCounter: "200016743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000139345
+              stepCounter: "200016743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSURETYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"EXPOSURETYPE\""
+          - columnReference:
+              columnCounter: 2000139346
+              stepCounter: "200016743"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000139347
+              stepCounter: "200016743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COSTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"COSTTYPE\""
+          - columnReference:
+              columnCounter: 2000139348
+              stepCounter: "200016743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139349
+              stepCounter: "200016743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000139350
+              stepCounter: "200016743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000139351
+              stepCounter: "200016743"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000139352
+              stepCounter: "200016743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COSTCATEGORY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"COSTCATEGORY\""
+          - columnReference:
+              columnCounter: 2000139353
+              stepCounter: "200016743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MASSRECODESOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"MASSRECODESOURCE\""
+          - columnReference:
+              columnCounter: 2000139354
+              stepCounter: "200016743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COVERAGESUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"COVERAGESUBTYPE\""
+          - columnReference:
+              columnCounter: 2000139355
+              stepCounter: "200016743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139356
+              stepCounter: "200016743"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000139357
+              stepCounter: "200016743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000139358
+              stepCounter: "200016743"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000139359
+              stepCounter: "200016743"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139360
+              stepCounter: "200016743"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000139361
+              stepCounter: "200016743"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000139362
+              stepCounter: "200016743"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000139363
+              stepCounter: "200016743"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139364
+              stepCounter: "200016743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000139365
+              stepCounter: "200016743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000139366
+              stepCounter: "200016743"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000139367
+              stepCounter: "200016743"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_MASSRECODETARGET_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000139343
+              stepCounter: "200016743"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_MASSRECODETARGET_EXT'"
+          - columnReference:
+              columnCounter: 2000139342
+              stepCounter: "200016743"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_MASSRECODETARGET_EXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_MASSRECODETARGET_EXT') }} "CCX_MASSRECODETARGET_EXT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_MASSRECODETARGET_EXT') }} "ODS_GW_CC_PROD_CCX_MASSRECODETARGET_EXT")
+            name: LOAD_GW_CC_PROD_CCX_MASSRECODETARGET_EXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_MASSRECODETARGET_EXT
+      name: LOAD_GW_CC_PROD_CCX_MASSRECODETARGET_EXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016743"

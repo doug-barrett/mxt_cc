@@ -1,0 +1,356 @@
+steps:
+  LOAD_GW_CC_PROD_CC_POLICYLOCATION-200011066:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000136157
+              stepCounter: "200011066"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000136158
+              stepCounter: "200011066"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: NOTES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"NOTES\""
+          - columnReference:
+              columnCounter: 2000136159
+              stepCounter: "200011066"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000136160
+              stepCounter: "200011066"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136161
+              stepCounter: "200011066"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000136162
+              stepCounter: "200011066"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000136163
+              stepCounter: "200011066"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000136164
+              stepCounter: "200011066"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000136165
+              stepCounter: "200011066"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"POLICYID\""
+          - columnReference:
+              columnCounter: 2000136166
+              stepCounter: "200011066"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"ADDRESSID\""
+          - columnReference:
+              columnCounter: 2000136167
+              stepCounter: "200011066"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136168
+              stepCounter: "200011066"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000136169
+              stepCounter: "200011066"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PRIMARYLOCATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"PRIMARYLOCATION\""
+          - columnReference:
+              columnCounter: 2000136170
+              stepCounter: "200011066"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"ID\""
+          - columnReference:
+              columnCounter: 2000136171
+              stepCounter: "200011066"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: POLICYSYSTEMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"POLICYSYSTEMID\""
+          - columnReference:
+              columnCounter: 2000136172
+              stepCounter: "200011066"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: LOCATIONNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"LOCATIONNUMBER\""
+          - columnReference:
+              columnCounter: 2000136173
+              stepCounter: "200011066"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOCATIONTYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"LOCATIONTYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000136174
+              stepCounter: "200011066"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000136175
+              stepCounter: "200011066"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136176
+              stepCounter: "200011066"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000136177
+              stepCounter: "200011066"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000136178
+              stepCounter: "200011066"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000136179
+              stepCounter: "200011066"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136180
+              stepCounter: "200011066"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000136181
+              stepCounter: "200011066"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000136182
+              stepCounter: "200011066"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000136183
+              stepCounter: "200011066"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYLOCATION\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000136156
+              stepCounter: "200011066"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_POLICYLOCATION'"
+          - columnReference:
+              columnCounter: 2000136155
+              stepCounter: "200011066"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_POLICYLOCATION
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_POLICYLOCATION') }} "CC_POLICYLOCATION" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_POLICYLOCATION') }} "ODS_GW_CC_PROD_CC_POLICYLOCATION")
+            name: LOAD_GW_CC_PROD_CC_POLICYLOCATION
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_POLICYLOCATION
+      name: LOAD_GW_CC_PROD_CC_POLICYLOCATION
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200011066"

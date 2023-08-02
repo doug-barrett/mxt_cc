@@ -1,0 +1,356 @@
+steps:
+  LOAD_GW_CC_PROD_CC_TACCOUNTLINEITEM-200016915:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000137283
+              stepCounter: "200016915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000137284
+              stepCounter: "200016915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DENORMTRANSACTIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"DENORMTRANSACTIONID\""
+          - columnReference:
+              columnCounter: 2000137285
+              stepCounter: "200016915"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000137286
+              stepCounter: "200016915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000137287
+              stepCounter: "200016915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000137288
+              stepCounter: "200016915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DEBITINGTRANSACTIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"DEBITINGTRANSACTIONID\""
+          - columnReference:
+              columnCounter: 2000137289
+              stepCounter: "200016915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000137290
+              stepCounter: "200016915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000137291
+              stepCounter: "200016915"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000137292
+              stepCounter: "200016915"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: RPTAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"RPTAMOUNT\""
+          - columnReference:
+              columnCounter: 2000137293
+              stepCounter: "200016915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000137294
+              stepCounter: "200016915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREDITINGTRANSACTIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"CREDITINGTRANSACTIONID\""
+          - columnReference:
+              columnCounter: 2000137295
+              stepCounter: "200016915"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000137296
+              stepCounter: "200016915"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"AMOUNT\""
+          - columnReference:
+              columnCounter: 2000137297
+              stepCounter: "200016915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TACCOUNTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"TACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000137298
+              stepCounter: "200016915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"ID\""
+          - columnReference:
+              columnCounter: 2000137299
+              stepCounter: "200016915"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: RESERVINGAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"RESERVINGAMOUNT\""
+          - columnReference:
+              columnCounter: 2000137300
+              stepCounter: "200016915"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000137301
+              stepCounter: "200016915"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000137302
+              stepCounter: "200016915"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000137303
+              stepCounter: "200016915"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000137304
+              stepCounter: "200016915"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000137305
+              stepCounter: "200016915"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000137306
+              stepCounter: "200016915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000137307
+              stepCounter: "200016915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000137308
+              stepCounter: "200016915"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000137309
+              stepCounter: "200016915"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_TACCOUNTLINEITEM\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000137282
+              stepCounter: "200016915"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_TACCOUNTLINEITEM'"
+          - columnReference:
+              columnCounter: 2000137281
+              stepCounter: "200016915"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_TACCOUNTLINEITEM
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_TACCOUNTLINEITEM') }} "CC_TACCOUNTLINEITEM" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_TACCOUNTLINEITEM') }} "ODS_GW_CC_PROD_CC_TACCOUNTLINEITEM")
+            name: LOAD_GW_CC_PROD_CC_TACCOUNTLINEITEM
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_TACCOUNTLINEITEM
+      name: LOAD_GW_CC_PROD_CC_TACCOUNTLINEITEM
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016915"

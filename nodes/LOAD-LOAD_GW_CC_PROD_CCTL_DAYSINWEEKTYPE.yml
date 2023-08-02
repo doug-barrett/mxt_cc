@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_DAYSINWEEKTYPE-200010263:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000130794
+              stepCounter: "200010263"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000130795
+              stepCounter: "200010263"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000130796
+              stepCounter: "200010263"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000130797
+              stepCounter: "200010263"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000130798
+              stepCounter: "200010263"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000130799
+              stepCounter: "200010263"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000130800
+              stepCounter: "200010263"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000130801
+              stepCounter: "200010263"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000130802
+              stepCounter: "200010263"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000130803
+              stepCounter: "200010263"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000130807
+              stepCounter: "200010263"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000130804
+              stepCounter: "200010263"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000130806
+              stepCounter: "200010263"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(CCTL_DAYSINWEEKTYPE.HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000130808
+              stepCounter: "200010263"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000130809
+              stepCounter: "200010263"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000130810
+              stepCounter: "200010263"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000130805
+              stepCounter: "200010263"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000130811
+              stepCounter: "200010263"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000130812
+              stepCounter: "200010263"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000130813
+              stepCounter: "200010263"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_DAYSINWEEKTYPE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000130793
+              stepCounter: "200010263"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_DAYSINWEEKTYPE'"
+          - columnReference:
+              columnCounter: 2000130792
+              stepCounter: "200010263"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_DAYSINWEEKTYPE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_DAYSINWEEKTYPE') }} "CCTL_DAYSINWEEKTYPE" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_DAYSINWEEKTYPE') }} "ODS_GW_CC_PROD_CCTL_DAYSINWEEKTYPE")
+            name: LOAD_GW_CC_PROD_CCTL_DAYSINWEEKTYPE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_DAYSINWEEKTYPE
+      name: LOAD_GW_CC_PROD_CCTL_DAYSINWEEKTYPE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200010263"

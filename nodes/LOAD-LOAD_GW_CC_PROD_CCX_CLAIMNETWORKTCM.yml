@@ -1,0 +1,378 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_CLAIMNETWORKTCM-200016677:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000141160
+              stepCounter: "200016677"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: TRIAGEFLAG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"TRIAGEFLAG\""
+          - columnReference:
+              columnCounter: 2000141161
+              stepCounter: "200016677"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000141162
+              stepCounter: "200016677"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: TCMOWNERDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"TCMOWNERDATE\""
+          - columnReference:
+              columnCounter: 2000141163
+              stepCounter: "200016677"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000141164
+              stepCounter: "200016677"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REFERREDTCMASOFDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"REFERREDTCMASOFDATE\""
+          - columnReference:
+              columnCounter: 2000141165
+              stepCounter: "200016677"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000141166
+              stepCounter: "200016677"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000141167
+              stepCounter: "200016677"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000141168
+              stepCounter: "200016677"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000141169
+              stepCounter: "200016677"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000141170
+              stepCounter: "200016677"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: FIRSTDATEINNETWORK
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"FIRSTDATEINNETWORK\""
+          - columnReference:
+              columnCounter: 2000141171
+              stepCounter: "200016677"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REFERREDTCM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"REFERREDTCM\""
+          - columnReference:
+              columnCounter: 2000141172
+              stepCounter: "200016677"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: TRIAGEFLAGDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"TRIAGEFLAGDATE\""
+          - columnReference:
+              columnCounter: 2000141173
+              stepCounter: "200016677"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000141174
+              stepCounter: "200016677"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: COMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"COMMENTS\""
+          - columnReference:
+              columnCounter: 2000141175
+              stepCounter: "200016677"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TCMOWNER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"TCMOWNER\""
+          - columnReference:
+              columnCounter: 2000141176
+              stepCounter: "200016677"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000141177
+              stepCounter: "200016677"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"ID\""
+          - columnReference:
+              columnCounter: 2000141178
+              stepCounter: "200016677"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000141179
+              stepCounter: "200016677"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000141180
+              stepCounter: "200016677"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000141181
+              stepCounter: "200016677"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000141182
+              stepCounter: "200016677"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000141183
+              stepCounter: "200016677"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000141184
+              stepCounter: "200016677"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000141185
+              stepCounter: "200016677"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000141186
+              stepCounter: "200016677"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000141187
+              stepCounter: "200016677"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000141188
+              stepCounter: "200016677"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CLAIMNETWORKTCM\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000141159
+              stepCounter: "200016677"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_CLAIMNETWORKTCM'"
+          - columnReference:
+              columnCounter: 2000141158
+              stepCounter: "200016677"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_CLAIMNETWORKTCM
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_CLAIMNETWORKTCM') }} "CCX_CLAIMNETWORKTCM" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_CLAIMNETWORKTCM') }} "ODS_GW_CC_PROD_CCX_CLAIMNETWORKTCM")
+            name: LOAD_GW_CC_PROD_CCX_CLAIMNETWORKTCM
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_CLAIMNETWORKTCM
+      name: LOAD_GW_CC_PROD_CCX_CLAIMNETWORKTCM
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016677"

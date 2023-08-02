@@ -1,0 +1,334 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_SUBROREFCAUSEOFINJURY-200016762:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000139964
+              stepCounter: "200016762"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000139965
+              stepCounter: "200016762"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000139966
+              stepCounter: "200016762"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CAUSEOFINJURYCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"CAUSEOFINJURYCODE\""
+          - columnReference:
+              columnCounter: 2000139967
+              stepCounter: "200016762"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INITIALCOMPENSIBILITYFLAG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"INITIALCOMPENSIBILITYFLAG\""
+          - columnReference:
+              columnCounter: 2000139968
+              stepCounter: "200016762"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139969
+              stepCounter: "200016762"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000139970
+              stepCounter: "200016762"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000139971
+              stepCounter: "200016762"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000139972
+              stepCounter: "200016762"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISMOTORVEHICLEACCIDENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"ISMOTORVEHICLEACCIDENT\""
+          - columnReference:
+              columnCounter: 2000139973
+              stepCounter: "200016762"
+            dataType: VARCHAR(150)
+            defaultValue: ""
+            description: ""
+            name: CAUSEDESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"CAUSEDESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000139974
+              stepCounter: "200016762"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139975
+              stepCounter: "200016762"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000139976
+              stepCounter: "200016762"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBSEQUENTCOMPENSIBILITYFLAG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"SUBSEQUENTCOMPENSIBILITYFLAG\""
+          - columnReference:
+              columnCounter: 2000139977
+              stepCounter: "200016762"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000139978
+              stepCounter: "200016762"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"ID\""
+          - columnReference:
+              columnCounter: 2000139979
+              stepCounter: "200016762"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000139980
+              stepCounter: "200016762"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139981
+              stepCounter: "200016762"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000139982
+              stepCounter: "200016762"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000139983
+              stepCounter: "200016762"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000139984
+              stepCounter: "200016762"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139985
+              stepCounter: "200016762"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000139986
+              stepCounter: "200016762"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000139987
+              stepCounter: "200016762"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000139988
+              stepCounter: "200016762"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_SUBROREFCAUSEOFINJURY\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000139963
+              stepCounter: "200016762"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_SUBROREFCAUSEOFINJURY'"
+          - columnReference:
+              columnCounter: 2000139962
+              stepCounter: "200016762"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_SUBROREFCAUSEOFINJURY
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_SUBROREFCAUSEOFINJURY') }} "CCX_SUBROREFCAUSEOFINJURY" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_SUBROREFCAUSEOFINJURY') }} "ODS_GW_CC_PROD_CCX_SUBROREFCAUSEOFINJURY")
+            name: LOAD_GW_CC_PROD_CCX_SUBROREFCAUSEOFINJURY
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_SUBROREFCAUSEOFINJURY
+      name: LOAD_GW_CC_PROD_CCX_SUBROREFCAUSEOFINJURY
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016762"

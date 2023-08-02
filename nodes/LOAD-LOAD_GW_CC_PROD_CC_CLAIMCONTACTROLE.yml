@@ -1,0 +1,477 @@
+steps:
+  LOAD_GW_CC_PROD_CC_CLAIMCONTACTROLE-200016816:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000133791
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000133792
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEGOTIATIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"NEGOTIATIONID\""
+          - columnReference:
+              columnCounter: 2000133793
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000133794
+              stepCounter: "200016816"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000133795
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"POLICYID\""
+          - columnReference:
+              columnCounter: 2000133796
+              stepCounter: "200016816"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: COMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"COMMENTS\""
+          - columnReference:
+              columnCounter: 2000133797
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000133798
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ROLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"ROLE\""
+          - columnReference:
+              columnCounter: 2000133799
+              stepCounter: "200016816"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000133800
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000133801
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EVALUATIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"EVALUATIONID\""
+          - columnReference:
+              columnCounter: 2000133802
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MATTERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"MATTERID\""
+          - columnReference:
+              columnCounter: 2000133803
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WITNESSPOSITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"WITNESSPOSITION\""
+          - columnReference:
+              columnCounter: 2000133804
+              stepCounter: "200016816"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: WITNESSPERSPECTIVE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"WITNESSPERSPECTIVE\""
+          - columnReference:
+              columnCounter: 2000133805
+              stepCounter: "200016816"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LOCKROLE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"LOCKROLE_EXT\""
+          - columnReference:
+              columnCounter: 2000133806
+              stepCounter: "200016816"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000133807
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMCONTACTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"CLAIMCONTACTID\""
+          - columnReference:
+              columnCounter: 2000133808
+              stepCounter: "200016816"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ACTIVE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"ACTIVE\""
+          - columnReference:
+              columnCounter: 2000133809
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSUREID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"EXPOSUREID\""
+          - columnReference:
+              columnCounter: 2000133810
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000133811
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000133812
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000133813
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WITNESSSTATEMENTIND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"WITNESSSTATEMENTIND\""
+          - columnReference:
+              columnCounter: 2000133814
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COVEREDPARTYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"COVEREDPARTYTYPE\""
+          - columnReference:
+              columnCounter: 2000133815
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PARTYNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"PARTYNUMBER\""
+          - columnReference:
+              columnCounter: 2000133816
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INCIDENTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"INCIDENTID\""
+          - columnReference:
+              columnCounter: 2000133817
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MOBILEENROLLSTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"MOBILEENROLLSTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000133818
+              stepCounter: "200016816"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: TMOUSERID_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"TMOUSERID_EXT\""
+          - columnReference:
+              columnCounter: 2000133819
+              stepCounter: "200016816"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000133820
+              stepCounter: "200016816"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000133821
+              stepCounter: "200016816"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000133822
+              stepCounter: "200016816"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000133823
+              stepCounter: "200016816"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000133824
+              stepCounter: "200016816"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000133825
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000133826
+              stepCounter: "200016816"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000133827
+              stepCounter: "200016816"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000133828
+              stepCounter: "200016816"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CLAIMCONTACTROLE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000133790
+              stepCounter: "200016816"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_CLAIMCONTACTROLE'"
+          - columnReference:
+              columnCounter: 2000133789
+              stepCounter: "200016816"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_CLAIMCONTACTROLE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_CLAIMCONTACTROLE') }} "CC_CLAIMCONTACTROLE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE') }} "ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE")
+            name: LOAD_GW_CC_PROD_CC_CLAIMCONTACTROLE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE
+      name: LOAD_GW_CC_PROD_CC_CLAIMCONTACTROLE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016816"

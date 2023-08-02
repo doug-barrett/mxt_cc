@@ -1,0 +1,345 @@
+steps:
+  LOAD_GW_CC_PROD_CC_REINSURANCETHRESHOLD-200016887:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000136438
+              stepCounter: "200016887"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000136439
+              stepCounter: "200016887"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000136440
+              stepCounter: "200016887"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: THRESHOLDVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"THRESHOLDVALUE\""
+          - columnReference:
+              columnCounter: 2000136441
+              stepCounter: "200016887"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136442
+              stepCounter: "200016887"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000136443
+              stepCounter: "200016887"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000136444
+              stepCounter: "200016887"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ENDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"ENDDATE\""
+          - columnReference:
+              columnCounter: 2000136445
+              stepCounter: "200016887"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000136446
+              stepCounter: "200016887"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"POLICYTYPE\""
+          - columnReference:
+              columnCounter: 2000136447
+              stepCounter: "200016887"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"STARTDATE\""
+          - columnReference:
+              columnCounter: 2000136448
+              stepCounter: "200016887"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136449
+              stepCounter: "200016887"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000136450
+              stepCounter: "200016887"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TREATYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"TREATYTYPE\""
+          - columnReference:
+              columnCounter: 2000136451
+              stepCounter: "200016887"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"ID\""
+          - columnReference:
+              columnCounter: 2000136452
+              stepCounter: "200016887"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOSSTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"LOSSTYPE\""
+          - columnReference:
+              columnCounter: 2000136453
+              stepCounter: "200016887"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REPORTINGTHRESHOLD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"REPORTINGTHRESHOLD\""
+          - columnReference:
+              columnCounter: 2000136454
+              stepCounter: "200016887"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000136455
+              stepCounter: "200016887"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136456
+              stepCounter: "200016887"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000136457
+              stepCounter: "200016887"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000136458
+              stepCounter: "200016887"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000136459
+              stepCounter: "200016887"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136460
+              stepCounter: "200016887"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000136461
+              stepCounter: "200016887"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000136462
+              stepCounter: "200016887"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000136463
+              stepCounter: "200016887"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REINSURANCETHRESHOLD\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000136437
+              stepCounter: "200016887"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_REINSURANCETHRESHOLD'"
+          - columnReference:
+              columnCounter: 2000136436
+              stepCounter: "200016887"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_REINSURANCETHRESHOLD
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_REINSURANCETHRESHOLD') }} "CC_REINSURANCETHRESHOLD" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_REINSURANCETHRESHOLD') }} "ODS_GW_CC_PROD_CC_REINSURANCETHRESHOLD")
+            name: LOAD_GW_CC_PROD_CC_REINSURANCETHRESHOLD
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_REINSURANCETHRESHOLD
+      name: LOAD_GW_CC_PROD_CC_REINSURANCETHRESHOLD
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016887"

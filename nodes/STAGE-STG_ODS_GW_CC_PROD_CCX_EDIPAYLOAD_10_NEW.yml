@@ -1,0 +1,1174 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCX_EDIPAYLOAD_10_NEW-200018951:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000261763
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYLOADSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"PAYLOADSTATUS\""
+          - columnReference:
+              columnCounter: 2000261764
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEELASTWORKDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEELASTWORKDATE\""
+          - columnReference:
+              columnCounter: 2000261765
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEDISABILITYBEGAN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"DATEDISABILITYBEGAN\""
+          - columnReference:
+              columnCounter: 2000261766
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000261767
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000261768
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ORIGINALSCHEDULEDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"ORIGINALSCHEDULEDDATE\""
+          - columnReference:
+              columnCounter: 2000261769
+              stepCounter: "200018951"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: MANUALEDIT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"MANUALEDIT\""
+          - columnReference:
+              columnCounter: 2000261770
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INJURYCAUSE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"INJURYCAUSE\""
+          - columnReference:
+              columnCounter: 2000261771
+              stepCounter: "200018951"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CLAIMADMINCLAIMNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"CLAIMADMINCLAIMNUMBER\""
+          - columnReference:
+              columnCounter: 2000261772
+              stepCounter: "200018951"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: INSUREDADDRESSLINE1
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"INSUREDADDRESSLINE1\""
+          - columnReference:
+              columnCounter: 2000261773
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMBEROFDEPENDENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"NUMBEROFDEPENDENTS\""
+          - columnReference:
+              columnCounter: 2000261774
+              stepCounter: "200018951"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: INSUREDADDRESSLINE2
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"INSUREDADDRESSLINE2\""
+          - columnReference:
+              columnCounter: 2000261775
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEERTWDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEERTWDATE\""
+          - columnReference:
+              columnCounter: 2000261776
+              stepCounter: "200018951"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEADDRESSLINE1
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEEADDRESSLINE1\""
+          - columnReference:
+              columnCounter: 2000261777
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ORDERNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"ORDERNUMBER\""
+          - columnReference:
+              columnCounter: 2000261778
+              stepCounter: "200018951"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEADDRESSLINE2
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEEADDRESSLINE2\""
+          - columnReference:
+              columnCounter: 2000261779
+              stepCounter: "200018951"
+            dataType: VARCHAR(4)
+            defaultValue: ""
+            description: ""
+            name: TRANSACTIONTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"TRANSACTIONTYPE\""
+          - columnReference:
+              columnCounter: 2000261780
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"ID\""
+          - columnReference:
+              columnCounter: 2000261781
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000261782
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DOI
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"DOI\""
+          - columnReference:
+              columnCounter: 2000261783
+              stepCounter: "200018951"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WAGEPAYMENTCONTINUED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"WAGEPAYMENTCONTINUED\""
+          - columnReference:
+              columnCounter: 2000261784
+              stepCounter: "200018951"
+            dataType: VARCHAR(2)
+            defaultValue: ""
+            description: ""
+            name: JURISDICTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"JURISDICTION\""
+          - columnReference:
+              columnCounter: 2000261785
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEDATEOFDEATH
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEEDATEOFDEATH\""
+          - columnReference:
+              columnCounter: 2000261786
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INJUREDONPREMISES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"INJUREDONPREMISES\""
+          - columnReference:
+              columnCounter: 2000261787
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RTWDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"RTWDATE\""
+          - columnReference:
+              columnCounter: 2000261788
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEDATEOFHIRE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEEDATEOFHIRE\""
+          - columnReference:
+              columnCounter: 2000261789
+              stepCounter: "200018951"
+            dataType: VARCHAR(25)
+            defaultValue: ""
+            description: ""
+            name: WAGEPERIOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"WAGEPERIOD\""
+          - columnReference:
+              columnCounter: 2000261790
+              stepCounter: "200018951"
+            dataType: VARCHAR(1)
+            defaultValue: ""
+            description: ""
+            name: PREEXISTINGDISABILITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"PREEXISTINGDISABILITY\""
+          - columnReference:
+              columnCounter: 2000261791
+              stepCounter: "200018951"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEFIRSTNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEEFIRSTNAME\""
+          - columnReference:
+              columnCounter: 2000261792
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYLOADCREATIONMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"PAYLOADCREATIONMETHOD\""
+          - columnReference:
+              columnCounter: 2000261793
+              stepCounter: "200018951"
+            dataType: VARCHAR(10)
+            defaultValue: ""
+            description: ""
+            name: CLAIMSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"CLAIMSTATUS\""
+          - columnReference:
+              columnCounter: 2000261794
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEGENDER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEEGENDER\""
+          - columnReference:
+              columnCounter: 2000261795
+              stepCounter: "200018951"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEELASTNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEELASTNAME\""
+          - columnReference:
+              columnCounter: 2000261796
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LATEREASONCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"LATEREASONCODE\""
+          - columnReference:
+              columnCounter: 2000261797
+              stepCounter: "200018951"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEOCCUPATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEEOCCUPATION\""
+          - columnReference:
+              columnCounter: 2000261798
+              stepCounter: "200018951"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: POLICYNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"POLICYNUMBER\""
+          - columnReference:
+              columnCounter: 2000261799
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REPRESENTATIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"REPRESENTATIONDATE\""
+          - columnReference:
+              columnCounter: 2000261800
+              stepCounter: "200018951"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEPHONE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEEPHONE\""
+          - columnReference:
+              columnCounter: 2000261801
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INJURYPRIMARYBODYPART
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"INJURYPRIMARYBODYPART\""
+          - columnReference:
+              columnCounter: 2000261802
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000261803
+              stepCounter: "200018951"
+            dataType: VARCHAR(25)
+            defaultValue: ""
+            description: ""
+            name: AGENCYCLAIMNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"AGENCYCLAIMNUMBER\""
+          - columnReference:
+              columnCounter: 2000261804
+              stepCounter: "200018951"
+            dataType: VARCHAR(1)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEMIDDLEINITIAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEEMIDDLEINITIAL\""
+          - columnReference:
+              columnCounter: 2000261805
+              stepCounter: "200018951"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: INJURYSITEZIP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"INJURYSITEZIP\""
+          - columnReference:
+              columnCounter: 2000261806
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: POLICYEFFECTIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"POLICYEFFECTIVEDATE\""
+          - columnReference:
+              columnCounter: 2000261807
+              stepCounter: "200018951"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: WAGE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"WAGE\""
+          - columnReference:
+              columnCounter: 2000261808
+              stepCounter: "200018951"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEFULLWAGEINDICATOR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEEFULLWAGEINDICATOR\""
+          - columnReference:
+              columnCounter: 2000261809
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: MTCDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"MTCDATE\""
+          - columnReference:
+              columnCounter: 2000261810
+              stepCounter: "200018951"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SALARYCONTINUATIONINDICATOR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"SALARYCONTINUATIONINDICATOR\""
+          - columnReference:
+              columnCounter: 2000261811
+              stepCounter: "200018951"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEADDRESSCITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEEADDRESSCITY\""
+          - columnReference:
+              columnCounter: 2000261812
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: TRANSMISSIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"TRANSMISSIONDATE\""
+          - columnReference:
+              columnCounter: 2000261813
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000261814
+              stepCounter: "200018951"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: INSUREDADDRESSCITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"INSUREDADDRESSCITY\""
+          - columnReference:
+              columnCounter: 2000261815
+              stepCounter: "200018951"
+            dataType: VARCHAR(1)
+            defaultValue: ""
+            description: ""
+            name: RTWQUALIFIER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"RTWQUALIFIER\""
+          - columnReference:
+              columnCounter: 2000261816
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000261817
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEMARITALSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEEMARITALSTATUS\""
+          - columnReference:
+              columnCounter: 2000261818
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: INJURYDATEREPORTED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"INJURYDATEREPORTED\""
+          - columnReference:
+              columnCounter: 2000261819
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000261820
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHECKSETID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"CHECKSETID\""
+          - columnReference:
+              columnCounter: 2000261821
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: SCHEDULEDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"SCHEDULEDDATE\""
+          - columnReference:
+              columnCounter: 2000261822
+              stepCounter: "200018951"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000261823
+              stepCounter: "200018951"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: INJURYDESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"INJURYDESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000261824
+              stepCounter: "200018951"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: TAXID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"TAXID\""
+          - columnReference:
+              columnCounter: 2000261825
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INSUREDADDRESSSTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"INSUREDADDRESSSTATE\""
+          - columnReference:
+              columnCounter: 2000261826
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEECOUNTRY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEECOUNTRY\""
+          - columnReference:
+              columnCounter: 2000261827
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000261828
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000261829
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000261830
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHECKID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"CHECKID\""
+          - columnReference:
+              columnCounter: 2000261831
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEADDRESSSTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEEADDRESSSTATE\""
+          - columnReference:
+              columnCounter: 2000261832
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEEMPLOYMENTSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEEEMPLOYMENTSTATUS\""
+          - columnReference:
+              columnCounter: 2000261833
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEDATEOFBIRTH
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEEDATEOFBIRTH\""
+          - columnReference:
+              columnCounter: 2000261834
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INSUREDCOUNTRY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"INSUREDCOUNTRY\""
+          - columnReference:
+              columnCounter: 2000261835
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: POLICYEXPIRATIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"POLICYEXPIRATIONDATE\""
+          - columnReference:
+              columnCounter: 2000261836
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMBERDAYSWORKED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"NUMBERDAYSWORKED\""
+          - columnReference:
+              columnCounter: 2000261837
+              stepCounter: "200018951"
+            dataType: VARCHAR(1)
+            defaultValue: ""
+            description: ""
+            name: AGREECOMPENSATECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"AGREECOMPENSATECODE\""
+          - columnReference:
+              columnCounter: 2000261838
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INJURYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"INJURYTYPE\""
+          - columnReference:
+              columnCounter: 2000261839
+              stepCounter: "200018951"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: INSUREDNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"INSUREDNAME\""
+          - columnReference:
+              columnCounter: 2000261840
+              stepCounter: "200018951"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CLAIMTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"CLAIMTYPE\""
+          - columnReference:
+              columnCounter: 2000261841
+              stepCounter: "200018951"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CLAIMANTNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"CLAIMANTNAME\""
+          - columnReference:
+              columnCounter: 2000261842
+              stepCounter: "200018951"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: INSUREDADDRESSZIP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"INSUREDADDRESSZIP\""
+          - columnReference:
+              columnCounter: 2000261843
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: MMIDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"MMIDATE\""
+          - columnReference:
+              columnCounter: 2000261844
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: INJURYREPORTEDTOTMIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"INJURYREPORTEDTOTMIC\""
+          - columnReference:
+              columnCounter: 2000261845
+              stepCounter: "200018951"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEADDRESSZIP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"EMPLOYEEADDRESSZIP\""
+          - columnReference:
+              columnCounter: 2000261846
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"MTC\""
+          - columnReference:
+              columnCounter: 2000261847
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LETTERTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"LETTERTYPE\""
+          - columnReference:
+              columnCounter: 2000261848
+              stepCounter: "200018951"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: INSUREDFEIN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"INSUREDFEIN\""
+          - columnReference:
+              columnCounter: 2000261849
+              stepCounter: "200018951"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000261850
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000261851
+              stepCounter: "200018951"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000261852
+              stepCounter: "200018951"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000261853
+              stepCounter: "200018951"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000261854
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000261855
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000261856
+              stepCounter: "200018951"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000261857
+              stepCounter: "200018951"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000261858
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000261864
+              stepCounter: "200018951"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_EDIPAYLOAD_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000261865
+              stepCounter: "200018951"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_EDIPAYLOAD_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000261863
+              stepCounter: "200018951"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000261859
+              stepCounter: "200018951"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000261860
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000261862
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000261861
+              stepCounter: "200018951"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCX_EDIPAYLOAD
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCX_EDIPAYLOAD_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCX_EDIPAYLOAD') }} \"LOAD_GW_CC_PROD_CCX_EDIPAYLOAD\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCX_EDIPAYLOAD_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CCX_EDIPAYLOAD_05_SEQNO\"    ON LOAD_GW_CC_PROD_CCX_EDIPAYLOAD.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CCX_EDIPAYLOAD_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CCX_EDIPAYLOAD_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CCX_EDIPAYLOAD_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCX_EDIPAYLOAD_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018951"

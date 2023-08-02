@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_SUBROFUTURECREDIT-200025241:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000131872
+              stepCounter: "200025241"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000131873
+              stepCounter: "200025241"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000131874
+              stepCounter: "200025241"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000131875
+              stepCounter: "200025241"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000131876
+              stepCounter: "200025241"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000131877
+              stepCounter: "200025241"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000131878
+              stepCounter: "200025241"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000131879
+              stepCounter: "200025241"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000131880
+              stepCounter: "200025241"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000131881
+              stepCounter: "200025241"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000131885
+              stepCounter: "200025241"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000131882
+              stepCounter: "200025241"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131884
+              stepCounter: "200025241"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(CCTL_SUBROFUTURECREDIT.HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000131886
+              stepCounter: "200025241"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000131887
+              stepCounter: "200025241"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000131888
+              stepCounter: "200025241"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000131883
+              stepCounter: "200025241"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131889
+              stepCounter: "200025241"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000131890
+              stepCounter: "200025241"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000131891
+              stepCounter: "200025241"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_SUBROFUTURECREDIT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000131871
+              stepCounter: "200025241"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_SUBROFUTURECREDIT'"
+          - columnReference:
+              columnCounter: 2000131870
+              stepCounter: "200025241"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_SUBROFUTURECREDIT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_SUBROFUTURECREDIT') }} "CCTL_SUBROFUTURECREDIT" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_SUBROFUTURECREDIT') }} "ODS_GW_CC_PROD_CCTL_SUBROFUTURECREDIT")
+            name: LOAD_GW_CC_PROD_CCTL_SUBROFUTURECREDIT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_SUBROFUTURECREDIT
+      name: LOAD_GW_CC_PROD_CCTL_SUBROFUTURECREDIT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200025241"

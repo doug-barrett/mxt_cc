@@ -1,0 +1,367 @@
+steps:
+  LOAD_GW_CC_PROD_CC_USERSETTINGS-200016927:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000137720
+              stepCounter: "200016927"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ROTATETABLES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"ROTATETABLES\""
+          - columnReference:
+              columnCounter: 2000137721
+              stepCounter: "200016927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000137722
+              stepCounter: "200016927"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000137723
+              stepCounter: "200016927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000137724
+              stepCounter: "200016927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMOPENCLAIMS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"NUMOPENCLAIMS\""
+          - columnReference:
+              columnCounter: 2000137725
+              stepCounter: "200016927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000137726
+              stepCounter: "200016927"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CANCELALERTDISMISS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"CANCELALERTDISMISS\""
+          - columnReference:
+              columnCounter: 2000137727
+              stepCounter: "200016927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000137728
+              stepCounter: "200016927"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PRINTPAGENUMS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"PRINTPAGENUMS\""
+          - columnReference:
+              columnCounter: 2000137729
+              stepCounter: "200016927"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000137730
+              stepCounter: "200016927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STARTUPPAGE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"STARTUPPAGE\""
+          - columnReference:
+              columnCounter: 2000137731
+              stepCounter: "200016927"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: LASTNCLAIMS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"LASTNCLAIMS\""
+          - columnReference:
+              columnCounter: 2000137732
+              stepCounter: "200016927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MINCLAIMUPDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"MINCLAIMUPDATE\""
+          - columnReference:
+              columnCounter: 2000137733
+              stepCounter: "200016927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000137734
+              stepCounter: "200016927"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000137735
+              stepCounter: "200016927"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SHOWPRINTPREVIEW
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"SHOWPRINTPREVIEW\""
+          - columnReference:
+              columnCounter: 2000137736
+              stepCounter: "200016927"
+            dataType: NUMBER(2,1)
+            defaultValue: ""
+            description: ""
+            name: PRINTMARGINS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"PRINTMARGINS\""
+          - columnReference:
+              columnCounter: 2000137737
+              stepCounter: "200016927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"ID\""
+          - columnReference:
+              columnCounter: 2000137738
+              stepCounter: "200016927"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000137739
+              stepCounter: "200016927"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000137740
+              stepCounter: "200016927"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000137741
+              stepCounter: "200016927"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000137742
+              stepCounter: "200016927"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000137743
+              stepCounter: "200016927"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000137744
+              stepCounter: "200016927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000137745
+              stepCounter: "200016927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000137746
+              stepCounter: "200016927"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000137747
+              stepCounter: "200016927"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_USERSETTINGS\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000137719
+              stepCounter: "200016927"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_USERSETTINGS'"
+          - columnReference:
+              columnCounter: 2000137718
+              stepCounter: "200016927"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_USERSETTINGS
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_USERSETTINGS') }} "CC_USERSETTINGS" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_USERSETTINGS') }} "ODS_GW_CC_PROD_CC_USERSETTINGS")
+            name: LOAD_GW_CC_PROD_CC_USERSETTINGS
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_USERSETTINGS
+      name: LOAD_GW_CC_PROD_CC_USERSETTINGS
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016927"

@@ -1,0 +1,367 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_STATUSLINERULE-200022927:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000139934
+              stepCounter: "200022927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000139935
+              stepCounter: "200022927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139936
+              stepCounter: "200022927"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000139937
+              stepCounter: "200022927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUSLINE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"STATUSLINE\""
+          - columnReference:
+              columnCounter: 2000139938
+              stepCounter: "200022927"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ACTIVE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"ACTIVE\""
+          - columnReference:
+              columnCounter: 2000139939
+              stepCounter: "200022927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000139940
+              stepCounter: "200022927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000139941
+              stepCounter: "200022927"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000139942
+              stepCounter: "200022927"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FINALLINE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"FINALLINE\""
+          - columnReference:
+              columnCounter: 2000139943
+              stepCounter: "200022927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139944
+              stepCounter: "200022927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSFROMSTARTPOINT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"DAYSFROMSTARTPOINT\""
+          - columnReference:
+              columnCounter: 2000139945
+              stepCounter: "200022927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OUTCOME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"OUTCOME\""
+          - columnReference:
+              columnCounter: 2000139946
+              stepCounter: "200022927"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000139947
+              stepCounter: "200022927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEXTSTATUSLINE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"NEXTSTATUSLINE\""
+          - columnReference:
+              columnCounter: 2000139948
+              stepCounter: "200022927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000139949
+              stepCounter: "200022927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000139950
+              stepCounter: "200022927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MATTERTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"MATTERTYPE\""
+          - columnReference:
+              columnCounter: 2000139951
+              stepCounter: "200022927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEXTSTATUSLNSTART
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"NEXTSTATUSLNSTART\""
+          - columnReference:
+              columnCounter: 2000139952
+              stepCounter: "200022927"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000139953
+              stepCounter: "200022927"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139954
+              stepCounter: "200022927"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000139955
+              stepCounter: "200022927"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000139956
+              stepCounter: "200022927"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000139957
+              stepCounter: "200022927"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000139958
+              stepCounter: "200022927"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139959
+              stepCounter: "200022927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000139960
+              stepCounter: "200022927"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000139961
+              stepCounter: "200022927"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_STATUSLINERULE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000139933
+              stepCounter: "200022927"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_STATUSLINERULE'"
+          - columnReference:
+              columnCounter: 2000139932
+              stepCounter: "200022927"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_STATUSLINERULE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_STATUSLINERULE') }} "CCX_STATUSLINERULE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_STATUSLINERULE') }} "ODS_GW_CC_PROD_CCX_STATUSLINERULE")
+            name: LOAD_GW_CC_PROD_CCX_STATUSLINERULE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_STATUSLINERULE
+      name: LOAD_GW_CC_PROD_CCX_STATUSLINERULE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022927"

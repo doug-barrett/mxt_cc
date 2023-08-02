@@ -1,0 +1,316 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD_10_NEW-200017869:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000253277
+              stepCounter: "200017869"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: IMPORTTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"IMPORTTIME\""
+          - columnReference:
+              columnCounter: 2000253278
+              stepCounter: "200017869"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000253279
+              stepCounter: "200017869"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DEPLOYMENTTAG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"DEPLOYMENTTAG\""
+          - columnReference:
+              columnCounter: 2000253280
+              stepCounter: "200017869"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000253281
+              stepCounter: "200017869"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: GLOBALRULEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"GLOBALRULEID\""
+          - columnReference:
+              columnCounter: 2000253282
+              stepCounter: "200017869"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"ID\""
+          - columnReference:
+              columnCounter: 2000253283
+              stepCounter: "200017869"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: IMPORTUSERNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"IMPORTUSERNAME\""
+          - columnReference:
+              columnCounter: 2000253284
+              stepCounter: "200017869"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RULEVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"RULEVERSION\""
+          - columnReference:
+              columnCounter: 2000253285
+              stepCounter: "200017869"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000253286
+              stepCounter: "200017869"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000253287
+              stepCounter: "200017869"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000253288
+              stepCounter: "200017869"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000253289
+              stepCounter: "200017869"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000253290
+              stepCounter: "200017869"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000253291
+              stepCounter: "200017869"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000253292
+              stepCounter: "200017869"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000253293
+              stepCounter: "200017869"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000253294
+              stepCounter: "200017869"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000253299
+              stepCounter: "200017869"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000253300
+              stepCounter: "200017869"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000253301
+              stepCounter: "200017869"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000253295
+              stepCounter: "200017869"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000253296
+              stepCounter: "200017869"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000253298
+              stepCounter: "200017869"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000253297
+              stepCounter: "200017869"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD') }} \"LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD_05_SEQNO\"    ON LOAD_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_BIZIMPORTAUDITRECORD_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200017869"

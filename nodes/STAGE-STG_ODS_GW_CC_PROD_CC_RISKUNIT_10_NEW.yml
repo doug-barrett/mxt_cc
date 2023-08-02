@@ -1,0 +1,536 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_RISKUNIT_10_NEW-200018943:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000258384
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000258385
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000258386
+              stepCounter: "200018943"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000258387
+              stepCounter: "200018943"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ENDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"ENDDATE\""
+          - columnReference:
+              columnCounter: 2000258388
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VEHICLEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"VEHICLEID\""
+          - columnReference:
+              columnCounter: 2000258389
+              stepCounter: "200018943"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"STARTDATE\""
+          - columnReference:
+              columnCounter: 2000258390
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"POLICYID\""
+          - columnReference:
+              columnCounter: 2000258391
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BUILDINGID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"BUILDINGID\""
+          - columnReference:
+              columnCounter: 2000258392
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000258393
+              stepCounter: "200018943"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000258394
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GEOGRAPHICALREGION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"GEOGRAPHICALREGION\""
+          - columnReference:
+              columnCounter: 2000258395
+              stepCounter: "200018943"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: RISKUNITLOCNUMBER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"RISKUNITLOCNUMBER_EXT\""
+          - columnReference:
+              columnCounter: 2000258396
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000258397
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000258398
+              stepCounter: "200018943"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: POLICYSYSTEMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"POLICYSYSTEMID\""
+          - columnReference:
+              columnCounter: 2000258399
+              stepCounter: "200018943"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000258400
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VEHICLELOCATIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"VEHICLELOCATIONID\""
+          - columnReference:
+              columnCounter: 2000258401
+              stepCounter: "200018943"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RISKUNITEFFECTIVEDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"RISKUNITEFFECTIVEDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000258402
+              stepCounter: "200018943"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000258403
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLASSCODEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"CLASSCODEID\""
+          - columnReference:
+              columnCounter: 2000258404
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYLOCATIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"POLICYLOCATIONID\""
+          - columnReference:
+              columnCounter: 2000258405
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000258406
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000258407
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000258408
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RUNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"RUNUMBER\""
+          - columnReference:
+              columnCounter: 2000258409
+              stepCounter: "200018943"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RISKUNITEXPIRATIONDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"RISKUNITEXPIRATIONDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000258410
+              stepCounter: "200018943"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: TRIPDESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"TRIPDESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000258411
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OTHERRISKTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"OTHERRISKTYPE\""
+          - columnReference:
+              columnCounter: 2000258412
+              stepCounter: "200018943"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000258413
+              stepCounter: "200018943"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000258414
+              stepCounter: "200018943"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000258415
+              stepCounter: "200018943"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000258416
+              stepCounter: "200018943"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000258417
+              stepCounter: "200018943"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000258418
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000258419
+              stepCounter: "200018943"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000258420
+              stepCounter: "200018943"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000258421
+              stepCounter: "200018943"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000258427
+              stepCounter: "200018943"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_RISKUNIT_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000258428
+              stepCounter: "200018943"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_RISKUNIT_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000258426
+              stepCounter: "200018943"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000258422
+              stepCounter: "200018943"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000258423
+              stepCounter: "200018943"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RISKUNIT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000258425
+              stepCounter: "200018943"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000258424
+              stepCounter: "200018943"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_RISKUNIT
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_RISKUNIT_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_RISKUNIT') }} \"LOAD_GW_CC_PROD_CC_RISKUNIT\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_RISKUNIT_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CC_RISKUNIT_05_SEQNO\"    ON LOAD_GW_CC_PROD_CC_RISKUNIT.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CC_RISKUNIT_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CC_RISKUNIT_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CC_RISKUNIT_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_RISKUNIT_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018943"

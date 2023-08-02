@@ -1,0 +1,347 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT_00_ASOF-200033897:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000303840
+              stepCounter: "200033897"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000303841
+              stepCounter: "200033897"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000303842
+              stepCounter: "200033897"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000303843
+              stepCounter: "200033897"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000303844
+              stepCounter: "200033897"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000303845
+              stepCounter: "200033897"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000303846
+              stepCounter: "200033897"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000303847
+              stepCounter: "200033897"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000303848
+              stepCounter: "200033897"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000303849
+              stepCounter: "200033897"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000303832
+              stepCounter: "200033897"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000303850
+              stepCounter: "200033897"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000303851
+              stepCounter: "200033897"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000303833
+              stepCounter: "200033897"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000303834
+              stepCounter: "200033897"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000303835
+              stepCounter: "200033897"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000303852
+              stepCounter: "200033897"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000303836
+              stepCounter: "200033897"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000303837
+              stepCounter: "200033897"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000303838
+              stepCounter: "200033897"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000303857
+              stepCounter: "200033897"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ODS_CTRL_HVRCAPTSTAMP."HVRCAPTUREKEY"
+          - columnReference:
+              columnCounter: 2000303858
+              stepCounter: "200033897"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ODS_CTRL_HVRCAPTSTAMP."BATCH_NUMBER"
+          - columnReference:
+              columnCounter: 2000303859
+              stepCounter: "200033897"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CASE   WHEN LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT.HVROP = 0 THEN 'Y'   WHEN LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT.HVRCAPTSTAMP < ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE THEN 'Y'   ELSE 'N'   END
+          - columnReference:
+              columnCounter: 2000303839
+              stepCounter: "200033897"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ROW_NUM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ROW_NUMBER() OVER(    PARTITION BY      LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT.ID    ORDER BY      LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT.HVRCAPTSTAMP DESC     ,LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT.HVRINTEGSEQ DESC  )
+          - columnReference:
+              columnCounter: 2000303853
+              stepCounter: "200033897"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: DSS_RECORD_SOURCE
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000303854
+              stepCounter: "200033897"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DSS_LOAD_DATE
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000303856
+              stepCounter: "200033897"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000303855
+              stepCounter: "200033897"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRREFRESH_HISTORY
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT') }} \"LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT\" JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY = 'CC_PROD'   AND LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT.HVRCAPTSTAMP < ODS_CTRL_HVRCAPTSTAMP.HVRCAPTSTAMP  JOIN {{ ref('ODS','ODS_CTRL_HVRREFRESH_HISTORY') }} \"ODS_CTRL_HVRREFRESH_HISTORY\"    ON LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT.DSS_RECORD_SOURCE = ODS_CTRL_HVRREFRESH_HISTORY.HVR_RECORD_SOURCE   AND LOAD_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT.HVRCAPTSTAMP BETWEEN ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE AND ODS_CTRL_HVRREFRESH_HISTORY.THRU_DATE  "
+            name: STG_ODS_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT_00_ASOF
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCTL_ESCHEATSTATUS_EXT_00_ASOF
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200033897"

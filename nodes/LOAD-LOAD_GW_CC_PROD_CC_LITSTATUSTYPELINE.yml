@@ -1,0 +1,334 @@
+steps:
+  LOAD_GW_CC_PROD_CC_LITSTATUSTYPELINE-200022923:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000135663
+              stepCounter: "200022923"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000135664
+              stepCounter: "200022923"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MATTERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"MATTERID\""
+          - columnReference:
+              columnCounter: 2000135665
+              stepCounter: "200022923"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000135666
+              stepCounter: "200022923"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000135667
+              stepCounter: "200022923"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000135668
+              stepCounter: "200022923"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000135669
+              stepCounter: "200022923"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000135670
+              stepCounter: "200022923"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000135671
+              stepCounter: "200022923"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: COMPLETIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"COMPLETIONDATE\""
+          - columnReference:
+              columnCounter: 2000135672
+              stepCounter: "200022923"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"STARTDATE\""
+          - columnReference:
+              columnCounter: 2000135673
+              stepCounter: "200022923"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LITIGATIONSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"LITIGATIONSTATUS\""
+          - columnReference:
+              columnCounter: 2000135674
+              stepCounter: "200022923"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000135675
+              stepCounter: "200022923"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000135676
+              stepCounter: "200022923"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000135677
+              stepCounter: "200022923"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OUTCOME_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"OUTCOME_EXT\""
+          - columnReference:
+              columnCounter: 2000135678
+              stepCounter: "200022923"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000135679
+              stepCounter: "200022923"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000135680
+              stepCounter: "200022923"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000135681
+              stepCounter: "200022923"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000135682
+              stepCounter: "200022923"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000135683
+              stepCounter: "200022923"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000135684
+              stepCounter: "200022923"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000135685
+              stepCounter: "200022923"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000135686
+              stepCounter: "200022923"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000135687
+              stepCounter: "200022923"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_LITSTATUSTYPELINE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000135662
+              stepCounter: "200022923"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_LITSTATUSTYPELINE'"
+          - columnReference:
+              columnCounter: 2000135661
+              stepCounter: "200022923"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_LITSTATUSTYPELINE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_LITSTATUSTYPELINE') }} "CC_LITSTATUSTYPELINE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_LITSTATUSTYPELINE') }} "ODS_GW_CC_PROD_CC_LITSTATUSTYPELINE")
+            name: LOAD_GW_CC_PROD_CC_LITSTATUSTYPELINE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_LITSTATUSTYPELINE
+      name: LOAD_GW_CC_PROD_CC_LITSTATUSTYPELINE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022923"

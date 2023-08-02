@@ -1,0 +1,268 @@
+steps:
+  LOAD_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS-200016877:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000136214
+              stepCounter: "200016877"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000136215
+              stepCounter: "200016877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136216
+              stepCounter: "200016877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000136217
+              stepCounter: "200016877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136218
+              stepCounter: "200016877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000136219
+              stepCounter: "200016877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GENERATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"GENERATION\""
+          - columnReference:
+              columnCounter: 2000136220
+              stepCounter: "200016877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000136221
+              stepCounter: "200016877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"ID\""
+          - columnReference:
+              columnCounter: 2000136222
+              stepCounter: "200016877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"POLICYTYPE\""
+          - columnReference:
+              columnCounter: 2000136223
+              stepCounter: "200016877"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000136224
+              stepCounter: "200016877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136225
+              stepCounter: "200016877"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000136226
+              stepCounter: "200016877"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000136227
+              stepCounter: "200016877"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000136228
+              stepCounter: "200016877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136229
+              stepCounter: "200016877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000136230
+              stepCounter: "200016877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000136231
+              stepCounter: "200016877"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000136232
+              stepCounter: "200016877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICYTYPEMETRICLIMITS\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000136213
+              stepCounter: "200016877"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_POLICYTYPEMETRICLIMITS'"
+          - columnReference:
+              columnCounter: 2000136212
+              stepCounter: "200016877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_POLICYTYPEMETRICLIMITS
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_POLICYTYPEMETRICLIMITS') }} "CC_POLICYTYPEMETRICLIMITS" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS') }} "ODS_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS")
+            name: LOAD_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS
+      name: LOAD_GW_CC_PROD_CC_POLICYTYPEMETRICLIMITS
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016877"

@@ -1,0 +1,393 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_AUTHORITYLIMIT_10_NEW-200018915:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000252994
+              stepCounter: "200018915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000252995
+              stepCounter: "200018915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COVERAGETYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"COVERAGETYPE\""
+          - columnReference:
+              columnCounter: 2000252998
+              stepCounter: "200018915"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000252999
+              stepCounter: "200018915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COSTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"COSTTYPE\""
+          - columnReference:
+              columnCounter: 2000253000
+              stepCounter: "200018915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000253001
+              stepCounter: "200018915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000253002
+              stepCounter: "200018915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000253003
+              stepCounter: "200018915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PROFILEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"PROFILEID\""
+          - columnReference:
+              columnCounter: 2000253004
+              stepCounter: "200018915"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000253005
+              stepCounter: "200018915"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: LIMITAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"LIMITAMOUNT\""
+          - columnReference:
+              columnCounter: 2000253006
+              stepCounter: "200018915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000253007
+              stepCounter: "200018915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LIMITTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"LIMITTYPE\""
+          - columnReference:
+              columnCounter: 2000253008
+              stepCounter: "200018915"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000253009
+              stepCounter: "200018915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000253010
+              stepCounter: "200018915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"POLICYTYPE\""
+          - columnReference:
+              columnCounter: 2000253011
+              stepCounter: "200018915"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000253012
+              stepCounter: "200018915"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000253013
+              stepCounter: "200018915"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000253014
+              stepCounter: "200018915"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000253015
+              stepCounter: "200018915"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000253016
+              stepCounter: "200018915"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000253017
+              stepCounter: "200018915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000253018
+              stepCounter: "200018915"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000253019
+              stepCounter: "200018915"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000253020
+              stepCounter: "200018915"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000252997
+              stepCounter: "200018915"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_AUTHORITYLIMIT_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000253025
+              stepCounter: "200018915"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_AUTHORITYLIMIT_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000252996
+              stepCounter: "200018915"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000253021
+              stepCounter: "200018915"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000253022
+              stepCounter: "200018915"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000253024
+              stepCounter: "200018915"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000253023
+              stepCounter: "200018915"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_AUTHORITYLIMIT_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT') }} \"LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_AUTHORITYLIMIT_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CC_AUTHORITYLIMIT_05_SEQNO\"    ON LOAD_GW_CC_PROD_CC_AUTHORITYLIMIT.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CC_AUTHORITYLIMIT_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CC_AUTHORITYLIMIT_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CC_AUTHORITYLIMIT_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_AUTHORITYLIMIT_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018915"

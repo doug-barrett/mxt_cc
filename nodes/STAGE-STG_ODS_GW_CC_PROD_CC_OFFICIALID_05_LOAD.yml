@@ -1,0 +1,321 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_OFFICIALID_05_LOAD-200018294:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000302070
+              stepCounter: "200018294"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CONTACTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"CONTACTID\""
+          - columnReference:
+              columnCounter: 2000302071
+              stepCounter: "200018294"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OFFICIALIDTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"OFFICIALIDTYPE\""
+          - columnReference:
+              columnCounter: 2000302074
+              stepCounter: "200018294"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000302075
+              stepCounter: "200018294"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000302076
+              stepCounter: "200018294"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000302077
+              stepCounter: "200018294"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000302078
+              stepCounter: "200018294"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000302079
+              stepCounter: "200018294"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000302080
+              stepCounter: "200018294"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000302081
+              stepCounter: "200018294"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: OFFICIALIDVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"OFFICIALIDVALUE\""
+          - columnReference:
+              columnCounter: 2000302058
+              stepCounter: "200018294"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"STATE\""
+          - columnReference:
+              columnCounter: 2000302059
+              stepCounter: "200018294"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000302060
+              stepCounter: "200018294"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000302061
+              stepCounter: "200018294"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000302062
+              stepCounter: "200018294"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"ID\""
+          - columnReference:
+              columnCounter: 2000302063
+              stepCounter: "200018294"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: OBFUSCATEDINTERNAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"OBFUSCATEDINTERNAL\""
+          - columnReference:
+              columnCounter: 2000302064
+              stepCounter: "200018294"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000302065
+              stepCounter: "200018294"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000302066
+              stepCounter: "200018294"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000302082
+              stepCounter: "200018294"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000302083
+              stepCounter: "200018294"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000302073
+              stepCounter: "200018294"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"DELETE_FLAG\""
+          - columnReference:
+              columnCounter: 2000302067
+              stepCounter: "200018294"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000302068
+              stepCounter: "200018294"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000302072
+              stepCounter: "200018294"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000302069
+              stepCounter: "200018294"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF
+            join:
+              joinCondition: "FROM {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF') }} \"STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF\" WHERE STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF.ROW_NUM = 1   AND STG_ODS_GW_CC_PROD_CC_OFFICIALID_00_ASOF.DELETE_FLAG = 'N' "
+            name: STG_ODS_GW_CC_PROD_CC_OFFICIALID_05_LOAD
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_OFFICIALID_05_LOAD
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018294"

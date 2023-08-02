@@ -1,0 +1,2083 @@
+steps:
+  LOAD_GW_CC_PROD_CC_INCIDENT-200010082:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000140730
+              stepCounter: "200010082"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: ESTREPAIRTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ESTREPAIRTIME\""
+          - columnReference:
+              columnCounter: 2000140731
+              stepCounter: "200010082"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ESTREPAIRCOST
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ESTREPAIRCOST\""
+          - columnReference:
+              columnCounter: 2000140732
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BAGGAGERECOVEREDON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"BAGGAGERECOVEREDON\""
+          - columnReference:
+              columnCounter: 2000140733
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RENTALREQUIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RENTALREQUIRED\""
+          - columnReference:
+              columnCounter: 2000140734
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAMAGEDAREASIZE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"DAMAGEDAREASIZE\""
+          - columnReference:
+              columnCounter: 2000140735
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ASSESSMENTCLOSEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ASSESSMENTCLOSEDATE\""
+          - columnReference:
+              columnCounter: 2000140736
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMSPRINKOPER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"NUMSPRINKOPER\""
+          - columnReference:
+              columnCounter: 2000140737
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000140738
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OCCUPANCYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"OCCUPANCYTYPE\""
+          - columnReference:
+              columnCounter: 2000140739
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RECOVIND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RECOVIND\""
+          - columnReference:
+              columnCounter: 2000140740
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000140741
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ALARMTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ALARMTYPE\""
+          - columnReference:
+              columnCounter: 2000140742
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VEHICLEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHICLEID\""
+          - columnReference:
+              columnCounter: 2000140743
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMSTORIES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"NUMSTORIES\""
+          - columnReference:
+              columnCounter: 2000140744
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CLAIMINCIDENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"CLAIMINCIDENT\""
+          - columnReference:
+              columnCounter: 2000140745
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"STARTDATE\""
+          - columnReference:
+              columnCounter: 2000140746
+              stepCounter: "200010082"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: SALVAGETITLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"SALVAGETITLE\""
+          - columnReference:
+              columnCounter: 2000140747
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: AIRBAGSMISSING
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"AIRBAGSMISSING\""
+          - columnReference:
+              columnCounter: 2000140748
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: COLLISION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"COLLISION\""
+          - columnReference:
+              columnCounter: 2000140749
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RENTALBEGINDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RENTALBEGINDATE\""
+          - columnReference:
+              columnCounter: 2000140750
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RELATEDTRIPRUID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RELATEDTRIPRUID\""
+          - columnReference:
+              columnCounter: 2000140751
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETURNTOMODWORKVALID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RETURNTOMODWORKVALID\""
+          - columnReference:
+              columnCounter: 2000140752
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VEHCONDTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHCONDTYPE\""
+          - columnReference:
+              columnCounter: 2000140753
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CARRIERCOMPENSATED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"CARRIERCOMPENSATED\""
+          - columnReference:
+              columnCounter: 2000140754
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000140755
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000140756
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: VEHICLEROLLOVER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHICLEROLLOVER\""
+          - columnReference:
+              columnCounter: 2000140757
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SEVERITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"SEVERITY\""
+          - columnReference:
+              columnCounter: 2000140758
+              stepCounter: "200010082"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ASSESSMENTCOMMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ASSESSMENTCOMMENT\""
+          - columnReference:
+              columnCounter: 2000140759
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MOLDINVOLVED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"MOLDINVOLVED\""
+          - columnReference:
+              columnCounter: 2000140760
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: YEARBUILT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"YEARBUILT\""
+          - columnReference:
+              columnCounter: 2000140761
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FLOODSALTWATER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"FLOODSALTWATER\""
+          - columnReference:
+              columnCounter: 2000140762
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: MILEAGE100K
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"MILEAGE100K\""
+          - columnReference:
+              columnCounter: 2000140763
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEVEHICLERECOVERED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"DATEVEHICLERECOVERED\""
+          - columnReference:
+              columnCounter: 2000140764
+              stepCounter: "200010082"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PROPERTYDESC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"PROPERTYDESC\""
+          - columnReference:
+              columnCounter: 2000140765
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SPEED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"SPEED\""
+          - columnReference:
+              columnCounter: 2000140766
+              stepCounter: "200010082"
+            dataType: VARCHAR(250)
+            defaultValue: ""
+            description: ""
+            name: MATERIALSDAMAGED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"MATERIALSDAMAGED\""
+          - columnReference:
+              columnCounter: 2000140767
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TOTALLOSSPOINTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"TOTALLOSSPOINTS\""
+          - columnReference:
+              columnCounter: 2000140768
+              stepCounter: "200010082"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: SALVAGEPROCEEDS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"SALVAGEPROCEEDS\""
+          - columnReference:
+              columnCounter: 2000140769
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ESTIMATESRECEIVED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ESTIMATESRECEIVED\""
+          - columnReference:
+              columnCounter: 2000140770
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: OWNERSPERMISSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"OWNERSPERMISSION\""
+          - columnReference:
+              columnCounter: 2000140771
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STORAGEACCRIND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"STORAGEACCRIND\""
+          - columnReference:
+              columnCounter: 2000140772
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EMSIND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"EMSIND\""
+          - columnReference:
+              columnCounter: 2000140773
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: VEHICLEPARKED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHICLEPARKED\""
+          - columnReference:
+              columnCounter: 2000140774
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: VEHICLEDRIVEABLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHICLEDRIVEABLE\""
+          - columnReference:
+              columnCounter: 2000140775
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GENERALINJURYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"GENERALINJURYTYPE\""
+          - columnReference:
+              columnCounter: 2000140776
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RECOVCLASSTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RECOVCLASSTYPE\""
+          - columnReference:
+              columnCounter: 2000140777
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ROOFMATERIAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ROOFMATERIAL\""
+          - columnReference:
+              columnCounter: 2000140778
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EQUIPMENTFAILURE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"EQUIPMENTFAILURE\""
+          - columnReference:
+              columnCounter: 2000140779
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSESSMENTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ASSESSMENTTYPE\""
+          - columnReference:
+              columnCounter: 2000140780
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PERCENTAGEDRIVENBYMINOR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"PERCENTAGEDRIVENBYMINOR\""
+          - columnReference:
+              columnCounter: 2000140781
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000140782
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WATERLEVELSEATS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"WATERLEVELSEATS\""
+          - columnReference:
+              columnCounter: 2000140783
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DETAILEDINJURYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"DETAILEDINJURYTYPE\""
+          - columnReference:
+              columnCounter: 2000140784
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: VEHICLEAGE10YEARS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHICLEAGE10YEARS\""
+          - columnReference:
+              columnCounter: 2000140785
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ALREADYREPAIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ALREADYREPAIRED\""
+          - columnReference:
+              columnCounter: 2000140786
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RENTALENDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RENTALENDDATE\""
+          - columnReference:
+              columnCounter: 2000140787
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INTERNALUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"INTERNALUSERID\""
+          - columnReference:
+              columnCounter: 2000140788
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRIPRUID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"TRIPRUID\""
+          - columnReference:
+              columnCounter: 2000140789
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETURNTOWORKACTUAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RETURNTOWORKACTUAL\""
+          - columnReference:
+              columnCounter: 2000140790
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DEBRISREMOVALIND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"DEBRISREMOVALIND\""
+          - columnReference:
+              columnCounter: 2000140791
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ESTDAMAGETYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ESTDAMAGETYPE\""
+          - columnReference:
+              columnCounter: 2000140792
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: COMPONENTSMISSING
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"COMPONENTSMISSING\""
+          - columnReference:
+              columnCounter: 2000140793
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VEHICLETITLEREQD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHICLETITLEREQD\""
+          - columnReference:
+              columnCounter: 2000140794
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INSPECTIONREQUIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"INSPECTIONREQUIRED\""
+          - columnReference:
+              columnCounter: 2000140795
+              stepCounter: "200010082"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: SALVAGEPREP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"SALVAGEPREP\""
+          - columnReference:
+              columnCounter: 2000140796
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000140797
+              stepCounter: "200010082"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: SALVAGETOW
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"SALVAGETOW\""
+          - columnReference:
+              columnCounter: 2000140798
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000140799
+              stepCounter: "200010082"
+            dataType: NUMBER(4,1)
+            defaultValue: ""
+            description: ""
+            name: ANTICIPATEDIMPAIRMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ANTICIPATEDIMPAIRMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000140800
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: AMBULANCEUSED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"AMBULANCEUSED\""
+          - columnReference:
+              columnCounter: 2000140801
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000140802
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ANTITHFTIND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ANTITHFTIND\""
+          - columnReference:
+              columnCounter: 2000140803
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INCLUDECONTENTLINEITEMS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"INCLUDECONTENTLINEITEMS\""
+          - columnReference:
+              columnCounter: 2000140804
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOCATIONADDRESS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"LOCATIONADDRESS\""
+          - columnReference:
+              columnCounter: 2000140805
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DRIVERRELATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"DRIVERRELATION\""
+          - columnReference:
+              columnCounter: 2000140806
+              stepCounter: "200010082"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000140807
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VEHICLETYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHICLETYPE\""
+          - columnReference:
+              columnCounter: 2000140808
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: TOTALLOSS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"TOTALLOSS\""
+          - columnReference:
+              columnCounter: 2000140809
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LOSTWAGES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"LOSTWAGES\""
+          - columnReference:
+              columnCounter: 2000140810
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MEALSDAYS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"MEALSDAYS\""
+          - columnReference:
+              columnCounter: 2000140811
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000140812
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000140813
+              stepCounter: "200010082"
+            dataType: VARCHAR(25)
+            defaultValue: ""
+            description: ""
+            name: RENTALAGENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RENTALAGENCY\""
+          - columnReference:
+              columnCounter: 2000140814
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EXTRICATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"EXTRICATION\""
+          - columnReference:
+              columnCounter: 2000140815
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RETURNTOWORKDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RETURNTOWORKDATE\""
+          - columnReference:
+              columnCounter: 2000140816
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOSSAREA
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"LOSSAREA\""
+          - columnReference:
+              columnCounter: 2000140817
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEVEHICLESOLD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"DATEVEHICLESOLD\""
+          - columnReference:
+              columnCounter: 2000140818
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSESSMENTSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ASSESSMENTSTATUS\""
+          - columnReference:
+              columnCounter: 2000140819
+              stepCounter: "200010082"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: LOSSDESC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"LOSSDESC\""
+          - columnReference:
+              columnCounter: 2000140820
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INTERIORMISSING
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"INTERIORMISSING\""
+          - columnReference:
+              columnCounter: 2000140821
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETURNTOMODWORKACTUAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RETURNTOMODWORKACTUAL\""
+          - columnReference:
+              columnCounter: 2000140822
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FIREBURNDASH
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"FIREBURNDASH\""
+          - columnReference:
+              columnCounter: 2000140823
+              stepCounter: "200010082"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: STORAGEFCLTY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"STORAGEFCLTY\""
+          - columnReference:
+              columnCounter: 2000140824
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RECOVSTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RECOVSTATE\""
+          - columnReference:
+              columnCounter: 2000140825
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BAGGAGETYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"BAGGAGETYPE\""
+          - columnReference:
+              columnCounter: 2000140826
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: REPWHEREDISIND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"REPWHEREDISIND\""
+          - columnReference:
+              columnCounter: 2000140827
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: AIRBAGSDEPLOYED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"AIRBAGSDEPLOYED\""
+          - columnReference:
+              columnCounter: 2000140828
+              stepCounter: "200010082"
+            dataType: NUMBER(4,1)
+            defaultValue: ""
+            description: ""
+            name: IMPAIRMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"IMPAIRMENT\""
+          - columnReference:
+              columnCounter: 2000140829
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: VEHTOWEDIND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHTOWEDIND\""
+          - columnReference:
+              columnCounter: 2000140830
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PHANTOMVEHICLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"PHANTOMVEHICLE\""
+          - columnReference:
+              columnCounter: 2000140831
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DISABLEDDUETOACCIDENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"DISABLEDDUETOACCIDENT\""
+          - columnReference:
+              columnCounter: 2000140832
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INCLUDELINEITEMS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"INCLUDELINEITEMS\""
+          - columnReference:
+              columnCounter: 2000140833
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AFFDVCMPLIND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"AFFDVCMPLIND\""
+          - columnReference:
+              columnCounter: 2000140834
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DRIVERRELTOOWNER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"DRIVERRELTOOWNER\""
+          - columnReference:
+              columnCounter: 2000140835
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: HITANDRUN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"HITANDRUN\""
+          - columnReference:
+              columnCounter: 2000140836
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RECOVERYLOCATIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RECOVERYLOCATIONID\""
+          - columnReference:
+              columnCounter: 2000140837
+              stepCounter: "200010082"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: LOSSESTIMATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"LOSSESTIMATE\""
+          - columnReference:
+              columnCounter: 2000140838
+              stepCounter: "200010082"
+            dataType: VARCHAR(128)
+            defaultValue: ""
+            description: ""
+            name: ASSESSMENTNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ASSESSMENTNAME\""
+          - columnReference:
+              columnCounter: 2000140839
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CITATIONISSUED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"CITATIONISSUED\""
+          - columnReference:
+              columnCounter: 2000140840
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: BODYSHOPSELECTED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"BODYSHOPSELECTED\""
+          - columnReference:
+              columnCounter: 2000140841
+              stepCounter: "200010082"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: SALVAGENET
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"SALVAGENET\""
+          - columnReference:
+              columnCounter: 2000140842
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FIREBURNWINDSHIELD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"FIREBURNWINDSHIELD\""
+          - columnReference:
+              columnCounter: 2000140843
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RETURNTOMODWORKDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RETURNTOMODWORKDATE\""
+          - columnReference:
+              columnCounter: 2000140844
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PROPERTYSIZE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"PROPERTYSIZE\""
+          - columnReference:
+              columnCounter: 2000140845
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HAZARDINVOLVED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"HAZARDINVOLVED\""
+          - columnReference:
+              columnCounter: 2000140846
+              stepCounter: "200010082"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: STORAGEFEEAMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"STORAGEFEEAMT\""
+          - columnReference:
+              columnCounter: 2000140847
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLISIONPOINT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"COLLISIONPOINT\""
+          - columnReference:
+              columnCounter: 2000140848
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MEALSPEOPLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"MEALSPEOPLE\""
+          - columnReference:
+              columnCounter: 2000140849
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: MOVEPERMISSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"MOVEPERMISSION\""
+          - columnReference:
+              columnCounter: 2000140850
+              stepCounter: "200010082"
+            dataType: VARCHAR(289)
+            defaultValue: ""
+            description: ""
+            name: EXTDAMAGETXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"EXTDAMAGETXT\""
+          - columnReference:
+              columnCounter: 2000140851
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SPRINKLERTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"SPRINKLERTYPE\""
+          - columnReference:
+              columnCounter: 2000140852
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMSPRINKLER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"NUMSPRINKLER\""
+          - columnReference:
+              columnCounter: 2000140853
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RECOVDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RECOVDATE\""
+          - columnReference:
+              columnCounter: 2000140854
+              stepCounter: "200010082"
+            dataType: VARCHAR(1)
+            defaultValue: ""
+            description: ""
+            name: FIREPROTDETAILS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"FIREPROTDETAILS\""
+          - columnReference:
+              columnCounter: 2000140855
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MINORONPOLICY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"MINORONPOLICY\""
+          - columnReference:
+              columnCounter: 2000140856
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DELAYONLY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"DELAYONLY\""
+          - columnReference:
+              columnCounter: 2000140857
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLASSTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"CLASSTYPE\""
+          - columnReference:
+              columnCounter: 2000140858
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: VEHICLEAGE5YEARS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHICLEAGE5YEARS\""
+          - columnReference:
+              columnCounter: 2000140859
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: APPRAISALFIRSTAPPOINTMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"APPRAISALFIRSTAPPOINTMENT\""
+          - columnReference:
+              columnCounter: 2000140860
+              stepCounter: "200010082"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: RENTALDAILYRATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RENTALDAILYRATE\""
+          - columnReference:
+              columnCounter: 2000140861
+              stepCounter: "200010082"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: ""
+            name: RENTALRESERVENO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RENTALRESERVENO\""
+          - columnReference:
+              columnCounter: 2000140862
+              stepCounter: "200010082"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: WHENTOVIEW
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"WHENTOVIEW\""
+          - columnReference:
+              columnCounter: 2000140863
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FIREPROTECTIONAVAILABLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"FIREPROTECTIONAVAILABLE\""
+          - columnReference:
+              columnCounter: 2000140864
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: VEHSTOLENIND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHSTOLENIND\""
+          - columnReference:
+              columnCounter: 2000140865
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: VEHICLESUBMERGED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHICLESUBMERGED\""
+          - columnReference:
+              columnCounter: 2000140866
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETURNTOWORKVALID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RETURNTOWORKVALID\""
+          - columnReference:
+              columnCounter: 2000140867
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: APPRAISAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"APPRAISAL\""
+          - columnReference:
+              columnCounter: 2000140868
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRAFFICVIOLATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"TRAFFICVIOLATION\""
+          - columnReference:
+              columnCounter: 2000140869
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOSSOCCURED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"LOSSOCCURED\""
+          - columnReference:
+              columnCounter: 2000140870
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ODOMREAD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ODOMREAD\""
+          - columnReference:
+              columnCounter: 2000140871
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LOCATIONIND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"LOCATIONIND\""
+          - columnReference:
+              columnCounter: 2000140872
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LOSSOFUSE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"LOSSOFUSE\""
+          - columnReference:
+              columnCounter: 2000140873
+              stepCounter: "200010082"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CARRIERCOMPENSATEDAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"CARRIERCOMPENSATEDAMOUNT\""
+          - columnReference:
+              columnCounter: 2000140874
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VEHICLEDIRECTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHICLEDIRECTION\""
+          - columnReference:
+              columnCounter: 2000140875
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: VEHICLEOPERABLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHICLEOPERABLE\""
+          - columnReference:
+              columnCounter: 2000140876
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VEHICLELOSSPARTY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"LOSSPARTY\""
+          - columnReference:
+              columnCounter: 2000140877
+              stepCounter: "200010082"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: LOTNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"LOTNUMBER\""
+          - columnReference:
+              columnCounter: 2000140878
+              stepCounter: "200010082"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000140879
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: OWNERRETAININGSALVAGE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"OWNERRETAININGSALVAGE\""
+          - columnReference:
+              columnCounter: 2000140880
+              stepCounter: "200010082"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DESCOTHER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"DESCOTHER\""
+          - columnReference:
+              columnCounter: 2000140881
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMBEROFPEOPLEONPOLICY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"NUMBEROFPEOPLEONPOLICY\""
+          - columnReference:
+              columnCounter: 2000140882
+              stepCounter: "200010082"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: VEHICLELOCATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHICLELOCATION\""
+          - columnReference:
+              columnCounter: 2000140883
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MEDICALTREATMENTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"MEDICALTREATMENTTYPE\""
+          - columnReference:
+              columnCounter: 2000140884
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SPRINKRETSERV
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"SPRINKRETSERV\""
+          - columnReference:
+              columnCounter: 2000140885
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATESALVAGEASSIGNED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"DATESALVAGEASSIGNED\""
+          - columnReference:
+              columnCounter: 2000140886
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FIREBURNENGINE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"FIREBURNENGINE\""
+          - columnReference:
+              columnCounter: 2000140887
+              stepCounter: "200010082"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: VEHICLEACV
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHICLEACV\""
+          - columnReference:
+              columnCounter: 2000140888
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000140889
+              stepCounter: "200010082"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: MEALSRATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"MEALSRATE\""
+          - columnReference:
+              columnCounter: 2000140890
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BAGGAGEMISSINGFROM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"BAGGAGEMISSINGFROM\""
+          - columnReference:
+              columnCounter: 2000140891
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VEHICLETITLERECVD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHICLETITLERECVD\""
+          - columnReference:
+              columnCounter: 2000140892
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RECOVCONDTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"RECOVCONDTYPE\""
+          - columnReference:
+              columnCounter: 2000140893
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VEHICLEPOLSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHICLEPOLSTATUS\""
+          - columnReference:
+              columnCounter: 2000140894
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ASSESSMENTTARGETCLOSEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"ASSESSMENTTARGETCLOSEDATE\""
+          - columnReference:
+              columnCounter: 2000140895
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FENCESDAMAGED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"FENCESDAMAGED\""
+          - columnReference:
+              columnCounter: 2000140896
+              stepCounter: "200010082"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: SALVAGESTORAGE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"SALVAGESTORAGE\""
+          - columnReference:
+              columnCounter: 2000140897
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PROPERTYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"PROPERTYID\""
+          - columnReference:
+              columnCounter: 2000140898
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXTWALLMAT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"EXTWALLMAT\""
+          - columnReference:
+              columnCounter: 2000140899
+              stepCounter: "200010082"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: SALVAGECOMPANY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"SALVAGECOMPANY\""
+          - columnReference:
+              columnCounter: 2000140900
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: YEARSINHOME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"YEARSINHOME\""
+          - columnReference:
+              columnCounter: 2000140901
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: VEHLOCKIND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHLOCKIND\""
+          - columnReference:
+              columnCounter: 2000140902
+              stepCounter: "200010082"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WATERLEVELDASH
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"WATERLEVELDASH\""
+          - columnReference:
+              columnCounter: 2000140903
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VEHICLEUSEREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"VEHICLEUSEREASON\""
+          - columnReference:
+              columnCounter: 2000140904
+              stepCounter: "200010082"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000140905
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000140906
+              stepCounter: "200010082"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000140907
+              stepCounter: "200010082"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000140908
+              stepCounter: "200010082"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000140909
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000140910
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000140911
+              stepCounter: "200010082"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000140912
+              stepCounter: "200010082"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000140913
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_INCIDENT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000140729
+              stepCounter: "200010082"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_INCIDENT'"
+          - columnReference:
+              columnCounter: 2000140728
+              stepCounter: "200010082"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_INCIDENT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_INCIDENT') }} "CC_INCIDENT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_INCIDENT') }} "ODS_GW_CC_PROD_CC_INCIDENT")
+            name: LOAD_GW_CC_PROD_CC_INCIDENT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_INCIDENT
+      name: LOAD_GW_CC_PROD_CC_INCIDENT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200010082"

@@ -1,0 +1,455 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_UNATTACHEDDOCREQUEST-200016773:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000140344
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000140345
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REQUESTSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"REQUESTSTATUS\""
+          - columnReference:
+              columnCounter: 2000140346
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"PREVIOUSUSERID\""
+          - columnReference:
+              columnCounter: 2000140347
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDQUEUEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"ASSIGNEDQUEUEID\""
+          - columnReference:
+              columnCounter: 2000140348
+              stepCounter: "200016773"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: CLAIMNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"CLAIMNUMBER\""
+          - columnReference:
+              columnCounter: 2000140349
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000140350
+              stepCounter: "200016773"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000140351
+              stepCounter: "200016773"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RECEIVEDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"RECEIVEDDATE\""
+          - columnReference:
+              columnCounter: 2000140352
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDBYUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"ASSIGNEDBYUSERID\""
+          - columnReference:
+              columnCounter: 2000140353
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000140354
+              stepCounter: "200016773"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: DOCUMENTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"DOCUMENTTYPE\""
+          - columnReference:
+              columnCounter: 2000140355
+              stepCounter: "200016773"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000140356
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"ASSIGNEDUSERID\""
+          - columnReference:
+              columnCounter: 2000140357
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"ID\""
+          - columnReference:
+              columnCounter: 2000140358
+              stepCounter: "200016773"
+            dataType: VARCHAR(500)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000140359
+              stepCounter: "200016773"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000140360
+              stepCounter: "200016773"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CLOSEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"CLOSEDATE\""
+          - columnReference:
+              columnCounter: 2000140361
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"PREVIOUSGROUPID\""
+          - columnReference:
+              columnCounter: 2000140362
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000140363
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000140364
+              stepCounter: "200016773"
+            dataType: VARCHAR(32)
+            defaultValue: ""
+            description: ""
+            name: GROUPTOROUTE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"GROUPTOROUTE\""
+          - columnReference:
+              columnCounter: 2000140365
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"ASSIGNEDGROUPID\""
+          - columnReference:
+              columnCounter: 2000140366
+              stepCounter: "200016773"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: DOCUMENTSERIALNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"DOCUMENTSERIALNUMBER\""
+          - columnReference:
+              columnCounter: 2000140367
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSQUEUEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"PREVIOUSQUEUEID\""
+          - columnReference:
+              columnCounter: 2000140368
+              stepCounter: "200016773"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"ASSIGNMENTDATE\""
+          - columnReference:
+              columnCounter: 2000140369
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"ASSIGNMENTSTATUS\""
+          - columnReference:
+              columnCounter: 2000140370
+              stepCounter: "200016773"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000140371
+              stepCounter: "200016773"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000140372
+              stepCounter: "200016773"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000140373
+              stepCounter: "200016773"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000140374
+              stepCounter: "200016773"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000140375
+              stepCounter: "200016773"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000140376
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000140377
+              stepCounter: "200016773"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000140378
+              stepCounter: "200016773"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000140379
+              stepCounter: "200016773"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_UNATTACHEDDOCREQUEST\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000140343
+              stepCounter: "200016773"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_UNATTACHEDDOCREQUEST'"
+          - columnReference:
+              columnCounter: 2000140342
+              stepCounter: "200016773"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_UNATTACHEDDOCREQUEST
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_UNATTACHEDDOCREQUEST') }} "CCX_UNATTACHEDDOCREQUEST" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_UNATTACHEDDOCREQUEST') }} "ODS_GW_CC_PROD_CCX_UNATTACHEDDOCREQUEST")
+            name: LOAD_GW_CC_PROD_CCX_UNATTACHEDDOCREQUEST
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_UNATTACHEDDOCREQUEST
+      name: LOAD_GW_CC_PROD_CCX_UNATTACHEDDOCREQUEST
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016773"

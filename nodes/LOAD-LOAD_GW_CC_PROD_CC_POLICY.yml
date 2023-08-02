@@ -1,0 +1,862 @@
+steps:
+  LOAD_GW_CC_PROD_CC_POLICY-200010083:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000136082
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136083
+              stepCounter: "200010083"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LEASINGCOMPANYACCOUNT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"LEASINGCOMPANYACCOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000136084
+              stepCounter: "200010083"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000136085
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TOTALVEHICLES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"TOTALVEHICLES\""
+          - columnReference:
+              columnCounter: 2000136086
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYSOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"POLICYSOURCE\""
+          - columnReference:
+              columnCounter: 2000136087
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000136088
+              stepCounter: "200010083"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ORIGEFFECTIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"ORIGEFFECTIVEDATE\""
+          - columnReference:
+              columnCounter: 2000136089
+              stepCounter: "200010083"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CUSTOMERIDACCOUNT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"CUSTOMERIDACCOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000136090
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"ID\""
+          - columnReference:
+              columnCounter: 2000136091
+              stepCounter: "200010083"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXPIRATIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"EXPIRATIONDATE\""
+          - columnReference:
+              columnCounter: 2000136092
+              stepCounter: "200010083"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: FINANCIALINTERESTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"FINANCIALINTERESTS\""
+          - columnReference:
+              columnCounter: 2000136093
+              stepCounter: "200010083"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: NOTES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"NOTES\""
+          - columnReference:
+              columnCounter: 2000136094
+              stepCounter: "200010083"
+            dataType: NUMBER(4,1)
+            defaultValue: ""
+            description: ""
+            name: PARTICIPATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"PARTICIPATION\""
+          - columnReference:
+              columnCounter: 2000136095
+              stepCounter: "200010083"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETURNTOWORKPRGM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"RETURNTOWORKPRGM\""
+          - columnReference:
+              columnCounter: 2000136096
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYSOURCETYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"POLICYSOURCETYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000136097
+              stepCounter: "200010083"
+            dataType: VARCHAR(6)
+            defaultValue: ""
+            description: ""
+            name: INSUREDNAICSCODE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"INSUREDNAICSCODE_EXT\""
+          - columnReference:
+              columnCounter: 2000136098
+              stepCounter: "200010083"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: GOVERNINGCLASS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"GOVERNINGCLASS_EXT\""
+          - columnReference:
+              columnCounter: 2000136099
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"POLICYTYPE\""
+          - columnReference:
+              columnCounter: 2000136100
+              stepCounter: "200010083"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: OTHERINSINFO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"OTHERINSINFO\""
+          - columnReference:
+              columnCounter: 2000136101
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UNDERWRITINGCO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"UNDERWRITINGCO\""
+          - columnReference:
+              columnCounter: 2000136102
+              stepCounter: "200010083"
+            dataType: VARCHAR(6)
+            defaultValue: ""
+            description: ""
+            name: INSUREDSICCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"INSUREDSICCODE\""
+          - columnReference:
+              columnCounter: 2000136103
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000136104
+              stepCounter: "200010083"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"ACCOUNTNUMBER\""
+          - columnReference:
+              columnCounter: 2000136105
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UNDERWRITINGGROUP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"UNDERWRITINGGROUP\""
+          - columnReference:
+              columnCounter: 2000136106
+              stepCounter: "200010083"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: POLICYNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"POLICYNUMBER\""
+          - columnReference:
+              columnCounter: 2000136107
+              stepCounter: "200010083"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FOREIGNCOVERAGE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"FOREIGNCOVERAGE\""
+          - columnReference:
+              columnCounter: 2000136108
+              stepCounter: "200010083"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"PRODUCERCODE\""
+          - columnReference:
+              columnCounter: 2000136109
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000136110
+              stepCounter: "200010083"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: POLICYSUFFIX
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"POLICYSUFFIX\""
+          - columnReference:
+              columnCounter: 2000136111
+              stepCounter: "200010083"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTPOLICYREFRESHDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"LASTPOLICYREFRESHDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000136112
+              stepCounter: "200010083"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: WCOTHERSTATES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"WCOTHERSTATES\""
+          - columnReference:
+              columnCounter: 2000136113
+              stepCounter: "200010083"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: OTHERINSURANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"OTHERINSURANCE\""
+          - columnReference:
+              columnCounter: 2000136114
+              stepCounter: "200010083"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: FEINOFFICIALID_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"FEINOFFICIALID_EXT\""
+          - columnReference:
+              columnCounter: 2000136115
+              stepCounter: "200010083"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LOCATIONCODEDACCOUNT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"LOCATIONCODEDACCOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000136116
+              stepCounter: "200010083"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RETROACTIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"RETROACTIVEDATE\""
+          - columnReference:
+              columnCounter: 2000136117
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136118
+              stepCounter: "200010083"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EFFECTIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"EFFECTIVEDATE\""
+          - columnReference:
+              columnCounter: 2000136119
+              stepCounter: "200010083"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000136120
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYRATINGPLAN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"POLICYRATINGPLAN\""
+          - columnReference:
+              columnCounter: 2000136121
+              stepCounter: "200010083"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: POLICYSETNUMBER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"POLICYSETNUMBER_EXT\""
+          - columnReference:
+              columnCounter: 2000136122
+              stepCounter: "200010083"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REPORTINGDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"REPORTINGDATE\""
+          - columnReference:
+              columnCounter: 2000136123
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYSYSTEMPERIODID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"POLICYSYSTEMPERIODID\""
+          - columnReference:
+              columnCounter: 2000136124
+              stepCounter: "200010083"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDRISK
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"ASSIGNEDRISK\""
+          - columnReference:
+              columnCounter: 2000136125
+              stepCounter: "200010083"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: NETWORKSTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"NETWORKSTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000136126
+              stepCounter: "200010083"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000136127
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYQUOTETYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"POLICYQUOTETYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000136128
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000136129
+              stepCounter: "200010083"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: VERIFIED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"VERIFIED\""
+          - columnReference:
+              columnCounter: 2000136130
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000136131
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000136132
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VALIDATIONLEVEL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"VALIDATIONLEVEL\""
+          - columnReference:
+              columnCounter: 2000136133
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COVERAGEFORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"COVERAGEFORM\""
+          - columnReference:
+              columnCounter: 2000136134
+              stepCounter: "200010083"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: WCSTATES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"WCSTATES\""
+          - columnReference:
+              columnCounter: 2000136135
+              stepCounter: "200010083"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CANCELLATIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"CANCELLATIONDATE\""
+          - columnReference:
+              columnCounter: 2000136136
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TOTALPROPERTIES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"TOTALPROPERTIES\""
+          - columnReference:
+              columnCounter: 2000136137
+              stepCounter: "200010083"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: STAFFINGPOLICYIND_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"STAFFINGPOLICYIND_EXT\""
+          - columnReference:
+              columnCounter: 2000136138
+              stepCounter: "200010083"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: CCACCOUNTNUMBER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"CCACCOUNTNUMBER_EXT\""
+          - columnReference:
+              columnCounter: 2000136139
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SYSTEMOFRECORD_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"SYSTEMOFRECORD_EXT\""
+          - columnReference:
+              columnCounter: 2000136140
+              stepCounter: "200010083"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: POLICYQUOTENUMBER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"POLICYQUOTENUMBER_EXT\""
+          - columnReference:
+              columnCounter: 2000136141
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CUSTOMERSERVICETIER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"CUSTOMERSERVICETIER\""
+          - columnReference:
+              columnCounter: 2000136142
+              stepCounter: "200010083"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: HAZARDCLASS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"HAZARDCLASS_EXT\""
+          - columnReference:
+              columnCounter: 2000136143
+              stepCounter: "200010083"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: INSUREDNAICSCODEDESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"INSUREDNAICSCODEDESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000136144
+              stepCounter: "200010083"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: INSUREDSICCODEDESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"INSUREDSICCODEDESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000136145
+              stepCounter: "200010083"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000136146
+              stepCounter: "200010083"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136147
+              stepCounter: "200010083"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000136148
+              stepCounter: "200010083"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000136149
+              stepCounter: "200010083"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000136150
+              stepCounter: "200010083"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136151
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000136152
+              stepCounter: "200010083"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000136153
+              stepCounter: "200010083"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000136154
+              stepCounter: "200010083"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_POLICY\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000136081
+              stepCounter: "200010083"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_POLICY'"
+          - columnReference:
+              columnCounter: 2000136080
+              stepCounter: "200010083"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_POLICY
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_POLICY') }} "CC_POLICY" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_POLICY') }} "ODS_GW_CC_PROD_CC_POLICY")
+            name: LOAD_GW_CC_PROD_CC_POLICY
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_POLICY
+      name: LOAD_GW_CC_PROD_CC_POLICY
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200010083"

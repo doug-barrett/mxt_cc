@@ -1,0 +1,448 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCX_EDIHISTORYDETAIL_10_NEW-200019222:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000261640
+              stepCounter: "200019222"
+            dataType: VARCHAR(25)
+            defaultValue: ""
+            description: ""
+            name: AGENCYCLAIMNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"AGENCYCLAIMNUMBER\""
+          - columnReference:
+              columnCounter: 2000261641
+              stepCounter: "200019222"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000261642
+              stepCounter: "200019222"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000261643
+              stepCounter: "200019222"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EDIPAYLOADID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"EDIPAYLOADID\""
+          - columnReference:
+              columnCounter: 2000261644
+              stepCounter: "200019222"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: APPLICATIONACKCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"APPLICATIONACKCODE\""
+          - columnReference:
+              columnCounter: 2000261645
+              stepCounter: "200019222"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000261646
+              stepCounter: "200019222"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000261647
+              stepCounter: "200019222"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000261648
+              stepCounter: "200019222"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000261649
+              stepCounter: "200019222"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000261650
+              stepCounter: "200019222"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HEADERORIGINALDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"HEADERORIGINALDATE\""
+          - columnReference:
+              columnCounter: 2000261651
+              stepCounter: "200019222"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000261652
+              stepCounter: "200019222"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMBERERRORS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"NUMBERERRORS\""
+          - columnReference:
+              columnCounter: 2000261653
+              stepCounter: "200019222"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000261654
+              stepCounter: "200019222"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ACKDATEPROCESSED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"ACKDATEPROCESSED\""
+          - columnReference:
+              columnCounter: 2000261655
+              stepCounter: "200019222"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000261656
+              stepCounter: "200019222"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"ID\""
+          - columnReference:
+              columnCounter: 2000261657
+              stepCounter: "200019222"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RECORDSEQUENCENUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"RECORDSEQUENCENUMBER\""
+          - columnReference:
+              columnCounter: 2000261658
+              stepCounter: "200019222"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: FREEFORMTEXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"FREEFORMTEXT\""
+          - columnReference:
+              columnCounter: 2000261659
+              stepCounter: "200019222"
+            dataType: VARCHAR(3)
+            defaultValue: ""
+            description: ""
+            name: TRANSACTIONSETID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"TRANSACTIONSETID\""
+          - columnReference:
+              columnCounter: 2000261660
+              stepCounter: "200019222"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000261661
+              stepCounter: "200019222"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000261662
+              stepCounter: "200019222"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000261663
+              stepCounter: "200019222"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000261664
+              stepCounter: "200019222"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_EDIHISTORYDETAIL_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000261665
+              stepCounter: "200019222"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000261666
+              stepCounter: "200019222"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000261667
+              stepCounter: "200019222"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000261668
+              stepCounter: "200019222"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000261669
+              stepCounter: "200019222"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000261674
+              stepCounter: "200019222"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_EDIHISTORYDETAIL_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000261675
+              stepCounter: "200019222"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_EDIHISTORYDETAIL_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000261676
+              stepCounter: "200019222"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000261670
+              stepCounter: "200019222"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000261671
+              stepCounter: "200019222"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000261673
+              stepCounter: "200019222"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000261672
+              stepCounter: "200019222"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCX_EDIHISTORYDETAIL_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL') }} \"LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCX_EDIHISTORYDETAIL_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CCX_EDIHISTORYDETAIL_05_SEQNO\"    ON LOAD_GW_CC_PROD_CCX_EDIHISTORYDETAIL.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CCX_EDIHISTORYDETAIL_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CCX_EDIHISTORYDETAIL_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CCX_EDIHISTORYDETAIL_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCX_EDIHISTORYDETAIL_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200019222"

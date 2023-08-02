@@ -1,0 +1,404 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM_10_NEW-200017654:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000258077
+              stepCounter: "200017654"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000258078
+              stepCounter: "200017654"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000258079
+              stepCounter: "200017654"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DEBITINGTRANSACTIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"DEBITINGTRANSACTIONID\""
+          - columnReference:
+              columnCounter: 2000258080
+              stepCounter: "200017654"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000258081
+              stepCounter: "200017654"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000258082
+              stepCounter: "200017654"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000258083
+              stepCounter: "200017654"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RECOVERYTACCOUNTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"RECOVERYTACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000258084
+              stepCounter: "200017654"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000258085
+              stepCounter: "200017654"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: RPTAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"RPTAMOUNT\""
+          - columnReference:
+              columnCounter: 2000258086
+              stepCounter: "200017654"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000258087
+              stepCounter: "200017654"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREDITINGTRANSACTIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"CREDITINGTRANSACTIONID\""
+          - columnReference:
+              columnCounter: 2000258088
+              stepCounter: "200017654"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: RESERVINGAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"RESERVINGAMOUNT\""
+          - columnReference:
+              columnCounter: 2000258089
+              stepCounter: "200017654"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000258090
+              stepCounter: "200017654"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"AMOUNT\""
+          - columnReference:
+              columnCounter: 2000258091
+              stepCounter: "200017654"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"ID\""
+          - columnReference:
+              columnCounter: 2000258092
+              stepCounter: "200017654"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DENORMTRANSACTIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"DENORMTRANSACTIONID\""
+          - columnReference:
+              columnCounter: 2000258093
+              stepCounter: "200017654"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000258094
+              stepCounter: "200017654"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000258095
+              stepCounter: "200017654"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000258096
+              stepCounter: "200017654"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000258097
+              stepCounter: "200017654"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000258098
+              stepCounter: "200017654"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000258099
+              stepCounter: "200017654"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000258100
+              stepCounter: "200017654"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000258101
+              stepCounter: "200017654"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000258102
+              stepCounter: "200017654"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000258109
+              stepCounter: "200017654"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000258108
+              stepCounter: "200017654"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000258107
+              stepCounter: "200017654"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000258103
+              stepCounter: "200017654"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000258104
+              stepCounter: "200017654"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000258106
+              stepCounter: "200017654"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000258105
+              stepCounter: "200017654"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM') }} \"LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM_05_SEQNO\"    ON LOAD_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_RECOVERYTACCOUNTLINEITEM_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200017654"

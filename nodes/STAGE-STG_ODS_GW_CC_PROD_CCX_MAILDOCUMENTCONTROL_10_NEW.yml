@@ -1,0 +1,481 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL_10_NEW-200018140:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000262062
+              stepCounter: "200018140"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000262063
+              stepCounter: "200018140"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DOCUMENTDESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"DOCUMENTDESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000262064
+              stepCounter: "200018140"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000262065
+              stepCounter: "200018140"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MAILDOCROUTINGMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"MAILDOCROUTINGMETHOD\""
+          - columnReference:
+              columnCounter: 2000262066
+              stepCounter: "200018140"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RELATEDTO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"RELATEDTO\""
+          - columnReference:
+              columnCounter: 2000262067
+              stepCounter: "200018140"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000262068
+              stepCounter: "200018140"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000262069
+              stepCounter: "200018140"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000262070
+              stepCounter: "200018140"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000262071
+              stepCounter: "200018140"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: GROUPNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"GROUPNAME\""
+          - columnReference:
+              columnCounter: 2000262072
+              stepCounter: "200018140"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ACTIVITYPATTERNCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"ACTIVITYPATTERNCODE\""
+          - columnReference:
+              columnCounter: 2000262073
+              stepCounter: "200018140"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPIRATIONPERIOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"EXPIRATIONPERIOD\""
+          - columnReference:
+              columnCounter: 2000262074
+              stepCounter: "200018140"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000262075
+              stepCounter: "200018140"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DOCUMENTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"DOCUMENTTYPE\""
+          - columnReference:
+              columnCounter: 2000262076
+              stepCounter: "200018140"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000262077
+              stepCounter: "200018140"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISCONTROLACTIVE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"ISCONTROLACTIVE\""
+          - columnReference:
+              columnCounter: 2000262078
+              stepCounter: "200018140"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000262079
+              stepCounter: "200018140"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"ID\""
+          - columnReference:
+              columnCounter: 2000262080
+              stepCounter: "200018140"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: QUEUENAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"QUEUENAME\""
+          - columnReference:
+              columnCounter: 2000262081
+              stepCounter: "200018140"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RELATEDTOLOWTOUCH
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"RELATEDTOLOWTOUCH\""
+          - columnReference:
+              columnCounter: 2000262082
+              stepCounter: "200018140"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000262083
+              stepCounter: "200018140"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000262084
+              stepCounter: "200018140"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000262085
+              stepCounter: "200018140"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000262086
+              stepCounter: "200018140"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000262087
+              stepCounter: "200018140"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000262088
+              stepCounter: "200018140"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000262089
+              stepCounter: "200018140"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000262090
+              stepCounter: "200018140"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000262091
+              stepCounter: "200018140"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000262092
+              stepCounter: "200018140"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: EXCEPTIONQUEUENAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"EXCEPTIONQUEUENAME\""
+          - columnReference:
+              columnCounter: 2000262093
+              stepCounter: "200018140"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXCEPTIONMAILDOCROUTINGMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"EXCEPTIONMAILDOCROUTINGMETHOD\""
+          - columnReference:
+              columnCounter: 2000262094
+              stepCounter: "200018140"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: EXCEPTIONGROUPNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"EXCEPTIONGROUPNAME\""
+          - columnReference:
+              columnCounter: 2000262100
+              stepCounter: "200018140"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000262101
+              stepCounter: "200018140"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000262099
+              stepCounter: "200018140"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000262095
+              stepCounter: "200018140"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000262096
+              stepCounter: "200018140"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000262098
+              stepCounter: "200018140"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000262097
+              stepCounter: "200018140"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL') }} \"LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL_05_SEQNO\"    ON LOAD_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCX_MAILDOCUMENTCONTROL_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018140"

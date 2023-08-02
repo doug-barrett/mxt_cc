@@ -1,0 +1,472 @@
+steps:
+  ODS_GW_CC_PROD_CCX_CLAIMNETWORK-200010426:
+    operation:
+      config: {}
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000010
+      locationName: ODS
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000154696
+              stepCounter: "200010426"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000154697
+              stepCounter: "200010426"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000154698
+              stepCounter: "200010426"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMNETWORKSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"CLAIMNETWORKSTATUS\""
+          - columnReference:
+              columnCounter: 2000154699
+              stepCounter: "200010426"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NETWORKOVERRIDEFLAG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"NETWORKOVERRIDEFLAG\""
+          - columnReference:
+              columnCounter: 2000154700
+              stepCounter: "200010426"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000154701
+              stepCounter: "200010426"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000154702
+              stepCounter: "200010426"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000154703
+              stepCounter: "200010426"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000154704
+              stepCounter: "200010426"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000154705
+              stepCounter: "200010426"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HMODOCTORSTATUSDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"HMODOCTORSTATUSDATE\""
+          - columnReference:
+              columnCounter: 2000154706
+              stepCounter: "200010426"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: OVERRIDEFLAGASOFDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"OVERRIDEFLAGASOFDATE\""
+          - columnReference:
+              columnCounter: 2000154707
+              stepCounter: "200010426"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: OVERRIDECOMMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"OVERRIDECOMMENT\""
+          - columnReference:
+              columnCounter: 2000154708
+              stepCounter: "200010426"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000154709
+              stepCounter: "200010426"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: HMODOCTORNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"HMODOCTORNAME\""
+          - columnReference:
+              columnCounter: 2000154710
+              stepCounter: "200010426"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000154711
+              stepCounter: "200010426"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COUNTYNETWORKSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"COUNTYNETWORKSTATUS\""
+          - columnReference:
+              columnCounter: 2000154712
+              stepCounter: "200010426"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"ID\""
+          - columnReference:
+              columnCounter: 2000154713
+              stepCounter: "200010426"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CLAIMNETWORKSTATUSASOFDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"CLAIMNETWORKSTATUSASOFDATE\""
+          - columnReference:
+              columnCounter: 2000154714
+              stepCounter: "200010426"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HMODOCTORSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"HMODOCTORSTATUS\""
+          - columnReference:
+              columnCounter: 2000154715
+              stepCounter: "200010426"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000154716
+              stepCounter: "200010426"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYNETWORK
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"POLICYNETWORK\""
+          - columnReference:
+              columnCounter: 2000154717
+              stepCounter: "200010426"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CLAIMNETWORKSTATUSDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"CLAIMNETWORKSTATUSDATE\""
+          - columnReference:
+              columnCounter: 2000154718
+              stepCounter: "200010426"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000154719
+              stepCounter: "200010426"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000154720
+              stepCounter: "200010426"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000154721
+              stepCounter: "200010426"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000154722
+              stepCounter: "200010426"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000154723
+              stepCounter: "200010426"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000154724
+              stepCounter: "200010426"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000154725
+              stepCounter: "200010426"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000154726
+              stepCounter: "200010426"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000154727
+              stepCounter: "200010426"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000154728
+              stepCounter: "200010426"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000154729
+              stepCounter: "200010426"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000154730
+              stepCounter: "200010426"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000154731
+              stepCounter: "200010426"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000154732
+              stepCounter: "200010426"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000154734
+              stepCounter: "200010426"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000154733
+              stepCounter: "200010426"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000154735
+              stepCounter: "200010426"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NETWORKNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW\".\"NETWORKNAME\""
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW') }} "STG_ODS_GW_CC_PROD_CCX_CLAIMNETWORK_10_NEW"
+            name: ODS_GW_CC_PROD_CCX_CLAIMNETWORK
+            noLinkRefs: []
+      name: ODS_GW_CC_PROD_CCX_CLAIMNETWORK
+      overrideSQL: false
+      sqlType: "10"
+      type: sql
+    stepCounter: "200010426"

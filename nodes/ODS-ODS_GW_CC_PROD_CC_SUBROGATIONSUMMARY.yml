@@ -1,0 +1,989 @@
+steps:
+  ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY-200008756:
+    operation:
+      config: {}
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000010
+      locationName: ODS
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000153038
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000153039
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000153040
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBROGATIONREOPENOUTCOME_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"SUBROGATIONREOPENOUTCOME_EXT\""
+          - columnReference:
+              columnCounter: 2000153041
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBROGATIONFIELDADJUSTER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"SUBROGATIONFIELDADJUSTER_EXT\""
+          - columnReference:
+              columnCounter: 2000153042
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: FUTURECREDITAMOUNTASOFDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"FUTURECREDITAMOUNTASOFDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000153043
+              stepCounter: "200008756"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ALTEMPLOYERENDORSE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"ALTEMPLOYERENDORSE_EXT\""
+          - columnReference:
+              columnCounter: 2000153044
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FIELDADJUSTERTYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"FIELDADJUSTERTYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000153045
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: FIELDADJUSTERASSIGNDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"FIELDADJUSTERASSIGNDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000153046
+              stepCounter: "200008756"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISFUTURECREDITESTIMATED_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"ISFUTURECREDITESTIMATED_EXT\""
+          - columnReference:
+              columnCounter: 2000153047
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"ID\""
+          - columnReference:
+              columnCounter: 2000153048
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000153049
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: FUTURECREDITAMOUNTEFFDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"FUTURECREDITAMOUNTEFFDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000153050
+              stepCounter: "200008756"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: INDEMNITYAMOUNT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"INDEMNITYAMOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000153051
+              stepCounter: "200008756"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EXTOWNED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"EXTOWNED\""
+          - columnReference:
+              columnCounter: 2000153052
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBROGATIONTYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"SUBROGATIONTYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000153053
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTUPDATEDDESCRIPTIONDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"LASTUPDATEDDESCRIPTIONDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000153054
+              stepCounter: "200008756"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: ALTEMPLOYERENDORSCOMMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"ALTEMPLOYERENDORSCOMMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000153055
+              stepCounter: "200008756"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: POLICEREPORTCOMMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"POLICEREPORTCOMMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000153056
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: MEDICALEXHAUSTEDASOFDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"MEDICALEXHAUSTEDASOFDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000153057
+              stepCounter: "200008756"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: MEDICALEXHAUSTIONCOMMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"MEDICALEXHAUSTIONCOMMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000153058
+              stepCounter: "200008756"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: SUBROGATIONCLOSECOMMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"SUBROGATIONCLOSECOMMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000153059
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: INDEMNITYEXHAUSTIONDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"INDEMNITYEXHAUSTIONDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000153060
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVESTIGATIONSTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"INVESTIGATIONSTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000153061
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: INDEMNITYEXHAUSTEDASOFDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"INDEMNITYEXHAUSTEDASOFDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000153062
+              stepCounter: "200008756"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: INDEMNITYEXHAUSTIONCOMMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"INDEMNITYEXHAUSTIONCOMMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000153063
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000153064
+              stepCounter: "200008756"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CASHRECOVERYAMOUNT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"CASHRECOVERYAMOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000153065
+              stepCounter: "200008756"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: FUTURECREDITCOMMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"FUTURECREDITCOMMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000153066
+              stepCounter: "200008756"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: PUBLISHEDPLANOFACTION_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"PUBLISHEDPLANOFACTION_EXT\""
+          - columnReference:
+              columnCounter: 2000153067
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: TOTALSETTLEMENTASOFDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"TOTALSETTLEMENTASOFDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000153068
+              stepCounter: "200008756"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ESCALATESUBRO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"ESCALATESUBRO\""
+          - columnReference:
+              columnCounter: 2000153069
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FUTURECREDITAMOUNTTYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"FUTURECREDITAMOUNTTYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000153070
+              stepCounter: "200008756"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: WAIVEROFSUBROGATIONCOMMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"WAIVEROFSUBROGATIONCOMMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000153071
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LIABILITYASSESSMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"LIABILITYASSESSMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000153072
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000153073
+              stepCounter: "200008756"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: POLICEREPORTRECEIVED_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"POLICEREPORTRECEIVED_EXT\""
+          - columnReference:
+              columnCounter: 2000153074
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000153075
+              stepCounter: "200008756"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CALCULATEOSRECRESERVE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"CALCULATEOSRECRESERVE\""
+          - columnReference:
+              columnCounter: 2000153076
+              stepCounter: "200008756"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISMEDICALAPPLIED_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"ISMEDICALAPPLIED_EXT\""
+          - columnReference:
+              columnCounter: 2000153077
+              stepCounter: "200008756"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: TOTALCOMMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"TOTALCOMMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000153078
+              stepCounter: "200008756"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: PUBLISHEDCURRENTSTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"PUBLISHEDCURRENTSTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000153079
+              stepCounter: "200008756"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: INVESTIGATECOMMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"INVESTIGATECOMMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000153080
+              stepCounter: "200008756"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: PUBLISHEDRESERVESTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"PUBLISHEDRESERVESTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000153081
+              stepCounter: "200008756"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISINDEMNITYAPPLIED_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"ISINDEMNITYAPPLIED_EXT\""
+          - columnReference:
+              columnCounter: 2000153082
+              stepCounter: "200008756"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000153083
+              stepCounter: "200008756"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISMEDICALEXHAUSTED_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"ISMEDICALEXHAUSTED_EXT\""
+          - columnReference:
+              columnCounter: 2000153084
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBROGATIONREFERRALTYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"SUBROGATIONREFERRALTYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000153085
+              stepCounter: "200008756"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALLIENAMOUNT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"TOTALLIENAMOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000153086
+              stepCounter: "200008756"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: SUBROREFERRALCOMMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"SUBROREFERRALCOMMENT\""
+          - columnReference:
+              columnCounter: 2000153087
+              stepCounter: "200008756"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALSETTLEMENTAMOUNT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"TOTALSETTLEMENTAMOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000153088
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000153089
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000153090
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000153091
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: SUBROREFERRALDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"SUBROREFERRALDATE\""
+          - columnReference:
+              columnCounter: 2000153092
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTPUBLISHEDDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"LASTPUBLISHEDDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000153093
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: INVESTIGATESTATUSASOFDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"INVESTIGATESTATUSASOFDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000153094
+              stepCounter: "200008756"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: MEDICALAMOUNT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"MEDICALAMOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000153095
+              stepCounter: "200008756"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: CURRENTSTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"CURRENTSTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000153096
+              stepCounter: "200008756"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISINDEMNITYEXHAUSTED_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"ISINDEMNITYEXHAUSTED_EXT\""
+          - columnReference:
+              columnCounter: 2000153097
+              stepCounter: "200008756"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: RESERVESTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"RESERVESTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000153098
+              stepCounter: "200008756"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WAIVEROFSUBROGATION_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"WAIVEROFSUBROGATION_EXT\""
+          - columnReference:
+              columnCounter: 2000153099
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEOFNEXTREVIEW_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"DATEOFNEXTREVIEW_EXT\""
+          - columnReference:
+              columnCounter: 2000153100
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBROGATIONREFERREDBY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"SUBROGATIONREFERREDBY_EXT\""
+          - columnReference:
+              columnCounter: 2000153101
+              stepCounter: "200008756"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: SUBROGATIONNUMBER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"SUBROGATIONNUMBER_EXT\""
+          - columnReference:
+              columnCounter: 2000153102
+              stepCounter: "200008756"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: FUTURECREDITAMOUNT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"FUTURECREDITAMOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000153103
+              stepCounter: "200008756"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: PLANOFACTION_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"PLANOFACTION_EXT\""
+          - columnReference:
+              columnCounter: 2000153104
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: TOTALLIENAMOUNTASOFDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"TOTALLIENAMOUNTASOFDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000153105
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: MEDICALEXHAUSTIONDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"MEDICALEXHAUSTIONDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000153106
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: IMAGEFOLDERSERIALNO_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"IMAGEFOLDERSERIALNO_EXT\""
+          - columnReference:
+              columnCounter: 2000153107
+              stepCounter: "200008756"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PRORATEDEDUCTIBLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"PRORATEDEDUCTIBLE\""
+          - columnReference:
+              columnCounter: 2000153108
+              stepCounter: "200008756"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000153109
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000153110
+              stepCounter: "200008756"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000153111
+              stepCounter: "200008756"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000153112
+              stepCounter: "200008756"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000153113
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000153114
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000153115
+              stepCounter: "200008756"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000153116
+              stepCounter: "200008756"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000153117
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000153118
+              stepCounter: "200008756"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000153119
+              stepCounter: "200008756"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000153120
+              stepCounter: "200008756"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000153121
+              stepCounter: "200008756"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000153122
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000153124
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000153123
+              stepCounter: "200008756"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW') }} "STG_ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY_10_NEW"
+            name: ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY
+            noLinkRefs: []
+      name: ODS_GW_CC_PROD_CC_SUBROGATIONSUMMARY
+      overrideSQL: false
+      sqlType: "10"
+      type: sql
+    stepCounter: "200008756"

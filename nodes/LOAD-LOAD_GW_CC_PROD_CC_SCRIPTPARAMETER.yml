@@ -1,0 +1,510 @@
+steps:
+  LOAD_GW_CC_PROD_CC_SCRIPTPARAMETER-200016894:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000136591
+              stepCounter: "200016894"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DECIMALVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"DECIMALVALUE\""
+          - columnReference:
+              columnCounter: 2000136592
+              stepCounter: "200016894"
+            dataType: NUMBER(6,2)
+            defaultValue: ""
+            description: ""
+            name: RISKVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"RISKVALUE\""
+          - columnReference:
+              columnCounter: 2000136593
+              stepCounter: "200016894"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: PHONEVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"PHONEVALUE\""
+          - columnReference:
+              columnCounter: 2000136594
+              stepCounter: "200016894"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: BITVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"BITVALUE\""
+          - columnReference:
+              columnCounter: 2000136595
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136596
+              stepCounter: "200016894"
+            dataType: NUMBER(4,1)
+            defaultValue: ""
+            description: ""
+            name: PERCENTAGEDECVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"PERCENTAGEDECVALUE\""
+          - columnReference:
+              columnCounter: 2000136597
+              stepCounter: "200016894"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000136598
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SPEEDVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"SPEEDVALUE\""
+          - columnReference:
+              columnCounter: 2000136599
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136600
+              stepCounter: "200016894"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: VARCHARVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"VARCHARVALUE\""
+          - columnReference:
+              columnCounter: 2000136601
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: YEARVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"YEARVALUE\""
+          - columnReference:
+              columnCounter: 2000136602
+              stepCounter: "200016894"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000136603
+              stepCounter: "200016894"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATETIMEVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"DATETIMEVALUE\""
+          - columnReference:
+              columnCounter: 2000136604
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WEEKLYFREQUENCYVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"WEEKLYFREQUENCYVALUE\""
+          - columnReference:
+              columnCounter: 2000136605
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PERCENTAGEVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"PERCENTAGEVALUE\""
+          - columnReference:
+              columnCounter: 2000136606
+              stepCounter: "200016894"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: POSTALCODEVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"POSTALCODEVALUE\""
+          - columnReference:
+              columnCounter: 2000136607
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"ID\""
+          - columnReference:
+              columnCounter: 2000136608
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"GROUPID\""
+          - columnReference:
+              columnCounter: 2000136609
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MONTHLYFREQUENCYVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"MONTHLYFREQUENCYVALUE\""
+          - columnReference:
+              columnCounter: 2000136610
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PARAMETERTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"PARAMETERTYPE\""
+          - columnReference:
+              columnCounter: 2000136611
+              stepCounter: "200016894"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000136612
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000136613
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000136614
+              stepCounter: "200016894"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: POSITIVEMONEYVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"POSITIVEMONEYVALUE\""
+          - columnReference:
+              columnCounter: 2000136615
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: USERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"USERID\""
+          - columnReference:
+              columnCounter: 2000136616
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POSITIVEINTEGERVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"POSITIVEINTEGERVALUE\""
+          - columnReference:
+              columnCounter: 2000136617
+              stepCounter: "200016894"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: MONEYVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"MONEYVALUE\""
+          - columnReference:
+              columnCounter: 2000136618
+              stepCounter: "200016894"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: NONNEGATIVEMONEYVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"NONNEGATIVEMONEYVALUE\""
+          - columnReference:
+              columnCounter: 2000136619
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INTEGERVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"INTEGERVALUE\""
+          - columnReference:
+              columnCounter: 2000136620
+              stepCounter: "200016894"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PARAMETERNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"PARAMETERNAME\""
+          - columnReference:
+              columnCounter: 2000136621
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NONNEGATIVEINTEGERVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"NONNEGATIVEINTEGERVALUE\""
+          - columnReference:
+              columnCounter: 2000136622
+              stepCounter: "200016894"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000136623
+              stepCounter: "200016894"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136624
+              stepCounter: "200016894"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000136625
+              stepCounter: "200016894"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000136626
+              stepCounter: "200016894"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000136627
+              stepCounter: "200016894"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136628
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000136629
+              stepCounter: "200016894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000136630
+              stepCounter: "200016894"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000136631
+              stepCounter: "200016894"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SCRIPTPARAMETER\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000136590
+              stepCounter: "200016894"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_SCRIPTPARAMETER'"
+          - columnReference:
+              columnCounter: 2000136589
+              stepCounter: "200016894"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_SCRIPTPARAMETER
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_SCRIPTPARAMETER') }} "CC_SCRIPTPARAMETER" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_SCRIPTPARAMETER') }} "ODS_GW_CC_PROD_CC_SCRIPTPARAMETER")
+            name: LOAD_GW_CC_PROD_CC_SCRIPTPARAMETER
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_SCRIPTPARAMETER
+      name: LOAD_GW_CC_PROD_CC_SCRIPTPARAMETER
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016894"

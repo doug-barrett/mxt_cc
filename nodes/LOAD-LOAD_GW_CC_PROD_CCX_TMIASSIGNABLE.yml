@@ -1,0 +1,444 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_TMIASSIGNABLE-200010259:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000139991
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000139992
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"PREVIOUSUSERID\""
+          - columnReference:
+              columnCounter: 2000139993
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDQUEUEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"ASSIGNEDQUEUEID\""
+          - columnReference:
+              columnCounter: 2000139994
+              stepCounter: "200010259"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000139995
+              stepCounter: "200010259"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CLOSEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"CLOSEDATE\""
+          - columnReference:
+              columnCounter: 2000139996
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139997
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000139998
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000139999
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000140000
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"PREVIOUSGROUPID\""
+          - columnReference:
+              columnCounter: 2000140001
+              stepCounter: "200010259"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000140002
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDBYUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"ASSIGNEDBYUSERID\""
+          - columnReference:
+              columnCounter: 2000140003
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"ASSIGNEDGROUPID\""
+          - columnReference:
+              columnCounter: 2000140004
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000140005
+              stepCounter: "200010259"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000140006
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"ASSIGNEDUSERID\""
+          - columnReference:
+              columnCounter: 2000140007
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000140008
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSQUEUEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"PREVIOUSQUEUEID\""
+          - columnReference:
+              columnCounter: 2000140009
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000140010
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNABLESTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"ASSIGNABLESTATUS\""
+          - columnReference:
+              columnCounter: 2000140011
+              stepCounter: "200010259"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"ASSIGNMENTDATE\""
+          - columnReference:
+              columnCounter: 2000140012
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000140013
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"ASSIGNMENTSTATUS\""
+          - columnReference:
+              columnCounter: 2000140014
+              stepCounter: "200010259"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTASSIGNMENTTIME_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"LASTASSIGNMENTTIME_EXT\""
+          - columnReference:
+              columnCounter: 2000140015
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTASSIGNMENTMETHOD_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"LASTASSIGNMENTMETHOD_EXT\""
+          - columnReference:
+              columnCounter: 2000140016
+              stepCounter: "200010259"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000140017
+              stepCounter: "200010259"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000140018
+              stepCounter: "200010259"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000140019
+              stepCounter: "200010259"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000140020
+              stepCounter: "200010259"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000140021
+              stepCounter: "200010259"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000140022
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000140023
+              stepCounter: "200010259"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000140024
+              stepCounter: "200010259"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000140025
+              stepCounter: "200010259"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TMIASSIGNABLE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000139990
+              stepCounter: "200010259"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_TMIASSIGNABLE'"
+          - columnReference:
+              columnCounter: 2000139989
+              stepCounter: "200010259"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_TMIASSIGNABLE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_TMIASSIGNABLE') }} "CCX_TMIASSIGNABLE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_TMIASSIGNABLE') }} "ODS_GW_CC_PROD_CCX_TMIASSIGNABLE")
+            name: LOAD_GW_CC_PROD_CCX_TMIASSIGNABLE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_TMIASSIGNABLE
+      name: LOAD_GW_CC_PROD_CCX_TMIASSIGNABLE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200010259"

@@ -1,0 +1,393 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE_10_NEW-200018991:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000262912
+              stepCounter: "200018991"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000262913
+              stepCounter: "200018991"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000262914
+              stepCounter: "200018991"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000262915
+              stepCounter: "200018991"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000262916
+              stepCounter: "200018991"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000262917
+              stepCounter: "200018991"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000262918
+              stepCounter: "200018991"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000262919
+              stepCounter: "200018991"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EDISROIPAYLOADID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"EDISROIPAYLOADID\""
+          - columnReference:
+              columnCounter: 2000262920
+              stepCounter: "200018991"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PTDCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"PTDCODE\""
+          - columnReference:
+              columnCounter: 2000262921
+              stepCounter: "200018991"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000262922
+              stepCounter: "200018991"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000262923
+              stepCounter: "200018991"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PTDAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"PTDAMOUNT\""
+          - columnReference:
+              columnCounter: 2000262924
+              stepCounter: "200018991"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PTDTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"PTDTYPE\""
+          - columnReference:
+              columnCounter: 2000262925
+              stepCounter: "200018991"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000262926
+              stepCounter: "200018991"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000262927
+              stepCounter: "200018991"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000262928
+              stepCounter: "200018991"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000262929
+              stepCounter: "200018991"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000262930
+              stepCounter: "200018991"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000262931
+              stepCounter: "200018991"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000262932
+              stepCounter: "200018991"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000262933
+              stepCounter: "200018991"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000262934
+              stepCounter: "200018991"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000262935
+              stepCounter: "200018991"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000262936
+              stepCounter: "200018991"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000262910
+              stepCounter: "200018991"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000262911
+              stepCounter: "200018991"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000262940
+              stepCounter: "200018991"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000262937
+              stepCounter: "200018991"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000262938
+              stepCounter: "200018991"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000262941
+              stepCounter: "200018991"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000262939
+              stepCounter: "200018991"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE') }} \"LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE_05_SEQNO\"    ON LOAD_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCX_SROIPAYLOADPAIDTODATE_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018991"

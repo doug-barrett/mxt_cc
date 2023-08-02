@@ -1,0 +1,371 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_BIZRULEEXIMTASK_10_NEW-200017643:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000253489
+              stepCounter: "200017643"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000253490
+              stepCounter: "200017643"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RULEDATA
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"RULEDATA\""
+          - columnReference:
+              columnCounter: 2000253491
+              stepCounter: "200017643"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: SOURCENAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"SOURCENAME\""
+          - columnReference:
+              columnCounter: 2000253492
+              stepCounter: "200017643"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000253493
+              stepCounter: "200017643"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: TERMINATIONREQUESTED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"TERMINATIONREQUESTED\""
+          - columnReference:
+              columnCounter: 2000253494
+              stepCounter: "200017643"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"STARTTIME\""
+          - columnReference:
+              columnCounter: 2000253495
+              stepCounter: "200017643"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BATCHPROCESSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"BATCHPROCESSID\""
+          - columnReference:
+              columnCounter: 2000253496
+              stepCounter: "200017643"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RULEVERSIONTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"RULEVERSIONTYPE\""
+          - columnReference:
+              columnCounter: 2000253497
+              stepCounter: "200017643"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BATCHPROCESSCOMPLETED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"BATCHPROCESSCOMPLETED\""
+          - columnReference:
+              columnCounter: 2000253498
+              stepCounter: "200017643"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STARTEDBY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"STARTEDBY\""
+          - columnReference:
+              columnCounter: 2000253499
+              stepCounter: "200017643"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000253500
+              stepCounter: "200017643"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"ID\""
+          - columnReference:
+              columnCounter: 2000253501
+              stepCounter: "200017643"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: TARGETNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"TARGETNAME\""
+          - columnReference:
+              columnCounter: 2000253502
+              stepCounter: "200017643"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000253503
+              stepCounter: "200017643"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000253504
+              stepCounter: "200017643"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000253505
+              stepCounter: "200017643"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000253506
+              stepCounter: "200017643"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000253507
+              stepCounter: "200017643"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000253508
+              stepCounter: "200017643"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000253509
+              stepCounter: "200017643"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000253510
+              stepCounter: "200017643"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000253511
+              stepCounter: "200017643"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000253518
+              stepCounter: "200017643"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_BIZRULEEXIMTASK_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000253517
+              stepCounter: "200017643"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_BIZRULEEXIMTASK_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000253516
+              stepCounter: "200017643"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000253512
+              stepCounter: "200017643"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000253513
+              stepCounter: "200017643"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000253515
+              stepCounter: "200017643"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000253514
+              stepCounter: "200017643"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_BIZRULEEXIMTASK_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK') }} \"LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_BIZRULEEXIMTASK_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CC_BIZRULEEXIMTASK_05_SEQNO\"    ON LOAD_GW_CC_PROD_CC_BIZRULEEXIMTASK.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CC_BIZRULEEXIMTASK_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CC_BIZRULEEXIMTASK_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_CC_PROD_CC_BIZRULEEXIMTASK_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_BIZRULEEXIMTASK_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200017643"

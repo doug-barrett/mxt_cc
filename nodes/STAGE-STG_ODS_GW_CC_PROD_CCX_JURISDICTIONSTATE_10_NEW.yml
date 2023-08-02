@@ -1,0 +1,525 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCX_JURISDICTIONSTATE_10_NEW-200017880:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000261985
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000261986
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AWW
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"AWW\""
+          - columnReference:
+              columnCounter: 2000261987
+              stepCounter: "200017880"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: NETWORKCOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"NETWORKCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000261988
+              stepCounter: "200017880"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000261989
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FROI
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"FROI\""
+          - columnReference:
+              columnCounter: 2000261990
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000261991
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000261992
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000261993
+              stepCounter: "200017880"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000261994
+              stepCounter: "200017880"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: ADJUSTERRESERVINGTOOLCOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"ADJUSTERRESERVINGTOOLCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000261995
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NETWORK
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"NETWORK\""
+          - columnReference:
+              columnCounter: 2000261996
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: JURISDICTIONSTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"JURISDICTIONSTATE\""
+          - columnReference:
+              columnCounter: 2000261997
+              stepCounter: "200017880"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: LIMITEDREIMBURSEMENTCOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"LIMITEDREIMBURSEMENTCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000261998
+              stepCounter: "200017880"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: FROISROICOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"FROISROICOMMENTS\""
+          - columnReference:
+              columnCounter: 2000261999
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000262000
+              stepCounter: "200017880"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: JURISDICTIONCOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"JURISDICTIONCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000262001
+              stepCounter: "200017880"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: AWWCOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"AWWCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000262002
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ADJUSTERRESERVINGTOOL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"ADJUSTERRESERVINGTOOL\""
+          - columnReference:
+              columnCounter: 2000262003
+              stepCounter: "200017880"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000262004
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SROI
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"SROI\""
+          - columnReference:
+              columnCounter: 2000262005
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000262006
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000262007
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LIMITEDREIMBURSEMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"LIMITEDREIMBURSEMENT\""
+          - columnReference:
+              columnCounter: 2000262008
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MASSRECODEAUTHORIZED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"MASSRECODEAUTHORIZED\""
+          - columnReference:
+              columnCounter: 2000262009
+              stepCounter: "200017880"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: MOBILEAUTHORIZEDCOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"MOBILEAUTHORIZEDCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000262010
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: JURISDICTIONMOBILEAUTHORIZED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"JURISDICTIONMOBILEAUTHORIZED\""
+          - columnReference:
+              columnCounter: 2000262011
+              stepCounter: "200017880"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: MASSRECODECOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"MASSRECODECOMMENTS\""
+          - columnReference:
+              columnCounter: 2000262012
+              stepCounter: "200017880"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000262013
+              stepCounter: "200017880"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000262014
+              stepCounter: "200017880"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000262015
+              stepCounter: "200017880"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000262016
+              stepCounter: "200017880"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000262017
+              stepCounter: "200017880"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000262018
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000262019
+              stepCounter: "200017880"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000262020
+              stepCounter: "200017880"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000262021
+              stepCounter: "200017880"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000261983
+              stepCounter: "200017880"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_JURISDICTIONSTATE_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000261984
+              stepCounter: "200017880"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_JURISDICTIONSTATE_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000262025
+              stepCounter: "200017880"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000262022
+              stepCounter: "200017880"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000262023
+              stepCounter: "200017880"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000262026
+              stepCounter: "200017880"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000262024
+              stepCounter: "200017880"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCX_JURISDICTIONSTATE_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE') }} \"LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCX_JURISDICTIONSTATE_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CCX_JURISDICTIONSTATE_05_SEQNO\"    ON LOAD_GW_CC_PROD_CCX_JURISDICTIONSTATE.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CCX_JURISDICTIONSTATE_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CCX_JURISDICTIONSTATE_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CCX_JURISDICTIONSTATE_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCX_JURISDICTIONSTATE_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200017880"

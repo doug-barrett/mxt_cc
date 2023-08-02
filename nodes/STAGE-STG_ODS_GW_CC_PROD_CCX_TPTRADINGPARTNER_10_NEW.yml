@@ -1,0 +1,448 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCX_TPTRADINGPARTNER_10_NEW-200017572:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000263500
+              stepCounter: "200017572"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000263501
+              stepCounter: "200017572"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ALTERNATEEMAIL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"ALTERNATEEMAIL\""
+          - columnReference:
+              columnCounter: 2000263502
+              stepCounter: "200017572"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000263503
+              stepCounter: "200017572"
+            dataType: VARCHAR(25)
+            defaultValue: ""
+            description: ""
+            name: FAXNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"FAXNUMBER\""
+          - columnReference:
+              columnCounter: 2000263504
+              stepCounter: "200017572"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000263505
+              stepCounter: "200017572"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000263506
+              stepCounter: "200017572"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000263507
+              stepCounter: "200017572"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000263508
+              stepCounter: "200017572"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DESTINATIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"DESTINATIONID\""
+          - columnReference:
+              columnCounter: 2000263509
+              stepCounter: "200017572"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ENDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"ENDDATE\""
+          - columnReference:
+              columnCounter: 2000263510
+              stepCounter: "200017572"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: BUSINESSPHONE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"BUSINESSPHONE\""
+          - columnReference:
+              columnCounter: 2000263511
+              stepCounter: "200017572"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"STARTDATE\""
+          - columnReference:
+              columnCounter: 2000263512
+              stepCounter: "200017572"
+            dataType: VARCHAR(25)
+            defaultValue: ""
+            description: ""
+            name: TRADINGPARTNERNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"TRADINGPARTNERNAME\""
+          - columnReference:
+              columnCounter: 2000263513
+              stepCounter: "200017572"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000263514
+              stepCounter: "200017572"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: COMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"COMMENTS\""
+          - columnReference:
+              columnCounter: 2000263515
+              stepCounter: "200017572"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000263516
+              stepCounter: "200017572"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYEMAIL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"PRIMARYEMAIL\""
+          - columnReference:
+              columnCounter: 2000263517
+              stepCounter: "200017572"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"ID\""
+          - columnReference:
+              columnCounter: 2000263518
+              stepCounter: "200017572"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000263519
+              stepCounter: "200017572"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYCONTACT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"PRIMARYCONTACT\""
+          - columnReference:
+              columnCounter: 2000263520
+              stepCounter: "200017572"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000263521
+              stepCounter: "200017572"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000263522
+              stepCounter: "200017572"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000263523
+              stepCounter: "200017572"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000263524
+              stepCounter: "200017572"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000263525
+              stepCounter: "200017572"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000263526
+              stepCounter: "200017572"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000263527
+              stepCounter: "200017572"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000263528
+              stepCounter: "200017572"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000263529
+              stepCounter: "200017572"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000263536
+              stepCounter: "200017572"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_TPTRADINGPARTNER_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000263535
+              stepCounter: "200017572"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_TPTRADINGPARTNER_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000263534
+              stepCounter: "200017572"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000263530
+              stepCounter: "200017572"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000263531
+              stepCounter: "200017572"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000263533
+              stepCounter: "200017572"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000263532
+              stepCounter: "200017572"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCX_TPTRADINGPARTNER_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER') }} \"LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCX_TPTRADINGPARTNER_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CCX_TPTRADINGPARTNER_05_SEQNO\"    ON LOAD_GW_CC_PROD_CCX_TPTRADINGPARTNER.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CCX_TPTRADINGPARTNER_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CCX_TPTRADINGPARTNER_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_CC_PROD_CCX_TPTRADINGPARTNER_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCX_TPTRADINGPARTNER_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200017572"

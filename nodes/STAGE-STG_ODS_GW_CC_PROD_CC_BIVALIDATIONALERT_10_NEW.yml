@@ -1,0 +1,349 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_BIVALIDATIONALERT_10_NEW-200017860:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000253172
+              stepCounter: "200017860"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000253173
+              stepCounter: "200017860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000253174
+              stepCounter: "200017860"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ALERTMSG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"ALERTMSG\""
+          - columnReference:
+              columnCounter: 2000253175
+              stepCounter: "200017860"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000253176
+              stepCounter: "200017860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ALERTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"ALERTTYPE\""
+          - columnReference:
+              columnCounter: 2000253177
+              stepCounter: "200017860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000253178
+              stepCounter: "200017860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000253179
+              stepCounter: "200017860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000253180
+              stepCounter: "200017860"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000253181
+              stepCounter: "200017860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000253182
+              stepCounter: "200017860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BULKINVOICEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"BULKINVOICEID\""
+          - columnReference:
+              columnCounter: 2000253183
+              stepCounter: "200017860"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000253184
+              stepCounter: "200017860"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000253185
+              stepCounter: "200017860"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000253186
+              stepCounter: "200017860"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000253187
+              stepCounter: "200017860"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_BIVALIDATIONALERT_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000253188
+              stepCounter: "200017860"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000253189
+              stepCounter: "200017860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000253190
+              stepCounter: "200017860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000253191
+              stepCounter: "200017860"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000253192
+              stepCounter: "200017860"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000253197
+              stepCounter: "200017860"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_BIVALIDATIONALERT_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000253198
+              stepCounter: "200017860"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_BIVALIDATIONALERT_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000253199
+              stepCounter: "200017860"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000253193
+              stepCounter: "200017860"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000253194
+              stepCounter: "200017860"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000253196
+              stepCounter: "200017860"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000253195
+              stepCounter: "200017860"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_BIVALIDATIONALERT_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT') }} \"LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_BIVALIDATIONALERT_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CC_BIVALIDATIONALERT_05_SEQNO\"    ON LOAD_GW_CC_PROD_CC_BIVALIDATIONALERT.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CC_BIVALIDATIONALERT_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CC_BIVALIDATIONALERT_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CC_BIVALIDATIONALERT_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_BIVALIDATIONALERT_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200017860"

@@ -1,0 +1,444 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_TPINTEGRATION-200016766:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000140131
+              stepCounter: "200016766"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000140132
+              stepCounter: "200016766"
+            dataType: VARCHAR(200)
+            defaultValue: ""
+            description: ""
+            name: FINALOUTPUTLAYOUT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"FINALOUTPUTLAYOUT\""
+          - columnReference:
+              columnCounter: 2000140133
+              stepCounter: "200016766"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000140134
+              stepCounter: "200016766"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000140135
+              stepCounter: "200016766"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRADINGPARTNERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"TRADINGPARTNERID\""
+          - columnReference:
+              columnCounter: 2000140136
+              stepCounter: "200016766"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000140137
+              stepCounter: "200016766"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000140138
+              stepCounter: "200016766"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000140139
+              stepCounter: "200016766"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ENDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"ENDDATE\""
+          - columnReference:
+              columnCounter: 2000140140
+              stepCounter: "200016766"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BATCHCOUNTGOVERNOR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"BATCHCOUNTGOVERNOR\""
+          - columnReference:
+              columnCounter: 2000140141
+              stepCounter: "200016766"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: OUPUTNAMEFORMAT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"OUPUTNAMEFORMAT\""
+          - columnReference:
+              columnCounter: 2000140142
+              stepCounter: "200016766"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INTEGRATIONTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"INTEGRATIONTYPE\""
+          - columnReference:
+              columnCounter: 2000140143
+              stepCounter: "200016766"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"STARTDATE\""
+          - columnReference:
+              columnCounter: 2000140144
+              stepCounter: "200016766"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000140145
+              stepCounter: "200016766"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: COMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"COMMENTS\""
+          - columnReference:
+              columnCounter: 2000140146
+              stepCounter: "200016766"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CONSOLIDATEFLAG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"CONSOLIDATEFLAG\""
+          - columnReference:
+              columnCounter: 2000140147
+              stepCounter: "200016766"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000140148
+              stepCounter: "200016766"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OUTPUTFORMAT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"OUTPUTFORMAT\""
+          - columnReference:
+              columnCounter: 2000140149
+              stepCounter: "200016766"
+            dataType: VARCHAR(200)
+            defaultValue: ""
+            description: ""
+            name: OUPUTFILELOCATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"OUPUTFILELOCATION\""
+          - columnReference:
+              columnCounter: 2000140150
+              stepCounter: "200016766"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"ID\""
+          - columnReference:
+              columnCounter: 2000140151
+              stepCounter: "200016766"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000140152
+              stepCounter: "200016766"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INTEGRATIONIDENTIFIER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"INTEGRATIONIDENTIFIER\""
+          - columnReference:
+              columnCounter: 2000140153
+              stepCounter: "200016766"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: INTEGRATIONNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"INTEGRATIONNAME\""
+          - columnReference:
+              columnCounter: 2000140154
+              stepCounter: "200016766"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISREALTIMEINTEGRATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"ISREALTIMEINTEGRATION\""
+          - columnReference:
+              columnCounter: 2000140155
+              stepCounter: "200016766"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELAYTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"DELAYTIME\""
+          - columnReference:
+              columnCounter: 2000140156
+              stepCounter: "200016766"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000140157
+              stepCounter: "200016766"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000140158
+              stepCounter: "200016766"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000140159
+              stepCounter: "200016766"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000140160
+              stepCounter: "200016766"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000140161
+              stepCounter: "200016766"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000140162
+              stepCounter: "200016766"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000140163
+              stepCounter: "200016766"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000140164
+              stepCounter: "200016766"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000140165
+              stepCounter: "200016766"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_TPINTEGRATION\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000140130
+              stepCounter: "200016766"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_TPINTEGRATION'"
+          - columnReference:
+              columnCounter: 2000140129
+              stepCounter: "200016766"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_TPINTEGRATION
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_TPINTEGRATION') }} "CCX_TPINTEGRATION" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_TPINTEGRATION') }} "ODS_GW_CC_PROD_CCX_TPINTEGRATION")
+            name: LOAD_GW_CC_PROD_CCX_TPINTEGRATION
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_TPINTEGRATION
+      name: LOAD_GW_CC_PROD_CCX_TPINTEGRATION
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016766"

@@ -1,0 +1,547 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCX_CLAIMDENIAL_10_NEW-200010380:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000261178
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REVERSALNOTEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"REVERSALNOTEID\""
+          - columnReference:
+              columnCounter: 2000261179
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000261180
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000261181
+              stepCounter: "200010380"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000261182
+              stepCounter: "200010380"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: REVERSALPOSTED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"REVERSALPOSTED\""
+          - columnReference:
+              columnCounter: 2000261183
+              stepCounter: "200010380"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: POSTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"POSTDATE\""
+          - columnReference:
+              columnCounter: 2000261184
+              stepCounter: "200010380"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REVERSEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"REVERSEDATE\""
+          - columnReference:
+              columnCounter: 2000261185
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REVERSALREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"REVERSALREASON\""
+          - columnReference:
+              columnCounter: 2000261186
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000261187
+              stepCounter: "200010380"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EFFECTIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"EFFECTIVEDATE\""
+          - columnReference:
+              columnCounter: 2000261188
+              stepCounter: "200010380"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000261189
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DENIALSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"DENIALSTATUS\""
+          - columnReference:
+              columnCounter: 2000261190
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DENIALNOTEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"DENIALNOTEID\""
+          - columnReference:
+              columnCounter: 2000261191
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000261192
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"ID\""
+          - columnReference:
+              columnCounter: 2000261193
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REVERSEDENIALSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"REVERSEDENIALSTATUS\""
+          - columnReference:
+              columnCounter: 2000261194
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000261195
+              stepCounter: "200010380"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EFFECTIVEFROMDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"EFFECTIVEFROMDATE\""
+          - columnReference:
+              columnCounter: 2000261196
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DENIALTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"DENIALTYPE\""
+          - columnReference:
+              columnCounter: 2000261197
+              stepCounter: "200010380"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000261198
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DENIALCATEGORY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"DENIALCATEGORY\""
+          - columnReference:
+              columnCounter: 2000261199
+              stepCounter: "200010380"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DENIALPOSTED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"DENIALPOSTED\""
+          - columnReference:
+              columnCounter: 2000261200
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000261201
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000261202
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000261203
+              stepCounter: "200010380"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DENIALREVERSEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"DENIALREVERSEDATE\""
+          - columnReference:
+              columnCounter: 2000261204
+              stepCounter: "200010380"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: REVERSALRATIONALE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"REVERSALRATIONALE\""
+          - columnReference:
+              columnCounter: 2000261205
+              stepCounter: "200010380"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EFFECTIVETODATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"EFFECTIVETODATE\""
+          - columnReference:
+              columnCounter: 2000261206
+              stepCounter: "200010380"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: DENIALRATIONALE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"DENIALRATIONALE\""
+          - columnReference:
+              columnCounter: 2000261207
+              stepCounter: "200010380"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000261208
+              stepCounter: "200010380"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000261209
+              stepCounter: "200010380"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000261210
+              stepCounter: "200010380"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000261211
+              stepCounter: "200010380"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMDENIAL_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000261212
+              stepCounter: "200010380"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000261213
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000261214
+              stepCounter: "200010380"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000261215
+              stepCounter: "200010380"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000261216
+              stepCounter: "200010380"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000261221
+              stepCounter: "200010380"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMDENIAL_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000261222
+              stepCounter: "200010380"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_CLAIMDENIAL_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000261223
+              stepCounter: "200010380"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000261217
+              stepCounter: "200010380"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000261218
+              stepCounter: "200010380"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000261220
+              stepCounter: "200010380"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000261219
+              stepCounter: "200010380"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCX_CLAIMDENIAL
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCX_CLAIMDENIAL_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCX_CLAIMDENIAL') }} \"LOAD_GW_CC_PROD_CCX_CLAIMDENIAL\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCX_CLAIMDENIAL_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CCX_CLAIMDENIAL_05_SEQNO\"    ON LOAD_GW_CC_PROD_CCX_CLAIMDENIAL.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CCX_CLAIMDENIAL_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CCX_CLAIMDENIAL_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_CC_PROD_CCX_CLAIMDENIAL_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCX_CLAIMDENIAL_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200010380"

@@ -1,0 +1,921 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_POLICY_10_NEW-200010097:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000257780
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000257781
+              stepCounter: "200010097"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LEASINGCOMPANYACCOUNT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"LEASINGCOMPANYACCOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000257782
+              stepCounter: "200010097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000257783
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TOTALVEHICLES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"TOTALVEHICLES\""
+          - columnReference:
+              columnCounter: 2000257784
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYSOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"POLICYSOURCE\""
+          - columnReference:
+              columnCounter: 2000257785
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000257786
+              stepCounter: "200010097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ORIGEFFECTIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"ORIGEFFECTIVEDATE\""
+          - columnReference:
+              columnCounter: 2000257787
+              stepCounter: "200010097"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CUSTOMERIDACCOUNT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"CUSTOMERIDACCOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000257788
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"ID\""
+          - columnReference:
+              columnCounter: 2000257789
+              stepCounter: "200010097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXPIRATIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"EXPIRATIONDATE\""
+          - columnReference:
+              columnCounter: 2000257790
+              stepCounter: "200010097"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: FINANCIALINTERESTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"FINANCIALINTERESTS\""
+          - columnReference:
+              columnCounter: 2000257791
+              stepCounter: "200010097"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: NOTES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"NOTES\""
+          - columnReference:
+              columnCounter: 2000257792
+              stepCounter: "200010097"
+            dataType: NUMBER(4,1)
+            defaultValue: ""
+            description: ""
+            name: PARTICIPATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"PARTICIPATION\""
+          - columnReference:
+              columnCounter: 2000257793
+              stepCounter: "200010097"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETURNTOWORKPRGM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"RETURNTOWORKPRGM\""
+          - columnReference:
+              columnCounter: 2000257794
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYSOURCETYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"POLICYSOURCETYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000257795
+              stepCounter: "200010097"
+            dataType: VARCHAR(6)
+            defaultValue: ""
+            description: ""
+            name: INSUREDNAICSCODE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"INSUREDNAICSCODE_EXT\""
+          - columnReference:
+              columnCounter: 2000257796
+              stepCounter: "200010097"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: GOVERNINGCLASS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"GOVERNINGCLASS_EXT\""
+          - columnReference:
+              columnCounter: 2000257797
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"POLICYTYPE\""
+          - columnReference:
+              columnCounter: 2000257798
+              stepCounter: "200010097"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: OTHERINSINFO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"OTHERINSINFO\""
+          - columnReference:
+              columnCounter: 2000257799
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UNDERWRITINGCO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"UNDERWRITINGCO\""
+          - columnReference:
+              columnCounter: 2000257800
+              stepCounter: "200010097"
+            dataType: VARCHAR(6)
+            defaultValue: ""
+            description: ""
+            name: INSUREDSICCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"INSUREDSICCODE\""
+          - columnReference:
+              columnCounter: 2000257801
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000257802
+              stepCounter: "200010097"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"ACCOUNTNUMBER\""
+          - columnReference:
+              columnCounter: 2000257803
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UNDERWRITINGGROUP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"UNDERWRITINGGROUP\""
+          - columnReference:
+              columnCounter: 2000257804
+              stepCounter: "200010097"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: POLICYNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"POLICYNUMBER\""
+          - columnReference:
+              columnCounter: 2000257805
+              stepCounter: "200010097"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FOREIGNCOVERAGE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"FOREIGNCOVERAGE\""
+          - columnReference:
+              columnCounter: 2000257806
+              stepCounter: "200010097"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"PRODUCERCODE\""
+          - columnReference:
+              columnCounter: 2000257807
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000257808
+              stepCounter: "200010097"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: POLICYSUFFIX
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"POLICYSUFFIX\""
+          - columnReference:
+              columnCounter: 2000257809
+              stepCounter: "200010097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTPOLICYREFRESHDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"LASTPOLICYREFRESHDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000257810
+              stepCounter: "200010097"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: WCOTHERSTATES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"WCOTHERSTATES\""
+          - columnReference:
+              columnCounter: 2000257811
+              stepCounter: "200010097"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: OTHERINSURANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"OTHERINSURANCE\""
+          - columnReference:
+              columnCounter: 2000257812
+              stepCounter: "200010097"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: FEINOFFICIALID_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"FEINOFFICIALID_EXT\""
+          - columnReference:
+              columnCounter: 2000257813
+              stepCounter: "200010097"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LOCATIONCODEDACCOUNT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"LOCATIONCODEDACCOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000257814
+              stepCounter: "200010097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RETROACTIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"RETROACTIVEDATE\""
+          - columnReference:
+              columnCounter: 2000257815
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000257816
+              stepCounter: "200010097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EFFECTIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"EFFECTIVEDATE\""
+          - columnReference:
+              columnCounter: 2000257817
+              stepCounter: "200010097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000257818
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYRATINGPLAN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"POLICYRATINGPLAN\""
+          - columnReference:
+              columnCounter: 2000257819
+              stepCounter: "200010097"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: POLICYSETNUMBER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"POLICYSETNUMBER_EXT\""
+          - columnReference:
+              columnCounter: 2000257820
+              stepCounter: "200010097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REPORTINGDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"REPORTINGDATE\""
+          - columnReference:
+              columnCounter: 2000257821
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYSYSTEMPERIODID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"POLICYSYSTEMPERIODID\""
+          - columnReference:
+              columnCounter: 2000257822
+              stepCounter: "200010097"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDRISK
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"ASSIGNEDRISK\""
+          - columnReference:
+              columnCounter: 2000257823
+              stepCounter: "200010097"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: NETWORKSTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"NETWORKSTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000257824
+              stepCounter: "200010097"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000257825
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYQUOTETYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"POLICYQUOTETYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000257826
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000257827
+              stepCounter: "200010097"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: VERIFIED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"VERIFIED\""
+          - columnReference:
+              columnCounter: 2000257828
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000257829
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000257830
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VALIDATIONLEVEL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"VALIDATIONLEVEL\""
+          - columnReference:
+              columnCounter: 2000257831
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COVERAGEFORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"COVERAGEFORM\""
+          - columnReference:
+              columnCounter: 2000257832
+              stepCounter: "200010097"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: WCSTATES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"WCSTATES\""
+          - columnReference:
+              columnCounter: 2000257833
+              stepCounter: "200010097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CANCELLATIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"CANCELLATIONDATE\""
+          - columnReference:
+              columnCounter: 2000257834
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TOTALPROPERTIES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"TOTALPROPERTIES\""
+          - columnReference:
+              columnCounter: 2000257835
+              stepCounter: "200010097"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: STAFFINGPOLICYIND_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"STAFFINGPOLICYIND_EXT\""
+          - columnReference:
+              columnCounter: 2000257836
+              stepCounter: "200010097"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: CCACCOUNTNUMBER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"CCACCOUNTNUMBER_EXT\""
+          - columnReference:
+              columnCounter: 2000257837
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SYSTEMOFRECORD_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"SYSTEMOFRECORD_EXT\""
+          - columnReference:
+              columnCounter: 2000257838
+              stepCounter: "200010097"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: POLICYQUOTENUMBER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"POLICYQUOTENUMBER_EXT\""
+          - columnReference:
+              columnCounter: 2000257839
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CUSTOMERSERVICETIER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"CUSTOMERSERVICETIER\""
+          - columnReference:
+              columnCounter: 2000257840
+              stepCounter: "200010097"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: HAZARDCLASS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"HAZARDCLASS_EXT\""
+          - columnReference:
+              columnCounter: 2000257841
+              stepCounter: "200010097"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: INSUREDNAICSCODEDESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"INSUREDNAICSCODEDESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000257842
+              stepCounter: "200010097"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: INSUREDSICCODEDESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"INSUREDSICCODEDESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000257843
+              stepCounter: "200010097"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000257844
+              stepCounter: "200010097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000257845
+              stepCounter: "200010097"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000257846
+              stepCounter: "200010097"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000257847
+              stepCounter: "200010097"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_POLICY_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000257848
+              stepCounter: "200010097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000257849
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000257850
+              stepCounter: "200010097"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000257851
+              stepCounter: "200010097"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000257852
+              stepCounter: "200010097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000257857
+              stepCounter: "200010097"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_POLICY_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000257858
+              stepCounter: "200010097"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_POLICY_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000257859
+              stepCounter: "200010097"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000257853
+              stepCounter: "200010097"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000257854
+              stepCounter: "200010097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_POLICY\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000257856
+              stepCounter: "200010097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000257855
+              stepCounter: "200010097"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_POLICY
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_POLICY_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_POLICY') }} \"LOAD_GW_CC_PROD_CC_POLICY\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_POLICY_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CC_POLICY_05_SEQNO\"    ON LOAD_GW_CC_PROD_CC_POLICY.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CC_POLICY_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CC_POLICY_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_CC_PROD_CC_POLICY_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_POLICY_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200010097"

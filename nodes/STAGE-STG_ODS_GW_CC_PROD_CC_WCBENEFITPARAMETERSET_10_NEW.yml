@@ -1,0 +1,855 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_WCBENEFITPARAMETERSET_10_NEW-200018499:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000260075
+              stepCounter: "200018499"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PPDMAX
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"PPDMAX\""
+          - columnReference:
+              columnCounter: 2000260076
+              stepCounter: "200018499"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TTDMAX
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"TTDMAX\""
+          - columnReference:
+              columnCounter: 2000260077
+              stepCounter: "200018499"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PTDMAX
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"PTDMAX\""
+          - columnReference:
+              columnCounter: 2000260078
+              stepCounter: "200018499"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000260079
+              stepCounter: "200018499"
+            dataType: NUMBER(10,4)
+            defaultValue: ""
+            description: ""
+            name: DBSAWWPERCENTAGE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"DBSAWWPERCENTAGE_EXT\""
+          - columnReference:
+              columnCounter: 2000260080
+              stepCounter: "200018499"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000260081
+              stepCounter: "200018499"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ENDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"ENDDATE\""
+          - columnReference:
+              columnCounter: 2000260082
+              stepCounter: "200018499"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: SIBSMINIMUM_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"SIBSMINIMUM_EXT\""
+          - columnReference:
+              columnCounter: 2000260083
+              stepCounter: "200018499"
+            dataType: NUMBER(10,4)
+            defaultValue: ""
+            description: ""
+            name: PTDPERCENTOFWAGES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"PTDPERCENTOFWAGES\""
+          - columnReference:
+              columnCounter: 2000260084
+              stepCounter: "200018499"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"STARTDATE\""
+          - columnReference:
+              columnCounter: 2000260085
+              stepCounter: "200018499"
+            dataType: NUMBER(10,4)
+            defaultValue: ""
+            description: ""
+            name: DBSCOLAPERCENTAGE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"DBSCOLAPERCENTAGE_EXT\""
+          - columnReference:
+              columnCounter: 2000260086
+              stepCounter: "200018499"
+            dataType: NUMBER(10,4)
+            defaultValue: ""
+            description: ""
+            name: PPDPERCENTOFWAGES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"PPDPERCENTOFWAGES\""
+          - columnReference:
+              columnCounter: 2000260087
+              stepCounter: "200018499"
+            dataType: NUMBER(10,4)
+            defaultValue: ""
+            description: ""
+            name: TTDPERCENTOFWAGES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"TTDPERCENTOFWAGES\""
+          - columnReference:
+              columnCounter: 2000260088
+              stepCounter: "200018499"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: RATECOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"RATECOMMENTS\""
+          - columnReference:
+              columnCounter: 2000260089
+              stepCounter: "200018499"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: FUNERALBENEFITS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"FUNERALBENEFITS_EXT\""
+          - columnReference:
+              columnCounter: 2000260090
+              stepCounter: "200018499"
+            dataType: NUMBER(10,4)
+            defaultValue: ""
+            description: ""
+            name: TPDPERCENTOFWAGES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"TPDPERCENTOFWAGES\""
+          - columnReference:
+              columnCounter: 2000260091
+              stepCounter: "200018499"
+            dataType: NUMBER(10,4)
+            defaultValue: ""
+            description: ""
+            name: SIBSPERCENTOFWAGES_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"SIBSPERCENTOFWAGES_EXT\""
+          - columnReference:
+              columnCounter: 2000260092
+              stepCounter: "200018499"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"ID\""
+          - columnReference:
+              columnCounter: 2000260093
+              stepCounter: "200018499"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: SIBSMAXIMUM_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"SIBSMAXIMUM_EXT\""
+          - columnReference:
+              columnCounter: 2000260094
+              stepCounter: "200018499"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: APPLIEDTOLIBS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"APPLIEDTOLIBS_EXT\""
+          - columnReference:
+              columnCounter: 2000260095
+              stepCounter: "200018499"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: TPDMINADJTOAWW
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"TPDMINADJTOAWW\""
+          - columnReference:
+              columnCounter: 2000260096
+              stepCounter: "200018499"
+            dataType: NUMBER(10,4)
+            defaultValue: ""
+            description: ""
+            name: IIBSAWWPERCENTAGE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"IIBSAWWPERCENTAGE_EXT\""
+          - columnReference:
+              columnCounter: 2000260097
+              stepCounter: "200018499"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PPDMINADJTOAWW
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"PPDMINADJTOAWW\""
+          - columnReference:
+              columnCounter: 2000260098
+              stepCounter: "200018499"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: TTDMINADJTOAWW
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"TTDMINADJTOAWW\""
+          - columnReference:
+              columnCounter: 2000260099
+              stepCounter: "200018499"
+            dataType: NUMBER(10,4)
+            defaultValue: ""
+            description: ""
+            name: LIBSAWWPERCENTAGE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"LIBSAWWPERCENTAGE_EXT\""
+          - columnReference:
+              columnCounter: 2000260100
+              stepCounter: "200018499"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PTDMINADJTOAWW
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"PTDMINADJTOAWW\""
+          - columnReference:
+              columnCounter: 2000260101
+              stepCounter: "200018499"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SIBSMINIMUMADJUSTTOAWW_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"SIBSMINIMUMADJUSTTOAWW_EXT\""
+          - columnReference:
+              columnCounter: 2000260102
+              stepCounter: "200018499"
+            dataType: NUMBER(10,4)
+            defaultValue: ""
+            description: ""
+            name: SIBSAWWPERCENTAGE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"SIBSAWWPERCENTAGE_EXT\""
+          - columnReference:
+              columnCounter: 2000260103
+              stepCounter: "200018499"
+            dataType: NUMBER(10,4)
+            defaultValue: ""
+            description: ""
+            name: TIBSAWWPERCENTAGE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"TIBSAWWPERCENTAGE_EXT\""
+          - columnReference:
+              columnCounter: 2000260104
+              stepCounter: "200018499"
+            dataType: NUMBER(10,4)
+            defaultValue: ""
+            description: ""
+            name: TIBSWAIVERAWW_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"TIBSWAIVERAWW_EXT\""
+          - columnReference:
+              columnCounter: 2000260105
+              stepCounter: "200018499"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000260106
+              stepCounter: "200018499"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: APPLIEDTOSIBS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"APPLIEDTOSIBS_EXT\""
+          - columnReference:
+              columnCounter: 2000260107
+              stepCounter: "200018499"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WPNOTAPPLIEDTOPTD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"WPNOTAPPLIEDTOPTD\""
+          - columnReference:
+              columnCounter: 2000260108
+              stepCounter: "200018499"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WAITINGPERIODDAYS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"WAITINGPERIODDAYS\""
+          - columnReference:
+              columnCounter: 2000260109
+              stepCounter: "200018499"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WPNOTAPPLIEDTOPPD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"WPNOTAPPLIEDTOPPD\""
+          - columnReference:
+              columnCounter: 2000260110
+              stepCounter: "200018499"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TIBSMAXIMUMWEEKS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"TIBSMAXIMUMWEEKS_EXT\""
+          - columnReference:
+              columnCounter: 2000260111
+              stepCounter: "200018499"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TIBSWAIVERMAXIMUMWEEKS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"TIBSWAIVERMAXIMUMWEEKS_EXT\""
+          - columnReference:
+              columnCounter: 2000260112
+              stepCounter: "200018499"
+            dataType: NUMBER(10,4)
+            defaultValue: ""
+            description: ""
+            name: LIBSANNUALINCREASE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"LIBSANNUALINCREASE_EXT\""
+          - columnReference:
+              columnCounter: 2000260113
+              stepCounter: "200018499"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000260114
+              stepCounter: "200018499"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DBSSTATEMINIMUM_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"DBSSTATEMINIMUM_EXT\""
+          - columnReference:
+              columnCounter: 2000260115
+              stepCounter: "200018499"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000260116
+              stepCounter: "200018499"
+            dataType: NUMBER(10,4)
+            defaultValue: ""
+            description: ""
+            name: PTDANNUALINCREASE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"PTDANNUALINCREASE_EXT\""
+          - columnReference:
+              columnCounter: 2000260117
+              stepCounter: "200018499"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000260118
+              stepCounter: "200018499"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETROACTIVEPERIOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"RETROACTIVEPERIOD\""
+          - columnReference:
+              columnCounter: 2000260119
+              stepCounter: "200018499"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DBSSTATEMAXIMUM_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"DBSSTATEMAXIMUM_EXT\""
+          - columnReference:
+              columnCounter: 2000260120
+              stepCounter: "200018499"
+            dataType: NUMBER(10,4)
+            defaultValue: ""
+            description: ""
+            name: PPDANNUALINCREASE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"PPDANNUALINCREASE_EXT\""
+          - columnReference:
+              columnCounter: 2000260121
+              stepCounter: "200018499"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000260122
+              stepCounter: "200018499"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000260123
+              stepCounter: "200018499"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SIBSMAXIMUMWEEKS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"SIBSMAXIMUMWEEKS_EXT\""
+          - columnReference:
+              columnCounter: 2000260124
+              stepCounter: "200018499"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TPDMIN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"TPDMIN\""
+          - columnReference:
+              columnCounter: 2000260125
+              stepCounter: "200018499"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PPDMIN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"PPDMIN\""
+          - columnReference:
+              columnCounter: 2000260126
+              stepCounter: "200018499"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TTDMIN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"TTDMIN\""
+          - columnReference:
+              columnCounter: 2000260127
+              stepCounter: "200018499"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: IIBSMAXWEEKS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"IIBSMAXWEEKS_EXT\""
+          - columnReference:
+              columnCounter: 2000260128
+              stepCounter: "200018499"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: JURISDICTIONSTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"JURISDICTIONSTATE\""
+          - columnReference:
+              columnCounter: 2000260129
+              stepCounter: "200018499"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PTDMIN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"PTDMIN\""
+          - columnReference:
+              columnCounter: 2000260130
+              stepCounter: "200018499"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TIBSHOURLY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"TIBSHOURLY_EXT\""
+          - columnReference:
+              columnCounter: 2000260131
+              stepCounter: "200018499"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TPDMAX
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"TPDMAX\""
+          - columnReference:
+              columnCounter: 2000260132
+              stepCounter: "200018499"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000260133
+              stepCounter: "200018499"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000260134
+              stepCounter: "200018499"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000260135
+              stepCounter: "200018499"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000260136
+              stepCounter: "200018499"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_WCBENEFITPARAMETERSET_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000260137
+              stepCounter: "200018499"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000260138
+              stepCounter: "200018499"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000260139
+              stepCounter: "200018499"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000260140
+              stepCounter: "200018499"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000260141
+              stepCounter: "200018499"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000260146
+              stepCounter: "200018499"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_WCBENEFITPARAMETERSET_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000260147
+              stepCounter: "200018499"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_WCBENEFITPARAMETERSET_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000260148
+              stepCounter: "200018499"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000260142
+              stepCounter: "200018499"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000260143
+              stepCounter: "200018499"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000260145
+              stepCounter: "200018499"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000260144
+              stepCounter: "200018499"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_WCBENEFITPARAMETERSET_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET') }} \"LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_WCBENEFITPARAMETERSET_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CC_WCBENEFITPARAMETERSET_05_SEQNO\"    ON LOAD_GW_CC_PROD_CC_WCBENEFITPARAMETERSET.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CC_WCBENEFITPARAMETERSET_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CC_WCBENEFITPARAMETERSET_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CC_WCBENEFITPARAMETERSET_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_WCBENEFITPARAMETERSET_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018499"

@@ -1,0 +1,246 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_CHECKMAILTOADDR-200016670:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000138422
+              stepCounter: "200016670"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OWNERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"OWNERID\""
+          - columnReference:
+              columnCounter: 2000138423
+              stepCounter: "200016670"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000138424
+              stepCounter: "200016670"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FOREIGNENTITYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"FOREIGNENTITYID\""
+          - columnReference:
+              columnCounter: 2000138425
+              stepCounter: "200016670"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000138426
+              stepCounter: "200016670"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000138427
+              stepCounter: "200016670"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"ID\""
+          - columnReference:
+              columnCounter: 2000138428
+              stepCounter: "200016670"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000138429
+              stepCounter: "200016670"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000138430
+              stepCounter: "200016670"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138431
+              stepCounter: "200016670"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000138432
+              stepCounter: "200016670"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000138433
+              stepCounter: "200016670"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000138434
+              stepCounter: "200016670"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138435
+              stepCounter: "200016670"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000138436
+              stepCounter: "200016670"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000138437
+              stepCounter: "200016670"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000138438
+              stepCounter: "200016670"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_CHECKMAILTOADDR\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000138421
+              stepCounter: "200016670"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_CHECKMAILTOADDR'"
+          - columnReference:
+              columnCounter: 2000138420
+              stepCounter: "200016670"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_CHECKMAILTOADDR
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_CHECKMAILTOADDR') }} "CCX_CHECKMAILTOADDR" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_CHECKMAILTOADDR') }} "ODS_GW_CC_PROD_CCX_CHECKMAILTOADDR")
+            name: LOAD_GW_CC_PROD_CCX_CHECKMAILTOADDR
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_CHECKMAILTOADDR
+      name: LOAD_GW_CC_PROD_CCX_CHECKMAILTOADDR
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016670"

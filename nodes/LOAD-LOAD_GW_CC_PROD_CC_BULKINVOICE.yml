@@ -1,0 +1,752 @@
+steps:
+  LOAD_GW_CC_PROD_CC_BULKINVOICE-200016806:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000150063
+              stepCounter: "200016806"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PAYTODENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"PAYTODENORM\""
+          - columnReference:
+              columnCounter: 2000150064
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSURETYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"EXPOSURETYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000150065
+              stepCounter: "200016806"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: SCHEDULEDSENDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"SCHEDULEDSENDDATE\""
+          - columnReference:
+              columnCounter: 2000150066
+              stepCounter: "200016806"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTVALIDATEDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"LASTVALIDATEDDATE\""
+          - columnReference:
+              columnCounter: 2000150067
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000150068
+              stepCounter: "200016806"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ISSUEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"ISSUEDATE\""
+          - columnReference:
+              columnCounter: 2000150069
+              stepCounter: "200016806"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000150070
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COSTTYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"COSTTYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000150071
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COSTCATEGORY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"COSTCATEGORY_EXT\""
+          - columnReference:
+              columnCounter: 2000150072
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRANSTOREPORTINGEXCHANGERATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"TRANSTOREPORTINGEXCHANGERATE\""
+          - columnReference:
+              columnCounter: 2000150073
+              stepCounter: "200016806"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RECEIVEDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"RECEIVEDDATE\""
+          - columnReference:
+              columnCounter: 2000150074
+              stepCounter: "200016806"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: APPROVEDREPORTINGAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"APPROVEDREPORTINGAMOUNT\""
+          - columnReference:
+              columnCounter: 2000150075
+              stepCounter: "200016806"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CHECKNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"CHECKNUMBER\""
+          - columnReference:
+              columnCounter: 2000150076
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000150077
+              stepCounter: "200016806"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALTRANSACTIONAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"TOTALTRANSACTIONAMOUNT\""
+          - columnReference:
+              columnCounter: 2000150078
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000150079
+              stepCounter: "200016806"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: COMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"COMMENTS\""
+          - columnReference:
+              columnCounter: 2000150080
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELIVERYMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"DELIVERYMETHOD\""
+          - columnReference:
+              columnCounter: 2000150081
+              stepCounter: "200016806"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000150082
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REPORTABILITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"REPORTABILITY\""
+          - columnReference:
+              columnCounter: 2000150083
+              stepCounter: "200016806"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: MEMO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"MEMO\""
+          - columnReference:
+              columnCounter: 2000150084
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000150085
+              stepCounter: "200016806"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: VALID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"VALID\""
+          - columnReference:
+              columnCounter: 2000150086
+              stepCounter: "200016806"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: MAILTOADDRESS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"MAILTOADDRESS\""
+          - columnReference:
+              columnCounter: 2000150087
+              stepCounter: "200016806"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALREPORTINGAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"TOTALREPORTINGAMOUNT\""
+          - columnReference:
+              columnCounter: 2000150088
+              stepCounter: "200016806"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PAYTO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"PAYTO\""
+          - columnReference:
+              columnCounter: 2000150089
+              stepCounter: "200016806"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000150090
+              stepCounter: "200016806"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: REPORTABLEAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"REPORTABLEAMOUNT\""
+          - columnReference:
+              columnCounter: 2000150091
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"PAYMENTMETHOD\""
+          - columnReference:
+              columnCounter: 2000150092
+              stepCounter: "200016806"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SPLITEQUALLY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"SPLITEQUALLY\""
+          - columnReference:
+              columnCounter: 2000150093
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000150094
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000150095
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DEFAULTCOSTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"DEFAULTCOSTTYPE\""
+          - columnReference:
+              columnCounter: 2000150096
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYEEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"PAYEEID\""
+          - columnReference:
+              columnCounter: 2000150097
+              stepCounter: "200016806"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: BULKINVOICETOTAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"BULKINVOICETOTAL\""
+          - columnReference:
+              columnCounter: 2000150098
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DEFAULTCOSTCATEGORY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"DEFAULTCOSTCATEGORY\""
+          - columnReference:
+              columnCounter: 2000150099
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHECKINSTRUCTIONS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"CHECKINSTRUCTIONS\""
+          - columnReference:
+              columnCounter: 2000150100
+              stepCounter: "200016806"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: APPROVALDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"APPROVALDATE\""
+          - columnReference:
+              columnCounter: 2000150101
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000150102
+              stepCounter: "200016806"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: MAILTO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"MAILTO\""
+          - columnReference:
+              columnCounter: 2000150103
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: APPROVALSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"APPROVALSTATUS\""
+          - columnReference:
+              columnCounter: 2000150104
+              stepCounter: "200016806"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: INVOICENUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"INVOICENUMBER\""
+          - columnReference:
+              columnCounter: 2000150105
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BULKINVOICETYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"BULKINVOICETYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000150106
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REQUESTINGUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"REQUESTINGUSERID\""
+          - columnReference:
+              columnCounter: 2000150107
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DEFAULTPAYMENTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"DEFAULTPAYMENTTYPE\""
+          - columnReference:
+              columnCounter: 2000150108
+              stepCounter: "200016806"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: APPROVEDTRANSACTIONAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"APPROVEDTRANSACTIONAMOUNT\""
+          - columnReference:
+              columnCounter: 2000150109
+              stepCounter: "200016806"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISPRIMARY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"ISPRIMARY\""
+          - columnReference:
+              columnCounter: 2000150110
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MAILINGADDRESSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"MAILINGADDRESSID\""
+          - columnReference:
+              columnCounter: 2000150111
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BANKACCOUNTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"BANKACCOUNTTYPE\""
+          - columnReference:
+              columnCounter: 2000150112
+              stepCounter: "200016806"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"ACCOUNTNAME\""
+          - columnReference:
+              columnCounter: 2000150113
+              stepCounter: "200016806"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: BANKNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"BANKNAME\""
+          - columnReference:
+              columnCounter: 2000150114
+              stepCounter: "200016806"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: BANKROUTINGNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"BANKROUTINGNUMBER\""
+          - columnReference:
+              columnCounter: 2000150115
+              stepCounter: "200016806"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: BANKACCOUNTNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"BANKACCOUNTNUMBER\""
+          - columnReference:
+              columnCounter: 2000150116
+              stepCounter: "200016806"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000150117
+              stepCounter: "200016806"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000150118
+              stepCounter: "200016806"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000150119
+              stepCounter: "200016806"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000150120
+              stepCounter: "200016806"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000150121
+              stepCounter: "200016806"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000150122
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000150123
+              stepCounter: "200016806"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000150124
+              stepCounter: "200016806"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000150125
+              stepCounter: "200016806"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BULKINVOICE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000150062
+              stepCounter: "200016806"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_BULKINVOICE'"
+          - columnReference:
+              columnCounter: 2000150061
+              stepCounter: "200016806"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_BULKINVOICE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_BULKINVOICE') }} "CC_BULKINVOICE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_BULKINVOICE') }} "ODS_GW_CC_PROD_CC_BULKINVOICE")
+            name: LOAD_GW_CC_PROD_CC_BULKINVOICE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_BULKINVOICE
+      name: LOAD_GW_CC_PROD_CC_BULKINVOICE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016806"

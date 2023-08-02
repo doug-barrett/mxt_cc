@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_CLAIMASSOCTYPE-200015028:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000130442
+              stepCounter: "200015028"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000130443
+              stepCounter: "200015028"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000130444
+              stepCounter: "200015028"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000130445
+              stepCounter: "200015028"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000130446
+              stepCounter: "200015028"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000130447
+              stepCounter: "200015028"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000130448
+              stepCounter: "200015028"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000130449
+              stepCounter: "200015028"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000130450
+              stepCounter: "200015028"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000130451
+              stepCounter: "200015028"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000130452
+              stepCounter: "200015028"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000130453
+              stepCounter: "200015028"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000130454
+              stepCounter: "200015028"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000130455
+              stepCounter: "200015028"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000130456
+              stepCounter: "200015028"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000130457
+              stepCounter: "200015028"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000130458
+              stepCounter: "200015028"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000130459
+              stepCounter: "200015028"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000130460
+              stepCounter: "200015028"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000130461
+              stepCounter: "200015028"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CLAIMASSOCTYPE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000130441
+              stepCounter: "200015028"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_CLAIMASSOCTYPE'"
+          - columnReference:
+              columnCounter: 2000130440
+              stepCounter: "200015028"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_CLAIMASSOCTYPE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_CLAIMASSOCTYPE') }} "CCTL_CLAIMASSOCTYPE" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_CLAIMASSOCTYPE') }} "ODS_GW_CC_PROD_CCTL_CLAIMASSOCTYPE")
+            name: LOAD_GW_CC_PROD_CCTL_CLAIMASSOCTYPE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_CLAIMASSOCTYPE
+      name: LOAD_GW_CC_PROD_CCTL_CLAIMASSOCTYPE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200015028"

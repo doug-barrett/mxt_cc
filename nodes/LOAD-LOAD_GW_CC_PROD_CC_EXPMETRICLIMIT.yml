@@ -1,0 +1,499 @@
+steps:
+  LOAD_GW_CC_PROD_CC_EXPMETRICLIMIT-200016849:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000134846
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEDGENERATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"CREATEDGENERATION\""
+          - columnReference:
+              columnCounter: 2000134847
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIREDGENERATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"RETIREDGENERATION\""
+          - columnReference:
+              columnCounter: 2000134848
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000134849
+              stepCounter: "200016849"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000134850
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSUREMETRICTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"EXPOSUREMETRICTYPE\""
+          - columnReference:
+              columnCounter: 2000134851
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000134852
+              stepCounter: "200016849"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000134853
+              stepCounter: "200016849"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RETIREDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"RETIREDDATE\""
+          - columnReference:
+              columnCounter: 2000134854
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000134855
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000134856
+              stepCounter: "200016849"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: MONEYYELLOWVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"MONEYYELLOWVALUE\""
+          - columnReference:
+              columnCounter: 2000134857
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INTEGERREDVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"INTEGERREDVALUE\""
+          - columnReference:
+              columnCounter: 2000134858
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INTEGERYELLOWVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"INTEGERYELLOWVALUE\""
+          - columnReference:
+              columnCounter: 2000134859
+              stepCounter: "200016849"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: MONEYREDVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"MONEYREDVALUE\""
+          - columnReference:
+              columnCounter: 2000134860
+              stepCounter: "200016849"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: MONEYTARGETVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"MONEYTARGETVALUE\""
+          - columnReference:
+              columnCounter: 2000134861
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INTEGERTARGETVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"INTEGERTARGETVALUE\""
+          - columnReference:
+              columnCounter: 2000134862
+              stepCounter: "200016849"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000134863
+              stepCounter: "200016849"
+            dataType: NUMBER(8)
+            defaultValue: ""
+            description: ""
+            name: PERCENTREDVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"PERCENTREDVALUE\""
+          - columnReference:
+              columnCounter: 2000134864
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000134865
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000134866
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSURETIER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"EXPOSURETIER\""
+          - columnReference:
+              columnCounter: 2000134867
+              stepCounter: "200016849"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ASCENDINGLIMITORDER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"ASCENDINGLIMITORDER\""
+          - columnReference:
+              columnCounter: 2000134868
+              stepCounter: "200016849"
+            dataType: NUMBER(20,4)
+            defaultValue: ""
+            description: ""
+            name: DECIMALYELLOWVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"DECIMALYELLOWVALUE\""
+          - columnReference:
+              columnCounter: 2000134869
+              stepCounter: "200016849"
+            dataType: NUMBER(20,4)
+            defaultValue: ""
+            description: ""
+            name: DECIMALTARGETVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"DECIMALTARGETVALUE\""
+          - columnReference:
+              columnCounter: 2000134870
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000134871
+              stepCounter: "200016849"
+            dataType: NUMBER(20,4)
+            defaultValue: ""
+            description: ""
+            name: DECIMALREDVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"DECIMALREDVALUE\""
+          - columnReference:
+              columnCounter: 2000134872
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: METRICUNIT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"METRICUNIT\""
+          - columnReference:
+              columnCounter: 2000134873
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYTYPEMETRICLIMITSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"POLICYTYPEMETRICLIMITSID\""
+          - columnReference:
+              columnCounter: 2000134874
+              stepCounter: "200016849"
+            dataType: NUMBER(8)
+            defaultValue: ""
+            description: ""
+            name: PERCENTYELLOWVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"PERCENTYELLOWVALUE\""
+          - columnReference:
+              columnCounter: 2000134875
+              stepCounter: "200016849"
+            dataType: NUMBER(8)
+            defaultValue: ""
+            description: ""
+            name: PERCENTTARGETVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"PERCENTTARGETVALUE\""
+          - columnReference:
+              columnCounter: 2000134876
+              stepCounter: "200016849"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000134877
+              stepCounter: "200016849"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000134878
+              stepCounter: "200016849"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000134879
+              stepCounter: "200016849"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000134880
+              stepCounter: "200016849"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000134881
+              stepCounter: "200016849"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000134882
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000134883
+              stepCounter: "200016849"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000134884
+              stepCounter: "200016849"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000134885
+              stepCounter: "200016849"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPMETRICLIMIT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000134845
+              stepCounter: "200016849"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_EXPMETRICLIMIT'"
+          - columnReference:
+              columnCounter: 2000134844
+              stepCounter: "200016849"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_EXPMETRICLIMIT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_EXPMETRICLIMIT') }} "CC_EXPMETRICLIMIT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_EXPMETRICLIMIT') }} "ODS_GW_CC_PROD_CC_EXPMETRICLIMIT")
+            name: LOAD_GW_CC_PROD_CC_EXPMETRICLIMIT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_EXPMETRICLIMIT
+      name: LOAD_GW_CC_PROD_CC_EXPMETRICLIMIT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016849"

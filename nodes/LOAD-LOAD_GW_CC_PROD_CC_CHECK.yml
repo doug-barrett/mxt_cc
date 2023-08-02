@@ -1,0 +1,1049 @@
+steps:
+  LOAD_GW_CC_PROD_CC_CHECK-200009761:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000133228
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ANNIVERSARYDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"ANNIVERSARYDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000133229
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REDUCEDEARNINGSTYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"REDUCEDEARNINGSTYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000133230
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: SCHEDULEDSENDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"SCHEDULEDSENDDATE\""
+          - columnReference:
+              columnCounter: 2000133231
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000133232
+              stepCounter: "200009761"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: BANKNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"BANKNAME\""
+          - columnReference:
+              columnCounter: 2000133233
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ISSUEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"ISSUEDATE\""
+          - columnReference:
+              columnCounter: 2000133234
+              stepCounter: "200009761"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PAYWAITINGPERIOD_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"PAYWAITINGPERIOD_EXT\""
+          - columnReference:
+              columnCounter: 2000133235
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000133236
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BANKACCOUNTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"BANKACCOUNTTYPE\""
+          - columnReference:
+              columnCounter: 2000133237
+              stepCounter: "200009761"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FUTUREIMMEDIATESENDIND_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"FUTUREIMMEDIATESENDIND_EXT\""
+          - columnReference:
+              columnCounter: 2000133238
+              stepCounter: "200009761"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PRIORPAIDTOTAL_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"PRIORPAIDTOTAL_EXT\""
+          - columnReference:
+              columnCounter: 2000133239
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000133240
+              stepCounter: "200009761"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: COMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"COMMENTS\""
+          - columnReference:
+              columnCounter: 2000133241
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELIVERYMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"DELIVERYMETHOD\""
+          - columnReference:
+              columnCounter: 2000133242
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SROITYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"SROITYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000133243
+              stepCounter: "200009761"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DEFICITPAYMENTDUE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"DEFICITPAYMENTDUE_EXT\""
+          - columnReference:
+              columnCounter: 2000133244
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"ID\""
+          - columnReference:
+              columnCounter: 2000133245
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BULKINVOICEITEMINFOID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"BULKINVOICEITEMINFOID\""
+          - columnReference:
+              columnCounter: 2000133246
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000133247
+              stepCounter: "200009761"
+            dataType: VARCHAR(10)
+            defaultValue: ""
+            description: ""
+            name: BENEFITPERCENTAGEPAID_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"BENEFITPERCENTAGEPAID_EXT\""
+          - columnReference:
+              columnCounter: 2000133248
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DEDUCTIONTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"DEDUCTIONTYPE\""
+          - columnReference:
+              columnCounter: 2000133249
+              stepCounter: "200009761"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WAIVEWAITINGPERIOD_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"WAIVEWAITINGPERIOD_EXT\""
+          - columnReference:
+              columnCounter: 2000133250
+              stepCounter: "200009761"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: COLA_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"COLA_EXT\""
+          - columnReference:
+              columnCounter: 2000133251
+              stepCounter: "200009761"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PAYTO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"PAYTO\""
+          - columnReference:
+              columnCounter: 2000133252
+              stepCounter: "200009761"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: REPORTABLEAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"REPORTABLEAMOUNT\""
+          - columnReference:
+              columnCounter: 2000133253
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: THRESHOLDADJUSTMENTDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"THRESHOLDADJUSTMENTDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000133254
+              stepCounter: "200009761"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: REDUCEDEARNINGS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"REDUCEDEARNINGS_EXT\""
+          - columnReference:
+              columnCounter: 2000133255
+              stepCounter: "200009761"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISRECURRENCESET_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"ISRECURRENCESET_EXT\""
+          - columnReference:
+              columnCounter: 2000133256
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHECKINSTRUCTIONS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"CHECKINSTRUCTIONS\""
+          - columnReference:
+              columnCounter: 2000133257
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEOFSERVICE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"DATEOFSERVICE\""
+          - columnReference:
+              columnCounter: 2000133258
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BANKACCOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"BANKACCOUNT\""
+          - columnReference:
+              columnCounter: 2000133259
+              stepCounter: "200009761"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: MAILTO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"MAILTO\""
+          - columnReference:
+              columnCounter: 2000133260
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: SERVICEPDEND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"SERVICEPDEND\""
+          - columnReference:
+              columnCounter: 2000133261
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SROILATEREASONCODE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"SROILATEREASONCODE_EXT\""
+          - columnReference:
+              columnCounter: 2000133262
+              stepCounter: "200009761"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: BANKROUTINGNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"BANKROUTINGNUMBER\""
+          - columnReference:
+              columnCounter: 2000133263
+              stepCounter: "200009761"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: INVOICENUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"INVOICENUMBER\""
+          - columnReference:
+              columnCounter: 2000133264
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHECKSPECIALHANDLING
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"CHECKSPECIALHANDLING\""
+          - columnReference:
+              columnCounter: 2000133265
+              stepCounter: "200009761"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"ACCOUNTNAME\""
+          - columnReference:
+              columnCounter: 2000133266
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TMICHECKID_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"TMICHECKID_EXT\""
+          - columnReference:
+              columnCounter: 2000133267
+              stepCounter: "200009761"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EDITRECURRENCE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"EDITRECURRENCE_EXT\""
+          - columnReference:
+              columnCounter: 2000133268
+              stepCounter: "200009761"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ALLOWBACKBUTTONIND_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"ALLOWBACKBUTTONIND_EXT\""
+          - columnReference:
+              columnCounter: 2000133269
+              stepCounter: "200009761"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PAYTODENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"PAYTODENORM\""
+          - columnReference:
+              columnCounter: 2000133270
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000133271
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHECKTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"CHECKTYPE\""
+          - columnReference:
+              columnCounter: 2000133272
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ENTEREDTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"ENTEREDTIME\""
+          - columnReference:
+              columnCounter: 2000133273
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EIGHTHDAY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"EIGHTHDAY_EXT\""
+          - columnReference:
+              columnCounter: 2000133274
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PORTIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"PORTIONID\""
+          - columnReference:
+              columnCounter: 2000133275
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SROICODE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"SROICODE_EXT\""
+          - columnReference:
+              columnCounter: 2000133276
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RECURRINGCHECKID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"RECURRINGCHECKID\""
+          - columnReference:
+              columnCounter: 2000133277
+              stepCounter: "200009761"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: FUTURECHECKREASON_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"FUTURECHECKREASON_EXT\""
+          - columnReference:
+              columnCounter: 2000133278
+              stepCounter: "200009761"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CHECKNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"CHECKNUMBER\""
+          - columnReference:
+              columnCounter: 2000133279
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000133280
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000133281
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REPORTABILITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"REPORTABILITY\""
+          - columnReference:
+              columnCounter: 2000133282
+              stepCounter: "200009761"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISPRIMARY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"ISPRIMARY\""
+          - columnReference:
+              columnCounter: 2000133283
+              stepCounter: "200009761"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: BANKACCOUNTNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"BANKACCOUNTNUMBER\""
+          - columnReference:
+              columnCounter: 2000133284
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHECKSETID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"CHECKSETID\""
+          - columnReference:
+              columnCounter: 2000133285
+              stepCounter: "200009761"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: MEMO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"MEMO\""
+          - columnReference:
+              columnCounter: 2000133286
+              stepCounter: "200009761"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PENDESCALATIONFORBULK
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"PENDESCALATIONFORBULK\""
+          - columnReference:
+              columnCounter: 2000133287
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"GROUPID\""
+          - columnReference:
+              columnCounter: 2000133288
+              stepCounter: "200009761"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: POSTINJURYEARNINGS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"POSTINJURYEARNINGS_EXT\""
+          - columnReference:
+              columnCounter: 2000133289
+              stepCounter: "200009761"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: MAILTOADDRESS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"MAILTOADDRESS\""
+          - columnReference:
+              columnCounter: 2000133290
+              stepCounter: "200009761"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000133291
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMCONTACTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"CLAIMCONTACTID\""
+          - columnReference:
+              columnCounter: 2000133292
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHECKSOURCE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"CHECKSOURCE_EXT\""
+          - columnReference:
+              columnCounter: 2000133293
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"PAYMENTMETHOD\""
+          - columnReference:
+              columnCounter: 2000133294
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000133295
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000133296
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000133297
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RECURRENCETYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"RECURRENCETYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000133298
+              stepCounter: "200009761"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISSENDIMMEDIATELY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"ISSENDIMMEDIATELY_EXT\""
+          - columnReference:
+              columnCounter: 2000133299
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHECKINSTRUCTIONS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"CHECKINSTRUCTIONS_EXT\""
+          - columnReference:
+              columnCounter: 2000133300
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHECKBATCHING
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"CHECKBATCHING\""
+          - columnReference:
+              columnCounter: 2000133301
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: OLDPRINTDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"OLDPRINTDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000133302
+              stepCounter: "200009761"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CALCULATEDPOSTINJURY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"CALCULATEDPOSTINJURY_EXT\""
+          - columnReference:
+              columnCounter: 2000133303
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: SERVICEPDSTART
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"SERVICEPDSTART\""
+          - columnReference:
+              columnCounter: 2000133304
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTUPDATEDSTATUSDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"LASTUPDATEDSTATUSDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000133305
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ESCHEATDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"ESCHEATDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000133306
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ESCHEATSTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"ESCHEATSTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000133307
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MAILINGADDRESSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"MAILINGADDRESSID\""
+          - columnReference:
+              columnCounter: 2000133308
+              stepCounter: "200009761"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000133309
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000133310
+              stepCounter: "200009761"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000133311
+              stepCounter: "200009761"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000133312
+              stepCounter: "200009761"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000133313
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000133314
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000133315
+              stepCounter: "200009761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000133316
+              stepCounter: "200009761"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000133317
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECK\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000133227
+              stepCounter: "200009761"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_CHECK'"
+          - columnReference:
+              columnCounter: 2000133226
+              stepCounter: "200009761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_CHECK
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_CHECK') }} "CC_CHECK" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_CHECK') }} "ODS_GW_CC_PROD_CC_CHECK")
+            name: LOAD_GW_CC_PROD_CC_CHECK
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_CHECK
+      name: LOAD_GW_CC_PROD_CC_CHECK
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200009761"

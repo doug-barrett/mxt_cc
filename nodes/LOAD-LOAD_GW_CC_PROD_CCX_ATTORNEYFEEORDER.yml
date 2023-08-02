@@ -1,0 +1,543 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_ATTORNEYFEEORDER-200010537:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000138256
+              stepCounter: "200010537"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CONTACTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"CONTACTID\""
+          - columnReference:
+              columnCounter: 2000138257
+              stepCounter: "200010537"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000138258
+              stepCounter: "200010537"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000138259
+              stepCounter: "200010537"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: FROMDATEOFSERVICE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"FROMDATEOFSERVICE\""
+          - columnReference:
+              columnCounter: 2000138260
+              stepCounter: "200010537"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ORDERAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"ORDERAMOUNT\""
+          - columnReference:
+              columnCounter: 2000138261
+              stepCounter: "200010537"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138262
+              stepCounter: "200010537"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000138263
+              stepCounter: "200010537"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000138264
+              stepCounter: "200010537"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000138265
+              stepCounter: "200010537"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000138266
+              stepCounter: "200010537"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138267
+              stepCounter: "200010537"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: COMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"COMMENTS\""
+          - columnReference:
+              columnCounter: 2000138268
+              stepCounter: "200010537"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: TODATEOFSERVICE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"TODATEOFSERVICE\""
+          - columnReference:
+              columnCounter: 2000138269
+              stepCounter: "200010537"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000138270
+              stepCounter: "200010537"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: ORDERNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"ORDERNUMBER\""
+          - columnReference:
+              columnCounter: 2000138271
+              stepCounter: "200010537"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000138272
+              stepCounter: "200010537"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"ID\""
+          - columnReference:
+              columnCounter: 2000138273
+              stepCounter: "200010537"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000138274
+              stepCounter: "200010537"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ORDERDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"ORDERDATE\""
+          - columnReference:
+              columnCounter: 2000138275
+              stepCounter: "200010537"
+            dataType: NUMBER(4,1)
+            defaultValue: ""
+            description: ""
+            name: PERCENTAGEBENEFIT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"PERCENTAGEBENEFIT\""
+          - columnReference:
+              columnCounter: 2000138276
+              stepCounter: "200010537"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALPREVIOUSPAIDTOATTORNEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"TOTALPREVIOUSPAIDTOATTORNEY\""
+          - columnReference:
+              columnCounter: 2000138277
+              stepCounter: "200010537"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTPAYPERIODFROMDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"LASTPAYPERIODFROMDATE\""
+          - columnReference:
+              columnCounter: 2000138278
+              stepCounter: "200010537"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTATTYWRKSHEETUPDATEUSER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"LASTATTYWRKSHEETUPDATEUSER_EXT\""
+          - columnReference:
+              columnCounter: 2000138279
+              stepCounter: "200010537"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTATTYWRKSHEETUPDATETIME_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"LASTATTYWRKSHEETUPDATETIME_EXT\""
+          - columnReference:
+              columnCounter: 2000138280
+              stepCounter: "200010537"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: COMPRATEPAID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"COMPRATEPAID\""
+          - columnReference:
+              columnCounter: 2000138281
+              stepCounter: "200010537"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTFULLPAYFROMDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"LASTFULLPAYFROMDATE\""
+          - columnReference:
+              columnCounter: 2000138282
+              stepCounter: "200010537"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTPAYPERIODTODATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"LASTPAYPERIODTODATE\""
+          - columnReference:
+              columnCounter: 2000138283
+              stepCounter: "200010537"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PAIDINFULL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"PAIDINFULL\""
+          - columnReference:
+              columnCounter: 2000138284
+              stepCounter: "200010537"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ATTORNEYFEEORDERTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"ATTORNEYFEEORDERTYPE\""
+          - columnReference:
+              columnCounter: 2000138285
+              stepCounter: "200010537"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CARRYOVERAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"CARRYOVERAMOUNT\""
+          - columnReference:
+              columnCounter: 2000138286
+              stepCounter: "200010537"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BENEFITPAYFREQUENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"BENEFITPAYFREQUENCY\""
+          - columnReference:
+              columnCounter: 2000138287
+              stepCounter: "200010537"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTFULLPAYTODATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"LASTFULLPAYTODATE\""
+          - columnReference:
+              columnCounter: 2000138288
+              stepCounter: "200010537"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CALCULATEDASOFDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"CALCULATEDASOFDATE\""
+          - columnReference:
+              columnCounter: 2000138289
+              stepCounter: "200010537"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BENFITPAYPDSTARTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"BENFITPAYPDSTARTDATE\""
+          - columnReference:
+              columnCounter: 2000138290
+              stepCounter: "200010537"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000138291
+              stepCounter: "200010537"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138292
+              stepCounter: "200010537"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000138293
+              stepCounter: "200010537"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000138294
+              stepCounter: "200010537"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000138295
+              stepCounter: "200010537"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138296
+              stepCounter: "200010537"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000138297
+              stepCounter: "200010537"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000138298
+              stepCounter: "200010537"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000138299
+              stepCounter: "200010537"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_ATTORNEYFEEORDER\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000138255
+              stepCounter: "200010537"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_ATTORNEYFEEORDER'"
+          - columnReference:
+              columnCounter: 2000138254
+              stepCounter: "200010537"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_ATTORNEYFEEORDER
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_ATTORNEYFEEORDER') }} "CCX_ATTORNEYFEEORDER" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_ATTORNEYFEEORDER') }} "ODS_GW_CC_PROD_CCX_ATTORNEYFEEORDER")
+            name: LOAD_GW_CC_PROD_CCX_ATTORNEYFEEORDER
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_ATTORNEYFEEORDER
+      name: LOAD_GW_CC_PROD_CCX_ATTORNEYFEEORDER
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200010537"

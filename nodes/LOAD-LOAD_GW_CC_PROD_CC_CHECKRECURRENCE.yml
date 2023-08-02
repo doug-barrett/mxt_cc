@@ -1,0 +1,400 @@
+steps:
+  LOAD_GW_CC_PROD_CC_CHECKRECURRENCE-200016812:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000133392
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000133393
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RECURRENCEWEEK
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"RECURRENCEWEEK\""
+          - columnReference:
+              columnCounter: 2000133394
+              stepCounter: "200016812"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000133395
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000133396
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000133397
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000133398
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000133399
+              stepCounter: "200016812"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000133400
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RECURRENCEDAY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"RECURRENCEDAY\""
+          - columnReference:
+              columnCounter: 2000133401
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MONTHLYFREQUENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"MONTHLYFREQUENCY\""
+          - columnReference:
+              columnCounter: 2000133402
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMCHECKS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"NUMCHECKS\""
+          - columnReference:
+              columnCounter: 2000133403
+              stepCounter: "200016812"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: FIRSTDUEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"FIRSTDUEDATE\""
+          - columnReference:
+              columnCounter: 2000133404
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BIWEEKLYFREQUENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"BIWEEKLYFREQUENCY\""
+          - columnReference:
+              columnCounter: 2000133405
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000133406
+              stepCounter: "200016812"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000133407
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000133408
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WEEKLYFREQUENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"WEEKLYFREQUENCY\""
+          - columnReference:
+              columnCounter: 2000133409
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000133410
+              stepCounter: "200016812"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RECURRENCEENDDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"RECURRENCEENDDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000133411
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ISSUANCEDATEOFFSET
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"ISSUANCEDATEOFFSET\""
+          - columnReference:
+              columnCounter: 2000133412
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RECURRENCEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"RECURRENCEDATE\""
+          - columnReference:
+              columnCounter: 2000133413
+              stepCounter: "200016812"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000133414
+              stepCounter: "200016812"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000133415
+              stepCounter: "200016812"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000133416
+              stepCounter: "200016812"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000133417
+              stepCounter: "200016812"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000133418
+              stepCounter: "200016812"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000133419
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000133420
+              stepCounter: "200016812"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000133421
+              stepCounter: "200016812"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000133422
+              stepCounter: "200016812"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CHECKRECURRENCE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000133391
+              stepCounter: "200016812"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_CHECKRECURRENCE'"
+          - columnReference:
+              columnCounter: 2000133390
+              stepCounter: "200016812"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_CHECKRECURRENCE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_CHECKRECURRENCE') }} "CC_CHECKRECURRENCE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_CHECKRECURRENCE') }} "ODS_GW_CC_PROD_CC_CHECKRECURRENCE")
+            name: LOAD_GW_CC_PROD_CC_CHECKRECURRENCE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_CHECKRECURRENCE
+      name: LOAD_GW_CC_PROD_CC_CHECKRECURRENCE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016812"

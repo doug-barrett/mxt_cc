@@ -1,0 +1,235 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_LASTFROIID-200016738:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000139202
+              stepCounter: "200016738"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OWNERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_LASTFROIID\".\"OWNERID\""
+          - columnReference:
+              columnCounter: 2000139203
+              stepCounter: "200016738"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_LASTFROIID\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000139204
+              stepCounter: "200016738"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FOREIGNENTITYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_LASTFROIID\".\"FOREIGNENTITYID\""
+          - columnReference:
+              columnCounter: 2000139205
+              stepCounter: "200016738"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_LASTFROIID\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000139206
+              stepCounter: "200016738"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_LASTFROIID\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000139207
+              stepCounter: "200016738"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_LASTFROIID\".\"ID\""
+          - columnReference:
+              columnCounter: 2000139208
+              stepCounter: "200016738"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_LASTFROIID\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000139209
+              stepCounter: "200016738"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_LASTFROIID\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139210
+              stepCounter: "200016738"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_LASTFROIID\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000139211
+              stepCounter: "200016738"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_LASTFROIID\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000139212
+              stepCounter: "200016738"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_LASTFROIID\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000139213
+              stepCounter: "200016738"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_LASTFROIID\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139214
+              stepCounter: "200016738"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_LASTFROIID\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000139215
+              stepCounter: "200016738"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_LASTFROIID\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000139216
+              stepCounter: "200016738"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_LASTFROIID\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000139217
+              stepCounter: "200016738"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_LASTFROIID\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000139201
+              stepCounter: "200016738"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_LASTFROIID'"
+          - columnReference:
+              columnCounter: 2000139200
+              stepCounter: "200016738"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_LASTFROIID
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_LASTFROIID') }} "CCX_LASTFROIID" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_LASTFROIID') }} "ODS_GW_CC_PROD_CCX_LASTFROIID")
+            name: LOAD_GW_CC_PROD_CCX_LASTFROIID
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_LASTFROIID
+      name: LOAD_GW_CC_PROD_CCX_LASTFROIID
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016738"

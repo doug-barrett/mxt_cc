@@ -1,0 +1,466 @@
+steps:
+  LOAD_GW_CC_PROD_CC_SERVREQMETRIC-200016904:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000136891
+              stepCounter: "200016904"
+            dataType: NUMBER(20,4)
+            defaultValue: ""
+            description: ""
+            name: DECIMALVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"DECIMALVALUE\""
+          - columnReference:
+              columnCounter: 2000136892
+              stepCounter: "200016904"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: WAITINGSTARTTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"WAITINGSTARTTIME\""
+          - columnReference:
+              columnCounter: 2000136893
+              stepCounter: "200016904"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000136894
+              stepCounter: "200016904"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000136895
+              stepCounter: "200016904"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REACHREDTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"REACHREDTIME\""
+          - columnReference:
+              columnCounter: 2000136896
+              stepCounter: "200016904"
+            dataType: NUMBER(20,4)
+            defaultValue: ""
+            description: ""
+            name: DECIMALYELLOWVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"DECIMALYELLOWVALUE\""
+          - columnReference:
+              columnCounter: 2000136897
+              stepCounter: "200016904"
+            dataType: NUMBER(8)
+            defaultValue: ""
+            description: ""
+            name: PERCENTVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"PERCENTVALUE\""
+          - columnReference:
+              columnCounter: 2000136898
+              stepCounter: "200016904"
+            dataType: NUMBER(20,4)
+            defaultValue: ""
+            description: ""
+            name: DECIMALTARGETVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"DECIMALTARGETVALUE\""
+          - columnReference:
+              columnCounter: 2000136899
+              stepCounter: "200016904"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TIMESPENTWORKING
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"TIMESPENTWORKING\""
+          - columnReference:
+              columnCounter: 2000136900
+              stepCounter: "200016904"
+            dataType: NUMBER(20,4)
+            defaultValue: ""
+            description: ""
+            name: DECIMALREDVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"DECIMALREDVALUE\""
+          - columnReference:
+              columnCounter: 2000136901
+              stepCounter: "200016904"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SERVICEREQUESTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"SERVICEREQUESTID\""
+          - columnReference:
+              columnCounter: 2000136902
+              stepCounter: "200016904"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000136903
+              stepCounter: "200016904"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"ID\""
+          - columnReference:
+              columnCounter: 2000136904
+              stepCounter: "200016904"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136905
+              stepCounter: "200016904"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSDIFFERENTFROMEXPECTED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"DAYSDIFFERENTFROMEXPECTED\""
+          - columnReference:
+              columnCounter: 2000136906
+              stepCounter: "200016904"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000136907
+              stepCounter: "200016904"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000136908
+              stepCounter: "200016904"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000136909
+              stepCounter: "200016904"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"STARTTIME\""
+          - columnReference:
+              columnCounter: 2000136910
+              stepCounter: "200016904"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SKIPPED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"SKIPPED\""
+          - columnReference:
+              columnCounter: 2000136911
+              stepCounter: "200016904"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: MONEYVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"MONEYVALUE\""
+          - columnReference:
+              columnCounter: 2000136912
+              stepCounter: "200016904"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ESCALATED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"ESCALATED\""
+          - columnReference:
+              columnCounter: 2000136913
+              stepCounter: "200016904"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INTEGERVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"INTEGERVALUE\""
+          - columnReference:
+              columnCounter: 2000136914
+              stepCounter: "200016904"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REACHYELLOWTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"REACHYELLOWTIME\""
+          - columnReference:
+              columnCounter: 2000136915
+              stepCounter: "200016904"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: METRICUNIT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"METRICUNIT\""
+          - columnReference:
+              columnCounter: 2000136916
+              stepCounter: "200016904"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISOPEN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"ISOPEN\""
+          - columnReference:
+              columnCounter: 2000136917
+              stepCounter: "200016904"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000136918
+              stepCounter: "200016904"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000136919
+              stepCounter: "200016904"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136920
+              stepCounter: "200016904"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000136921
+              stepCounter: "200016904"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000136922
+              stepCounter: "200016904"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000136923
+              stepCounter: "200016904"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136924
+              stepCounter: "200016904"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000136925
+              stepCounter: "200016904"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000136926
+              stepCounter: "200016904"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000136927
+              stepCounter: "200016904"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQMETRIC\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000136890
+              stepCounter: "200016904"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_SERVREQMETRIC'"
+          - columnReference:
+              columnCounter: 2000136889
+              stepCounter: "200016904"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_SERVREQMETRIC
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_SERVREQMETRIC') }} "CC_SERVREQMETRIC" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_SERVREQMETRIC') }} "ODS_GW_CC_PROD_CC_SERVREQMETRIC")
+            name: LOAD_GW_CC_PROD_CC_SERVREQMETRIC
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_SERVREQMETRIC
+      name: LOAD_GW_CC_PROD_CC_SERVREQMETRIC
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016904"

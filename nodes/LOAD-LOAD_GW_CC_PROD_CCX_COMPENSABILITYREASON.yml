@@ -1,0 +1,389 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON-200016680:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000138712
+              stepCounter: "200016680"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000138713
+              stepCounter: "200016680"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000138714
+              stepCounter: "200016680"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTUPDATEDDESCRIPTIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"LASTUPDATEDDESCRIPTIONDATE\""
+          - columnReference:
+              columnCounter: 2000138715
+              stepCounter: "200016680"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: INJUREDREGULARJOBREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"INJUREDREGULARJOBREASON\""
+          - columnReference:
+              columnCounter: 2000138716
+              stepCounter: "200016680"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138717
+              stepCounter: "200016680"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYMENTINJURYREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"EMPLOYMENTINJURYREASON\""
+          - columnReference:
+              columnCounter: 2000138718
+              stepCounter: "200016680"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000138719
+              stepCounter: "200016680"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000138720
+              stepCounter: "200016680"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000138721
+              stepCounter: "200016680"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEOFINSUREDREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"EMPLOYEEOFINSUREDREASON\""
+          - columnReference:
+              columnCounter: 2000138722
+              stepCounter: "200016680"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: INJURYTHIRDPERSONREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"INJURYTHIRDPERSONREASON\""
+          - columnReference:
+              columnCounter: 2000138723
+              stepCounter: "200016680"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: QUESTIONSEDITABLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"QUESTIONSEDITABLE\""
+          - columnReference:
+              columnCounter: 2000138724
+              stepCounter: "200016680"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: INTENTIONALINJURYREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"INTENTIONALINJURYREASON\""
+          - columnReference:
+              columnCounter: 2000138725
+              stepCounter: "200016680"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000138726
+              stepCounter: "200016680"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: HORSEPLAYREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"HORSEPLAYREASON\""
+          - columnReference:
+              columnCounter: 2000138727
+              stepCounter: "200016680"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000138728
+              stepCounter: "200016680"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: INJURYDURINGTRAVELREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"INJURYDURINGTRAVELREASON\""
+          - columnReference:
+              columnCounter: 2000138729
+              stepCounter: "200016680"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ACTOFGODREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"ACTOFGODREASON\""
+          - columnReference:
+              columnCounter: 2000138730
+              stepCounter: "200016680"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"ID\""
+          - columnReference:
+              columnCounter: 2000138731
+              stepCounter: "200016680"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DRUGSINVOLVEDREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"DRUGSINVOLVEDREASON\""
+          - columnReference:
+              columnCounter: 2000138732
+              stepCounter: "200016680"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000138733
+              stepCounter: "200016680"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138734
+              stepCounter: "200016680"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000138735
+              stepCounter: "200016680"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000138736
+              stepCounter: "200016680"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000138737
+              stepCounter: "200016680"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000138738
+              stepCounter: "200016680"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000138739
+              stepCounter: "200016680"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000138740
+              stepCounter: "200016680"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000138741
+              stepCounter: "200016680"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_COMPENSABILITYREASON\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000138711
+              stepCounter: "200016680"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_COMPENSABILITYREASON'"
+          - columnReference:
+              columnCounter: 2000138710
+              stepCounter: "200016680"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_COMPENSABILITYREASON
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_COMPENSABILITYREASON') }} "CCX_COMPENSABILITYREASON" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_COMPENSABILITYREASON') }} "ODS_GW_CC_PROD_CCX_COMPENSABILITYREASON")
+            name: LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_COMPENSABILITYREASON
+      name: LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016680"

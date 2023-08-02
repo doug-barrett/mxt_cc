@@ -1,0 +1,268 @@
+steps:
+  LOAD_GW_CC_PROD_CC_REGION_ZONE-200016886:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000136417
+              stepCounter: "200016886"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000136418
+              stepCounter: "200016886"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000136419
+              stepCounter: "200016886"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REGIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"REGIONID\""
+          - columnReference:
+              columnCounter: 2000136420
+              stepCounter: "200016886"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COUNTRY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"COUNTRY\""
+          - columnReference:
+              columnCounter: 2000136421
+              stepCounter: "200016886"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ZONETYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"ZONETYPE\""
+          - columnReference:
+              columnCounter: 2000136422
+              stepCounter: "200016886"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000136423
+              stepCounter: "200016886"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CODEDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"CODEDENORM\""
+          - columnReference:
+              columnCounter: 2000136424
+              stepCounter: "200016886"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000136425
+              stepCounter: "200016886"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"CODE\""
+          - columnReference:
+              columnCounter: 2000136426
+              stepCounter: "200016886"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000136427
+              stepCounter: "200016886"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136428
+              stepCounter: "200016886"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000136429
+              stepCounter: "200016886"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000136430
+              stepCounter: "200016886"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000136431
+              stepCounter: "200016886"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136432
+              stepCounter: "200016886"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000136433
+              stepCounter: "200016886"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000136434
+              stepCounter: "200016886"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000136435
+              stepCounter: "200016886"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_REGION_ZONE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000136416
+              stepCounter: "200016886"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_REGION_ZONE'"
+          - columnReference:
+              columnCounter: 2000136415
+              stepCounter: "200016886"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_REGION_ZONE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_REGION_ZONE') }} "CC_REGION_ZONE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_REGION_ZONE') }} "ODS_GW_CC_PROD_CC_REGION_ZONE")
+            name: LOAD_GW_CC_PROD_CC_REGION_ZONE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_REGION_ZONE
+      name: LOAD_GW_CC_PROD_CC_REGION_ZONE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016886"

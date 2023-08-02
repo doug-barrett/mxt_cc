@@ -1,0 +1,448 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCX_COMPENSABILITYREASON_10_NEW-200017874:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000261391
+              stepCounter: "200017874"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000261392
+              stepCounter: "200017874"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000261393
+              stepCounter: "200017874"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: LASTUPDATEDDESCRIPTIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"LASTUPDATEDDESCRIPTIONDATE\""
+          - columnReference:
+              columnCounter: 2000261394
+              stepCounter: "200017874"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: INJUREDREGULARJOBREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"INJUREDREGULARJOBREASON\""
+          - columnReference:
+              columnCounter: 2000261395
+              stepCounter: "200017874"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000261396
+              stepCounter: "200017874"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYMENTINJURYREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"EMPLOYMENTINJURYREASON\""
+          - columnReference:
+              columnCounter: 2000261397
+              stepCounter: "200017874"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000261398
+              stepCounter: "200017874"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000261399
+              stepCounter: "200017874"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000261400
+              stepCounter: "200017874"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEEOFINSUREDREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"EMPLOYEEOFINSUREDREASON\""
+          - columnReference:
+              columnCounter: 2000261401
+              stepCounter: "200017874"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: INJURYTHIRDPERSONREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"INJURYTHIRDPERSONREASON\""
+          - columnReference:
+              columnCounter: 2000261402
+              stepCounter: "200017874"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: QUESTIONSEDITABLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"QUESTIONSEDITABLE\""
+          - columnReference:
+              columnCounter: 2000261403
+              stepCounter: "200017874"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: INTENTIONALINJURYREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"INTENTIONALINJURYREASON\""
+          - columnReference:
+              columnCounter: 2000261404
+              stepCounter: "200017874"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000261405
+              stepCounter: "200017874"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: HORSEPLAYREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"HORSEPLAYREASON\""
+          - columnReference:
+              columnCounter: 2000261406
+              stepCounter: "200017874"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000261407
+              stepCounter: "200017874"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: INJURYDURINGTRAVELREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"INJURYDURINGTRAVELREASON\""
+          - columnReference:
+              columnCounter: 2000261408
+              stepCounter: "200017874"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ACTOFGODREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"ACTOFGODREASON\""
+          - columnReference:
+              columnCounter: 2000261409
+              stepCounter: "200017874"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"ID\""
+          - columnReference:
+              columnCounter: 2000261410
+              stepCounter: "200017874"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DRUGSINVOLVEDREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"DRUGSINVOLVEDREASON\""
+          - columnReference:
+              columnCounter: 2000261411
+              stepCounter: "200017874"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000261412
+              stepCounter: "200017874"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000261413
+              stepCounter: "200017874"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000261414
+              stepCounter: "200017874"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000261415
+              stepCounter: "200017874"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000261416
+              stepCounter: "200017874"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000261417
+              stepCounter: "200017874"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000261418
+              stepCounter: "200017874"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000261419
+              stepCounter: "200017874"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000261420
+              stepCounter: "200017874"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000261389
+              stepCounter: "200017874"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_COMPENSABILITYREASON_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000261390
+              stepCounter: "200017874"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_COMPENSABILITYREASON_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000261425
+              stepCounter: "200017874"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000261421
+              stepCounter: "200017874"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000261422
+              stepCounter: "200017874"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000261424
+              stepCounter: "200017874"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000261423
+              stepCounter: "200017874"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCX_COMPENSABILITYREASON_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON') }} \"LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCX_COMPENSABILITYREASON_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CCX_COMPENSABILITYREASON_05_SEQNO\"    ON LOAD_GW_CC_PROD_CCX_COMPENSABILITYREASON.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CCX_COMPENSABILITYREASON_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CCX_COMPENSABILITYREASON_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_CC_PROD_CCX_COMPENSABILITYREASON_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCX_COMPENSABILITYREASON_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200017874"

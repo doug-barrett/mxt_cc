@@ -1,0 +1,260 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE_10_DELETE-200019383:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000117664
+              stepCounter: "200019383"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000117665
+              stepCounter: "200019383"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000117666
+              stepCounter: "200019383"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000117667
+              stepCounter: "200019383"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000117668
+              stepCounter: "200019383"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000117669
+              stepCounter: "200019383"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000117670
+              stepCounter: "200019383"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000117671
+              stepCounter: "200019383"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000117672
+              stepCounter: "200019383"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000117673
+              stepCounter: "200019383"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000117674
+              stepCounter: "200019383"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: DATEADD(MILLISECOND, -1, ODS_CTRL_HVRCAPTSTAMP.HVRCAPTSTAMP)
+          - columnReference:
+              columnCounter: 2000117675
+              stepCounter: "200019383"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000117676
+              stepCounter: "200019383"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000117677
+              stepCounter: "200019383"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000117678
+              stepCounter: "200019383"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000117679
+              stepCounter: "200019383"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Y'"
+          - columnReference:
+              columnCounter: 2000117680
+              stepCounter: "200019383"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000117681
+              stepCounter: "200019383"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000117683
+              stepCounter: "200019383"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000117682
+              stepCounter: "200019383"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE_05_LOAD
+            join:
+              joinCondition: "FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE') }} \"ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE\" JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  LEFT JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE_05_LOAD') }} \"STG_ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE_05_LOAD\"    ON ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE.ID = STG_ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE_05_LOAD.ID WHERE STG_ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE_05_LOAD.ID IS NULL "
+            name: STG_ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE_10_DELETE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE
+      name: STG_ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE_10_DELETE
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200019383"

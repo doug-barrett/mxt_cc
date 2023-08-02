@@ -1,0 +1,290 @@
+steps:
+  LOAD_GW_CC_PROD_CC_DATACHANGE-200016836:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000134542
+              stepCounter: "200016836"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: EXTERNALREFERENCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"EXTERNALREFERENCE\""
+          - columnReference:
+              columnCounter: 2000134543
+              stepCounter: "200016836"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000134544
+              stepCounter: "200016836"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000134545
+              stepCounter: "200016836"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXECUTEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"EXECUTEDATE\""
+          - columnReference:
+              columnCounter: 2000134546
+              stepCounter: "200016836"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000134547
+              stepCounter: "200016836"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: GOSU
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"GOSU\""
+          - columnReference:
+              columnCounter: 2000134548
+              stepCounter: "200016836"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"CREATEDATE\""
+          - columnReference:
+              columnCounter: 2000134549
+              stepCounter: "200016836"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000134550
+              stepCounter: "200016836"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXECUTEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"EXECUTEUSERID\""
+          - columnReference:
+              columnCounter: 2000134551
+              stepCounter: "200016836"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000134552
+              stepCounter: "200016836"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: RESULT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"RESULT\""
+          - columnReference:
+              columnCounter: 2000134553
+              stepCounter: "200016836"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000134554
+              stepCounter: "200016836"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000134555
+              stepCounter: "200016836"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000134556
+              stepCounter: "200016836"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000134557
+              stepCounter: "200016836"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000134558
+              stepCounter: "200016836"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000134559
+              stepCounter: "200016836"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000134560
+              stepCounter: "200016836"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000134561
+              stepCounter: "200016836"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000134562
+              stepCounter: "200016836"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_DATACHANGE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000134541
+              stepCounter: "200016836"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_DATACHANGE'"
+          - columnReference:
+              columnCounter: 2000134540
+              stepCounter: "200016836"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_DATACHANGE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_DATACHANGE') }} "CC_DATACHANGE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_DATACHANGE') }} "ODS_GW_CC_PROD_CC_DATACHANGE")
+            name: LOAD_GW_CC_PROD_CC_DATACHANGE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_DATACHANGE
+      name: LOAD_GW_CC_PROD_CC_DATACHANGE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016836"

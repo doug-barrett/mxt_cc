@@ -1,0 +1,444 @@
+steps:
+  LOAD_GW_CC_PROD_CC_EXPOSURERPT-200016851:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000135069
+              stepCounter: "200016851"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AVAILABLERESERVES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"AVAILABLERESERVES\""
+          - columnReference:
+              columnCounter: 2000135070
+              stepCounter: "200016851"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: REMAININGRESRVRPRTNG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"REMAININGRESRVRPRTNG\""
+          - columnReference:
+              columnCounter: 2000135071
+              stepCounter: "200016851"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: OPENRESERVES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"OPENRESERVES\""
+          - columnReference:
+              columnCounter: 2000135072
+              stepCounter: "200016851"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000135073
+              stepCounter: "200016851"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000135074
+              stepCounter: "200016851"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AVAILABLERESRVRPRTNG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"AVAILABLERESRVRPRTNG\""
+          - columnReference:
+              columnCounter: 2000135075
+              stepCounter: "200016851"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000135076
+              stepCounter: "200016851"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000135077
+              stepCounter: "200016851"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: OPENRECOVERYRESRPRTNG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"OPENRECOVERYRESRPRTNG\""
+          - columnReference:
+              columnCounter: 2000135078
+              stepCounter: "200016851"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000135079
+              stepCounter: "200016851"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000135080
+              stepCounter: "200016851"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: FUTUREPAYMENTSRPRTNG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"FUTUREPAYMENTSRPRTNG\""
+          - columnReference:
+              columnCounter: 2000135081
+              stepCounter: "200016851"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000135082
+              stepCounter: "200016851"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSUREID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"EXPOSUREID\""
+          - columnReference:
+              columnCounter: 2000135083
+              stepCounter: "200016851"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000135084
+              stepCounter: "200016851"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000135085
+              stepCounter: "200016851"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000135086
+              stepCounter: "200016851"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: REMAININGRESERVES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"REMAININGRESERVES\""
+          - columnReference:
+              columnCounter: 2000135087
+              stepCounter: "200016851"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: OPENRESERVESRPRTNG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"OPENRESERVESRPRTNG\""
+          - columnReference:
+              columnCounter: 2000135088
+              stepCounter: "200016851"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: FUTUREPAYMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"FUTUREPAYMENTS\""
+          - columnReference:
+              columnCounter: 2000135089
+              stepCounter: "200016851"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALPAYMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"TOTALPAYMENTS\""
+          - columnReference:
+              columnCounter: 2000135090
+              stepCounter: "200016851"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: OPENRECOVERYRESERVES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"OPENRECOVERYRESERVES\""
+          - columnReference:
+              columnCounter: 2000135091
+              stepCounter: "200016851"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALRECOVERIESRPRTNG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"TOTALRECOVERIESRPRTNG\""
+          - columnReference:
+              columnCounter: 2000135092
+              stepCounter: "200016851"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALRECOVERIES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"TOTALRECOVERIES\""
+          - columnReference:
+              columnCounter: 2000135093
+              stepCounter: "200016851"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALPAYMENTSRPRTNG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"TOTALPAYMENTSRPRTNG\""
+          - columnReference:
+              columnCounter: 2000135094
+              stepCounter: "200016851"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000135095
+              stepCounter: "200016851"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000135096
+              stepCounter: "200016851"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000135097
+              stepCounter: "200016851"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000135098
+              stepCounter: "200016851"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000135099
+              stepCounter: "200016851"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000135100
+              stepCounter: "200016851"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000135101
+              stepCounter: "200016851"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000135102
+              stepCounter: "200016851"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000135103
+              stepCounter: "200016851"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_EXPOSURERPT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000135068
+              stepCounter: "200016851"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_EXPOSURERPT'"
+          - columnReference:
+              columnCounter: 2000135067
+              stepCounter: "200016851"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_EXPOSURERPT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_EXPOSURERPT') }} "CC_EXPOSURERPT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_EXPOSURERPT') }} "ODS_GW_CC_PROD_CC_EXPOSURERPT")
+            name: LOAD_GW_CC_PROD_CC_EXPOSURERPT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_EXPOSURERPT
+      name: LOAD_GW_CC_PROD_CC_EXPOSURERPT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016851"

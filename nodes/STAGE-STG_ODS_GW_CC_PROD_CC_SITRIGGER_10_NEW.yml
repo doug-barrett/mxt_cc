@@ -1,0 +1,393 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_SITRIGGER_10_NEW-200018489:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000258958
+              stepCounter: "200018489"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000258959
+              stepCounter: "200018489"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POINTVALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"POINTVALUE\""
+          - columnReference:
+              columnCounter: 2000258960
+              stepCounter: "200018489"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000258961
+              stepCounter: "200018489"
+            dataType: VARCHAR(500)
+            defaultValue: ""
+            description: ""
+            name: TRIGGERDESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"TRIGGERDESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000258962
+              stepCounter: "200018489"
+            dataType: VARCHAR(500)
+            defaultValue: ""
+            description: ""
+            name: ADDITIONALINFORMATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"ADDITIONALINFORMATION\""
+          - columnReference:
+              columnCounter: 2000258963
+              stepCounter: "200018489"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSUREID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"EXPOSUREID\""
+          - columnReference:
+              columnCounter: 2000258964
+              stepCounter: "200018489"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000258965
+              stepCounter: "200018489"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000258966
+              stepCounter: "200018489"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000258967
+              stepCounter: "200018489"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000258968
+              stepCounter: "200018489"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000258969
+              stepCounter: "200018489"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000258970
+              stepCounter: "200018489"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000258971
+              stepCounter: "200018489"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"ID\""
+          - columnReference:
+              columnCounter: 2000258972
+              stepCounter: "200018489"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"CLAIMID\""
+          - columnReference:
+              columnCounter: 2000258973
+              stepCounter: "200018489"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000258974
+              stepCounter: "200018489"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000258975
+              stepCounter: "200018489"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000258976
+              stepCounter: "200018489"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000258977
+              stepCounter: "200018489"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SITRIGGER_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000258978
+              stepCounter: "200018489"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000258979
+              stepCounter: "200018489"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000258980
+              stepCounter: "200018489"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000258981
+              stepCounter: "200018489"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000258982
+              stepCounter: "200018489"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000258987
+              stepCounter: "200018489"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SITRIGGER_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000258988
+              stepCounter: "200018489"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SITRIGGER_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000258989
+              stepCounter: "200018489"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000258983
+              stepCounter: "200018489"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000258984
+              stepCounter: "200018489"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SITRIGGER\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000258986
+              stepCounter: "200018489"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000258985
+              stepCounter: "200018489"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_SITRIGGER
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_SITRIGGER_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_SITRIGGER') }} \"LOAD_GW_CC_PROD_CC_SITRIGGER\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_SITRIGGER_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CC_SITRIGGER_05_SEQNO\"    ON LOAD_GW_CC_PROD_CC_SITRIGGER.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CC_SITRIGGER_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CC_SITRIGGER_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CC_SITRIGGER_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_SITRIGGER_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018489"

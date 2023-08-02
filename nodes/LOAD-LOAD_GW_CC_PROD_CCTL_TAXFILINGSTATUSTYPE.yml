@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE-200019323:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000131982
+              stepCounter: "200019323"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000131983
+              stepCounter: "200019323"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000131984
+              stepCounter: "200019323"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000131985
+              stepCounter: "200019323"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000131986
+              stepCounter: "200019323"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000131987
+              stepCounter: "200019323"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000131988
+              stepCounter: "200019323"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000131989
+              stepCounter: "200019323"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000131990
+              stepCounter: "200019323"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000131991
+              stepCounter: "200019323"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000131995
+              stepCounter: "200019323"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000131992
+              stepCounter: "200019323"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131994
+              stepCounter: "200019323"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(CCTL_TAXFILINGSTATUSTYPE.HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000131996
+              stepCounter: "200019323"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000131997
+              stepCounter: "200019323"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000131998
+              stepCounter: "200019323"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000131993
+              stepCounter: "200019323"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131999
+              stepCounter: "200019323"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000132000
+              stepCounter: "200019323"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000132001
+              stepCounter: "200019323"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TAXFILINGSTATUSTYPE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000131981
+              stepCounter: "200019323"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_TAXFILINGSTATUSTYPE'"
+          - columnReference:
+              columnCounter: 2000131980
+              stepCounter: "200019323"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_TAXFILINGSTATUSTYPE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_TAXFILINGSTATUSTYPE') }} "CCTL_TAXFILINGSTATUSTYPE" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE') }} "ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE")
+            name: LOAD_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE
+      name: LOAD_GW_CC_PROD_CCTL_TAXFILINGSTATUSTYPE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200019323"

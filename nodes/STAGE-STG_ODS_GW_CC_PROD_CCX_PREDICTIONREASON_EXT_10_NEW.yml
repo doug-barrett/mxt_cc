@@ -1,0 +1,415 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCX_PREDICTIONREASON_EXT_10_NEW-200018141:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000262496
+              stepCounter: "200018141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000262497
+              stepCounter: "200018141"
+            dataType: NUMBER(15,10)
+            defaultValue: ""
+            description: ""
+            name: STRENGTH
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"STRENGTH\""
+          - columnReference:
+              columnCounter: 2000262498
+              stepCounter: "200018141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000262499
+              stepCounter: "200018141"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000262500
+              stepCounter: "200018141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000262501
+              stepCounter: "200018141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000262502
+              stepCounter: "200018141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"NUMBER\""
+          - columnReference:
+              columnCounter: 2000262503
+              stepCounter: "200018141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000262504
+              stepCounter: "200018141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000262505
+              stepCounter: "200018141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREDICTIONRESPONSEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"PREDICTIONRESPONSEID\""
+          - columnReference:
+              columnCounter: 2000262506
+              stepCounter: "200018141"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: QUALITATIVESTRENGTH
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"QUALITATIVESTRENGTH\""
+          - columnReference:
+              columnCounter: 2000262507
+              stepCounter: "200018141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000262508
+              stepCounter: "200018141"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: VALUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"VALUE\""
+          - columnReference:
+              columnCounter: 2000262509
+              stepCounter: "200018141"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: LABEL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"LABEL\""
+          - columnReference:
+              columnCounter: 2000262510
+              stepCounter: "200018141"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: FEATURE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"FEATURE\""
+          - columnReference:
+              columnCounter: 2000262511
+              stepCounter: "200018141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000262512
+              stepCounter: "200018141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000262513
+              stepCounter: "200018141"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000262514
+              stepCounter: "200018141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000262515
+              stepCounter: "200018141"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000262516
+              stepCounter: "200018141"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000262517
+              stepCounter: "200018141"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000262518
+              stepCounter: "200018141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000262519
+              stepCounter: "200018141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000262520
+              stepCounter: "200018141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000262521
+              stepCounter: "200018141"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000262522
+              stepCounter: "200018141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000262528
+              stepCounter: "200018141"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_PREDICTIONREASON_EXT_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000262529
+              stepCounter: "200018141"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCX_PREDICTIONREASON_EXT_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000262527
+              stepCounter: "200018141"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000262523
+              stepCounter: "200018141"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000262524
+              stepCounter: "200018141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000262526
+              stepCounter: "200018141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000262525
+              stepCounter: "200018141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCX_PREDICTIONREASON_EXT_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT') }} \"LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCX_PREDICTIONREASON_EXT_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CCX_PREDICTIONREASON_EXT_05_SEQNO\"    ON LOAD_GW_CC_PROD_CCX_PREDICTIONREASON_EXT.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CCX_PREDICTIONREASON_EXT_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CCX_PREDICTIONREASON_EXT_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CCX_PREDICTIONREASON_EXT_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCX_PREDICTIONREASON_EXT_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018141"

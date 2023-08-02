@@ -1,0 +1,246 @@
+steps:
+  LOAD_GW_CC_PROD_CC_RECOVERYCODING-200016879:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000136252
+              stepCounter: "200016879"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000136253
+              stepCounter: "200016879"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RECOVERYCATEGORY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"RECOVERYCATEGORY\""
+          - columnReference:
+              columnCounter: 2000136254
+              stepCounter: "200016879"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000136255
+              stepCounter: "200016879"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000136256
+              stepCounter: "200016879"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000136257
+              stepCounter: "200016879"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"ID\""
+          - columnReference:
+              columnCounter: 2000136258
+              stepCounter: "200016879"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RESERVELINEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"RESERVELINEID\""
+          - columnReference:
+              columnCounter: 2000136259
+              stepCounter: "200016879"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000136260
+              stepCounter: "200016879"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136261
+              stepCounter: "200016879"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000136262
+              stepCounter: "200016879"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000136263
+              stepCounter: "200016879"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000136264
+              stepCounter: "200016879"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136265
+              stepCounter: "200016879"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000136266
+              stepCounter: "200016879"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000136267
+              stepCounter: "200016879"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000136268
+              stepCounter: "200016879"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_RECOVERYCODING\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000136251
+              stepCounter: "200016879"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_RECOVERYCODING'"
+          - columnReference:
+              columnCounter: 2000136250
+              stepCounter: "200016879"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_RECOVERYCODING
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_RECOVERYCODING') }} "CC_RECOVERYCODING" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_RECOVERYCODING') }} "ODS_GW_CC_PROD_CC_RECOVERYCODING")
+            name: LOAD_GW_CC_PROD_CC_RECOVERYCODING
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_RECOVERYCODING
+      name: LOAD_GW_CC_PROD_CC_RECOVERYCODING
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016879"

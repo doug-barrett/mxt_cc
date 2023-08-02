@@ -1,0 +1,255 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_15_M-200010923:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000083457
+              stepCounter: "200010923"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000083458
+              stepCounter: "200010923"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000083459
+              stepCounter: "200010923"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000083460
+              stepCounter: "200010923"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000083461
+              stepCounter: "200010923"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000083462
+              stepCounter: "200010923"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000083463
+              stepCounter: "200010923"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000083464
+              stepCounter: "200010923"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000083465
+              stepCounter: "200010923"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000083466
+              stepCounter: "200010923"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000083467
+              stepCounter: "200010923"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000083468
+              stepCounter: "200010923"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000083469
+              stepCounter: "200010923"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000083470
+              stepCounter: "200010923"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000083471
+              stepCounter: "200010923"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000083472
+              stepCounter: "200010923"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"DELETE_FLAG\""
+          - columnReference:
+              columnCounter: 2000083473
+              stepCounter: "200010923"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000083474
+              stepCounter: "200010923"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000083476
+              stepCounter: "200010923"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"DSS_CREATE_TIME\""
+          - columnReference:
+              columnCounter: 2000083475
+              stepCounter: "200010923"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "TRUE"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE\".\"DSS_UPDATE_TIME\""
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE') }} "STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_10_DELETE"
+            name: STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_15_M
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CCTL_PAYMENTTYPE_15_M
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200010923"

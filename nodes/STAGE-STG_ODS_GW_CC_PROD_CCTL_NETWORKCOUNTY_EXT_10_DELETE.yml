@@ -1,0 +1,258 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT_10_DELETE-200031813:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000306773
+              stepCounter: "200031813"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000306774
+              stepCounter: "200031813"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000306775
+              stepCounter: "200031813"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000306776
+              stepCounter: "200031813"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000306777
+              stepCounter: "200031813"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000306778
+              stepCounter: "200031813"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000306779
+              stepCounter: "200031813"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000306780
+              stepCounter: "200031813"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000306781
+              stepCounter: "200031813"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000306782
+              stepCounter: "200031813"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000306783
+              stepCounter: "200031813"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000306784
+              stepCounter: "200031813"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000306785
+              stepCounter: "200031813"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000306791
+              stepCounter: "200031813"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000306792
+              stepCounter: "200031813"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000306786
+              stepCounter: "200031813"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: Y/N Flag indicating whether the record is deleted
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Y'"
+          - columnReference:
+              columnCounter: 2000306787
+              stepCounter: "200031813"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000306788
+              stepCounter: "200031813"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000306790
+              stepCounter: "200031813"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000306789
+              stepCounter: "200031813"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT_05_LOAD
+            join:
+              joinCondition: "FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT') }} \"ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT\" LEFT JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT_05_LOAD') }} \"STG_ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT_05_LOAD\"    ON ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT.ID = STG_ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT_05_LOAD.ID WHERE STG_ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT_05_LOAD.TYPECODE IS NULL "
+            name: STG_ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT_10_DELETE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT
+      name: STG_ODS_GW_CC_PROD_CCTL_NETWORKCOUNTY_EXT_10_DELETE
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200031813"

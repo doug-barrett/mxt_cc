@@ -1,0 +1,547 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_BUSINESSWEEK_10_NEW-200017910:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000253968
+              stepCounter: "200017910"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000253969
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: FRIDAYBUSINESSSTART
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"FRIDAYBUSINESSSTART\""
+          - columnReference:
+              columnCounter: 2000253970
+              stepCounter: "200017910"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BUSINESSWEEKEND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"BUSINESSWEEKEND\""
+          - columnReference:
+              columnCounter: 2000253971
+              stepCounter: "200017910"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: APPLIESTOALLZONES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"APPLIESTOALLZONES\""
+          - columnReference:
+              columnCounter: 2000253972
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: TUESDAYBUSINESSEND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"TUESDAYBUSINESSEND\""
+          - columnReference:
+              columnCounter: 2000253973
+              stepCounter: "200017910"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: TUESDAYBUSINESSDAY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"TUESDAYBUSINESSDAY\""
+          - columnReference:
+              columnCounter: 2000253974
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: TUESDAYBUSINESSSTART
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"TUESDAYBUSINESSSTART\""
+          - columnReference:
+              columnCounter: 2000253975
+              stepCounter: "200017910"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"ID\""
+          - columnReference:
+              columnCounter: 2000253976
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: THURSDAYBUSINESSEND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"THURSDAYBUSINESSEND\""
+          - columnReference:
+              columnCounter: 2000253977
+              stepCounter: "200017910"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: THURSDAYBUSINESSDAY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"THURSDAYBUSINESSDAY\""
+          - columnReference:
+              columnCounter: 2000253978
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: SATURDAYBUSINESSEND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"SATURDAYBUSINESSEND\""
+          - columnReference:
+              columnCounter: 2000253979
+              stepCounter: "200017910"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SATURDAYBUSINESSDAY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"SATURDAYBUSINESSDAY\""
+          - columnReference:
+              columnCounter: 2000253980
+              stepCounter: "200017910"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000253981
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: WEDNESDAYBUSINESSEND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"WEDNESDAYBUSINESSEND\""
+          - columnReference:
+              columnCounter: 2000253982
+              stepCounter: "200017910"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WEDNESDAYBUSINESSDAY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"WEDNESDAYBUSINESSDAY\""
+          - columnReference:
+              columnCounter: 2000253983
+              stepCounter: "200017910"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000253984
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: THURSDAYBUSINESSSTART
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"THURSDAYBUSINESSSTART\""
+          - columnReference:
+              columnCounter: 2000253985
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: SATURDAYBUSINESSSTART
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"SATURDAYBUSINESSSTART\""
+          - columnReference:
+              columnCounter: 2000253986
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: MONDAYBUSINESSEND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"MONDAYBUSINESSEND\""
+          - columnReference:
+              columnCounter: 2000253987
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: SUNDAYBUSINESSEND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"SUNDAYBUSINESSEND\""
+          - columnReference:
+              columnCounter: 2000253988
+              stepCounter: "200017910"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000253989
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: WEDNESDAYBUSINESSSTART
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"WEDNESDAYBUSINESSSTART\""
+          - columnReference:
+              columnCounter: 2000253990
+              stepCounter: "200017910"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: MONDAYBUSINESSDAY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"MONDAYBUSINESSDAY\""
+          - columnReference:
+              columnCounter: 2000253991
+              stepCounter: "200017910"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SUNDAYBUSINESSDAY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"SUNDAYBUSINESSDAY\""
+          - columnReference:
+              columnCounter: 2000253992
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: MONDAYBUSINESSSTART
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"MONDAYBUSINESSSTART\""
+          - columnReference:
+              columnCounter: 2000253993
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: SUNDAYBUSINESSSTART
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"SUNDAYBUSINESSSTART\""
+          - columnReference:
+              columnCounter: 2000253994
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BUSINESSDAYDEMARCATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"BUSINESSDAYDEMARCATION\""
+          - columnReference:
+              columnCounter: 2000253995
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: FRIDAYBUSINESSEND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"FRIDAYBUSINESSEND\""
+          - columnReference:
+              columnCounter: 2000253996
+              stepCounter: "200017910"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FRIDAYBUSINESSDAY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"FRIDAYBUSINESSDAY\""
+          - columnReference:
+              columnCounter: 2000253997
+              stepCounter: "200017910"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000253998
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000253999
+              stepCounter: "200017910"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000254000
+              stepCounter: "200017910"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000254001
+              stepCounter: "200017910"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_BUSINESSWEEK_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000254002
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000254003
+              stepCounter: "200017910"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000254004
+              stepCounter: "200017910"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000254005
+              stepCounter: "200017910"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000254006
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000254011
+              stepCounter: "200017910"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_BUSINESSWEEK_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000254012
+              stepCounter: "200017910"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_BUSINESSWEEK_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000254013
+              stepCounter: "200017910"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000254007
+              stepCounter: "200017910"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000254008
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000254010
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000254009
+              stepCounter: "200017910"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_BUSINESSWEEK
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_BUSINESSWEEK_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_BUSINESSWEEK') }} \"LOAD_GW_CC_PROD_CC_BUSINESSWEEK\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_BUSINESSWEEK_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CC_BUSINESSWEEK_05_SEQNO\"    ON LOAD_GW_CC_PROD_CC_BUSINESSWEEK.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CC_BUSINESSWEEK_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CC_BUSINESSWEEK_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CC_BUSINESSWEEK_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_BUSINESSWEEK_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200017910"

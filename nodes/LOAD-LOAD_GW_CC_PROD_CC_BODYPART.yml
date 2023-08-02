@@ -1,0 +1,400 @@
+steps:
+  LOAD_GW_CC_PROD_CC_BODYPART-200009758:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000133025
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000133026
+              stepCounter: "200009758"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: COMPENSABILITYCOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"COMPENSABILITYCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000133027
+              stepCounter: "200009758"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000133028
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DETAILEDBODYPART
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"DETAILEDBODYPART\""
+          - columnReference:
+              columnCounter: 2000133029
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000133030
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000133031
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000133032
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000133033
+              stepCounter: "200009758"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000133034
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COMPENSABILITYDECISION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"COMPENSABILITYDECISION\""
+          - columnReference:
+              columnCounter: 2000133035
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INCIDENTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"INCIDENTID\""
+          - columnReference:
+              columnCounter: 2000133036
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SIDEOFBODY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"SIDEOFBODY_EXT\""
+          - columnReference:
+              columnCounter: 2000133037
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000133038
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ORDERING
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"ORDERING\""
+          - columnReference:
+              columnCounter: 2000133039
+              stepCounter: "200009758"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000133040
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYBODYPART
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"PRIMARYBODYPART\""
+          - columnReference:
+              columnCounter: 2000133041
+              stepCounter: "200009758"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: COMPENSABILITYDECISIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"COMPENSABILITYDECISIONDATE\""
+          - columnReference:
+              columnCounter: 2000133042
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"ID\""
+          - columnReference:
+              columnCounter: 2000133043
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SIDEOFBODY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"SIDEOFBODY\""
+          - columnReference:
+              columnCounter: 2000133044
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: IMPAIRMENTPERCENTAGE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"IMPAIRMENTPERCENTAGE\""
+          - columnReference:
+              columnCounter: 2000133045
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DETAILEDBODYPARTDESC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"DETAILEDBODYPARTDESC\""
+          - columnReference:
+              columnCounter: 2000133046
+              stepCounter: "200009758"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000133047
+              stepCounter: "200009758"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000133048
+              stepCounter: "200009758"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000133049
+              stepCounter: "200009758"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000133050
+              stepCounter: "200009758"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000133051
+              stepCounter: "200009758"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000133052
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000133053
+              stepCounter: "200009758"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000133054
+              stepCounter: "200009758"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000133055
+              stepCounter: "200009758"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_BODYPART\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000133024
+              stepCounter: "200009758"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_BODYPART'"
+          - columnReference:
+              columnCounter: 2000133023
+              stepCounter: "200009758"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_BODYPART
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_BODYPART') }} "CC_BODYPART" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_BODYPART') }} "ODS_GW_CC_PROD_CC_BODYPART")
+            name: LOAD_GW_CC_PROD_CC_BODYPART
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_BODYPART
+      name: LOAD_GW_CC_PROD_CC_BODYPART
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200009758"

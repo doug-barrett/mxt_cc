@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_CONTACTROLE-200013745:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000130682
+              stepCounter: "200013745"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000130683
+              stepCounter: "200013745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000130684
+              stepCounter: "200013745"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000130685
+              stepCounter: "200013745"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000130686
+              stepCounter: "200013745"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000130687
+              stepCounter: "200013745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000130688
+              stepCounter: "200013745"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000130689
+              stepCounter: "200013745"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000130690
+              stepCounter: "200013745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000130691
+              stepCounter: "200013745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000130697
+              stepCounter: "200013745"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000130692
+              stepCounter: "200013745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000130694
+              stepCounter: "200013745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(CCTL_CONTACTROLE.HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000130698
+              stepCounter: "200013745"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000130699
+              stepCounter: "200013745"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000130700
+              stepCounter: "200013745"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000130693
+              stepCounter: "200013745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000130701
+              stepCounter: "200013745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000130702
+              stepCounter: "200013745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000130703
+              stepCounter: "200013745"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_CONTACTROLE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000130695
+              stepCounter: "200013745"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_CONTACTROLE'"
+          - columnReference:
+              columnCounter: 2000130696
+              stepCounter: "200013745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_CONTACTROLE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_CONTACTROLE') }} "CCTL_CONTACTROLE" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_CONTACTROLE') }} "ODS_GW_CC_PROD_CCTL_CONTACTROLE")
+            name: LOAD_GW_CC_PROD_CCTL_CONTACTROLE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_CONTACTROLE
+      name: LOAD_GW_CC_PROD_CCTL_CONTACTROLE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200013745"

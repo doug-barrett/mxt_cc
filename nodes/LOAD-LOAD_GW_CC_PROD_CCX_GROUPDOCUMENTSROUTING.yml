@@ -1,0 +1,334 @@
+steps:
+  LOAD_GW_CC_PROD_CCX_GROUPDOCUMENTSROUTING-200016736:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000139136
+              stepCounter: "200016736"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: TARGETQUEUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"TARGETQUEUE\""
+          - columnReference:
+              columnCounter: 2000139137
+              stepCounter: "200016736"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000139138
+              stepCounter: "200016736"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000139139
+              stepCounter: "200016736"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MAILDOCROUTINGMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"MAILDOCROUTINGMETHOD\""
+          - columnReference:
+              columnCounter: 2000139140
+              stepCounter: "200016736"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139141
+              stepCounter: "200016736"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000139142
+              stepCounter: "200016736"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000139143
+              stepCounter: "200016736"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000139144
+              stepCounter: "200016736"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: GROUPNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"GROUPNAME\""
+          - columnReference:
+              columnCounter: 2000139145
+              stepCounter: "200016736"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: TARGETGROUP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"TARGETGROUP\""
+          - columnReference:
+              columnCounter: 2000139146
+              stepCounter: "200016736"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DEFAULTDOCTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"DEFAULTDOCTYPE\""
+          - columnReference:
+              columnCounter: 2000139147
+              stepCounter: "200016736"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000139148
+              stepCounter: "200016736"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000139149
+              stepCounter: "200016736"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000139150
+              stepCounter: "200016736"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"ID\""
+          - columnReference:
+              columnCounter: 2000139151
+              stepCounter: "200016736"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000139152
+              stepCounter: "200016736"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139153
+              stepCounter: "200016736"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000139154
+              stepCounter: "200016736"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000139155
+              stepCounter: "200016736"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000139156
+              stepCounter: "200016736"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000139157
+              stepCounter: "200016736"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000139158
+              stepCounter: "200016736"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000139159
+              stepCounter: "200016736"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000139160
+              stepCounter: "200016736"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCX_GROUPDOCUMENTSROUTING\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000139135
+              stepCounter: "200016736"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCX_GROUPDOCUMENTSROUTING'"
+          - columnReference:
+              columnCounter: 2000139134
+              stepCounter: "200016736"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCX_GROUPDOCUMENTSROUTING
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCX_GROUPDOCUMENTSROUTING') }} "CCX_GROUPDOCUMENTSROUTING" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCX_GROUPDOCUMENTSROUTING') }} "ODS_GW_CC_PROD_CCX_GROUPDOCUMENTSROUTING")
+            name: LOAD_GW_CC_PROD_CCX_GROUPDOCUMENTSROUTING
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCX_GROUPDOCUMENTSROUTING
+      name: LOAD_GW_CC_PROD_CCX_GROUPDOCUMENTSROUTING
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016736"

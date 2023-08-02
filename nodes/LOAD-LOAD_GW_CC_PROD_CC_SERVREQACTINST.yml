@@ -1,0 +1,235 @@
+steps:
+  LOAD_GW_CC_PROD_CC_SERVREQACTINST-200016903:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000136873
+              stepCounter: "200016903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FOREIGNENTITYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQACTINST\".\"FOREIGNENTITYID\""
+          - columnReference:
+              columnCounter: 2000136874
+              stepCounter: "200016903"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQACTINST\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000136875
+              stepCounter: "200016903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQACTINST\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000136876
+              stepCounter: "200016903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQACTINST\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000136877
+              stepCounter: "200016903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQACTINST\".\"ID\""
+          - columnReference:
+              columnCounter: 2000136878
+              stepCounter: "200016903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OWNERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQACTINST\".\"OWNERID\""
+          - columnReference:
+              columnCounter: 2000136879
+              stepCounter: "200016903"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQACTINST\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000136880
+              stepCounter: "200016903"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQACTINST\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136881
+              stepCounter: "200016903"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQACTINST\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000136882
+              stepCounter: "200016903"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQACTINST\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000136883
+              stepCounter: "200016903"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQACTINST\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000136884
+              stepCounter: "200016903"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQACTINST\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000136885
+              stepCounter: "200016903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQACTINST\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000136886
+              stepCounter: "200016903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQACTINST\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000136887
+              stepCounter: "200016903"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQACTINST\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000136888
+              stepCounter: "200016903"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_SERVREQACTINST\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000136872
+              stepCounter: "200016903"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_SERVREQACTINST'"
+          - columnReference:
+              columnCounter: 2000136871
+              stepCounter: "200016903"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_SERVREQACTINST
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_SERVREQACTINST') }} "CC_SERVREQACTINST" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_SERVREQACTINST') }} "ODS_GW_CC_PROD_CC_SERVREQACTINST")
+            name: LOAD_GW_CC_PROD_CC_SERVREQACTINST
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_SERVREQACTINST
+      name: LOAD_GW_CC_PROD_CC_SERVREQACTINST
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016903"

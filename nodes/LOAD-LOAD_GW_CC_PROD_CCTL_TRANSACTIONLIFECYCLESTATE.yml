@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_TRANSACTIONLIFECYCLESTATE-200014876:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000132136
+              stepCounter: "200014876"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000132137
+              stepCounter: "200014876"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000132138
+              stepCounter: "200014876"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000132139
+              stepCounter: "200014876"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000132140
+              stepCounter: "200014876"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000132141
+              stepCounter: "200014876"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000132142
+              stepCounter: "200014876"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000132143
+              stepCounter: "200014876"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000132144
+              stepCounter: "200014876"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000132145
+              stepCounter: "200014876"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000132149
+              stepCounter: "200014876"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000132146
+              stepCounter: "200014876"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000132148
+              stepCounter: "200014876"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(CCTL_TRANSACTIONLIFECYCLESTATE.HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000132150
+              stepCounter: "200014876"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000132151
+              stepCounter: "200014876"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000132152
+              stepCounter: "200014876"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000132147
+              stepCounter: "200014876"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000132153
+              stepCounter: "200014876"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000132154
+              stepCounter: "200014876"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000132155
+              stepCounter: "200014876"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_TRANSACTIONLIFECYCLESTATE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000132135
+              stepCounter: "200014876"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_TRANSACTIONLIFECYCLESTATE'"
+          - columnReference:
+              columnCounter: 2000132134
+              stepCounter: "200014876"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_TRANSACTIONLIFECYCLESTATE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_TRANSACTIONLIFECYCLESTATE') }} "CCTL_TRANSACTIONLIFECYCLESTATE" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_TRANSACTIONLIFECYCLESTATE') }} "ODS_GW_CC_PROD_CCTL_TRANSACTIONLIFECYCLESTATE")
+            name: LOAD_GW_CC_PROD_CCTL_TRANSACTIONLIFECYCLESTATE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_TRANSACTIONLIFECYCLESTATE
+      name: LOAD_GW_CC_PROD_CCTL_TRANSACTIONLIFECYCLESTATE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200014876"

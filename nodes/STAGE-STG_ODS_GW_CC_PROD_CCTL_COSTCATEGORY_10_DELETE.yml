@@ -1,0 +1,260 @@
+steps:
+  STG_ODS_GW_CC_PROD_CCTL_COSTCATEGORY_10_DELETE-200010228:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000053830
+              stepCounter: "200010228"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000053831
+              stepCounter: "200010228"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000053832
+              stepCounter: "200010228"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000053833
+              stepCounter: "200010228"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000053834
+              stepCounter: "200010228"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000053835
+              stepCounter: "200010228"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\".\"ID\""
+          - columnReference:
+              columnCounter: 2000053836
+              stepCounter: "200010228"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000053837
+              stepCounter: "200010228"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000053838
+              stepCounter: "200010228"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000053839
+              stepCounter: "200010228"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000053840
+              stepCounter: "200010228"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: DATEADD(MILLISECOND, -1, ODS_CTRL_HVRCAPTSTAMP.HVRCAPTSTAMP)
+          - columnReference:
+              columnCounter: 2000053841
+              stepCounter: "200010228"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000053842
+              stepCounter: "200010228"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000053843
+              stepCounter: "200010228"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000053844
+              stepCounter: "200010228"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000053845
+              stepCounter: "200010228"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Y'"
+          - columnReference:
+              columnCounter: 2000053846
+              stepCounter: "200010228"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000053847
+              stepCounter: "200010228"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000053849
+              stepCounter: "200010228"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000053848
+              stepCounter: "200010228"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CCTL_COSTCATEGORY_05_LOAD
+            join:
+              joinCondition: "FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_COSTCATEGORY') }} \"ODS_GW_CC_PROD_CCTL_COSTCATEGORY\" JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON ODS_GW_CC_PROD_CCTL_COSTCATEGORY.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  LEFT JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CCTL_COSTCATEGORY_05_LOAD') }} \"STG_ODS_GW_CC_PROD_CCTL_COSTCATEGORY_05_LOAD\"    ON ODS_GW_CC_PROD_CCTL_COSTCATEGORY.ID = STG_ODS_GW_CC_PROD_CCTL_COSTCATEGORY_05_LOAD.ID WHERE STG_ODS_GW_CC_PROD_CCTL_COSTCATEGORY_05_LOAD.ID IS NULL "
+            name: STG_ODS_GW_CC_PROD_CCTL_COSTCATEGORY_10_DELETE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_COSTCATEGORY
+      name: STG_ODS_GW_CC_PROD_CCTL_COSTCATEGORY_10_DELETE
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200010228"

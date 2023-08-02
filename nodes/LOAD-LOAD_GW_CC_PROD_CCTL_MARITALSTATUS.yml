@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_MARITALSTATUS-200010538:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000131256
+              stepCounter: "200010538"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000131257
+              stepCounter: "200010538"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000131258
+              stepCounter: "200010538"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000131259
+              stepCounter: "200010538"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000131260
+              stepCounter: "200010538"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000131261
+              stepCounter: "200010538"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"ID\""
+          - columnReference:
+              columnCounter: 2000131262
+              stepCounter: "200010538"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000131263
+              stepCounter: "200010538"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000131264
+              stepCounter: "200010538"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000131265
+              stepCounter: "200010538"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000131269
+              stepCounter: "200010538"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000131266
+              stepCounter: "200010538"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131268
+              stepCounter: "200010538"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(CCTL_MARITALSTATUS.HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000131270
+              stepCounter: "200010538"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000131271
+              stepCounter: "200010538"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000131272
+              stepCounter: "200010538"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000131267
+              stepCounter: "200010538"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131273
+              stepCounter: "200010538"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000131274
+              stepCounter: "200010538"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000131275
+              stepCounter: "200010538"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_MARITALSTATUS\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000131255
+              stepCounter: "200010538"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_MARITALSTATUS'"
+          - columnReference:
+              columnCounter: 2000131254
+              stepCounter: "200010538"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_MARITALSTATUS
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_MARITALSTATUS') }} "CCTL_MARITALSTATUS" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_MARITALSTATUS') }} "ODS_GW_CC_PROD_CCTL_MARITALSTATUS")
+            name: LOAD_GW_CC_PROD_CCTL_MARITALSTATUS
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_MARITALSTATUS
+      name: LOAD_GW_CC_PROD_CCTL_MARITALSTATUS
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200010538"

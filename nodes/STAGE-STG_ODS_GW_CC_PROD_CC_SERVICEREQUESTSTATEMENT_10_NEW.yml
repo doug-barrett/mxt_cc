@@ -1,0 +1,470 @@
+steps:
+  STG_ODS_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT_10_NEW-200018487:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000258834
+              stepCounter: "200018487"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000258835
+              stepCounter: "200018487"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHECKID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"CHECKID\""
+          - columnReference:
+              columnCounter: 2000258836
+              stepCounter: "200018487"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000258837
+              stepCounter: "200018487"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000258838
+              stepCounter: "200018487"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000258839
+              stepCounter: "200018487"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: APPROVEDBYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"APPROVEDBYID\""
+          - columnReference:
+              columnCounter: 2000258840
+              stepCounter: "200018487"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000258841
+              stepCounter: "200018487"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000258842
+              stepCounter: "200018487"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: APPROVALDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"APPROVALDATE\""
+          - columnReference:
+              columnCounter: 2000258843
+              stepCounter: "200018487"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: DECLINEDREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"DECLINEDREASON\""
+          - columnReference:
+              columnCounter: 2000258844
+              stepCounter: "200018487"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PAYMENTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"PAYMENTDATE\""
+          - columnReference:
+              columnCounter: 2000258845
+              stepCounter: "200018487"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: REFERENCENUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"REFERENCENUMBER\""
+          - columnReference:
+              columnCounter: 2000258846
+              stepCounter: "200018487"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SERVICEREQUESTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"SERVICEREQUESTID\""
+          - columnReference:
+              columnCounter: 2000258847
+              stepCounter: "200018487"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000258848
+              stepCounter: "200018487"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000258849
+              stepCounter: "200018487"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000258850
+              stepCounter: "200018487"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STATEMENTCREATIONTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"STATEMENTCREATIONTIME\""
+          - columnReference:
+              columnCounter: 2000258851
+              stepCounter: "200018487"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"SOURCE\""
+          - columnReference:
+              columnCounter: 2000258852
+              stepCounter: "200018487"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000258853
+              stepCounter: "200018487"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAIDBYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"PAIDBYID\""
+          - columnReference:
+              columnCounter: 2000258854
+              stepCounter: "200018487"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPECTEDDAYSTOPERFORMSERVICE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"EXPECTEDDAYSTOPERFORMSERVICE\""
+          - columnReference:
+              columnCounter: 2000258855
+              stepCounter: "200018487"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICESTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"INVOICESTATUS\""
+          - columnReference:
+              columnCounter: 2000258856
+              stepCounter: "200018487"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000258857
+              stepCounter: "200018487"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000258858
+              stepCounter: "200018487"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000258859
+              stepCounter: "200018487"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000258860
+              stepCounter: "200018487"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000258861
+              stepCounter: "200018487"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000258862
+              stepCounter: "200018487"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000258863
+              stepCounter: "200018487"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000258864
+              stepCounter: "200018487"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000258865
+              stepCounter: "200018487"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000258870
+              stepCounter: "200018487"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000258871
+              stepCounter: "200018487"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000258872
+              stepCounter: "200018487"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000258866
+              stepCounter: "200018487"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000258867
+              stepCounter: "200018487"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000258869
+              stepCounter: "200018487"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000258868
+              stepCounter: "200018487"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT') }} \"LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT\" JOIN {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT_05_SEQNO') }} \"STG_ODS_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT_05_SEQNO\"    ON LOAD_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT.HVRINTEGSEQ = STG_ODS_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_CC_PROD_CC_SERVICEREQUESTSTATEMENT_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018487"

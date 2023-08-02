@@ -1,0 +1,527 @@
+steps:
+  ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE-200018154:
+    operation:
+      config: {}
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000010
+      locationName: ODS
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000149131
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000149132
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEGOTIATIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"NEGOTIATIONID\""
+          - columnReference:
+              columnCounter: 2000149133
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000149134
+              stepCounter: "200018154"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000149135
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"POLICYID\""
+          - columnReference:
+              columnCounter: 2000149136
+              stepCounter: "200018154"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: COMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"COMMENTS\""
+          - columnReference:
+              columnCounter: 2000149137
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000149138
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ROLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"ROLE\""
+          - columnReference:
+              columnCounter: 2000149139
+              stepCounter: "200018154"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000149140
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"ID\""
+          - columnReference:
+              columnCounter: 2000149141
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EVALUATIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"EVALUATIONID\""
+          - columnReference:
+              columnCounter: 2000149142
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MATTERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"MATTERID\""
+          - columnReference:
+              columnCounter: 2000149143
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WITNESSPOSITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"WITNESSPOSITION\""
+          - columnReference:
+              columnCounter: 2000149144
+              stepCounter: "200018154"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: WITNESSPERSPECTIVE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"WITNESSPERSPECTIVE\""
+          - columnReference:
+              columnCounter: 2000149145
+              stepCounter: "200018154"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LOCKROLE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"LOCKROLE_EXT\""
+          - columnReference:
+              columnCounter: 2000149146
+              stepCounter: "200018154"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000149147
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLAIMCONTACTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"CLAIMCONTACTID\""
+          - columnReference:
+              columnCounter: 2000149148
+              stepCounter: "200018154"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ACTIVE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"ACTIVE\""
+          - columnReference:
+              columnCounter: 2000149149
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXPOSUREID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"EXPOSUREID\""
+          - columnReference:
+              columnCounter: 2000149150
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000149151
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000149152
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000149153
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WITNESSSTATEMENTIND
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"WITNESSSTATEMENTIND\""
+          - columnReference:
+              columnCounter: 2000149154
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COVEREDPARTYTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"COVEREDPARTYTYPE\""
+          - columnReference:
+              columnCounter: 2000149155
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PARTYNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"PARTYNUMBER\""
+          - columnReference:
+              columnCounter: 2000149156
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INCIDENTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"INCIDENTID\""
+          - columnReference:
+              columnCounter: 2000149157
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MOBILEENROLLSTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"MOBILEENROLLSTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000149158
+              stepCounter: "200018154"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: TMOUSERID_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"TMOUSERID_EXT\""
+          - columnReference:
+              columnCounter: 2000149159
+              stepCounter: "200018154"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000149160
+              stepCounter: "200018154"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000149161
+              stepCounter: "200018154"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000149162
+              stepCounter: "200018154"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000149163
+              stepCounter: "200018154"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000149164
+              stepCounter: "200018154"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000149165
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000149166
+              stepCounter: "200018154"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000149167
+              stepCounter: "200018154"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000149168
+              stepCounter: "200018154"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000149169
+              stepCounter: "200018154"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000149170
+              stepCounter: "200018154"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000149171
+              stepCounter: "200018154"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000149172
+              stepCounter: "200018154"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000149173
+              stepCounter: "200018154"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000149175
+              stepCounter: "200018154"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000149174
+              stepCounter: "200018154"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW') }} "STG_ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE_10_NEW"
+            name: ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE
+            noLinkRefs: []
+      name: ODS_GW_CC_PROD_CC_CLAIMCONTACTROLE
+      overrideSQL: false
+      sqlType: "10"
+      type: sql
+    stepCounter: "200018154"

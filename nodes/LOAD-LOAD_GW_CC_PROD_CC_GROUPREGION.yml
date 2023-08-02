@@ -1,0 +1,235 @@
+steps:
+  LOAD_GW_CC_PROD_CC_GROUPREGION-200016853:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000141390
+              stepCounter: "200016853"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_GROUPREGION\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000141391
+              stepCounter: "200016853"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_GROUPREGION\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000141392
+              stepCounter: "200016853"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REGIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_GROUPREGION\".\"REGIONID\""
+          - columnReference:
+              columnCounter: 2000141393
+              stepCounter: "200016853"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_GROUPREGION\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000141394
+              stepCounter: "200016853"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_GROUPREGION\".\"ID\""
+          - columnReference:
+              columnCounter: 2000141395
+              stepCounter: "200016853"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_GROUPREGION\".\"GROUPID\""
+          - columnReference:
+              columnCounter: 2000141396
+              stepCounter: "200016853"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_GROUPREGION\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000141397
+              stepCounter: "200016853"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_GROUPREGION\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000141398
+              stepCounter: "200016853"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_GROUPREGION\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000141399
+              stepCounter: "200016853"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_GROUPREGION\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000141400
+              stepCounter: "200016853"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_GROUPREGION\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000141401
+              stepCounter: "200016853"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_GROUPREGION\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000141402
+              stepCounter: "200016853"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_GROUPREGION\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000141403
+              stepCounter: "200016853"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_GROUPREGION\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000141404
+              stepCounter: "200016853"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_GROUPREGION\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000141405
+              stepCounter: "200016853"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_GROUPREGION\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000141389
+              stepCounter: "200016853"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_GROUPREGION'"
+          - columnReference:
+              columnCounter: 2000141388
+              stepCounter: "200016853"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_GROUPREGION
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_GROUPREGION') }} "CC_GROUPREGION" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_GROUPREGION') }} "ODS_GW_CC_PROD_CC_GROUPREGION")
+            name: LOAD_GW_CC_PROD_CC_GROUPREGION
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_GROUPREGION
+      name: LOAD_GW_CC_PROD_CC_GROUPREGION
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016853"

@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_BANKACCOUNT-200023743:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000130330
+              stepCounter: "200023743"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000130331
+              stepCounter: "200023743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000130332
+              stepCounter: "200023743"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000130333
+              stepCounter: "200023743"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000130334
+              stepCounter: "200023743"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000130335
+              stepCounter: "200023743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000130336
+              stepCounter: "200023743"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000130337
+              stepCounter: "200023743"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000130338
+              stepCounter: "200023743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000130339
+              stepCounter: "200023743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000130340
+              stepCounter: "200023743"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000130341
+              stepCounter: "200023743"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000130342
+              stepCounter: "200023743"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000130345
+              stepCounter: "200023743"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000130346
+              stepCounter: "200023743"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000130347
+              stepCounter: "200023743"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000130348
+              stepCounter: "200023743"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000130349
+              stepCounter: "200023743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000130350
+              stepCounter: "200023743"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000130351
+              stepCounter: "200023743"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_BANKACCOUNT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000130343
+              stepCounter: "200023743"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: DSS_RECORD_SOURCE
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_BANKACCOUNT'  "
+          - columnReference:
+              columnCounter: 2000130344
+              stepCounter: "200023743"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DSS_LOAD_DATE
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_BANKACCOUNT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_BANKACCOUNT') }} "CCTL_BANKACCOUNT" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_BANKACCOUNT') }} "ODS_GW_CC_PROD_CCTL_BANKACCOUNT")
+            name: LOAD_GW_CC_PROD_CCTL_BANKACCOUNT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_BANKACCOUNT
+      name: LOAD_GW_CC_PROD_CCTL_BANKACCOUNT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200023743"

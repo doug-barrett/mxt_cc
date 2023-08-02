@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CC_CONTACTCONTACT-200016828:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000134343
+              stepCounter: "200016828"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000134344
+              stepCounter: "200016828"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSBOOKUID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"ADDRESSBOOKUID\""
+          - columnReference:
+              columnCounter: 2000134345
+              stepCounter: "200016828"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000134346
+              stepCounter: "200016828"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SOURCECONTACTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"SOURCECONTACTID\""
+          - columnReference:
+              columnCounter: 2000134347
+              stepCounter: "200016828"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RELATEDCONTACTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"RELATEDCONTACTID\""
+          - columnReference:
+              columnCounter: 2000134348
+              stepCounter: "200016828"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ARCHIVEPARTITION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"ARCHIVEPARTITION\""
+          - columnReference:
+              columnCounter: 2000134349
+              stepCounter: "200016828"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000134350
+              stepCounter: "200016828"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RELATIONSHIP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"RELATIONSHIP\""
+          - columnReference:
+              columnCounter: 2000134351
+              stepCounter: "200016828"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000134352
+              stepCounter: "200016828"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: EXTERNALLINKID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"EXTERNALLINKID\""
+          - columnReference:
+              columnCounter: 2000134353
+              stepCounter: "200016828"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000134354
+              stepCounter: "200016828"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000134355
+              stepCounter: "200016828"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000134356
+              stepCounter: "200016828"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000134357
+              stepCounter: "200016828"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000134358
+              stepCounter: "200016828"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000134359
+              stepCounter: "200016828"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000134360
+              stepCounter: "200016828"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000134361
+              stepCounter: "200016828"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000134362
+              stepCounter: "200016828"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CC_CONTACTCONTACT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000134342
+              stepCounter: "200016828"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CC_CONTACTCONTACT'"
+          - columnReference:
+              columnCounter: 2000134341
+              stepCounter: "200016828"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CC_CONTACTCONTACT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CC_CONTACTCONTACT') }} "CC_CONTACTCONTACT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CC_CONTACTCONTACT') }} "ODS_GW_CC_PROD_CC_CONTACTCONTACT")
+            name: LOAD_GW_CC_PROD_CC_CONTACTCONTACT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CC_CONTACTCONTACT
+      name: LOAD_GW_CC_PROD_CC_CONTACTCONTACT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200016828"

@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_CC_PROD_CCTL_PAYMENTTYPE-200010540:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000131388
+              stepCounter: "200010540"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000131389
+              stepCounter: "200010540"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000131390
+              stepCounter: "200010540"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000131391
+              stepCounter: "200010540"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000131392
+              stepCounter: "200010540"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000131393
+              stepCounter: "200010540"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000131394
+              stepCounter: "200010540"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000131395
+              stepCounter: "200010540"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"L_ES\""
+          - columnReference:
+              columnCounter: 2000131396
+              stepCounter: "200010540"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000131397
+              stepCounter: "200010540"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_ES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"S_ES\""
+          - columnReference:
+              columnCounter: 2000131401
+              stepCounter: "200010540"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000131398
+              stepCounter: "200010540"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131400
+              stepCounter: "200010540"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(CCTL_PAYMENTTYPE.HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000131402
+              stepCounter: "200010540"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000131403
+              stepCounter: "200010540"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000131404
+              stepCounter: "200010540"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000131399
+              stepCounter: "200010540"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000131405
+              stepCounter: "200010540"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000131406
+              stepCounter: "200010540"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000131407
+              stepCounter: "200010540"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"CCTL_PAYMENTTYPE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000131387
+              stepCounter: "200010540"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_CC_PROD.CCTL_PAYMENTTYPE'"
+          - columnReference:
+              columnCounter: 2000131386
+              stepCounter: "200010540"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_CC_PROD_VF
+                nodeName: CCTL_PAYMENTTYPE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_CC_PROD_VF','CCTL_PAYMENTTYPE') }} "CCTL_PAYMENTTYPE" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_CC_PROD_CCTL_PAYMENTTYPE') }} "ODS_GW_CC_PROD_CCTL_PAYMENTTYPE")
+            name: LOAD_GW_CC_PROD_CCTL_PAYMENTTYPE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_CC_PROD_CCTL_PAYMENTTYPE
+      name: LOAD_GW_CC_PROD_CCTL_PAYMENTTYPE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200010540"
